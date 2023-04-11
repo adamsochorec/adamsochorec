@@ -29,7 +29,7 @@
         <h1>Form submitted<br />successfully!</h1>
         <br />
         <h2>
-          <a aria-describedby="/ history.back()"
+          <a href="/"
             >Return to the homepage
             <svg
               id="chevron-right"
