@@ -46,7 +46,7 @@
         <h2>
           It looks like you have found my
           <a> <?php echo $id; ?></a>, please <a href="/#contact">write me</a> or
-          give me a call at <a href="tel:50104776p45">+4550104776</a>!
+          give me a call at <a href="tel:+4550104776">+4550104776</a>!
           <br /><br />
           Thanks!
         </h2>

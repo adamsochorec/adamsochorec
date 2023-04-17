@@ -200,14 +200,18 @@ hr {
   opacity: 60%;
   z-index: 3;
 }
+.wrapper-narrow,
+.wrapper-standard,
+.wrapper-wide {
+  max-width: 100%;
+}
 #kolding-expo .intro-subsection,
 .wrapper-standard,
 hr {
-  max-width: 100%;
   width: 37.5rem;
 }
-.wrapper-narrow {
-  max-width: 100%;
+.wrapper-wide {
+  width: 55rem;
 }
 .btn-area #btn,
 .btn-area #btn:after,
@@ -242,6 +246,7 @@ h2:before {
   transform: translateY(0);
 }
 .wrapper-standard li a,
+.wrapper-wide li a,
 h1 a,
 h2 a,
 h3 a,
@@ -258,6 +263,7 @@ p a {
   transition: box-shadow 0.5s;
 }
 .wrapper-standard li a:hover,
+.wrapper-wide li a:hover,
 h1 a:hover,
 h2 a:hover,
 h3 a:hover,
@@ -1076,6 +1082,15 @@ select {
 #dashboard .gallery .grid-item {
   background-color: rgba(var(--primary-color), 0.4);
 }
+.pathname-current.maps::before,
+.pathname.maps:nth-child(2) a::before {
+  content: "Maps";
+}
+#nicolai iframe {
+  height: 80vh;
+  width: 100%;
+  animation: none;
+}
 @media only screen and (min-width: 300px) {
   .grid-container {
     display: grid;
@@ -1097,7 +1112,7 @@ select {
   .btn-shadow {
     height: 3rem;
   }
-  .gallery .grid-item .blur, 
+  .gallery .grid-item .blur,
   .gallery .grid-item {
     height: 5rem;
   }
@@ -1298,7 +1313,8 @@ select {
     top: var(--nav-bar-top-position);
   }
   .wrapper-narrow,
-  .wrapper-standard {
+  .wrapper-standard,
+  .wrapper-wide {
     padding: 0 1.25rem 1rem 1.25rem;
   }
   .wrapper-narrow .btn-area #btn,
