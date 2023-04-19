@@ -782,6 +782,18 @@ nav li a.web-dev::before {
 .gallery #memos {
   background-image: url(/web-dev/memos/img/_MG_0188_kompr.jpg);
 }
+.gallery #slavic-media {
+  animation: gradient-background 1s linear infinite alternate;
+  -webkit-animation: gradient 15s ease infinite;
+  animation: gradient 15s ease infinite;
+  background: linear-gradient(
+    -45deg,
+    rgba(199, 30, 30, 0.6),
+    rgba(17, 69, 126, 0.6)
+  );
+  background-size: 400% 400%;
+  transition: all 0.5s ease;
+}
 #cybersecurity .pathname-current:before,
 #cybersecurity h1:before,
 .gallery #cybersecurity span:before {
@@ -802,7 +814,8 @@ nav li a.web-dev::before {
 .gallery #cybersecurity {
   background-size: 400% 400%;
 }
-.gallery #cybersecurity:hover {
+.gallery #cybersecurity:hover,
+.gallery #slavic-media:hover {
   background-size: 100% 100%;
 }
 .gallery #cybersecurity:after {
@@ -1300,7 +1313,7 @@ select {
     background-color: rgba(var(--black-color), 0.9);
   }
   .nav-menu.active {
-    background-color: rgba(var(--grey-color), 1);
+    background-color: rgba(var(--black-color), 1);
   }
   .nav-bar a span:nth-child(1) {
     font-size: calc(var(--logo-adam) * var(--logo-querries));

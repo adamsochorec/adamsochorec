@@ -159,6 +159,16 @@
           <h2 class="reveal"></h2>
           <br />
           <section class="grid-container gallery reveal">
+            <a
+              class="hh-stretch"
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://slavicmedia.dk/"
+            >
+              <div class="grid-item reveal" id="slavic-media">
+                <span>Slavic Media</span>
+              </div>
+            </a>
             <a class="hh-stretch" href="/web-dev/cybersecurity">
               <div class="grid-item reveal" id="cybersecurity">
                 <span></span>
