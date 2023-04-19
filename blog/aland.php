@@ -26,8 +26,8 @@
         <div class="pathname-container">
           <i
             ><span class="pathname"><a href="/"></a> / </span>
-            <span class="pathname blog"><a href="/#blog"></a> / </span>
-            <span class="pathname-current blog"></span
+            <span class="pathname"><a href="/#blog"></a> / </span>
+            <span class="pathname-current"></span
           ></i>
         </div>
         <br />
@@ -415,7 +415,7 @@
             </div>
           </a>
           <a href="/blog/blavand">
-            <div class="grid-item" id="blåvand">
+            <div class="grid-item" id="blavand">
               <span></span>
             </div>
           </a>

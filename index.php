@@ -32,44 +32,37 @@
     ?>
     <!-- HEADER END -->
     <main>
-      <a aria-describedby="expo-in-kolding" href="/prints">
-        <div class="banner-container">
-          <p>Prints for sale ❤️</p>
-        </div>
-      </a>
       <!-- VISUALS START -->
       <article id="visuals">
-        <section class="intro-section flex-center">
-          <section></section>
-        </section>
         <section class="grid-container">
-          <div class="hhh-stretch reveal">
+          <div class="hhh-stretch">
             <iframe
+              class="vimeo"
               src="https://player.vimeo.com/video/818670329?h=1decec98cc"
               allow="autoplay; fullscreen; picture-in-picture"
               allowfullscreen
               frameborder="0"
             ></iframe>
           </div>
-          <div class="h-stretch reveal">
+          <div class="h-stretch">
             <img src="/img/jpg/22050630038186.jpg" alt="22050630038186" />
           </div>
-          <div class="h-stretch reveal">
+          <div class="h-stretch">
             <img src="/img/jpg/22050630108189.jpg" alt="22050630108189" />
           </div>
-          <div class="hhh-stretch reveal">
+          <div class="hhh-stretch">
             <img src="/img/jpg/2202137912.jpg" alt="2202137912" />
           </div>
-          <div class="h-stretch reveal">
+          <div class="h-stretch">
             <img src="/img/jpg/21082261146778.jpg" alt="21082261146778" />
           </div>
-          <div class="h-stretch reveal">
+          <div class="h-stretch">
             <img src="/img/jpg/2202137909.jpg" alt="2202137909" />
           </div>
-          <div class="v-stretch reveal">
+          <div class="v-stretch">
             <img src="/img/jpg/21052108355967.jpg" alt="21052108355967" />
           </div>
-          <div class="h-stretch reveal">
+          <div class="h-stretch">
             <img src="/img/jpg/21071948976502.jpg" alt="21071948976502" />
           </div>
           <div class="v-stretch reveal">

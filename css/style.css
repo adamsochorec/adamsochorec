@@ -34,6 +34,7 @@
   --nav-bar-top-position: 45px;
   --shadow-transition: translate(4px, -4px);
   --box-shadow-1: -8px 8px 0 rgb(var(--primary-color));
+  --visuals-menu-padding: 10px;
 }
 @font-face {
   font-family: SF Pro Regular;
@@ -207,16 +208,18 @@ hr {
 }
 #kolding-expo .intro-subsection,
 .wrapper-standard,
-hr {
+.wrapper-standard hr {
   width: 37.5rem;
 }
-.wrapper-wide {
+.wrapper-wide,
+.wrapper-wide hr {
   width: 55rem;
 }
 .btn-area #btn,
 .btn-area #btn:after,
 .btn-shadow,
-.wrapper-narrow {
+.wrapper-narrow,
+.wrapper-narrow hr {
   width: 21rem;
 }
 .note {
@@ -420,7 +423,7 @@ header {
 }
 .nav-menu.active,
 header {
-  padding: 0 2.5rem;
+  padding: 0 10px;
 }
 header .blur {
   left: 0;
@@ -728,7 +731,7 @@ nav li a.photo::before {
   grid-gap: 10px;
   grid-template-columns: repeat(4, 1fr);
   margin: 0 auto;
-  padding: 10px;
+  padding: var(--visuals-menu-padding);
 }
 #visuals #chevron-right {
   fill: var(--text-color);
@@ -867,7 +870,7 @@ nav li a.web-dev::before {
   fill: rgb(var(--white-color));
 }
 #blog h2:before,
-.pathname.blog:nth-child(2) a::before,
+.blog-item .pathname:nth-child(2) a::before,
 nav li a.blog::before {
   content: "Blog";
 }
@@ -989,12 +992,10 @@ nav li a.about::before {
 nav li a.contact::before {
   content: "Contact";
 }
-.contact-form-section .contact-form .grid-item:nth-child(1),
-.contact-form-section .contact-form .grid-item:nth-child(3) {
+.contact-form-section .contact-form .grid-item:nth-child(odd) {
   margin: 0 1rem 0 0;
 }
-.contact-form-section .contact-form .grid-item:nth-child(2),
-.contact-form-section .contact-form .grid-item:nth-child(4) {
+.contact-form-section .contact-form .grid-item:nth-child(even) {
   margin: 0 0 0 1rem;
 }
 .contact-form-section .contact-form input,
@@ -1087,10 +1088,13 @@ select {
 .pathname.maps:nth-child(2) a::before {
   content: "Maps";
 }
+.vimeo,
+#nicolai iframe {
+  animation: none;
+}
 #nicolai iframe {
   height: 80vh;
   width: 100%;
-  animation: none;
 }
 @media only screen and (min-width: 300px) {
   .grid-container {
@@ -1139,10 +1143,8 @@ select {
   }
 }
 @media only screen and (max-width: 500px) {
-  .contact-form-section .contact-form .grid-item:nth-child(1),
-  .contact-form-section .contact-form .grid-item:nth-child(2),
-  .contact-form-section .contact-form .grid-item:nth-child(3),
-  .contact-form-section .contact-form .grid-item:nth-child(4) {
+  .contact-form-section .contact-form .grid-item:nth-child(odd),
+  .contact-form-section .contact-form .grid-item:nth-child(even) {
     margin: 0rem;
   }
   .grid-container.contact-form,
@@ -1194,6 +1196,9 @@ select {
 @media only screen and (max-width: 540px) {
   #about .languages {
     height: 18px;
+  }
+  #visuals .grid-container {
+    margin-top: 3rem;
   }
 }
 @media only screen and (max-width: 667px) {
@@ -1248,7 +1253,7 @@ select {
 @media only screen and (max-width: 947px) {
   :root {
     --nav-bar-top-position: 40px;
-    --menu-padding: 0 1rem;
+    --menu-padding: 0 var(--visuals-menu-padding);
   }
   .nav-menu {
     align-items: flex-end;
