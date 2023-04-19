@@ -759,6 +759,7 @@ nav li a.photo::before {
   object-fit: cover;
   width: 100%;
 }
+
 #visuals .intro-section {
   background-image: url(/img/jpg/22082525588812.png);
 }

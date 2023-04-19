@@ -45,13 +45,10 @@
         <section class="grid-container">
           <div class="hhh-stretch reveal">
             <iframe
-              width="560"
-              height="315"
-              src="https://www.youtube-nocookie.com/embed/K5v5i-meOwA"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              src="https://player.vimeo.com/video/818670329?h=1decec98cc"
+              allow="autoplay; fullscreen; picture-in-picture"
               allowfullscreen
+              frameborder="0"
             ></iframe>
           </div>
           <div class="h-stretch reveal">
