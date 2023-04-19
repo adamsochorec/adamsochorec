@@ -24,6 +24,6 @@ RewriteRule ^(.*)$ $1.php [NC,L]
 
 # Changing deafult homepage name from index to custom one
 
-DirectoryIndex /homepage.php
+DirectoryIndex /index.php
 
 
