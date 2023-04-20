@@ -3,6 +3,10 @@
   <head>
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+    include $IPATH . 'global-head.php';
+    ?>
+    <?php
+    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'blog-desc.php';
     ?>
     <meta
@@ -10,10 +14,6 @@
       content="adamsochorec, adam sochorec, @adamsochorec,"
     />
     <title>Västerbotten | Adam Sochorec</title>
-    <?php
-    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-    include $IPATH . 'global-head.php';
-    ?>
   </head>
   <body id="västerbotten" class="blog-item">
     <?php

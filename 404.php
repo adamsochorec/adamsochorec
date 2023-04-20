@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Page Not Found | Adam Sochorec</title>
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'global-head.php';
     ?>
+    <title>Page Not Found | Adam Sochorec</title>
+
     <meta name="robots" content="noindex" />
     <meta name="googlebot" content="noindex" />
   </head>

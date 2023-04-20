@@ -3,6 +3,10 @@
   <head>
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+    include $IPATH . 'global-head.php';
+    ?>
+    <?php
+    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'blog-desc.php';
     ?>
     <meta
@@ -10,10 +14,6 @@
       content="adamsochorec, adam sochorec, @adamsochorec, house hunting, photographer, artist, Todd Hido, urbex, Scandinavian architecture, Cheap Old Houses, abandoned buildings, exterior atmosphere, lonely constructions, medium format camera, neighbourhood, Palosaari, Vaasa, pale green colour, family house, broken windows, damaged entrance staircase, photographer's instinct, city planning department, demolition, Ostrobothnian Museum, historical value, owner's permission, sunrise, early autumn morning, interior, building, documentation, beauty, history, photography, architecture, heritage, urban exploration, abandoned places, abandoned property, abandoned house, abandoned home, abandoned buildings, abandoned structure, abandoned spaces, abandoned photography, abandoned art, abandoned history, abandoned culture, abandoned landscapes"
     />
     <title>House Hunting | Adam Sochorec</title>
-    <?php
-    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-    include $IPATH . 'global-head.php';
-    ?>
   </head>
 
   <body id="house-hunting" class="blog-item">

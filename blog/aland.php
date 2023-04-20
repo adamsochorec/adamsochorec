@@ -3,6 +3,10 @@
   <head>
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+    include $IPATH . 'global-head.php';
+    ?>
+    <?php
+    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'blog-desc.php';
     ?>
     <meta
@@ -10,10 +14,6 @@
       content="adamsochorec, adam sochorec, @adamsochorec, Åland Islands, Finland, Autumn, Turku, Vaasa, Archipelago Sea, Mariehamn, Fasta, Djupviksgrottan cave, hitchhiking, Jomala, rural settlements, camping, bushfraft, wilderness, adventure, hiking, exploration, ferry, cruise, archipelagos, natural beauty, island hopping, cultural heritage, outdoor activities, backpacking, outdoor travel, outdoor living, outdoor adventure, outdoor lifestyle, outdoor recreation, outdoor exploration, natural wonders, outdoor adventure travel, outdoor excursion, outdoor journey, outdoor trip, outdoor vacation, outdoor getaway, outdoor holiday, outdoor escapade, outdoor adventure trip, outdoor adventure vacation, outdoor adventure holiday, outdoor adventure getaway, outdoor adventure escapade, outdoor adventure journey, outdoor adventure trip"
     />
     <title>Åland | Adam Sochorec</title>
-    <?php
-    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-    include $IPATH . 'global-head.php';
-    ?>
   </head>
 
   <body id="aland" class="blog-item">

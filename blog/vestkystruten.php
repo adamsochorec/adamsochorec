@@ -3,6 +3,10 @@
   <head>
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+    include $IPATH . 'global-head.php';
+    ?>
+    <?php
+    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'blog-desc.php';
     ?>
     <meta
@@ -12,10 +16,6 @@
     shelters, North Sea, fjords, coastal views, beauty, YouTube, travel vlogs"
     />
     <title>Vestkystruten | Adam Sochorec</title>
-    <?php
-    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-    include $IPATH . 'global-head.php';
-    ?>
   </head>
 
   <body id="vestkystruten" class="blog-item">

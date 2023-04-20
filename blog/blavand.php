@@ -3,6 +3,10 @@
   <head>
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+    include $IPATH . 'global-head.php';
+    ?>
+    <?php
+    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'blog-desc.php';
     ?>
     <meta
@@ -10,10 +14,6 @@
       content="adamsochorec, adam sochorec, @adamsochorec, Blåvand, Blåvandshuk, Denmark, World War Two, bunker, graffiti, sandy beach, North Sea, lighthouse, Danish, German, summer houses, vacation homes, dunes, west coast, Germany, Baltic Sea, Skagen, Blåvandstrand, waves, WWII bunkers, Atlantic Wall, 3D modeling app, Polycam, 3D scanning, dune landscape, Bjarke Ingels's Tirpitz museum, Danish military, natural beauty, west coast, Star Wars, Scarif, amber, souvenir shop, elderly woman, cashier's desk, lucky, beach, walk, hike, explore, history, culture, outdoor, adventure, travel, tourism, vacation, holiday, getaway, escapade, journey, trip, excursion, outdoor living, outdoor lifestyle, outdoor recreation, outdoor exploration, outdoor adventure, outdoor adventure travel, outdoor excursion, outdoor journey, outdoor trip, outdoor vacation, outdoor getaway, outdoor holiday, outdoor escapade, outdoor adventure trip, outdoor adventure vacation, outdoor adventure holiday, outdoor adventure getaway, outdoor adventure escapade, outdoor adventure journey, outdoor adventure trip"
     />
     <title>Blåvand | Adam Sochorec</title>
-    <?php
-    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-    include $IPATH . 'global-head.php';
-    ?>
   </head>
 
   <body id="blavand" class="blog-item">

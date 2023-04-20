@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <?php
+    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+    include $IPATH . 'global-head.php';
+    ?>
     <meta
       name="description"
       content="Essential steps leading to your secure and healthy online presence."
@@ -10,10 +14,6 @@
       content="cyber, security, cybersecurity, cyber-security, blog, digital, identity, hackers, hacking design, adam, sochorec, @adamsochorec, adamsochorec, adamsochorec.com, contemporary, passwords, strong, password, 2FA, two, factor, authentication, sim, swapping, Social, engineering, managers, Rostislav, Gabriela, Sochorcová, Sofie, Petra, Magdalena, Magda, gábina, portfolio, web, dev, homepage, web, development, web-dev, web-development, "
     />
     <title class="brg">Cybersecurity | Adam Sochorec</title>
-    <?php
-    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-    include $IPATH . 'global-head.php';
-    ?>
   </head>
 
   <body id="cybersecurity" class="blog-item">

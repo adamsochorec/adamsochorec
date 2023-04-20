@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <?php
+    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+    include $IPATH . 'global-head.php';
+    ?>
     <title>Prints | Adam Sochorec</title>
     <meta
       name="description"
@@ -11,10 +15,6 @@
       content="adamsochorec, adam sochorec, @adamsochorec, web portfolio, web dev, web development, web-dev, web developer, Photography, Photos, 3D modeling, Polycam, 3D scaning, Web Designer, freelance photographer, content creator, content creation, IBA Kolding, Erhversakademi Kolding, front-end programming, travel blog, Denmark, Czechia, Finland, Prague, Vaasa, Vaasan Yliopsto, Kolding, Knud's Garage, Kolding Expo, photo prints, "
     />
     <title>Adam Sochorec</title>
-    <?php
-  $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-  include $IPATH . 'global-head.php';
-  ?>
   </head>
   <body id="prints">
     <!-- HEADER START -->
