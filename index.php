@@ -302,7 +302,7 @@
           <section class="reveal">
             <img
               class="reveal partner-logos"
-              src="/img/jpg/2209885.jpg"
+              src="/img/jpg/partners.png"
               alt="Logos of past collaborators and partners: Roskilde Festival 2022, Confucius Institute IBA Kolding, Antiyber Bullying Project, OLDstars, Slovo 21, Franklin Covey Czech, Divadlo na Vinohradech, Brick Gallery and Barae."
             />
           </section>

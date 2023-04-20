@@ -762,7 +762,6 @@ nav li a.photo::before {
   object-fit: cover;
   width: 100%;
 }
-
 #visuals .intro-section {
   background-image: url(/img/jpg/22082525588812.png);
 }
@@ -1019,7 +1018,7 @@ nav li a.contact::before {
   padding: 0.8rem;
   width: 100%;
 }
-.contact-form-section ::placeholder,
+.contact-form-section::placeholder,
 .contact-form-section input,
 .contact-form-section select,
 .contact-form-section textarea {
@@ -1102,7 +1101,8 @@ select {
   content: "Maps";
 }
 .vimeo,
-#nicolai iframe {
+#nicolai iframe,
+#about .partner-logos {
   animation: none;
 }
 #nicolai iframe {
@@ -1158,7 +1158,7 @@ select {
 @media only screen and (max-width: 500px) {
   .contact-form-section .contact-form .grid-item:nth-child(odd),
   .contact-form-section .contact-form .grid-item:nth-child(even) {
-    margin: 0rem;
+    margin: 0;
   }
   .grid-container.contact-form,
   .grid-container.gallery {
