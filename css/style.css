@@ -34,7 +34,7 @@
   --nav-bar-top-position: 45px;
   --shadow-transition: translate(4px, -4px);
   --box-shadow-1: -8px 8px 0 rgb(var(--primary-color));
-  --visuals-menu-padding: 10px;
+  --homepage-padding: 50px;
 }
 @font-face {
   font-family: SF Pro Regular;
@@ -203,23 +203,21 @@ hr {
 }
 .wrapper-narrow,
 .wrapper-standard,
-.wrapper-wide {
+.wrapper-wide,
+hr {
   max-width: 100%;
 }
 #kolding-expo .intro-subsection,
-.wrapper-standard,
-.wrapper-standard hr {
+.wrapper-standard {
   width: 37.5rem;
 }
-.wrapper-wide,
-.wrapper-wide hr {
+.wrapper-wide {
   width: 55rem;
 }
 .btn-area #btn,
 .btn-area #btn:after,
 .btn-shadow,
-.wrapper-narrow,
-.wrapper-narrow hr {
+.wrapper-narrow {
   width: 21rem;
 }
 .note {
@@ -423,7 +421,7 @@ header {
 }
 .nav-menu.active,
 header {
-  padding: 0 10px;
+  padding: 0 var(--homepage-padding);
 }
 header .blur {
   left: 0;
@@ -731,7 +729,6 @@ nav li a.photo::before {
   grid-gap: 10px;
   grid-template-columns: repeat(4, 1fr);
   margin: 0 auto;
-  padding: var(--visuals-menu-padding);
 }
 #visuals #chevron-right {
   fill: var(--text-color);
@@ -768,6 +765,10 @@ nav li a.photo::before {
 #visuals .grid-container iframe,
 .blog-item iframe {
   aspect-ratio: 16/9;
+}
+
+#visuals .vimeo-stretch{
+  aspect-ratio: 4/3;
 }
 #web-dev h2:before,
 .pathname-current.web-dev::before,
@@ -1018,10 +1019,10 @@ nav li a.contact::before {
   padding: 0.8rem;
   width: 100%;
 }
-.contact-form-section::placeholder,
 .contact-form-section input,
 .contact-form-section select,
-.contact-form-section textarea {
+.contact-form-section textarea,
+.contact-form-section::placeholder {
   color: gray;
   font-family: var(--content-font);
   font-size: calc(var(--fontsize-p) * 0.9);
@@ -1100,9 +1101,9 @@ select {
 .pathname.maps:nth-child(2) a::before {
   content: "Maps";
 }
-.vimeo,
+#about .partner-logos,
 #nicolai iframe,
-#about .partner-logos {
+.vimeo {
   animation: none;
 }
 #nicolai iframe {
@@ -1130,8 +1131,8 @@ select {
   .btn-shadow {
     height: 3rem;
   }
-  .gallery .grid-item .blur,
-  .gallery .grid-item {
+  .gallery .grid-item,
+  .gallery .grid-item .blur {
     height: 5rem;
   }
   #error h1,
@@ -1156,8 +1157,8 @@ select {
   }
 }
 @media only screen and (max-width: 500px) {
-  .contact-form-section .contact-form .grid-item:nth-child(odd),
-  .contact-form-section .contact-form .grid-item:nth-child(even) {
+  .contact-form-section .contact-form .grid-item:nth-child(even),
+  .contact-form-section .contact-form .grid-item:nth-child(odd) {
     margin: 0;
   }
   .grid-container.contact-form,
@@ -1202,16 +1203,20 @@ select {
   }
 }
 @media only screen and (min-width: 538px) {
+ 
   .hideLanguages {
     display: none;
+  }
+  #visuals .grid-container {
+    padding: var(--homepage-padding);
   }
 }
 @media only screen and (max-width: 540px) {
   #about .languages {
     height: 18px;
   }
-  #visuals .grid-container {
-    margin-top: 3rem;
+  #visuals .vimeo-stretch{
+    margin: -4rem 0 10rem 0
   }
 }
 @media only screen and (max-width: 667px) {
@@ -1266,7 +1271,7 @@ select {
 @media only screen and (max-width: 947px) {
   :root {
     --nav-bar-top-position: 40px;
-    --menu-padding: 0 var(--visuals-menu-padding);
+    --menu-padding: 0 var(--homepage-padding);
   }
   .nav-menu {
     align-items: flex-end;
@@ -1381,5 +1386,10 @@ select {
   }
   #vestkystruten iframe:hover {
     transform: none;
+  }
+}
+@media only screen and (min-width: 1350px) {
+  #visuals .vimeo-stretch{
+    margin: -14rem 0 -4rem 0
   }
 }

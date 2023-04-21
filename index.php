@@ -35,7 +35,7 @@
       <!-- VISUALS START -->
       <article id="visuals">
         <section class="grid-container">
-          <div class="hhh-stretch">
+          <div class="hhh-stretch vimeo-stretch">
             <iframe
               class="vimeo"
               src="https://player.vimeo.com/video/818670329?h=1decec98cc"

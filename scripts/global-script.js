@@ -25,26 +25,6 @@ function reveal() {
       : e[t].classList.remove("active");
   }
 }
-navLink.forEach((e) => e.addEventListener("click", closeMenu)),
-  document.querySelectorAll(".carousel").forEach((e) => {
-    const t = e.querySelectorAll(".carousel__item"),
-      s = Array.from(t, () => '<span class="carousel__button"></span>');
-    e.insertAdjacentHTML(
-      "beforeend",
-      `<div class="carousel__nav">${s.join("")}</div>`
-    );
-    const o = e.querySelectorAll(".carousel__button");
-    o.forEach((e, s) => {
-      e.addEventListener("click", () => {
-        t.forEach((e) => e.classList.remove("carousel__item--selected")),
-          o.forEach((e) => e.classList.remove("carousel__button--selected")),
-          t[s].classList.add("carousel__item--selected"),
-          e.classList.add("carousel__button--selected");
-      });
-    }),
-      t[0].classList.add("carousel__item--selected"),
-      o[0].classList.add("carousel__button--selected");
-  }),
   window.addEventListener("scroll", reveal);
 const skillBars = document.querySelectorAll(".skill-bar");
 function showProgress() {
