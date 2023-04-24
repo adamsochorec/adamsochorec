@@ -333,8 +333,8 @@
           >.
         </p>
         <section class="img">
-          <img
-            src="/img/jpg/2209595.jpg"
+          <img class="noanimation"
+            src="/img/jpg/2209595.png"
             alt="Photo of two
       really old Jewish gravestones on the former cemetery in the middle of
       Forrest, covered by moss and containing text in Hebrew. There are tiny

@@ -58,7 +58,6 @@
 }
 
 /* GLOBAL START */
-
 body {
   background-color: rgb(var(--black-color));
   overflow-x: hidden;
@@ -105,7 +104,7 @@ hr {
 }
 #about .partner-logos,
 #nicolai iframe,
-.vimeo {
+.vimeo, #prints img, #aland .noanimation {
   animation: none;
 }
 /* BROWSER SETTINGS START */
@@ -791,9 +790,7 @@ footer .footer-ps span:nth-child(2) {
 nav li a.prints::before {
   content: "Prints";
 }
-#prints img {
-  animation: none;
-}
+
 #prints h1 {
   text-align: center;
 }
