@@ -11,7 +11,7 @@
     <meta name="googlebot" content="noindex" />
   </head>
 
-  <body id="error">
+  <body id="error" class="noindex">
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'global-nav-bar.php';

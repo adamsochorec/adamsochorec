@@ -10,7 +10,7 @@
     <meta name="robots" content="noindex" />
     <meta name="googlebot" content="noindex" />
   </head>
-  <body id="transfer">
+  <body id="transfer" class="noindex">
     <!-- HEADER START -->
     <?php
      $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';

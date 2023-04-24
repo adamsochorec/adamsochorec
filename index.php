@@ -169,11 +169,7 @@
                 <span>Slavic Media</span>
               </div>
             </a>
-            <a class="hh-stretch" href="/web-dev/cybersecurity">
-              <div class="grid-item reveal" id="cybersecurity">
-                <span></span>
-              </div>
-            </a>
+
             <a
               class="hh-stretch"
               target="_blank"
@@ -207,42 +203,37 @@
 
           <h2 class="reveal"></h2>
           <br />
-          <section class="grid-container gallery reveal">
+          <section class="grid-container gallery">
             <a class="hh-stretch" href="/blog/blavand">
-              <div class="grid-item" id="blavand">
+              <div class="grid-item reveal" id="blavand">
+                <span></span>
+              </div>
+            </a>
+            <a class="hh-stretch" href="/blog/cybersecurity">
+              <div class="grid-item reveal" id="cybersecurity">
                 <span></span>
               </div>
             </a>
             <a href="/blog/house-hunting">
-              <div class="grid-item" id="house-hunting">
+              <div class="grid-item reveal" id="house-hunting">
                 <span></span>
               </div>
             </a>
-
             <a href="/blog/västerbotten">
-              <div class="grid-item" id="västerbotten">
+              <div class="grid-item reveal" id="västerbotten">
                 <span></span>
               </div>
             </a>
             <a href="/blog/vestkystruten">
-              <div class="grid-item" id="vestkystruten">
+              <div class="grid-item reveal" id="vestkystruten">
                 <span></span>
               </div>
             </a>
             <a class="hh-stretch" href="/blog/aland">
-              <div class="grid-item" id="aland">
+              <div class="grid-item reveal" id="aland">
                 <span></span>
               </div>
             </a>
-            <!-- 
-            <a class="hh-stretch" href="/blog/kvarken">
-              <div class="grid-item" id="kvarken">
-                <div class="blur">
-                  <span></span>
-                </div>
-              </div>
-            </a>
-            -->
           </section>
           <hr class="reveal" />
         </section>
@@ -725,98 +716,97 @@
             </div>
           </section>
           <hr class="reveal" />
-          <section>
-            <h3 class="reveal">@adamsochorec</h3>
-            <br />
-            <section class="grid-container">
-              <ul>
-                <li class="reveal">
-                  <a
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href="https://www.brothers-brick.com/2017/08/21/forgotten-not-gone/"
-                    >The Brothers Brick</a
-                  >
-                </li>
-                <li class="reveal">
-                  <a
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href="https://gjjlc.lixin.edu.cn/jdxw/109749.htm"
-                    >Shanghai Lixin University</a
-                  >
-                </li>
-                <li class="reveal">
-                  <a
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href="https://gjjlc.lixin.edu.cn/jdxw/106321.htm"
-                    >Shanghai Lixin University</a
-                  >
-                </li>
-                <li class="reveal">
-                  <a
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href="https://www.divadlodisk.cz/repertoar/hrdina-zapadu-83"
-                    >Divadlo Disk</a
-                  >
-                </li>
-                <li class="reveal">
-                  <a
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href="https://www.brothers-brick.com/2017/08/27/post-apocalyptic-friendships-best/"
-                    >The Brothers Brick</a
-                  >
-                </li>
-              </ul>
-              <ul>
-                <li class="reveal">
-                  <a
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href="https://www.instagram.com/p/CPkl9MtKWiz/?igshid=YmMyMTA2M2Y="
-                    >Divadlo Na Vinohradech</a
-                  >
-                </li>
-                <li class="reveal">
-                  <a
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href="https://www.instagram.com/p/CNNNkt_rNUn/?igshid=YmMyMTA2M2Y="
-                    >Barae</a
-                  >
-                </li>
-                <li class="reveal">
-                  <a
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href="https://www.artivistlab.info/purano-hangos/exhibitions-photo-album"
-                    >Artivist Lab</a
-                  >
-                </li>
-                <li class="reveal">
-                  <a
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href="https://www.respekt.cz/galerie/cool-kids-saving-hot-planet"
-                    >Respekt</a
-                  >
-                </li>
-                <li class="reveal">
-                  <a
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href="https://www.hatefree.cz/clanky/tamara-moyzes-2"
-                    >HateFree</a
-                  >
-                </li>
-              </ul>
-            </section>
-            <div id="contact"></div>
-            <hr class="reveal" />
+          <>
+          <h3 class="reveal">@adamsochorec</h3>
+          <br />
+          <section class="grid-container">
+            <ul>
+              <li class="reveal">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://www.brothers-brick.com/2017/08/21/forgotten-not-gone/"
+                  >The Brothers Brick</a
+                >
+              </li>
+              <li class="reveal">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://gjjlc.lixin.edu.cn/jdxw/109749.htm"
+                  >Shanghai Lixin University</a
+                >
+              </li>
+              <li class="reveal">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://gjjlc.lixin.edu.cn/jdxw/106321.htm"
+                  >Shanghai Lixin University</a
+                >
+              </li>
+              <li class="reveal">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://www.divadlodisk.cz/repertoar/hrdina-zapadu-83"
+                  >Divadlo Disk</a
+                >
+              </li>
+              <li class="reveal">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://www.brothers-brick.com/2017/08/27/post-apocalyptic-friendships-best/"
+                  >The Brothers Brick</a
+                >
+              </li>
+            </ul>
+            <ul>
+              <li class="reveal">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://www.instagram.com/p/CPkl9MtKWiz/?igshid=YmMyMTA2M2Y="
+                  >Divadlo Na Vinohradech</a
+                >
+              </li>
+              <li class="reveal">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://www.instagram.com/p/CNNNkt_rNUn/?igshid=YmMyMTA2M2Y="
+                  >Barae</a
+                >
+              </li>
+              <li class="reveal">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://www.artivistlab.info/purano-hangos/exhibitions-photo-album"
+                  >Artivist Lab</a
+                >
+              </li>
+              <li class="reveal">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://www.respekt.cz/galerie/cool-kids-saving-hot-planet"
+                  >Respekt</a
+                >
+              </li>
+              <li class="reveal">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://www.hatefree.cz/clanky/tamara-moyzes-2"
+                  >HateFree</a
+                >
+              </li>
+            </ul>
           </section>
+          <div id="contact"></div>
+          <hr class="reveal" />
           <section class="contact-form-section">
             <h3 class="reveal"></h3>
             <br /><br />

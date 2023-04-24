@@ -12,7 +12,7 @@
     <meta name="robots" content="noindex" />
     <meta name="googlebot" content="noindex" />
   </head>
-  <body id="find-my">
+  <body id="find-my" class="noindex">
     <!-- HEADER START -->
     <?php
      $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';

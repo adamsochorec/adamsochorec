@@ -7,7 +7,7 @@
     ?>
     <title>Success | Adam Sochorec</title>
   </head>
-  <body id="success">
+  <body id="success" class="noindex">
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'global-nav-bar.php';
