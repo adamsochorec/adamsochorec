@@ -24,14 +24,16 @@
      ?>
     <!-- HEADER END -->
     <main>
-      <div class="blur h-background"></div>
-      <section class="intro-section">
-        <section class="intro-subsection">
-          <h1></h1>
-          <?php
+      <section class="intro-section-wrapper">
+        <div class="blur h-background"></div>
+        <section class="intro-section">
+          <section class="intro-subsection">
+            <h1></h1>
+            <?php
           $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
           include $IPATH . 'global-scroll.php';
           ?>
+          </section>
         </section>
       </section>
       <article class="wrapper-standard">

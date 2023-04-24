@@ -378,6 +378,11 @@
               <span></span>
             </div>
           </a>
+          <a class="hh-stretch" href="/blog/cybersecurity">
+            <div class="grid-item reveal" id="cybersecurity">
+              <span></span>
+            </div>
+          </a>
         </section>
         <?php
           $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';

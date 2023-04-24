@@ -25,7 +25,7 @@ function reveal() {
       : e[t].classList.remove("active");
   }
 }
-  window.addEventListener("scroll", reveal);
+window.addEventListener("scroll", reveal);
 const skillBars = document.querySelectorAll(".skill-bar");
 function showProgress() {
   skillBars.forEach((e) => {

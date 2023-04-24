@@ -22,36 +22,38 @@
     include $IPATH . 'global-nav-bar.php';
     ?>
     <main>
-      <article id="passwordGenerator" class="intro-section">
-        <section class="intro-subsection">
-          <h2>Get an ultimate password</h2>
-          <br />
-          <section class="btn-area flex-center">
-            <input
-              type="text"
-              placeholder="of 124 bit strength"
-              id="password"
-              readonly=""
-            />
+      <section class="intro-section-wrapper">
+        <article id="passwordGenerator" class="intro-section">
+          <section class="intro-subsection">
+            <h2>Get an ultimate password</h2>
             <br />
-            <div id="btn" onclick="getPassword();"></div>
-            <div class="btn-shadow"></div>
+            <section class="btn-area flex-center">
+              <input
+                type="text"
+                placeholder="of 124 bit strength"
+                id="password"
+                readonly=""
+              />
+              <br />
+              <div id="btn" onclick="getPassword();"></div>
+              <div class="btn-shadow"></div>
+            </section>
+            <section class="read-more">
+              <a class="flex-center" href="#scrolllink">
+                <h5>Learn more about cybersecurity</h5>
+                <lottie-player
+                  id="scrollLottie"
+                  src="/img/lottie/scroll-down.json"
+                  background="transparent"
+                  loop
+                  speed="2"
+                  autoplay
+                ></lottie-player>
+              </a>
+            </section>
           </section>
-          <section class="read-more">
-            <a class="flex-center" href="#scrolllink">
-              <h5>Learn more about cybersecurity</h5>
-              <lottie-player
-                id="scrollLottie"
-                src="/img/lottie/scroll-down.json"
-                background="transparent"
-                loop
-                speed="2"
-                autoplay
-              ></lottie-player>
-            </a>
-          </section>
-        </section>
-      </article>
+        </article>
+      </section>
       <article id="scrolllink" class="wrapper-standard">
         <div class="pathname-container">
           <i
@@ -2837,31 +2839,32 @@ C502.2,625.2,499,621.9,499,618.3z"
           </ol>
         </section>
         <hr class="reveal" />
-        <h2 class="reveal">Other projects</h2>
+        <h2 class="reveal">Further reading</h2>
         <br />
         <section class="grid-container gallery reveal">
-          <a
-            class="hh-stretch"
-            target="_blank"
-            rel="noopener noreferrer"
-            href="/projects/zebra-design/zebra-design"
-          >
-            <div class="grid-item reveal" id="zebra-design">
-              <div class="blur">
-                <span>Zebra-design</span>
-              </div>
+          <a class="hh-stretch" href="/blog/blavand">
+            <div class="grid-item reveal" id="blavand">
+              <span></span>
             </div>
           </a>
-          <a
-            class="hh-stretch"
-            target="_blank"
-            rel="noopener noreferrer"
-            href="/projects/memos/memos"
-          >
-            <div class="grid-item reveal" id="memos">
-              <div class="blur">
-                <span>Memos</span>
-              </div>
+          <a href="/blog/house-hunting">
+            <div class="grid-item reveal" id="house-hunting">
+              <span></span>
+            </div>
+          </a>
+          <a href="/blog/västerbotten">
+            <div class="grid-item reveal" id="västerbotten">
+              <span></span>
+            </div>
+          </a>
+          <a href="/blog/vestkystruten">
+            <div class="grid-item reveal" id="vestkystruten">
+              <span></span>
+            </div>
+          </a>
+          <a class="hh-stretch" href="/blog/aland">
+            <div class="grid-item reveal" id="aland">
+              <span></span>
             </div>
           </a>
         </section>

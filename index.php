@@ -35,7 +35,7 @@
       <!-- VISUALS START -->
       <article id="visuals">
         <section class="grid-container">
-          <div class="hhh-stretch vimeo-stretch">
+          <div class="hhh-stretch">
             <iframe
               class="vimeo"
               src="https://player.vimeo.com/video/818670329?h=1decec98cc"
@@ -237,20 +237,20 @@
           </section>
           <hr class="reveal" />
         </section>
-
-        <br id="about" />
       </article>
       <!-- BLOG END -->
       <!-- ABOUT START -->
       <article id="about">
-        <section class="intro-section flex-center">
-          <section class="intro-subsection">
-            <h2 class="reveal"></h2>
-            <?php
+        <section class="intro-section-wrapper">
+          <section class="intro-section flex-center">
+            <section class="intro-subsection">
+              <h2 class="reveal"></h2>
+              <?php
             $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
             include $IPATH . 'global-scroll.php';
             ?>
-            <section></section>
+              <section></section>
+            </section>
           </section>
         </section>
         <section class="wrapper-standard">
