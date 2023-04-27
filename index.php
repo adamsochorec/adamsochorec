@@ -196,7 +196,8 @@
                 <span>ØkoNord</span>
               </div>
             </a>-->
-            <a
+            <a               class="hh-stretch"
+
               target="_blank"
               rel="noopener noreferrer"
               href="/web-dev/zebra-design.php"
@@ -205,7 +206,8 @@
                 <span>Zebra-design</span>
               </div>
             </a>
-            <a
+            <a               class="hh-stretch"
+
               target="_blank"
               rel="noopener noreferrer"
               href="/web-dev/memos.php"
