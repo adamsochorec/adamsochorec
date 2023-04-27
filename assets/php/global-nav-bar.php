@@ -1,53 +1,22 @@
 <header>
-  <nav class="nav-bar">
-    <!-- NAVIGATION BAR START -->
-    <a aria-describedby="photo" href="/">
-      <span>adam</span>
-      <span>sochorec</span>
-    </a>
-    <ul class="nav-menu">
-      <!-- NAVIGATION BAR LINKS START -->
-      <li class="nav-item">
-        <a
-          aria-describedby="prints"
-          class="navbar-style prints"
-          href="/prints"
-        ></a>
-      </li>
-      <li class="nav-item">
-        <a
-          aria-describedby="web-dev"
-          class="navbar-style web-dev"
-          href="/#web-dev"
-        ></a>
-      </li>
-      <li class="nav-item">
-        <a aria-describedby="blog" class="navbar-style blog" href="/#blog"></a>
-      </li>
-
-      <li class="nav-item">
-        <a
-          aria-describedby="about"
-          class="navbar-style about"
-          href="/#about"
-        ></a>
-      </li>
-      <li class="nav-item">
-        <a
-          aria-describedby="contact"
-          class="navbar-style contact"
-          href="/#contact"
-        ></a>
-      </li>
-    </ul>
-    <!-- NAVIGATION BAR LINKS START -->
-    <div class="hamburger">
-      <!-- RESPONSIVE HAMBURGER MENU START -->
-      <span class="bar"></span>
-      <span class="bar"></span>
-    </div>
-    <!-- RESPONSIVE HAMBURGER MENU END -->
-  </nav>
-  <!-- NAVIGATION BAR END -->
+  <div class="container">
+    <nav id="navigation">
+      <a href="/"> <span>adam</span><br /><span>sochorec</span></a>
+      <a aria-label="mobile menu" class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </a>
+      <ul class="menu-left">
+        <!--   <li><a href="/#services">Services</a></li>-->
+        <li><a href="/prints">prints</a></li>
+        <li><a href="/#web-dev">web-dev</a></li>
+        <li><a href="/#blog">blog</a></li>
+        <li><a href="/#about">about</a></li>
+        <li><a href="/#contact">contact</a></li>
+      </ul>
+    </nav>
+  </div>
   <div class="blur master-blur"></div>
+  <!-- NAVIGATION BAR END -->
 </header>

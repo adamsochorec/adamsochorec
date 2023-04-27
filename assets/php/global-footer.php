@@ -18,6 +18,8 @@
     <span>Adam Sochorec</span>
   </section>
   <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
   <script src="/scripts/global-script.js" defer></script>
 </footer>
 <!-- FOOTER END -->

@@ -24,7 +24,7 @@
     />
     <title>Adam Sochorec</title>
   </head>
-  <body id="portfolio" class="homepage">
+  <body id="homepage">
     <!-- HEADER START -->
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
@@ -165,13 +165,38 @@
               rel="noopener noreferrer"
               href="https://slavicmedia.dk/"
             >
-              <div class="grid-item reveal" id="slavic-media">
+              <div
+                class="grid-item gradient-animation reveal"
+                id="slavic-media"
+              >
                 <span>Slavic Media</span>
               </div>
             </a>
-
+            <!-- 
             <a
               class="hh-stretch"
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://husetfundament.dk/"
+            >
+              <div
+                class="grid-item gradient-animation reveal"
+                id="huset-fundament"
+              >
+                <span>Huset Fundament</span>
+              </div>
+            </a>
+            <a
+              class="hh-stretch"
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://okonord.dk/"
+            >
+              <div class="grid-item gradient-animation reveal" id="oko-nord">
+                <span>ØkoNord</span>
+              </div>
+            </a>-->
+            <a
               target="_blank"
               rel="noopener noreferrer"
               href="/web-dev/zebra-design.php"
@@ -181,7 +206,6 @@
               </div>
             </a>
             <a
-              class="hh-stretch"
               target="_blank"
               rel="noopener noreferrer"
               href="/web-dev/memos.php"
@@ -210,7 +234,10 @@
               </div>
             </a>
             <a class="hh-stretch" href="/blog/cybersecurity">
-              <div class="grid-item reveal" id="cybersecurity">
+              <div
+                class="grid-item gradient-animation reveal"
+                id="cybersecurity"
+              >
                 <span></span>
               </div>
             </a>
