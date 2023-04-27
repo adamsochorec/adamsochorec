@@ -1,7 +1,7 @@
 <header>
   <div class="container">
     <nav id="navigation">
-      <a href="/"> <span>adam</span><br /><span>sochorec</span></a>
+      <a href="/">adam sochorec</a>
       <a aria-label="mobile menu" class="hamburger">
         <span></span>
         <span></span>
