@@ -1222,7 +1222,7 @@ nav li a.about::before {
     height: 18px;
   }
 }
-@media (max-width: 560px) {
+@media only screen and (max-width: 560px) {
   .v-stretch,
   .vv-stretch {
     grid-row: span 1;
@@ -1300,7 +1300,7 @@ nav li a.about::before {
     font-size: var(--fontsize-h6);
   }
 }
-@media (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   header ul {
     clear: both;
   }
@@ -1308,7 +1308,7 @@ nav li a.about::before {
     padding: 0.5em 0;
   }
 }
-@media (min-width: 768px) {
+@media only screen and (min-width: 768px) {
   header ul.menu-left {
     display: block !important;
     float: right;
