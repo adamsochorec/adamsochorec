@@ -32,7 +32,7 @@
                 type="text"
                 placeholder="of 124 bit strength"
                 id="password"
-                readonly=""
+                readonly="" autocomplete="new-password"
               />
               <br />
               <div id="btn" onclick="getPassword();"></div>

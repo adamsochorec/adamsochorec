@@ -7,6 +7,7 @@
   --primary-color: 0, 126, 227;
   --secondary-color: 128, 0, 128;
   --grey-color: 40, 40, 40;
+  --light-grey-color: 128, 128, 128;
   --white-color: 255, 255, 255;
   --black-color: 0, 0, 0;
   --fontsize-xl-h1: clamp(3rem, 1rem + 10vw, 7rem);
@@ -27,7 +28,7 @@
   --text-transform-1: perspective(25rem) rotateX(40deg);
   --border-1: 3px solid rgb(var(--primary-color));
   --border-radius-1: 2px;
-  --border-radius-2: 10px;
+  --border-radius-2: 6px;
   --border-radius-3: 15px;
   --transition-1: all.2s ease-in-out;
   --transition-2: all.3s ease-in-out;
@@ -92,7 +93,7 @@ main {
 }
 hr {
   border: 0.1px solid;
-  color: grey;
+  color: rgba(var(--white-color), 0.9);
   margin: 2rem 0;
   opacity: 60%;
   z-index: 3;
@@ -307,10 +308,10 @@ p a:hover {
 /* ANIMATIONS START */
 @keyframes skeleton-loading {
   0% {
-    background-color: var(--grey-color);
+    background-color: rgba(var(--light-grey-color), 0.8);
   }
   100% {
-    background-color: #6a6b6c;
+    background-color: rgba(var(--light-grey-color), 0.2);
   }
 }
 @-webkit-keyframes gradient {
@@ -418,7 +419,7 @@ nav li a.contact::before {
 .contact-form-section select,
 .contact-form-section textarea,
 .contact-form-section::placeholder {
-  color: gray;
+  color: rgb(var(--light-grey-color));
   font-family: var(--content-font);
   font-size: calc(var(--fontsize-p) * 0.9);
   font-weight: var(--paragraph-weight);

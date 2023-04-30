@@ -232,7 +232,7 @@
                   id="“address”"
                   name="Adress"
                   required
-                  placeholder="Skolegade 22"
+                  placeholder="Skolegade 22" autocomplete="street-adress"
                 />
                 <br /><br />
                 <label for="zip">
@@ -243,7 +243,7 @@
                   id="zip"
                   name="Zip"
                   required
-                  placeholder="6000"
+                  placeholder="6000" autocomplete="postal-code"
                 />
                 <br /><br />
               </section>
@@ -255,7 +255,7 @@
                   type="text"
                   id="firstName"
                   name="First Name"
-                  placeholder="Franz"
+                  placeholder="Franz" autocomplete="given-name"
                 />
                 <br /><br />
                 <label for="surname">
@@ -265,7 +265,7 @@
                   type="text"
                   id="surname"
                   name="Surname"
-                  placeholder="Kafka"
+                  placeholder="Kafka" autocomplete="family-name"
                 />
                 <br /><br />
                 <label for="city">
@@ -276,7 +276,7 @@
                   id="city"
                   name="City"
                   required
-                  placeholder="Kolding"
+                  placeholder="Kolding" autocomplete="address-level1"
                 />
                 <br /><br />
                 <label for="country">
@@ -286,7 +286,7 @@
                   name="Country"
                   class="form-control"
                   required
-                  id="country"
+                  id="country" autocomplete="country"
                 >
                   <option
                     value="0"

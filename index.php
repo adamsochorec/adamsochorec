@@ -858,7 +858,7 @@
                     id="email"
                     name="Email"
                     placeholder="example@domain.dk"
-                    required
+                    required autocomplete="email"
                   />
                   <br /><br />
                   <label for="subject">
@@ -881,7 +881,7 @@
                     type="text"
                     id="firstName"
                     name="First Name"
-                    placeholder="Franz"
+                    placeholder="Franz" autocomplete="given-name"
                   />
                   <br /><br />
                   <label for="lastName">
@@ -891,7 +891,7 @@
                     type="text"
                     id="lastName"
                     name="Last Name"
-                    placeholder="Kafka"
+                    placeholder="Kafka" autocomplete="family-name"
                   />
                   <br /><br />
                 </section>
