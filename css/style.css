@@ -348,7 +348,8 @@ p a:hover {
 hr {
   max-width: 100%;
 }
-.wrapper-standard {
+.wrapper-standard,
+hr {
   width: 37.5rem;
 }
 .wrapper-wide {

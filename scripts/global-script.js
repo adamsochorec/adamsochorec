@@ -79,7 +79,6 @@ function hasScrolled() {
 
   lastScrollTop = st;
 }
-
 function reveal() {
   const e = document.querySelectorAll(".reveal");
   for (var t = 0; t < e.length; t++) {
@@ -89,7 +88,6 @@ function reveal() {
       : e[t].classList.remove("active");
   }
 }
-window.addEventListener("scroll", reveal);
 const skillBars = document.querySelectorAll(".skill-bar");
 function showProgress() {
   skillBars.forEach((e) => {
