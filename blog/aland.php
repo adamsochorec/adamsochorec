@@ -34,7 +34,7 @@
         <h1></h1>
         <div class="img">
           <img
-            src="/img/jpg/22101685388877.jpg"
+            src="/img/22101685388877.jpg"
             alt="Dusty red gravel road cutting surrounding autumn colured forest in a half"
           />
         </div>
@@ -134,14 +134,14 @@
         </p>
         <div class="img">
           <img
-            src="/img/jpg/IMG_3017.jpg"
+            src="/img/IMG_3017.jpg"
             alt="Photo of skerries covered by vegetation, located in the Archipelago sea"
           />
         </div>
         <p><i class="note">Skerries in the Archipelago Sea</i></p>
         <div class="img">
           <img
-            src="/img/jpg/IMG_3020.jpg"
+            src="/img/IMG_3020.jpg"
             alt="Photo of several boulder archipelagos with erected wind turbines, located in the Archipelago sea"
           />
           <br /><br class="hide" />
@@ -170,7 +170,7 @@
         </p>
         <div class="img">
           <img
-            src="/img/jpg/IMG_3063.jpg"
+            src="/img/IMG_3063.jpg"
             alt="Photo of resting Andreas with dark sky in the background. Andreas’s face is highlighted by the screen of the phone he is holding"
           />
         </div>
@@ -200,7 +200,7 @@
         </p>
         <div class="img">
           <img
-            src="/img/jpg/22101584778866.jpg"
+            src="/img/22101584778866.jpg"
             alt="Marcel and Andreas are captured walking along the road, hitchhiking with their left thumbs, trying to stop approaching the car."
           />
         </div>
@@ -219,7 +219,7 @@
         </p>
         <div class="img">
           <img
-            src="/img/jpg/22101685278874.jpg"
+            src="/img/22101685278874.jpg"
             alt="Outside view at
     our Djupviksgrottan cave camp, Marcel is reading a book and Andreas is
     keeping an eye on a campfire."
@@ -238,7 +238,7 @@
         </p>
         <div class="img">
           <img
-            src="/img/jpg/22101685428878.jpg"
+            src="/img/22101685428878.jpg"
             alt="Photo of pilgrims Marcel and Andreas walking over dusty red path up on a hill with Autumn forests in their background."
           />
         </div>
@@ -253,7 +253,7 @@
         </p>
         <div class="img">
           <img
-            src="/img/jpg/22101685668880.jpg"
+            src="/img/22101685668880.jpg"
             alt="Photo of an old blue Ford tractor with big red wheels, standing on aside of the road. The scene is listed by the morning sun."
           />
         </div>
@@ -269,7 +269,7 @@
         </p>
         <div class="img">
           <img
-            src="/img/jpg/22101585138870.jpg"
+            src="/img/22101585138870.jpg"
             alt="Photo of Andreas and Marcel hiking through the forest in the northern part of Alands."
           />
         </div>
@@ -284,7 +284,7 @@
         </p>
         <div class="img">
           <img
-            src="/img/jpg/22101785778883.jpg"
+            src="/img/22101785778883.jpg"
             alt="Shot of a garden and family house built in a typical Scandinavian style - pastel green facade made out of wooden planks with white outlined corners and windows."
           />
           <br /><br class="hide" />
@@ -306,7 +306,7 @@
         </p>
         <div class="img">
           <img
-            src="/img/jpg/22101786368895.jpg"
+            src="/img/22101786368895.jpg"
             alt="Photo of an empty road through the Autumn colored forest, aside from the road stands a traffic sign informing about the name of our surroundings - Prästo."
           />
         </div>
@@ -335,7 +335,7 @@
         <div class="img">
           <img
             class="noanimation"
-            src="/img/jpg/2209595.png"
+            src="/img/2209595.png"
             alt="Photo of two
       really old Jewish gravestones on the former cemetery in the middle of
       Forrest, covered by moss and containing text in Hebrew. There are tiny
@@ -363,7 +363,7 @@
         </p>
         <div class="img">
           <img
-            src="/img/jpg/22101786668900.jpg"
+            src="/img/22101786668900.jpg"
             alt="Photo of me carrying posing Marcel upon my shoulders while standing in the cold Archipelago sea."
           />
         </div>
@@ -378,7 +378,7 @@
         </p>
         <div class="img">
           <img
-            src="/img/jpg/22101484358861.jpg"
+            src="/img/22101484358861.jpg"
             alt="Photo of resting Andreas with dark sky in the background. Andreas’s face is highlighted by the screen of the phone he is holding"
           />
         </div>

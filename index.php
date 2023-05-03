@@ -44,28 +44,28 @@
             ></iframe>
           </div>
           <div class="h-stretch">
-            <img src="/img/jpg/22050630038186.jpg" alt="22050630038186" />
+            <img src="/img/22050630038186.jpg" alt="22050630038186" />
           </div>
           <div class="h-stretch">
-            <img src="/img/jpg/22050630108189.jpg" alt="22050630108189" />
+            <img src="/img/22050630108189.jpg" alt="22050630108189" />
           </div>
           <div class="hhh-stretch">
-            <img src="/img/jpg/2202137912.jpg" alt="2202137912" />
+            <img src="/img/2202137912.jpg" alt="2202137912" />
           </div>
           <div class="h-stretch">
-            <img src="/img/jpg/21082261146778.jpg" alt="21082261146778" />
+            <img src="/img/21082261146778.jpg" alt="21082261146778" />
           </div>
           <div class="h-stretch">
-            <img src="/img/jpg/2202137909.jpg" alt="2202137909" />
+            <img src="/img/2202137909.jpg" alt="2202137909" />
           </div>
           <div class="v-stretch">
-            <img src="/img/jpg/21052108355967.jpg" alt="21052108355967" />
+            <img src="/img/21052108355967.jpg" alt="21052108355967" />
           </div>
           <div class="h-stretch">
-            <img src="/img/jpg/21071948976502.jpg" alt="21071948976502" />
+            <img src="/img/21071948976502.jpg" alt="21071948976502" />
           </div>
           <div class="v-stretch reveal">
-            <img src="/img/jpg/21090565126832.jpg" alt="21090565126832" />
+            <img src="/img/21090565126832.jpg" alt="21090565126832" />
           </div>
           <iframe
             class="h-stretch reveal"
@@ -80,37 +80,37 @@
             ><p class="alt-alt">3D scan of an outdoor concrete architecure.</p>
           </iframe>
           <div class="v-stretch reveal">
-            <img src="/img/jpg/20111503544421.jpg" alt="20111503544421" />
+            <img src="/img/20111503544421.jpg" alt="20111503544421" />
           </div>
           <div class="h-stretch reveal">
-            <img src="/img/jpg/2105281156137.jpg" alt="2105281156137" />
+            <img src="/img/2105281156137.jpg" alt="2105281156137" />
           </div>
           <div class="v-stretch reveal">
-            <img src="/img/jpg/21101786787138.jpg" alt="21101786787138" />
+            <img src="/img/21101786787138.jpg" alt="21101786787138" />
           </div>
           <div class="hh-stretch reveal">
-            <img src="/img/jpg/21041425600.jpg" alt="21041425600" />
+            <img src="/img/21041425600.jpg" alt="21041425600" />
           </div>
           <div class="v-stretch reveal">
-            <img src="/img/jpg/21090567466861.jpg" alt="21090567466861" />
+            <img src="/img/21090567466861.jpg" alt="21090567466861" />
           </div>
           <div class="h-stretch reveal">
-            <img src="/img/jpg/21100178367026.jpg" alt="21100178367026" />
+            <img src="/img/21100178367026.jpg" alt="21100178367026" />
           </div>
           <div class="h-stretch reveal">
-            <img src="/img/jpg/21082462356794.jpg" alt="21082462356794" />
+            <img src="/img/21082462356794.jpg" alt="21082462356794" />
           </div>
           <div class="v-stretch reveal">
-            <img src="/img/jpg/21090566586849.jpg" alt="21090566586849" />
+            <img src="/img/21090566586849.jpg" alt="21090566586849" />
           </div>
           <div class="hh-stretch reveal">
-            <img src="/img/jpg/21042593335697.jpg" alt="21042593335697" />
+            <img src="/img/21042593335697.jpg" alt="21042593335697" />
           </div>
           <div class="h-stretch reveal">
-            <img src="/img/jpg/21041385565587.jpg" alt="21041385565587" />
+            <img src="/img/21041385565587.jpg" alt="21041385565587" />
           </div>
           <div class="h-stretch reveal">
-            <img src="/img/jpg/211102002.jpg" alt="211102002" />
+            <img src="/img/211102002.jpg" alt="211102002" />
           </div>
           <div class="h-stretch reveal">
             <img src="/img/gif/22_kompr.gif" alt="22" />
@@ -119,13 +119,13 @@
             <img src="/img/gif/23_kompr.gif" alt="23" />
           </div>
           <div class="v-stretch reveal">
-            <img src="/img/jpg/21090567896881.jpg" alt="21090567896881" />
+            <img src="/img/21090567896881.jpg" alt="21090567896881" />
           </div>
           <div class="h-stretch reveal">
-            <img src="/img/jpg/2012184555.jpg" alt="2012184555" />
+            <img src="/img/2012184555.jpg" alt="2012184555" />
           </div>
           <div class="v-stretch reveal">
-            <img src="/img/jpg/21111395827265.jpg" alt="2107265" />
+            <img src="/img/21111395827265.jpg" alt="2107265" />
           </div>
           <div id="web-dev"></div>
           <div id="blog"></div>
@@ -297,12 +297,12 @@
           <hr class="reveal" />
           <img
             class="reveal"
-            src="/img/jpg/about.jpg"
+            src="/img/about.jpg"
             alt="Portrait of Adam Sochorec diving underwater."
           />
           <img
             class="reveal partner-logos"
-            src="/img/jpg/partners.png"
+            src="/img/partners.png"
             alt="Logos of past collaborators and partners: Roskilde Festival 2022, Confucius Institute IBA Kolding, Antiyber Bullying Project, OLDstars, Slovo 21, Franklin Covey Czech, Divadlo na Vinohradech, Brick Gallery and Barae."
           />
           <hr class="reveal" />

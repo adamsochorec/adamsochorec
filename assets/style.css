@@ -449,7 +449,7 @@ source {
 select {
   appearance: none;
   background-color: transparent;
-  background-image: url(/img/jpg/chevron-down-solid.svg);
+  background-image: url(/img/chevron-down-solid.svg);
   background-position: right;
   background-repeat: no-repeat;
   background-size: 30px;
@@ -856,7 +856,7 @@ footer .footer-ps span:nth-child(2) {
   text-align: center;
 }
 #prints .intro-section {
-  background-image: url(/img/jpg/prints.jpg);
+  background-image: url(/img/prints.jpg);
 }
 #prints img {
   border-radius: var(--border-radius-1);
@@ -997,7 +997,7 @@ nav li a.web-dev::before {
   content: "Blog";
 }
 .gallery #house-hunting {
-  background-image: url(/img/jpg/22100983718847_kompr.jpg);
+  background-image: url(/img/22100983718847_kompr.jpg);
 }
 #house-hunting .pathname-current:before,
 #house-hunting h1:before,
@@ -1005,7 +1005,7 @@ nav li a.web-dev::before {
   content: "House Hunting";
 }
 .gallery #blavand {
-  background-image: url(/img/jpg/22041518018133_kompr.jpg);
+  background-image: url(/img/22041518018133_kompr.jpg);
 }
 #blavand .pathname-current:before,
 #blavand h1:before,
@@ -1013,7 +1013,7 @@ nav li a.web-dev::before {
   content: "Blåvand";
 }
 .gallery #aland {
-  background-image: url(/img/jpg/22101685388877_kompr.jpg);
+  background-image: url(/img/22101685388877_kompr.jpg);
 }
 #aland .pathname-current:before,
 #aland h1:before,
@@ -1021,7 +1021,7 @@ nav li a.web-dev::before {
   content: "Åland";
 }
 .gallery #lakeland {
-  background-image: url(/img/jpg/22081522748781_kompr.jpg);
+  background-image: url(/img/22081522748781_kompr.jpg);
 }
 #lakeland .pathname-current:before,
 #lakeland h1:before,
@@ -1029,7 +1029,7 @@ nav li a.web-dev::before {
   content: "Lakeland";
 }
 .gallery #västerbotten {
-  background-image: url(/img/jpg/2209048838_kompr.jpg);
+  background-image: url(/img/2209048838_kompr.jpg);
 }
 #västerbotten .pathname-current:before,
 #västerbotten h1:before,
@@ -1037,7 +1037,7 @@ nav li a.web-dev::before {
   content: "Västerbotten";
 }
 .gallery #kvarken {
-  background-image: url(/img/jpg/22082424738796_kompr.jpg);
+  background-image: url(/img/22082424738796_kompr.jpg);
 }
 #kvarken .pathname-current:before,
 #kvarken h1:before,
@@ -1045,7 +1045,7 @@ nav li a.web-dev::before {
   content: "Kvarken";
 }
 .gallery #vestkystruten {
-  background-image: url(/img/jpg/IMG_1849_kompr.jpg);
+  background-image: url(/img/IMG_1849_kompr.jpg);
 }
 #vestkystruten .pathname-current:before,
 #vestkystruten h1:before,
@@ -1074,7 +1074,7 @@ nav li a.about::before {
   content: "About";
 }
 #about .intro-section {
-  background-image: url(/img/gif/22_kompr.gif);
+  background-image: url(/img/22_kompr.gif);
 }
 #about .partner-logos {
   margin: 0;

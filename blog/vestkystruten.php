@@ -36,7 +36,7 @@
         <h1></h1>
         <div class="img">
           <img
-            src="/img/jpg/IMG_1849.jpg"
+            src="/img/IMG_1849.jpg"
             alt="Me & Marcel on the northernmost point of Denmark - Skagen"
           />
           <br /><br class="hide" />

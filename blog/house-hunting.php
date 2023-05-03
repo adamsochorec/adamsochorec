@@ -34,7 +34,7 @@
         <h1></h1>
         <div class="img">
           <img
-            src="/img/jpg/22100983718847.jpg"
+            src="/img/22100983718847.jpg"
             alt="Shot of abandoned property with garden and old family house built in a typical Scandinavian style - pastel green facade made out of wooden planks with white outlined corners and windows."
           />
         </div>
@@ -60,7 +60,7 @@
         </p>
         <div class="img">
           <img
-            src="/img/jpg/22100983738848.jpg"
+            src="/img/22100983738848.jpg"
             alt="Shot of abandoned property with garden and old family house built in a typical Scandinavian style - pastel green facade made out of wooden planks with white outlined corners and windows."
           />
         </div>
@@ -74,7 +74,7 @@
         </p>
         <div class="img">
           <img
-            src="/img/jpg/22100983878849.jpg"
+            src="/img/22100983878849.jpg"
             alt="Photo of an empty room in the abandoned building, lit by the morning sun."
           />
         </div>
@@ -90,7 +90,7 @@
         </p>
         <div class="img">
           <img
-            src="/img/jpg/22100983968852.jpg"
+            src="/img/22100983968852.jpg"
             alt="Photo taken from a plan view of an old wooden narrow staircase. The staircase leads from the ground floor to the first floor."
           />
         </div>
@@ -106,7 +106,7 @@
         <br />
         <div class="img">
           <img
-            src="/img/jpg/22100984108857.jpg"
+            src="/img/22100984108857.jpg"
             alt="Interior shot of a
       corner, with several bleached spots on the wall's plaster. Most likely
       there have been hanging framed photos and paintings."
