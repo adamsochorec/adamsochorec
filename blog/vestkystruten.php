@@ -34,7 +34,7 @@
         </div>
         <br />
         <h1></h1>
-        <section class="img">
+        <div class="img">
           <img
             src="/img/jpg/IMG_1849.jpg"
             alt="Me & Marcel on the northernmost point of Denmark - Skagen"
@@ -45,7 +45,7 @@
               >Me & Marcel on the northernmost point of Denmark - Skagen
             </i>
           </p>
-        </section>
+        </div>
         <p>
           Recently, me and my friend
           <a
@@ -115,14 +115,14 @@
           landscape and meeting friendly locals.
         </p>
         <br class="hide" />
-        <section class="flex-center">
+        <div class="flex-center">
           <iframe
             class="strava-embed-placeholder"
             data-embed-type="activity"
             data-embed-id="7581051625"
           ></iframe>
           <br class="hide" />
-        </section>
+        </div>
         <p>
           From breathtaking coastal views to charming small towns, this trip had
           it all. And the destination, Skagen, was a unique place where the
@@ -155,7 +155,7 @@
         <hr />
         <h2>Further reading</h2>
         <br />
-        <section class="grid-container gallery">
+        <div class="grid-container gallery">
           <a class="hh-stretch" href="/blog/västerbotten">
             <div class="grid-item" id="västerbotten">
               <span></span>
@@ -181,7 +181,7 @@
               <span></span>
             </div>
           </a>
-        </section>
+        </div>
         <?php
           $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
           include $IPATH . 'global-totop.php';

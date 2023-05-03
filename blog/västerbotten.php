@@ -31,12 +31,12 @@
         </div>
         <br />
         <h1></h1>
-        <section class="img">
+        <div class="img">
           <img
             src="/img/jpg/2209048838.jpg"
             alt="Panorama shot of an mire, where we bushcrafted. Heap and weed around the lake is mustard yellow, surrounded by a wall of a forest trees."
           />
-        </section>
+        </div>
         <p>
           As the autumn days began, I had the opportunity to visit the
           Västerbotten province in Sweden during my exchange program at
@@ -122,14 +122,14 @@
           furniture, reindeer trophies, and traditional hand-crafted knives of
           various sizes.
         </p>
-        <section class="img">
+        <div class="img">
           <img
             src="/img/jpg/2209012611001.jpg"
             alt="View from the ship to the ship docks in Umeå, there is a coast guard boat in foreground, in background are two wind turbines."
           />
           <br /><br class="hide" />
           <p><i class="note">Ship docks in Umeå</i></p>
-        </section>
+        </div>
         <p>
           Later that night, we decided to sleep in the surrounding forest. The
           essence of the Everyman's right is that one can sleep, pick berries
@@ -182,7 +182,7 @@
             <br />-Wikipedia</i
           >
         </p>
-        <section class="img">
+        <div class="img">
           <img src="/img/jpg/22090226268821.jpg" alt="" />
           <br /><br class="hide" />
           <p>
@@ -192,7 +192,7 @@
               direction..."</i
             >
           </p>
-        </section>
+        </div>
         <p>
           The martial arts lecture sparked our interest in continuing to test
           our strengths even after returning to Bullmark. Joakim had two pairs
@@ -232,14 +232,14 @@
           my friends, they don't usually respect others' right to wander in the
           landscape during this time.
         </p>
-        <section class="img">
+        <div class="img">
           <img
             src="/img/jpg/2209032665002.jpg"
             alt="Panorama photo of our camp-site on the shore of a mire"
           />
           <br /><br class="hide" />
           <p><i class="note">Our mire-camp site</i></p>
-        </section>
+        </div>
         <p>
           When we reached the end of the dirt road, we took our gear and Emil's
           husky, Barnabas and walked through the mixed woods. As soon as we
@@ -254,7 +254,7 @@
           hunters could see our position.
         </p>
         <br class="hide" />
-        <section class="img">
+        <div class="img">
           <img
             src="/img/jpg/IMG00119.jpg"
             alt="Ilustration ilustrating various simple field shelters made with a rope and tarp."
@@ -269,7 +269,7 @@
               ></i
             >
           </p>
-        </section>
+        </div>
         <p>
           Right after setting up camp, light rain began and we had a chance to
           test our shelter. As I sat under the tarp, I observed how the sunny
@@ -291,14 +291,14 @@
           that. Something so harmless as a fog after the rain, but still so
           powerful and never-ending.
         </p>
-        <section class="img">
+        <div class="img">
           <img
             src="/img/jpg/2209048834.jpg"
             alt="Portrait of a Joakim sitting on a tarp in the grass, hand on his hand-crafted machete, raindeer's fur around the shoulder. The mire is in the background."
           />
           <br /><br class="hide" />
           <p><i class="note">Joakim</i></p>
-        </section>
+        </div>
         <p>
           As the sunset, I went for a walk around the heap of ground where we
           camped, when echoes of hunter's rifle blasts got more intense and less
@@ -334,7 +334,7 @@
           God, a reminder that he is always up there, no matter what. Watching
           my steps, watching out for me, despite my actions and location.
         </p>
-        <section class="img">
+        <div class="img">
           <img
             src="/img/jpg/2209018820.jpg"
             alt="Photo of a collection of several sizes of original Sámi knives hand crafted by Joakim, each made for a specific actitivty."
@@ -346,7 +346,7 @@
               been made for a specific activity</i
             >
           </p>
-        </section>
+        </div>
         <p>
           When we found our way through the vast forest to the cars the
           following morning, we drove to Joakim's place in Bullmark where we
@@ -356,7 +356,7 @@
         <hr />
         <h2>Further reading</h2>
         <br />
-        <section class="grid-container gallery">
+        <div class="grid-container gallery">
           <a class="hh-stretch" href="/blog/blavand">
             <div class="grid-item" id="blavand">
               <span></span>
@@ -383,7 +383,7 @@
               <span></span>
             </div>
           </a>
-        </section>
+        </div>
         <?php
           $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
           include $IPATH . 'global-totop.php';

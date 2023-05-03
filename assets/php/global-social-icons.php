@@ -1,4 +1,4 @@
-<section class="social-icons">
+<div class="social-icons">
   <a
     href="https://www.instagram.com/accounts/login/?next=/adamsochorec/"
     target="_blank"
@@ -68,4 +68,4 @@
       />
     </svg>
   </a>-->
-</section>
+</div>

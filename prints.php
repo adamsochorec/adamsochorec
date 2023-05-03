@@ -14,7 +14,6 @@
       name="keywords"
       content="adamsochorec, adam sochorec, @adamsochorec, web portfolio, web dev, web development, web-dev, web developer, Photography, Photos, 3D modeling, Polycam, 3D scaning, Web Designer, freelance photographer, content creator, content creation, IBA Kolding, Erhversakademi Kolding, front-end programming, travel blog, Denmark, Czechia, Finland, Prague, Vaasa, Vaasan Yliopsto, Kolding, Knud's Garage, Kolding Expo, photo prints, "
     />
-    <title>Adam Sochorec</title>
   </head>
   <body id="prints">
     <!-- HEADER START -->
@@ -24,24 +23,24 @@
      ?>
     <!-- HEADER END -->
     <main>
-      <section class="intro-section-wrapper">
+      <div class="intro-section-wrapper">
         <div class="blur h-background"></div>
-        <section class="intro-section">
-          <section class="intro-subsection">
-            <h1></h1>
+        <div class="intro-section">
+          <div class="intro-subsection">
+            <h1>Prints</h1>
             <?php
           $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
           include $IPATH . 'global-scroll.php';
           ?>
-          </section>
-        </section>
-      </section>
+          </div>
+        </div>
+      </div>
       <article class="wrapper-standard">
         <div class="pathname-container reveal">
           <i
             ><span class="pathname"><a href="/"></a> / </span>
-            <span class="pathname-current prints"></span
-          ></i>
+            <span class="pathname-current">Prints</span></i
+          >
         </div>
         <br />
         <p class="reveal">
@@ -180,22 +179,20 @@
           >
             <!-- Email invisibility -->
             <section class="grid-container contact-form">
-              <section class="grid-item reveal">
-                <label for="email">
-                  <p>Email *</p>
-                </label>
+              <div class="grid-item reveal">
+                <p>
+                  <label for="email"> Email * </label>
+                </p>
                 <input
                   type="email"
                   id="email"
                   name="Email"
-                  placeholder="example@domain.dk"
+                  placeholder=""
                   required
                 />
                 <br /><br />
 
-                <label for="print">
-                  <p>Print *</p>
-                </label>
+                <p><label for="print"> Print * </label></p>
                 <select
                   value="Select print..."
                   type="text"
@@ -224,69 +221,63 @@
                 </select>
 
                 <br /><br />
-                <label for="“address”">
-                  <p>Adress *</p>
-                </label>
+                <p><label for="“address”"> Adress * </label></p>
                 <input
                   type="text"
                   id="“address”"
                   name="Adress"
                   required
-                  placeholder="Skolegade 22" autocomplete="street-adress"
+                  placeholder=""
+                  autocomplete="street-adress"
                 />
                 <br /><br />
-                <label for="zip">
-                  <p>ZIP *</p>
-                </label>
+                <p><label for="zip"> ZIP * </label></p>
                 <input
                   type="text"
                   id="zip"
                   name="Zip"
                   required
-                  placeholder="6000" autocomplete="postal-code"
+                  placeholder=""
+                  autocomplete="postal-code"
                 />
                 <br /><br />
-              </section>
+              </div>
               <section class="grid-item reveal">
-                <label for="firstName">
-                  <p>First Name</p>
-                </label>
+                <p><label for="firstName"> First Name </label></p>
                 <input
                   type="text"
                   id="firstName"
                   name="First Name"
-                  placeholder="Franz" autocomplete="given-name"
+                  placeholder=""
+                  autocomplete="given-name"
                 />
                 <br /><br />
-                <label for="surname">
-                  <p>Surname</p>
-                </label>
+                <p><label for="surname"> Surname </label></p>
                 <input
                   type="text"
                   id="surname"
                   name="Surname"
-                  placeholder="Kafka" autocomplete="family-name"
+                  placeholder=""
+                  autocomplete="family-name"
                 />
                 <br /><br />
-                <label for="city">
-                  <p>City *</p>
-                </label>
+                <p><label for="city"> City * </label></p>
                 <input
                   type="text"
                   id="city"
                   name="City"
                   required
-                  placeholder="Kolding" autocomplete="address-level1"
+                  placeholder=""
+                  autocomplete="address-level1"
                 />
                 <br /><br />
-                <label for="country">
-                  <p>Country *</p>
-                </label>
+                <p><label for="country"> Country * </label></p>
                 <select
                   name="Country"
                   class="form-control"
                   required
-                  id="country" autocomplete="country"
+                  id="country"
+                  autocomplete="country"
                 >
                   <option
                     value="0"
@@ -601,15 +592,10 @@
             <section class="reveal">
               <br />
 
-              <label for="note">
-                <p>Note</p>
-                <br />
-              </label>
-              <textarea
-                name="Note"
-                rows="4"
-                placeholder="Your questions or comments"
-              ></textarea>
+              <p>
+                <label for="note"> Note </label>
+              </p>
+              <textarea name="Note" rows="4" placeholder=""></textarea>
               <br /><br />
               <div class="btn-area flex-center">
                 <button id="btn" class="submit-btn" type="submit">
@@ -620,7 +606,7 @@
               <input
                 type="hidden"
                 name="_captcha"
-                value="true"
+                value="false"
               /><!-- Spam captcha deactivation -->
               <input
                 type="hidden"

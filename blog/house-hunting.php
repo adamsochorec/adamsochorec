@@ -32,12 +32,12 @@
         </div>
         <br />
         <h1></h1>
-        <section class="img">
+        <div class="img">
           <img
             src="/img/jpg/22100983718847.jpg"
             alt="Shot of abandoned property with garden and old family house built in a typical Scandinavian style - pastel green facade made out of wooden planks with white outlined corners and windows."
           />
-        </section>
+        </div>
         <p>
           I borrowed the concept of <i>House Hunting</i> from the inspiring
           photographer and artist
@@ -58,12 +58,12 @@
           project, and Hido's narrative style of documenting the past by
           capturing the current state or remnants of abandoned buildings.
         </p>
-        <section class="img">
+        <div class="img">
           <img
             src="/img/jpg/22100983738848.jpg"
             alt="Shot of abandoned property with garden and old family house built in a typical Scandinavian style - pastel green facade made out of wooden planks with white outlined corners and windows."
           />
-        </section>
+        </div>
         <p>
           In the past, I tried several times to apply the inspiration I gained
           from Hiddo's works to lonely constructions in Czechia and Denmark.
@@ -72,12 +72,12 @@
           captured through long exposure on a medium format camera, I felt that
           this time I was the closest to Hido's world.
         </p>
-        <section class="img">
+        <div class="img">
           <img
             src="/img/jpg/22100983878849.jpg"
             alt="Photo of an empty room in the abandoned building, lit by the morning sun."
           />
-        </section>
+        </div>
 
         <p>
           On one of my walks in the neighborhood of Palosaari, in Finnish Vaasa,
@@ -88,12 +88,12 @@
           photographer's instinct and I saw an opportunity to experiment with
           new elements in a style I had been working with.
         </p>
-        <section class="img">
+        <div class="img">
           <img
             src="/img/jpg/22100983968852.jpg"
             alt="Photo taken from a plan view of an old wooden narrow staircase. The staircase leads from the ground floor to the first floor."
           />
-        </section>
+        </div>
         <p>
           Beforehand, I contacted the city planning department to gather
           information about the property. We discovered that the building was
@@ -104,14 +104,14 @@
           building's age and potential historical value.
         </p>
         <br />
-        <section class="img">
+        <div class="img">
           <img
             src="/img/jpg/22100984108857.jpg"
             alt="Interior shot of a
       corner, with several bleached spots on the wall's plaster. Most likely
       there have been hanging framed photos and paintings."
           />
-        </section>
+        </div>
 
         <p>
           With the owner's permission, my friend and fellow photographer
@@ -131,7 +131,7 @@
         <hr />
         <h2>Further reading</h2>
         <br />
-        <section class="grid-container gallery">
+        <div class="grid-container gallery">
           <a class="hh-stretch" href="/blog/aland">
             <div class="grid-item" id="aland">
               <span></span>
@@ -157,7 +157,7 @@
               <span></span>
             </div>
           </a>
-        </section>
+        </div>
         <?php
         $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
         include $IPATH . 'global-totop.php';

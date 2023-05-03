@@ -5,10 +5,10 @@
          include $IPATH . 'global-social-icons.php';
          ?>
   <br />
-  <section class="footer-ps">
+  <div class="footer-ps">
     <p>No cookies.</p>
-  </section>
-  <section class="footer-ps">
+  </div>
+  <div class="footer-ps">
     <b
       ><span
         >©
@@ -16,10 +16,8 @@
       ></b
     >
     <span>Adam Sochorec</span>
-  </section>
+  </div>
   <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-  <script src="/scripts/global-script.js" defer></script>
+  <script src="/assets/global-script.js"></script>
 </footer>
 <!-- FOOTER END -->

@@ -33,12 +33,12 @@
         </div>
         <br />
         <h1></h1>
-        <section class="img">
+        <div class="img">
           <img
             src="/img/jpg/22041518018133.jpg"
             alt="Photo of a giant World War Two bunker, covered by graffiti and being lifted from its base on the sandy beach. The North Sea and another bunker can be seen in the background.s"
           />
-        </section>
+        </div>
         <p>
           On the 12th of April, I woke up early and packed a backpack with lunch
           before heading to the Kolding train station. I took a train to Oksbøl,
@@ -58,8 +58,6 @@
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d205282.0472373483!2d8.004298787866816!3d55.56213433371066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464ac2c001e88c2b%3A0xa00afcc1d51a170!2s6857%20Bl%C3%A5vand%2C%20Denmark!5e1!3m2!1sen!2sfi!4v1671016408046!5m2!1sen!2sfi"
           width="800"
           height="600"
-          style="border: 0"
-          allowfullscreen=""
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
           ><p class="alt-alt">
@@ -74,12 +72,12 @@
           gave way to standalone houses built in the dunes a few meters from the
           sea.
         </p>
-        <section class="img">
+        <div class="img">
           <img
             src="/img/jpg/22041517878128.jpg"
             alt="Photo of dunes covered by heath, in the left top corner can be seen a family house built among the dunes that are as high as the house."
           />
-        </section>
+        </div>
         <p>
           According to my navigation app, I had about 20 minutes left on my
           walk. As I walked along the
@@ -125,12 +123,12 @@
           than half a century of neglect in the sand, these bunkers had sunken
           into the ground.
         </p>
-        <section class="img">
+        <div class="img">
           <img
             src="/img/jpg/22041517498117.jpg"
             alt="WWII bunker sinking into the sand beach with metal decorations of horsetail and neck, kids are playing around."
           />
-        </section>
+        </div>
         <p>
           Their exteriors were often covered in graffiti and some even had
           additional metal constructions shaped like horses or giraffes. As I
@@ -142,31 +140,11 @@
           >.
         </p>
         <iframe
-          title="Blåvand bunker | vzor 2"
-          frameborder="0"
-          allowfullscreen
-          mozallowfullscreen="true"
-          webkitallowfullscreen="true"
-          allow="autoplay; fullscreen; xr-spatial-tracking"
-          xr-spatial-tracking
-          execution-while-out-of-viewport
-          execution-while-not-rendered
-          web-share
           src="https://sketchfab.com/models/dd16bb89f8844760ab31396d495fd0ce/embed?autospin=1&ui_theme=dark&dnt=1"
           ><p class="alt-alt">3D scan of an Atlantic Wall bunker from WWII.</p>
         </iframe>
 
         <iframe
-          title="Blåvand bunker | vzor 1"
-          frameborder="0"
-          allowfullscreen
-          mozallowfullscreen="true"
-          webkitallowfullscreen="true"
-          allow="autoplay; fullscreen; xr-spatial-tracking"
-          xr-spatial-tracking
-          execution-while-out-of-viewport
-          execution-while-not-rendered
-          web-share
           src="https://sketchfab.com/models/37e4150677634273954aa6e69434ec15/embed?autospin=1&ui_theme=dark&dnt=1"
         >
         </iframe>
@@ -176,12 +154,12 @@
           several ways to use the app for free, such as creating user profiles
           and sharing scanned content.
         </p>
-        <section class="img">
+        <div class="img">
           <img
             src="/img/jpg/22041518008132.jpg"
             alt="View upon a wide hilly heath with Blåvand lighthouse in the background."
           />
-        </section>
+        </div>
         <p>
           When I reached the lighthouse, I bought a ticket to the top of the
           tower from a small house that was probably used to house the
@@ -196,12 +174,12 @@
           >
           from the Star Wars franchise.
         </p>
-        <section class="img">
+        <div class="img">
           <img
             src="/img/jpg/22041517628126.jpg"
             alt="Panorama photo of landscape view from the top of Blåvand lighthouse. Both on right and left can be seen North sea and beaches, in between are mostly dunes covered by rusty heath."
           />
-        </section>
+        </div>
         <p>
           Later, as I browsed the souvenir shop, I saw a large selection of
           <a
@@ -233,7 +211,7 @@
         <hr />
         <h2>Further reading</h2>
         <br />
-        <section class="grid-container gallery">
+        <div class="grid-container gallery">
           <a class="hh-stretch" href="/blog/house-hunting">
             <div class="grid-item" id="house-hunting">
               <span></span>
@@ -259,7 +237,7 @@
               <span></span>
             </div>
           </a>
-        </section>
+        </div>
         <?php
           $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
           include $IPATH . 'global-totop.php';

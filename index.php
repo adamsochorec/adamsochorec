@@ -34,14 +34,13 @@
     <main>
       <!-- VISUALS START -->
       <article id="visuals">
-        <section class="grid-container">
+        <div class="grid-container">
           <div class="hhh-stretch">
             <iframe
               class="vimeo"
               src="https://player.vimeo.com/video/818670329?h=1decec98cc"
               allow="autoplay; fullscreen; picture-in-picture"
               allowfullscreen
-              frameborder="0"
             ></iframe>
           </div>
           <div class="h-stretch">
@@ -70,16 +69,6 @@
           </div>
           <iframe
             class="h-stretch reveal"
-            title="Blåvand bunker | vzor 2"
-            frameborder="0"
-            allowfullscreen
-            mozallowfullscreen="true"
-            webkitallowfullscreen="true"
-            allow="autoplay; fullscreen; xr-spatial-tracking"
-            xr-spatial-tracking
-            execution-while-out-of-viewport
-            execution-while-not-rendered
-            web-share
             src="https://sketchfab.com/models/dd16bb89f8844760ab31396d495fd0ce/embed?autospin=1&ui_theme=dark&dnt=1"
             ><p class="alt-alt">
               3D scan of an Atlantic Wall bunker from WWII.
@@ -87,16 +76,6 @@
           </iframe>
           <iframe
             class="h-stretch reveal"
-            title="Element | vzor 1"
-            frameborder="0"
-            allowfullscreen
-            mozallowfullscreen="true"
-            webkitallowfullscreen="true"
-            allow="autoplay; fullscreen; xr-spatial-tracking"
-            xr-spatial-tracking
-            execution-while-out-of-viewport
-            execution-while-not-rendered
-            web-share
             src="https://sketchfab.com/models/14f04b6252fe44fab20845fe3856401f/embed?autospin=1&ui_theme=dark&dnt=1"
             ><p class="alt-alt">3D scan of an outdoor concrete architecure.</p>
           </iframe>
@@ -149,43 +128,46 @@
             <img src="/img/jpg/21111395827265.jpg" alt="2107265" />
           </div>
           <div id="web-dev"></div>
-        </section>
+          <div id="blog"></div>
+        </div>
+        <hr style="opacity: 0" />
       </article>
       <!-- VISUALS END -->
       <!-- WEB DEV START -->
-      <article id="web-dev">
-        <section class="wrapper-standard">
-          <hr class="reveal" />
-          <h2 class="reveal"></h2>
-          <br />
-          <section class="grid-container gallery reveal">
-            <a
-              class="hh-stretch"
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://slavicmedia.dk/"
-            >
-              <div
-                class="grid-item gradient-animation reveal"
-                id="slavic-media"
+
+      <div class="grid-container large">
+        <article id="web-dev">
+          <section class="wrapper-standard">
+            <h2 class="reveal"></h2>
+            <br />
+            <div class="grid-container gallery reveal">
+              <a
+                class="hh-stretch"
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://slavicmedia.dk/"
               >
-                <span>Slavic Media</span>
-              </div>
-            </a>
-            <!-- 
-            <a
-              class="hh-stretch"
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://husetfundament.dk/"
-            >
-              <div
-                class="grid-item gradient-animation reveal"
-                id="huset-fundament"
+                <div
+                  class="grid-item gradient-animation reveal"
+                  id="slavic-media"
+                >
+                  <span>Slavic Media</span>
+                </div>
+              </a>
+
+              <a
+                class="hh-stretch"
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://husetfundament.dk/"
               >
-                <span>Huset Fundament</span>
-              </div>
-            </a>
+                <div
+                  class="grid-item gradient-animation reveal"
+                  id="huset-fundament"
+                >
+                  <span>Huset Fundament</span>
+                </div> </a
+              ><!-- 
             <a
               class="hh-stretch"
               target="_blank"
@@ -196,94 +178,95 @@
                 <span>ØkoNord</span>
               </div>
             </a>-->
-            <a               class="hh-stretch"
-
-              target="_blank"
-              rel="noopener noreferrer"
-              href="/web-dev/zebra-design.php"
-            >
-              <div class="grid-item reveal" id="zebra-design">
-                <span>Zebra-design</span>
-              </div>
-            </a>
-            <a               class="hh-stretch"
-
-              target="_blank"
-              rel="noopener noreferrer"
-              href="/web-dev/memos.php"
-            >
-              <div class="grid-item reveal" id="memos">
-                <span>Memos</span>
-              </div>
-            </a>
-          </section>
-          <div id="blog"></div>
-        </section>
-      </article>
-
-      <!-- WEB DEV END -->
-      <!-- BLOG START -->
-      <article id="blog">
-        <section class="wrapper-standard">
-          <hr class="reveal" />
-
-          <h2 class="reveal"></h2>
-          <br />
-          <section class="grid-container gallery">
-            <a class="hh-stretch" href="/blog/blavand">
-              <div class="grid-item reveal" id="blavand">
-                <span></span>
-              </div>
-            </a>
-            <a class="hh-stretch" href="/blog/cybersecurity">
-              <div
-                class="grid-item gradient-animation reveal"
-                id="cybersecurity"
+              <a
+                class="hh-stretch"
+                target="_blank"
+                rel="noopener noreferrer"
+                href="/web-dev/zebra-design.php"
               >
-                <span></span>
-              </div>
-            </a>
-            <a href="/blog/house-hunting">
-              <div class="grid-item reveal" id="house-hunting">
-                <span></span>
-              </div>
-            </a>
-            <a href="/blog/västerbotten">
-              <div class="grid-item reveal" id="västerbotten">
-                <span></span>
-              </div>
-            </a>
-            <a href="/blog/vestkystruten">
-              <div class="grid-item reveal" id="vestkystruten">
-                <span></span>
-              </div>
-            </a>
-            <a class="hh-stretch" href="/blog/aland">
-              <div class="grid-item reveal" id="aland">
-                <span></span>
-              </div>
-            </a>
+                <div class="grid-item reveal" id="zebra-design">
+                  <span>Zebra-design</span>
+                </div>
+              </a>
+              <a
+                class="hh-stretch"
+                target="_blank"
+                rel="noopener noreferrer"
+                href="/web-dev/memos.php"
+              >
+                <div class="grid-item reveal" id="memos">
+                  <span>Memos</span>
+                </div>
+              </a>
+            </div>
           </section>
-          <hr class="reveal" />
-        </section>
-      </article>
+        </article>
+
+        <!-- WEB DEV END -->
+        <!-- BLOG START -->
+        <article id="blog">
+          <section class="wrapper-standard">
+            <h2 class="reveal"></h2>
+
+            <br />
+            <div class="grid-container gallery">
+              <a class="hh-stretch" href="/blog/blavand">
+                <div class="grid-item reveal" id="blavand">
+                  <span></span>
+                </div>
+              </a>
+              <a class="hh-stretch" href="/blog/cybersecurity">
+                <div
+                  class="grid-item gradient-animation reveal"
+                  id="cybersecurity"
+                >
+                  <span></span>
+                </div>
+              </a>
+              <a href="/blog/house-hunting">
+                <div class="grid-item reveal" id="house-hunting">
+                  <span></span>
+                </div>
+              </a>
+              <a href="/blog/västerbotten">
+                <div class="grid-item reveal" id="västerbotten">
+                  <span></span>
+                </div>
+              </a>
+              <a href="/blog/vestkystruten">
+                <div class="grid-item reveal" id="vestkystruten">
+                  <span></span>
+                </div>
+              </a>
+              <a class="hh-stretch" href="/blog/aland">
+                <div class="grid-item reveal" id="aland">
+                  <span></span>
+                </div>
+              </a>
+            </div>
+          </section>
+        </article>
+      </div>
+
       <!-- BLOG END -->
       <!-- ABOUT START -->
       <article id="about">
-        <section class="intro-section-wrapper">
-          <section class="intro-section flex-center">
-            <section class="intro-subsection">
+        <hr style="opacity: 0" />
+
+        <div class="intro-section-wrapper">
+          <div class="intro-section flex-center">
+            <div class="intro-subsection">
               <h2 class="reveal"></h2>
               <?php
             $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
             include $IPATH . 'global-scroll.php';
             ?>
-              <section></section>
-            </section>
-          </section>
-        </section>
+              <div></div>
+            </div>
+          </div>
+        </div>
+        <hr class="reveal" />
         <section class="wrapper-standard">
-          <hr class="reveal" />
           <p class="reveal">
             As a Czech-born multimedia design student currently studying at
             <a
@@ -312,60 +295,57 @@
             work!
           </p>
           <hr class="reveal" />
-          <section class="reveal">
-            <img
-              class="reveal"
-              src="/img/jpg/about.jpg"
-              alt="Portrait of Adam Sochorec diving underwater."
-            />
-          </section>
-          <section class="reveal">
-            <img
-              class="reveal partner-logos"
-              src="/img/jpg/partners.png"
-              alt="Logos of past collaborators and partners: Roskilde Festival 2022, Confucius Institute IBA Kolding, Antiyber Bullying Project, OLDstars, Slovo 21, Franklin Covey Czech, Divadlo na Vinohradech, Brick Gallery and Barae."
-            />
-          </section>
+          <img
+            class="reveal"
+            src="/img/jpg/about.jpg"
+            alt="Portrait of Adam Sochorec diving underwater."
+          />
+          <img
+            class="reveal partner-logos"
+            src="/img/jpg/partners.png"
+            alt="Logos of past collaborators and partners: Roskilde Festival 2022, Confucius Institute IBA Kolding, Antiyber Bullying Project, OLDstars, Slovo 21, Franklin Covey Czech, Divadlo na Vinohradech, Brick Gallery and Barae."
+          />
           <hr class="reveal" />
+
           <h3 class="reveal">Language competences</h3>
           <br /><br />
-          <section class="grid-container skills-section">
+          <div class="grid-container skills-section">
             <div class="grid-item">
-              <section class="reveal">
+              <div class="reveal">
                 <p>Czech</p>
                 <div class="skill-bar faded">
                   <div class="skill-bar" data-progress="95"></div>
                 </div>
-              </section>
-              <section class="reveal">
+              </div>
+              <div class="reveal">
                 <p>English, <br class="hideLanguages" />Slovak</p>
 
                 <div class="skill-bar faded">
                   <div class="skill-bar" data-progress="80"></div>
                 </div>
-              </section>
-              <section class="reveal">
+              </div>
+              <div class="reveal">
                 <p>Danish</p>
                 <div class="skill-bar faded">
                   <div class="skill-bar" data-progress="45"></div>
                 </div>
-              </section>
-              <section class="reveal">
+              </div>
+              <div class="reveal">
                 <p>German, Swedish</p>
                 <div class="skill-bar faded">
                   <div class="skill-bar" data-progress="20"></div>
                 </div>
-              </section>
-              <section class="reveal">
+              </div>
+              <div class="reveal">
                 <p>Chinese, Finnish</p>
                 <div class="skill-bar faded">
                   <div class="skill-bar" data-progress="10"></div>
                 </div>
-              </section>
+              </div>
             </div>
 
             <div class="grid-item">
-              <section class="reveal">
+              <div class="reveal">
                 <p>
                   HTML5
                   <svg
@@ -392,8 +372,8 @@
                 <div class="skill-bar faded">
                   <div class="skill-bar" data-progress="70"></div>
                 </div>
-              </section>
-              <section class="reveal">
+              </div>
+              <div class="reveal">
                 <p>
                   CSS3
                   <svg
@@ -422,17 +402,13 @@
                 <div class="skill-bar faded">
                   <div class="skill-bar" data-progress="60"></div>
                 </div>
-              </section>
-              <section class="reveal">
+              </div>
+              <div class="reveal">
                 <p>
                   PHP
                   <svg
                     class="languages"
                     xmlns="http://www.w3.org/2000/svg"
-                    xmlns:cc="http://creativecommons.org/ns#"
-                    xmlns:dc="http://purl.org/dc/elements/1.1/"
-                    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-                    xmlns:svg="http://www.w3.org/2000/svg"
                     id="svg3430"
                     version="1.1"
                     viewBox="0 0 711.20123 383.5975"
@@ -633,8 +609,8 @@
                 <div class="skill-bar faded">
                   <div class="skill-bar" data-progress="30"></div>
                 </div>
-              </section>
-              <section class="reveal">
+              </div>
+              <div class="reveal">
                 <p>
                   JavaScript
                   <svg
@@ -664,8 +640,8 @@
                 <div class="skill-bar faded">
                   <div class="skill-bar" data-progress="20"></div>
                 </div>
-              </section>
-              <section class="reveal">
+              </div>
+              <div class="reveal">
                 <p>
                   C
                   <svg
@@ -699,7 +675,6 @@
                     class="languages"
                     data-name="Layer 1"
                     xmlns="http://www.w3.org/2000/svg"
-                    xmlns:xlink="http://www.w3.org/1999/xlink"
                     viewBox="0 0 111.68 111.11"
                   >
                     <defs>
@@ -741,14 +716,13 @@
                 <div class="skill-bar faded">
                   <div class="skill-bar" data-progress="10"></div>
                 </div>
-              </section>
+              </div>
             </div>
-          </section>
+          </div>
           <hr class="reveal" />
-          <>
           <h3 class="reveal">@adamsochorec</h3>
           <br />
-          <section class="grid-container">
+          <div class="grid-container">
             <ul>
               <li class="reveal">
                 <a
@@ -833,11 +807,11 @@
                 >
               </li>
             </ul>
-          </section>
+          </div>
           <div id="contact"></div>
           <hr class="reveal" />
           <section class="contact-form-section">
-            <h3 class="reveal"></h3>
+            <h3 class="reveal">Contact</h3>
             <br /><br />
             <form
               id="contactForm"
@@ -848,64 +822,58 @@
               enctype="multipart/form-data"
             >
               <!-- Email invisibility -->
-              <section class="grid-container contact-form reveal">
-                <section class="grid-item">
-                  <label for="email">
-                    <p>Email *</p>
-                  </label>
+              <div class="grid-container contact-form reveal">
+                <div class="grid-item">
+                  <p><label for="email">Email * </label></p>
                   <input
                     type="email"
                     id="email"
                     name="Email"
-                    placeholder="example@domain.dk"
-                    required autocomplete="email"
+                    placeholder=""
+                    required
+                    autocomplete="email"
                   />
                   <br /><br />
-                  <label for="subject">
-                    <p>Subject *</p>
-                  </label>
+                  <p><label for="fullName">Full Name</label></p>
+                  <input
+                    type="text"
+                    id="fullName"
+                    name="Full Name"
+                    placeholder=""
+                    autocomplete="name"
+                  />
+
+                  <br /><br />
+                </div>
+                <div class="grid-item">
+                  <p><label for="subject">Subject * </label></p>
                   <input
                     type="text"
                     id="subject"
                     name="_subject"
                     required
-                    placeholder="Hi"
+                    placeholder=""
                   />
                   <br /><br />
-                </section>
-                <section class="grid-item">
-                  <label for="firstName">
-                    <p>First Name</p>
-                  </label>
+                  <p><label for="company">Company </label></p>
                   <input
                     type="text"
-                    id="firstName"
-                    name="First Name"
-                    placeholder="Franz" autocomplete="given-name"
+                    id="company"
+                    name="Company"
+                    placeholder=""
+                    autocomplete="work"
                   />
                   <br /><br />
-                  <label for="lastName">
-                    <p>Last Name</p>
-                  </label>
-                  <input
-                    type="text"
-                    id="lastName"
-                    name="Last Name"
-                    placeholder="Kafka" autocomplete="family-name"
-                  />
-                  <br /><br />
-                </section>
-              </section>
-              <section class="reveal">
-                <label for="message">
-                  <p>Message *</p>
-                  <br />
-                </label>
+                </div>
+              </div>
+              <div class="reveal">
+                <p><label for="message">Message * </label></p>
                 <textarea
                   name="Message"
                   rows="7"
+                  id="message"
                   required
-                  placeholder="Your questions or comments"
+                  placeholder=""
                 ></textarea>
                 <br /><br />
                 <div class="btn-area flex-center">
@@ -925,7 +893,7 @@
                   value="https://adamsochorec.com/success"
                 />
                 <!-- Redirect to the success page -->
-              </section>
+              </div>
             </form>
           </section>
           <?php

@@ -32,12 +32,12 @@
         </div>
         <br />
         <h1></h1>
-        <section class="img">
+        <div class="img">
           <img
             src="/img/jpg/22101685388877.jpg"
             alt="Dusty red gravel road cutting surrounding autumn colured forest in a half"
           />
-        </section>
+        </div>
         <p>
           The
           <a
@@ -132,20 +132,20 @@
           archipelagos in the world and is truly an interesting sight to behold.
           <br />
         </p>
-        <section class="img">
+        <div class="img">
           <img
             src="/img/jpg/IMG_3017.jpg"
             alt="Photo of skerries covered by vegetation, located in the Archipelago sea"
           />
-        </section>
+        </div>
         <p><i class="note">Skerries in the Archipelago Sea</i></p>
-        <section class="img">
+        <div class="img">
           <img
             src="/img/jpg/IMG_3020.jpg"
             alt="Photo of several boulder archipelagos with erected wind turbines, located in the Archipelago sea"
           />
           <br /><br class="hide" />
-        </section>
+        </div>
         <p>
           After disembarking from the Baltic princess in
           <a
@@ -168,12 +168,12 @@
           hydrate. This helped us to maintain our performance and motivation
           over the long haul.
         </p>
-        <section class="img">
+        <div class="img">
           <img
             src="/img/jpg/IMG_3063.jpg"
             alt="Photo of resting Andreas with dark sky in the background. Andreas’s face is highlighted by the screen of the phone he is holding"
           />
-        </section>
+        </div>
         <p>
           The following day we woke up in our
           <a
@@ -198,12 +198,12 @@
           Djupviksgrottan cave by the evening of the second day with the help of
           two hitchhiking rides.
         </p>
-        <section class="img">
+        <div class="img">
           <img
             src="/img/jpg/22101584778866.jpg"
             alt="Marcel and Andreas are captured walking along the road, hitchhiking with their left thumbs, trying to stop approaching the car."
           />
-        </section>
+        </div>
         <p>
           After saying goodbye to our last ferryman, we embarked on a journey
           through the western part of the islands. We walked and hitchhiked
@@ -217,7 +217,7 @@
             >church in Jomala</a
           >, where we saw the graves of sailors who died at sea.
         </p>
-        <section class="img">
+        <div class="img">
           <img
             src="/img/jpg/22101685278874.jpg"
             alt="Outside view at
@@ -226,7 +226,7 @@
           />
           <br /><br class="hide" />
           <p><i class="note">The Djupviksgrottan cave</i></p>
-        </section>
+        </div>
         <p>
           Before leaving the cave, Marcel and I scouted the surrounding
           countryside and were surprised to discover fancy-looking and
@@ -236,12 +236,12 @@
           Islands, passing rural settlements and farms, and seeking rides once
           again.
         </p>
-        <section class="img">
+        <div class="img">
           <img
             src="/img/jpg/22101685428878.jpg"
             alt="Photo of pilgrims Marcel and Andreas walking over dusty red path up on a hill with Autumn forests in their background."
           />
-        </section>
+        </div>
         <p>
           This time, our carriers were two fresh-looking wanderers we had talked
           with earlier that day in the cave (the only males who stopped for us
@@ -251,12 +251,12 @@
           resupplied with groceries, recharged our lithium batteries, chilled in
           the lobby, and reviewed our strategy.
         </p>
-        <section class="img">
+        <div class="img">
           <img
             src="/img/jpg/22101685668880.jpg"
             alt="Photo of an old blue Ford tractor with big red wheels, standing on aside of the road. The scene is listed by the morning sun."
           />
-        </section>
+        </div>
 
         <p>
           It was just the second day of our expedition, and we had already
@@ -267,12 +267,12 @@
           unwillingness, we proceeded further into darkness, far away from the
           city lights, still hoping for a ride.
         </p>
-        <section class="img">
+        <div class="img">
           <img
             src="/img/jpg/22101585138870.jpg"
             alt="Photo of Andreas and Marcel hiking through the forest in the northern part of Alands."
           />
-        </section>
+        </div>
         <p>
           After an hour of struggling to attract passing drivers with smiles and
           hand waves, when it seemed that Ålanders were cold-hearted and without
@@ -282,14 +282,14 @@
           Karolina, offered us hot tea and a promise of warming up in her nearby
           house.
         </p>
-        <section class="img">
+        <div class="img">
           <img
             src="/img/jpg/22101785778883.jpg"
             alt="Shot of a garden and family house built in a typical Scandinavian style - pastel green facade made out of wooden planks with white outlined corners and windows."
           />
           <br /><br class="hide" />
           <p><i class="note">Karolina's house</i></p>
-        </section>
+        </div>
         <p>
           Later that evening we met most likely her entire family including
           cats, dogs, and chickens. Karolina's tribe made all of us wanderers
@@ -304,12 +304,12 @@
           with the sound of the family's rooster and with both homemade yogurt
           and eggs.
         </p>
-        <section class="img">
+        <div class="img">
           <img
             src="/img/jpg/22101786368895.jpg"
             alt="Photo of an empty road through the Autumn colored forest, aside from the road stands a traffic sign informing about the name of our surroundings - Prästo."
           />
-        </section>
+        </div>
         <p>
           Karolina advised us to scout the island of Prästo, which is among the
           locals prominent due to several
@@ -332,8 +332,9 @@
             >Vårdö</a
           >.
         </p>
-        <section class="img">
-          <img class="noanimation"
+        <div class="img">
+          <img
+            class="noanimation"
             src="/img/jpg/2209595.png"
             alt="Photo of two
       really old Jewish gravestones on the former cemetery in the middle of
@@ -341,7 +342,7 @@
       stacks of small boulders on the top of each gravestone, as a symbol of
       respect and remembrance."
           />
-        </section>
+        </div>
         <p>
           Our afternoon was spent in the spirit of attempts to fish in the
           crystal-clear water of an empty fishing village on the tip of Vårdö
@@ -360,12 +361,12 @@
           for others, my debt to the universe will be repaid and someone else
           will be treated with kindness.
         </p>
-        <section class="img">
+        <div class="img">
           <img
             src="/img/jpg/22101786668900.jpg"
             alt="Photo of me carrying posing Marcel upon my shoulders while standing in the cold Archipelago sea."
           />
-        </section>
+        </div>
         <p>
           Our final task was to make it back to Mariehamn. We had no luck with
           hitchhiking, so after several hours of hiking through the empty red
@@ -375,12 +376,12 @@
           and spending the last night in the forest between the city and the
           seashore.
         </p>
-        <section class="img">
+        <div class="img">
           <img
             src="/img/jpg/22101484358861.jpg"
             alt="Photo of resting Andreas with dark sky in the background. Andreas’s face is highlighted by the screen of the phone he is holding"
           />
-        </section>
+        </div>
         <p>
           Despite feeling like we had overcome all obstacles, the last one was
           the rain that lasted throughout the night. Marcel, who slept under the
@@ -408,7 +409,7 @@
         <hr />
         <h2>Further reading</h2>
         <br />
-        <section class="grid-container gallery">
+        <div class="grid-container gallery">
           <a class="hh-stretch" href="/blog/vestkystruten">
             <div class="grid-item" id="vestkystruten">
               <span></span>
@@ -434,7 +435,7 @@
               <span></span>
             </div>
           </a>
-        </section>
+        </div>
         <?php
           $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
           include $IPATH . 'global-totop.php';

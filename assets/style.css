@@ -38,22 +38,22 @@
   --homepage-padding: 50px;
 }
 @font-face {
-  font-family: SF Pro Regular;
+  font-family: "SF Pro Regular";
   src: url(/assets/SFProDisplay-Regular.woff) format("woff"),
     url(/assets/SFProDisplay-Regular.ttf) format("truetype");
 }
 @font-face {
-  font-family: SF Pro Light;
+  font-family: "SF Pro Light";
   src: url(/assets/SFProDisplay-Light.woff) format("woff"),
     url(/assets/SFProDisplay-Light.ttf) format("truetype");
 }
 @font-face {
-  font-family: IBM;
+  font-family: "IBM";
   font-weight: var(--heading-weight);
   src: url(/assets/IBM.ttf) format("truetype");
 }
 @font-face {
-  font-family: BigBlue;
+  font-family: "BigBlue";
   font-weight: var(--heading-weight);
   src: url(/assets/Bigblue.ttf) format("truetype");
 }
@@ -104,7 +104,6 @@ hr {
   z-index: -1;
 }
 #about .partner-logos,
-#nicolai iframe,
 .vimeo,
 #prints img,
 #aland .noanimation {
@@ -188,6 +187,7 @@ h2:before,
 .pathname-current:before {
   cursor: text;
 }
+
 main li,
 main ul,
 main ol,
@@ -254,7 +254,7 @@ p a:hover {
   margin-top: 7rem;
 }
 .pathname:nth-child(1) a::before {
-  content: "adamsochorec";
+  content: "adamsochorec.com";
 }
 .pathname,
 .pathname-current {
@@ -364,12 +364,14 @@ hr {
 /* WRAPPER END */
 
 /* IMG, IFRAME, SVG START */
+iframe {
+  border: none;
+}
 iframe,
 img,
 svg {
   vertical-align: middle;
 }
-#about img,
 .blog-item .img {
   margin: 2.5rem 0 2.5rem 0;
 }
@@ -398,10 +400,6 @@ source {
 /* IMG, IFRAME, SVG END */
 
 /* CONTACT FORM START */
-.contact-form-section h3:before,
-nav li a.contact::before {
-  content: "Contact";
-}
 .contact-form-section .contact-form .grid-item:nth-child(odd) {
   margin: 0 1rem 0 0;
 }
@@ -420,7 +418,7 @@ nav li a.contact::before {
 .contact-form-section select,
 .contact-form-section textarea,
 .contact-form-section::placeholder {
-  color: rgb(var(--light-grey-color));
+  color: rgba(var(--white-color), 0.5);
   font-family: var(--content-font);
   font-size: calc(var(--fontsize-p) * 0.9);
   font-weight: var(--paragraph-weight);
@@ -438,8 +436,11 @@ nav li a.contact::before {
   border: none;
   outline: 0;
 }
-.contact-form-section .contact-form label p {
+.contact-form-section p {
   font-weight: var(--heading-weight);
+}
+.contact-form-section p {
+  margin-bottom: 0.5rem;
 }
 .contact-form-section button {
   background-color: transparent;
@@ -461,8 +462,7 @@ textarea {
 /* BANNER START */
 .banner-container {
   animation: 1s fade;
-  animation-delay: 0;
-  animation-direction: forwards;
+  animation-delay: 0.1;
   animation-iteration-count: 1;
   animation-play-state: running;
   animation-timing-function: ease-in-out;
@@ -760,8 +760,11 @@ ul.menu-left.collapse {
 .gallery .grid-item:hover::after {
   transform: scale(1.1);
 }
+.gallery .grid-item {
+  aspect-ratio: 11/7;
+}
 .gallery .hh-stretch .grid-item {
-  aspect-ratio: 10/2;
+  aspect-ratio: 5/1;
 }
 .gallery .hh-stretch .grid-item span {
   font-size: var(--fontsize-h3);
@@ -848,10 +851,6 @@ footer .footer-ps span:nth-child(2) {
 /* VISUALS END */
 
 /* PRINTS START */
-#prints h1:before,
-.pathname-current.prints::before {
-  content: "Prints";
-}
 
 #prints h1 {
   text-align: center;
@@ -994,8 +993,7 @@ nav li a.web-dev::before {
 
 /* BLOG START */
 #blog h2:before,
-.blog-item .pathname:nth-child(2) a::before,
-nav li a.blog::before {
+.blog-item .pathname:nth-child(2) a::before {
   content: "Blog";
 }
 .gallery #house-hunting {
@@ -1060,6 +1058,16 @@ nav li a.blog::before {
 /* BLOG END */
 
 /* ABOUT START */
+#about .wrapper-standard:nth-child(1) {
+  margin-right: 3rem;
+}
+#about .wrapper-standard:nth-child(2) {
+  margin-right: 3rem;
+}
+#about img {
+  height: auto;
+  width: 95%;
+}
 #about .pathname-current::before,
 #about h2:before,
 nav li a.about::before {
@@ -1239,7 +1247,6 @@ nav li a.about::before {
   }
   #visuals .grid-container {
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(1, 150px);
     padding-top: var(--nav-bar-top-position);
   }
   .pathname-container {
@@ -1345,6 +1352,7 @@ nav li a.about::before {
   .wrapper-narrow .btn-shadow {
     width: 18.5rem;
   }
+  #about img,
   #prints img {
     margin: 2.5rem 0 2.5rem 0;
   }

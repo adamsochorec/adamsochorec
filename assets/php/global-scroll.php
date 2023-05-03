@@ -1,4 +1,4 @@
-<section class="read-more flex-center">
+<div class="read-more flex-center">
   <lottie-player
     id="scrollLottie"
     src="/img/lottie/scroll-down.json"
@@ -8,4 +8,4 @@
     autoplay
   >
   </lottie-player>
-</section>
+</div>

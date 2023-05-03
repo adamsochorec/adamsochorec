@@ -1,5 +1,5 @@
 <hr />
-<section class="totop">
+<div class="totop">
   <a href="#" class="flex-center">
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
@@ -7,4 +7,4 @@
     ?>
     <h6>UP!</h6>
   </a>
-</section>
+</div>
