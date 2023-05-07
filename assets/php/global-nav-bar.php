@@ -1,7 +1,7 @@
 <header>
   <div class="container">
     <nav id="navigation">
-      <a href="/">adam sochorec</a>
+      <a href="/" class="logo"><span>adam</span><br /><span>sochorec</span></a>
       <a aria-label="mobile menu" class="hamburger">
         <span></span>
         <span></span>
@@ -17,6 +17,5 @@
       </ul>
     </nav>
   </div>
-  <div class="blur master-blur"></div>
   <!-- NAVIGATION BAR END -->
 </header>

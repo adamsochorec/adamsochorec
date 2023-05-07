@@ -36,6 +36,9 @@
   --shadow-transition: translate(4px, -4px);
   --box-shadow-1: -8px 8px 0 rgb(var(--primary-color));
   --homepage-padding: 50px;
+  --logo-adam: 16px;
+  --logo-sochorec: 9.5px;
+  --logo-querries: 0.85;
 }
 @font-face {
   font-family: "SF Pro Regular";
@@ -418,7 +421,7 @@ source {
 .contact-form-section select,
 .contact-form-section textarea,
 .contact-form-section::placeholder {
-  color: rgba(var(--white-color), 0.5);
+  color: rgba(var(--white-color), 1);
   font-family: var(--content-font);
   font-size: calc(var(--fontsize-p) * 0.9);
   font-weight: var(--paragraph-weight);
@@ -507,9 +510,22 @@ header a {
   text-decoration: none;
   color: rgba(var(--primary-color), 0.8);
 }
-header .menu-left a :focus,
-header .menu-left a:hover {
-  color: rgb(var(--secondary-color));
+header nav .logo {
+  float: left;
+}
+header nav .logo {
+  font-size: 0px;
+}
+header nav .logo span:nth-child(1) {
+  font-size: var(--logo-adam);
+}
+header nav .logo span:nth-child(3) {
+  font-size: var(--logo-sochorec);
+}
+header nav .logo:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 .menu-left a {
   display: inline-block;
@@ -535,12 +551,12 @@ header .menu-left a:hover {
   bottom: 0;
   height: 2px;
   width: 0;
-  background: rgb(var(--primary-color));
+  background: rgb(var(--secondary-color));
   transition: width 0.35s ease;
 }
 .menu-left a:hover:before {
   width: 100%;
-  background: rgb(var(--primary-color));
+  background: rgb(var(--secondary-color));
   transition: width 0.35s ease;
 }
 .menu-left a:hover:after {
@@ -554,12 +570,11 @@ header nav ul li a {
 header {
   font-family: var(--logo-font);
   position: fixed;
-  font-size: 13px;
   top: 0;
   left: 0;
   width: 100%;
   padding: 0.5rem 0;
-  background: rgba(var(--black-color), 0.7);
+  background: rgba(var(--black-color), 0.9);
   z-index: 3;
   will-change: transform;
   transition: background 0.3s,
@@ -584,11 +599,6 @@ header nav ul li {
   transform: translateY(-120%);
   -webkit-transform: translateY(-120%);
 }
-:root {
-  --logo-adam: 16px;
-  --logo-sochorec: 9.5px;
-  --logo-querries: 0.85;
-}
 nav a span:nth-child(1) {
   font-size: var(--logo-adam);
 }
@@ -605,6 +615,7 @@ ul.menu-left {
   -o-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
   z-index: 10;
+  font-size: 11px;
 }
 ul.menu-left:before {
   content: "";
@@ -612,7 +623,7 @@ ul.menu-left:before {
   clear: both;
 }
 ul.menu-left.collapse {
-  max-height: 15em !important;
+  max-height: 25em !important;
 }
 .hamburger {
   display: block;
@@ -1058,12 +1069,7 @@ nav li a.web-dev::before {
 /* BLOG END */
 
 /* ABOUT START */
-#about .wrapper-standard:nth-child(1) {
-  margin-right: 3rem;
-}
-#about .wrapper-standard:nth-child(2) {
-  margin-right: 3rem;
-}
+
 #about img {
   height: auto;
   width: 95%;
@@ -1232,6 +1238,11 @@ nav li a.about::before {
     height: 18px;
   }
 }
+@media only screen and (min-width: 560px) {
+  .hideImg {
+    display: none;
+  }
+}
 @media only screen and (max-width: 560px) {
   .v-stretch,
   .vv-stretch {
@@ -1256,6 +1267,7 @@ nav li a.about::before {
     background-attachment: scroll;
   }
 }
+
 @media only screen and (max-width: 667px) {
   header .container {
     max-width: 100%;
@@ -1313,8 +1325,15 @@ nav li a.about::before {
   header ul {
     clear: both;
   }
+  header ul li:first-child {
+    padding: 3em 0 1em 0;
+  }
   header ul li {
-    padding: 0.5em 0;
+    padding: 1em 0;
+    opacity: 80%;
+  }
+  header nav .logo {
+    padding-top: 6px;
   }
 }
 @media only screen and (min-width: 768px) {
@@ -1322,6 +1341,7 @@ nav li a.about::before {
     display: block !important;
     float: right;
     max-height: none;
+    padding-top: 9px;
   }
   header nav ul li {
     float: left;
@@ -1366,6 +1386,7 @@ nav li a.about::before {
     display: block;
     clear: both;
   }
+
   #cybersecurity .img-fill:hover,
   #prints img:hover,
   .blog-item iframe:hover,

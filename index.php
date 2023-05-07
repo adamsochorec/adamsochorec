@@ -113,10 +113,10 @@
             <img src="/img/211102002.jpg" alt="211102002" />
           </div>
           <div class="h-stretch reveal">
-            <img src="/img/gif/22_kompr.gif" alt="22" />
+            <img src="/img/22_kompr.gif" alt="22" />
           </div>
           <div class="h-stretch reveal">
-            <img src="/img/gif/23_kompr.gif" alt="23" />
+            <img src="/img/23_kompr.gif" alt="23" />
           </div>
           <div class="v-stretch reveal">
             <img src="/img/21090567896881.jpg" alt="21090567896881" />
@@ -127,132 +127,117 @@
           <div class="v-stretch reveal">
             <img src="/img/21111395827265.jpg" alt="2107265" />
           </div>
+          <div class="v-stretch reveal">
+            <img
+              class="hideImg"
+              src="/img/22050630028185.jpg"
+              alt="22050630028185"
+            />
+          </div>
           <div id="web-dev"></div>
           <div id="blog"></div>
         </div>
-        <hr style="opacity: 0" />
+        <hr class="reveal" />
       </article>
       <!-- VISUALS END -->
       <!-- WEB DEV START -->
-
-      <div class="grid-container large">
-        <article id="web-dev">
-          <section class="wrapper-standard">
-            <h2 class="reveal"></h2>
-            <br />
-            <div class="grid-container gallery reveal">
-              <a
-                class="hh-stretch"
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://slavicmedia.dk/"
-              >
-                <div
-                  class="grid-item gradient-animation reveal"
-                  id="slavic-media"
-                >
-                  <span>Slavic Media</span>
-                </div>
-              </a>
-
-              <a
-                class="hh-stretch"
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://husetfundament.dk/"
-              >
-                <div
-                  class="grid-item gradient-animation reveal"
-                  id="huset-fundament"
-                >
-                  <span>Huset Fundament</span>
-                </div> </a
-              ><!-- 
+      <article id="web-dev">
+        <section class="wrapper-standard reveal">
+          <h2></h2>
+          <br />
+          <div class="grid-container gallery reveal">
+            <a
+              class="hh-stretch"
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://slavicmedia.dk/"
+            >
+              <div class="grid-item" id="slavic-media">
+                <span>Slavic Media</span>
+              </div>
+            </a>
+            <!-- 
             <a
               class="hh-stretch"
               target="_blank"
               rel="noopener noreferrer"
               href="https://okonord.dk/"
             >
-              <div class="grid-item gradient-animation reveal" id="oko-nord">
+              <div class="grid-item" id="oko-nord">
                 <span>ØkoNord</span>
               </div>
             </a>-->
-              <a
-                class="hh-stretch"
-                target="_blank"
-                rel="noopener noreferrer"
-                href="/web-dev/zebra-design.php"
-              >
-                <div class="grid-item reveal" id="zebra-design">
-                  <span>Zebra-design</span>
-                </div>
-              </a>
-              <a
-                class="hh-stretch"
-                target="_blank"
-                rel="noopener noreferrer"
-                href="/web-dev/memos.php"
-              >
-                <div class="grid-item reveal" id="memos">
-                  <span>Memos</span>
-                </div>
-              </a>
-            </div>
-          </section>
-        </article>
+            <a
+              class="hh-stretch"
+              target="_blank"
+              rel="noopener noreferrer"
+              href="/web-dev/zebra-design.php"
+            >
+              <div class="grid-item" id="zebra-design">
+                <span>Zebra-design</span>
+              </div>
+            </a>
+            <a
+              class="hh-stretch"
+              target="_blank"
+              rel="noopener noreferrer"
+              href="/web-dev/memos.php"
+            >
+              <div class="grid-item" id="memos">
+                <span>Memos</span>
+              </div>
+            </a>
+          </div>
+          <hr class="reveal" />
+        </section>
+      </article>
 
-        <!-- WEB DEV END -->
-        <!-- BLOG START -->
-        <article id="blog">
-          <section class="wrapper-standard">
-            <h2 class="reveal"></h2>
+      <!-- WEB DEV END -->
+      <!-- BLOG START -->
+      <article id="blog">
+        <section class="wrapper-standard reveal">
+          <h2></h2>
 
-            <br />
-            <div class="grid-container gallery">
-              <a class="hh-stretch" href="/blog/blavand">
-                <div class="grid-item reveal" id="blavand">
-                  <span></span>
-                </div>
-              </a>
-              <a class="hh-stretch" href="/blog/cybersecurity">
-                <div
-                  class="grid-item gradient-animation reveal"
-                  id="cybersecurity"
-                >
-                  <span></span>
-                </div>
-              </a>
-              <a href="/blog/house-hunting">
-                <div class="grid-item reveal" id="house-hunting">
-                  <span></span>
-                </div>
-              </a>
-              <a href="/blog/västerbotten">
-                <div class="grid-item reveal" id="västerbotten">
-                  <span></span>
-                </div>
-              </a>
-              <a href="/blog/vestkystruten">
-                <div class="grid-item reveal" id="vestkystruten">
-                  <span></span>
-                </div>
-              </a>
-              <a class="hh-stretch" href="/blog/aland">
-                <div class="grid-item reveal" id="aland">
-                  <span></span>
-                </div>
-              </a>
-            </div>
-          </section>
-        </article>
-      </div>
+          <br />
+          <div class="grid-container gallery">
+            <a class="hh-stretch" href="/blog/blavand">
+              <div class="grid-item" id="blavand">
+                <span></span>
+              </div>
+            </a>
+            <a class="hh-stretch" href="/blog/cybersecurity">
+              <div class="grid-item" id="cybersecurity">
+                <span></span>
+              </div>
+            </a>
+            <a href="/blog/house-hunting">
+              <div class="grid-item" id="house-hunting">
+                <span></span>
+              </div>
+            </a>
+            <a href="/blog/västerbotten">
+              <div class="grid-item" id="västerbotten">
+                <span></span>
+              </div>
+            </a>
+            <a href="/blog/vestkystruten">
+              <div class="grid-item" id="vestkystruten">
+                <span></span>
+              </div>
+            </a>
+            <a class="hh-stretch" href="/blog/aland">
+              <div class="grid-item" id="aland">
+                <span></span>
+              </div>
+            </a>
+          </div>
+          <hr class="reveal" />
+        </section>
+      </article>
 
       <!-- BLOG END -->
       <!-- ABOUT START -->
       <article id="about">
-        <hr style="opacity: 0" />
-
         <div class="intro-section-wrapper">
           <div class="intro-section flex-center">
             <div class="intro-subsection">
@@ -265,8 +250,8 @@
             </div>
           </div>
         </div>
-        <hr class="reveal" />
         <section class="wrapper-standard">
+          <hr class="reveal" />
           <p class="reveal">
             As a Czech-born multimedia design student currently studying at
             <a
