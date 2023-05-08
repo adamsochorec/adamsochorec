@@ -780,11 +780,9 @@ ul.menu-left.collapse {
 .gallery .hh-stretch .grid-item span {
   font-size: var(--fontsize-h3);
 }
-.gallery #cybersecurity:hover,
-.gallery #slavic-media:hover {
-  background-size: 100% 100%;
-}
+
 /* GALLERY GRID END */
+
 
 /* FOOTER START */
 footer {
@@ -888,16 +886,8 @@ nav li a.web-dev::before {
   background-image: url(/web-dev/memos/img/_MG_0188_kompr.jpg);
 }
 .gallery #slavic-media {
-  animation: gradient-background 1s linear infinite alternate;
-  -webkit-animation: gradient 15s ease infinite;
-  animation: gradient 15s ease infinite;
-  background: linear-gradient(
-    -45deg,
-    rgba(199, 30, 30, 0.6),
-    rgba(17, 69, 126, 0.6)
-  );
-  background-size: 400% 400%;
-  transition: all 0.5s ease;
+  background-image: url(/img/slavicmedia.png);
+
 }
 /* WEB DEV START*/
 
