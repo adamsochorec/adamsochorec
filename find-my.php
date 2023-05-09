@@ -72,7 +72,7 @@
         <hr />
       </article>
     </main>
-    <script>
+    <script type="text/javascript">
       const x = document.getElementById("demo");
       function getLocation() {
         if (navigator.geolocation) {
@@ -90,6 +90,7 @@
       }
     </script>
     <script
+      type="text/javascript"
       src="https://unpkg.com/@dotlottie/player-component@1.0.0/dist/dotlottie-player.js"
       defer
     ></script>

@@ -14,8 +14,21 @@
       content="adamsochorec, adam sochorec, @adamsochorec, Blåvand, Blåvandshuk, Denmark, World War Two, bunker, graffiti, sandy beach, North Sea, lighthouse, Danish, German, summer houses, vacation homes, dunes, west coast, Germany, Baltic Sea, Skagen, Blåvandstrand, waves, WWII bunkers, Atlantic Wall, 3D modeling app, Polycam, 3D scanning, dune landscape, Bjarke Ingels's Tirpitz museum, Danish military, natural beauty, west coast, Star Wars, Scarif, amber, souvenir shop, elderly woman, cashier's desk, lucky, beach, walk, hike, explore, history, culture, outdoor, adventure, travel, tourism, vacation, holiday, getaway, escapade, journey, trip, excursion, outdoor living, outdoor lifestyle, outdoor recreation, outdoor exploration, outdoor adventure, outdoor adventure travel, outdoor excursion, outdoor journey, outdoor trip, outdoor vacation, outdoor getaway, outdoor holiday, outdoor escapade, outdoor adventure trip, outdoor adventure vacation, outdoor adventure holiday, outdoor adventure getaway, outdoor adventure escapade, outdoor adventure journey, outdoor adventure trip"
     />
     <title>Blåvand | Adam Sochorec</title>
+    <!-- Leaflet script start -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+      integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+      crossorigin=""
+    />
+    <!-- Make sure you put this AFTER Leaflet's CSS -->
+    <script
+      src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+      integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+      crossorigin=""
+    ></script>
+    <!-- Leaflet script end -->
   </head>
-
   <body id="blavand" class="blog-item">
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
@@ -33,13 +46,27 @@
         </div>
         <br />
         <h1></h1>
+        <br />
+        <p class="pathname">
+          <svg
+            id="date"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 448 512"
+          >
+            <!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+            <path
+              d="M128 0c17.7 0 32 14.3 32 32V64H288V32c0-17.7 14.3-32 32-32s32 14.3 32 32V64h48c26.5 0 48 21.5 48 48v48H0V112C0 85.5 21.5 64 48 64H96V32c0-17.7 14.3-32 32-32zM0 192H448V464c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V192zm64 80v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V272c0-8.8-7.2-16-16-16H80c-8.8 0-16 7.2-16 16zm128 0v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V272c0-8.8-7.2-16-16-16H208c-8.8 0-16 7.2-16 16zm144-16c-8.8 0-16 7.2-16 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V272c0-8.8-7.2-16-16-16H336zM64 400v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V400c0-8.8-7.2-16-16-16H80c-8.8 0-16 7.2-16 16zm144-16c-8.8 0-16 7.2-16 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V400c0-8.8-7.2-16-16-16H208zm112 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V400c0-8.8-7.2-16-16-16H336c-8.8 0-16 7.2-16 16z"
+            />
+          </svg>
+          April 2022
+        </p>
         <div class="img">
           <img
             src="/img/22041518018133.jpg"
             alt="Photo of a giant World War Two bunker, covered by graffiti and being lifted from its base on the sandy beach. The North Sea and another bunker can be seen in the background.s"
           />
         </div>
-        <p>
+        <p class="dropcap">
           On the 12th of April, I woke up early and packed a backpack with lunch
           before heading to the Kolding train station. I took a train to Oksbøl,
           which is located near Blåvand, the westernmost city in Denmark. My
@@ -54,16 +81,11 @@
           time, Blåvand was hosting a festival and the main road through the
           city was congested with cars with Danish and German license plates.
         </p>
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d205282.0472373483!2d8.004298787866816!3d55.56213433371066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464ac2c001e88c2b%3A0xa00afcc1d51a170!2s6857%20Bl%C3%A5vand%2C%20Denmark!5e1!3m2!1sen!2sfi!4v1671016408046!5m2!1sen!2sfi"
-          width="800"
-          height="600"
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
-          ><p class="alt-alt">
+        <div id="map" style="border-radius: 6px">
+          <p class="alt-alt">
             Satellite view of the westernmost protrusion of continental Denmark.
-          </p></iframe
-        >
+          </p>
+        </div>
         <p>
           I stopped at a local fisherman's shop to buy a shrimp salad from a
           bakery and began walking. The town center of Blåvand is not large and
@@ -244,6 +266,23 @@
           ?>
       </article>
     </main>
+    <script type="text/javascript">
+      const map = L.map("map");
+      map.attributionControl.setPrefix("");
+      L.tileLayer(
+        "https://{s}.tile.thunderforest.com/landscape/{z}/{x}/{y}{r}.png?apikey=7c352c8ff1244dd8b732e349e0b0fe8d",
+        {
+          attribution:
+            'Maps &copy; <a href="https://www.thunderforest.com">Thunderforest</a>, Data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>',
+          maxZoom: 22,
+        }
+      ).addTo(map);
+
+      map.setView([55.55868, 8.57641], 8);
+
+      // marker
+      L.marker([55.55868, 8.07641]).addTo(map);
+    </script>
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'global-footer.php';

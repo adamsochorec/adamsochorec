@@ -214,6 +214,12 @@ main li {
 .grid-container p {
   margin-bottom: 0.5rem;
 }
+.dropcap:first-letter {
+  float: left;
+  font-size: 4.7rem;
+  line-height: 0.65;
+  margin: 10px 10px 10px 0;
+}
 /* LINK START */
 a {
   cursor: pointer;
@@ -376,12 +382,15 @@ img,
 svg {
   vertical-align: middle;
 }
-.blog-item .img {
+
+.blog-item .img,
+.blog-item #map {
   margin: 2.5rem 0 2.5rem 0;
 }
 .blog-item iframe {
   margin: 1.7rem 0 1.7rem 0;
 }
+
 iframe,
 img,
 source {
@@ -395,11 +404,23 @@ source {
   padding-bottom: 1px;
   width: 0.5rem;
 }
+#date {
+  padding-bottom: 5px;
+  height: 15px;
+  fill: var(--text-color);
+}
 .alt-alt {
   z-index: -9;
 }
 .note {
   font-size: 0.7rem;
+}
+#map img {
+  animation: none;
+  border-radius: unset;
+}
+#map {
+  height: 400px;
 }
 /* IMG, IFRAME, SVG END */
 
@@ -784,7 +805,6 @@ ul.menu-left.collapse {
 
 /* GALLERY GRID END */
 
-
 /* FOOTER START */
 footer {
   padding: 35px 0 20px 0;
@@ -888,7 +908,6 @@ nav li a.web-dev::before {
 }
 .gallery #slavic-media {
   background-image: url(/img/slavicmedia.png);
-
 }
 /* WEB DEV START*/
 
@@ -1381,7 +1400,8 @@ nav li a.about::before {
   #cybersecurity .img-fill:hover,
   #prints img:hover,
   .blog-item iframe:hover,
-  .blog-item img:hover {
+  .blog-item img:hover,
+  .blog-item #map:hover {
     transform: scale(1.5);
   }
   #cybersecurity .img-fill,
@@ -1390,9 +1410,12 @@ nav li a.about::before {
   #prints img:hover,
   .blog-item iframe,
   .blog-item iframe:hover,
-  .blog-item img,
-  .blog-item img:hover {
+  .blog-item .img img,
+  .blog-item .img img:hover,
+  .blog-item #map,
+  .blog-item #map:hover {
     transition: var(--transition-1);
+    -webkit-transition: var(--transition-1);
     z-index: 999;
     box-shadow: rgba(0, 0, 0, 0.56) 0 22px 70px 4px;
   }

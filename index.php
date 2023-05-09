@@ -41,7 +41,11 @@
               src="https://player.vimeo.com/video/818670329?h=1decec98cc"
               allow="autoplay; fullscreen; picture-in-picture"
               allowfullscreen
-            ></iframe>
+              ><p class="alt-alt">
+                Short drone reel from my visit of Samsø island in the Baltic
+                Sea.
+              </p></iframe
+            >
           </div>
           <div class="h-stretch">
             <img src="/img/22050630038186.jpg" alt="22050630038186" />
@@ -134,14 +138,14 @@
               alt="22050630028185"
             />
           </div>
-          <div id="web-dev"></div>        
-
+          <div id="web-dev"></div>
         </div>
       </article>
       <!-- VISUALS END -->
       <!-- WEB DEV START -->
       <article id="web-dev">
-        <section class="wrapper-standard reveal"><hr class="reveal" />
+        <section class="wrapper-standard reveal">
+          <hr class="reveal" />
           <h2></h2>
           <br />
           <div class="grid-container gallery reveal">
@@ -185,9 +189,9 @@
               <div class="grid-item" id="memos">
                 <span>Memos</span>
               </div>
-            </a>          
-
-          </div>        <div id="blog"></div>
+            </a>
+          </div>
+          <div id="blog"></div>
 
           <hr class="reveal" />
         </section>

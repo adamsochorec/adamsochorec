@@ -14,6 +14,20 @@
       content="adamsochorec, adam sochorec, @adamsochorec,"
     />
     <title>Västerbotten | Adam Sochorec</title>
+    <!-- Leaflet script start -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+      integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+      crossorigin=""
+    />
+    <!-- Make sure you put this AFTER Leaflet's CSS -->
+    <script
+      src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+      integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+      crossorigin=""
+    ></script>
+    <!-- Leaflet script end -->
   </head>
   <body id="västerbotten" class="blog-item">
     <?php
@@ -31,13 +45,27 @@
         </div>
         <br />
         <h1></h1>
+        <br />
+        <p class="pathname">
+          <svg
+            id="date"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 448 512"
+          >
+            <!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+            <path
+              d="M128 0c17.7 0 32 14.3 32 32V64H288V32c0-17.7 14.3-32 32-32s32 14.3 32 32V64h48c26.5 0 48 21.5 48 48v48H0V112C0 85.5 21.5 64 48 64H96V32c0-17.7 14.3-32 32-32zM0 192H448V464c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V192zm64 80v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V272c0-8.8-7.2-16-16-16H80c-8.8 0-16 7.2-16 16zm128 0v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V272c0-8.8-7.2-16-16-16H208c-8.8 0-16 7.2-16 16zm144-16c-8.8 0-16 7.2-16 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V272c0-8.8-7.2-16-16-16H336zM64 400v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V400c0-8.8-7.2-16-16-16H80c-8.8 0-16 7.2-16 16zm144-16c-8.8 0-16 7.2-16 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V400c0-8.8-7.2-16-16-16H208zm112 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V400c0-8.8-7.2-16-16-16H336c-8.8 0-16 7.2-16 16z"
+            />
+          </svg>
+          September 2022
+        </p>
         <div class="img">
           <img
             src="/img/2209048838.jpg"
             alt="Panorama shot of an mire, where we bushcrafted. Heap and weed around the lake is mustard yellow, surrounded by a wall of a forest trees."
           />
         </div>
-        <p>
+        <p class="dropcap">
           As the autumn days began, I had the opportunity to visit the
           Västerbotten province in Sweden during my exchange program at
           <a
@@ -67,18 +95,12 @@
             >Everyman's right</a
           >. These were the focus of our trip for the next four days.
         </p>
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3577739.5483479383!2d16.000180589288714!3d64.03319809164573!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x467c38845b62c2d7%3A0xafd10d3f6e29c78c!2s918%2092%20Bullmark%2C%20Sweden!5e0!3m2!1sen!2scz!4v1672680151674!5m2!1sen!2scz"
-          width="800"
-          height="600"
-          style="border: 0"
-          allowfullscreen=""
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
-          ><p class="alt-alt">
+        <div id="map" style="border-radius: 6px">
+          <p class="alt-alt">
             Satellite view of an central part of the Scandinavia.
-          </p></iframe
-        >
+          </p>
+        </div>
+
         <p>
           We arrived in Umeå on September 1st and were greeted warmly by our
           hosts. After a Czech-Swedish introduction and some trouble finding our
@@ -390,6 +412,23 @@
           ?>
       </article>
     </main>
+    <script type="text/javascript">
+      const map = L.map("map");
+      map.attributionControl.setPrefix("");
+      L.tileLayer(
+        "https://{s}.tile.thunderforest.com/landscape/{z}/{x}/{y}{r}.png?apikey=7c352c8ff1244dd8b732e349e0b0fe8d",
+        {
+          attribution:
+            'Maps &copy; <a href="https://www.thunderforest.com">Thunderforest</a>, Data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>',
+          maxZoom: 22,
+        }
+      ).addTo(map);
+
+      map.setView([63.825, 20.27965], 7);
+
+      // marker
+      L.marker([63.825, 20.27965]).addTo(map);
+    </script>
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'global-footer.php';

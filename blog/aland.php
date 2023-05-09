@@ -14,6 +14,20 @@
       content="adamsochorec, adam sochorec, @adamsochorec, Åland Islands, Finland, Autumn, Turku, Vaasa, Archipelago Sea, Mariehamn, Fasta, Djupviksgrottan cave, hitchhiking, Jomala, rural settlements, camping, bushfraft, wilderness, adventure, hiking, exploration, ferry, cruise, archipelagos, natural beauty, island hopping, cultural heritage, outdoor activities, backpacking, outdoor travel, outdoor living, outdoor adventure, outdoor lifestyle, outdoor recreation, outdoor exploration, natural wonders, outdoor adventure travel, outdoor excursion, outdoor journey, outdoor trip, outdoor vacation, outdoor getaway, outdoor holiday, outdoor escapade, outdoor adventure trip, outdoor adventure vacation, outdoor adventure holiday, outdoor adventure getaway, outdoor adventure escapade, outdoor adventure journey, outdoor adventure trip"
     />
     <title>Åland | Adam Sochorec</title>
+    <!-- Leaflet script start -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+      integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+      crossorigin=""
+    />
+    <!-- Make sure you put this AFTER Leaflet's CSS -->
+    <script
+      src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+      integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+      crossorigin=""
+    ></script>
+    <!-- Leaflet script end -->
   </head>
 
   <body id="aland" class="blog-item">
@@ -32,6 +46,20 @@
         </div>
         <br />
         <h1></h1>
+        <br />
+        <p class="pathname">
+          <svg
+            id="date"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 448 512"
+          >
+            <!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+            <path
+              d="M128 0c17.7 0 32 14.3 32 32V64H288V32c0-17.7 14.3-32 32-32s32 14.3 32 32V64h48c26.5 0 48 21.5 48 48v48H0V112C0 85.5 21.5 64 48 64H96V32c0-17.7 14.3-32 32-32zM0 192H448V464c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V192zm64 80v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V272c0-8.8-7.2-16-16-16H80c-8.8 0-16 7.2-16 16zm128 0v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V272c0-8.8-7.2-16-16-16H208c-8.8 0-16 7.2-16 16zm144-16c-8.8 0-16 7.2-16 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V272c0-8.8-7.2-16-16-16H336zM64 400v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V400c0-8.8-7.2-16-16-16H80c-8.8 0-16 7.2-16 16zm144-16c-8.8 0-16 7.2-16 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V400c0-8.8-7.2-16-16-16H208zm112 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V400c0-8.8-7.2-16-16-16H336c-8.8 0-16 7.2-16 16z"
+            />
+          </svg>
+          October 2022
+        </p>
         <div class="img">
           <img
             src="/img/22101685388877.jpg"
@@ -98,19 +126,13 @@
           >
           not matching the early ferry departure time.
         </p>
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d253456.4226504592!2d20.072931728753765!3d60.244796125025516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x468ae468c4e1eb19%3A0xcd43f68373428eed!2s%C3%85land%20Islands!5e0!3m2!1sen!2scz!4v1672616007142!5m2!1sen!2scz"
-          width="800"
-          height="600"
-          style="border: 0"
-          allowfullscreen=""
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
-          ><p class="alt-alt">
+        <div id="map" style="border-radius: 6px">
+          <p class="alt-alt">
             Satellite view of Archipelago sea on the left, Åland Islands in the
             middle, and the Åland sea on the right
-          </p></iframe
-        >
+          </p>
+        </div>
+
         <p>
           For the first few hours of our cruise, we navigated through hundreds
           of
@@ -442,6 +464,20 @@
           ?>
       </article>
     </main>
+    <script type="text/javascript">
+      const map = L.map("map");
+      map.attributionControl.setPrefix("");
+      L.tileLayer(
+        "https://{s}.tile.thunderforest.com/landscape/{z}/{x}/{y}{r}.png?apikey=7c352c8ff1244dd8b732e349e0b0fe8d",
+        {
+          attribution:
+            'Maps &copy; <a href="https://www.thunderforest.com">Thunderforest</a>, Data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>',
+          maxZoom: 22,
+        }
+      ).addTo(map);
+
+      map.setView([60.22776, 19.88992], 8);
+    </script>
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'global-footer.php';

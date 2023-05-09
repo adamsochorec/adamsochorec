@@ -66,6 +66,20 @@
         <br />
         <h1 class="reveal"></h1>
         <br />
+        <p class="pathname reveal">
+          <svg
+            id="date"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 448 512"
+          >
+            <!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+            <path
+              d="M128 0c17.7 0 32 14.3 32 32V64H288V32c0-17.7 14.3-32 32-32s32 14.3 32 32V64h48c26.5 0 48 21.5 48 48v48H0V112C0 85.5 21.5 64 48 64H96V32c0-17.7 14.3-32 32-32zM0 192H448V464c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V192zm64 80v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V272c0-8.8-7.2-16-16-16H80c-8.8 0-16 7.2-16 16zm128 0v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V272c0-8.8-7.2-16-16-16H208c-8.8 0-16 7.2-16 16zm144-16c-8.8 0-16 7.2-16 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V272c0-8.8-7.2-16-16-16H336zM64 400v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V400c0-8.8-7.2-16-16-16H80c-8.8 0-16 7.2-16 16zm144-16c-8.8 0-16 7.2-16 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V400c0-8.8-7.2-16-16-16H208zm112 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V400c0-8.8-7.2-16-16-16H336c-8.8 0-16 7.2-16 16z"
+            />
+          </svg>
+          May 2022
+        </p>
+        <br />
         <h2 class="reveal">
           Essential steps leading to your secure and healthy online presence.
         </h2>
@@ -73,7 +87,7 @@
         <section>
           <h3 class="reveal">1. Contemporary passwords</h3>
           <br />
-          <p class="reveal">
+          <p class="dropcap reveal">
             The most effective way how today to hack someone's identity is to
             "social engineer". That means "guess" someone's password based on
             the target's public information (date of birth, postal code, house
@@ -2876,10 +2890,11 @@ C502.2,625.2,499,621.9,499,618.3z"
       </article>
     </main>
     <script
+      type="text/javascript"
       src="https://unpkg.com/@dotlottie/player-component@1.0.0/dist/dotlottie-player.js"
       defer
     ></script>
-    <script src="/scripts/cybersecurity.js"></script>
+    <script type="text/javascript" src="/scripts/cybersecurity.js"></script>
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'global-footer.php';

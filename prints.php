@@ -626,7 +626,11 @@
     </main>
 
     <!-- FOOTER START -->
-    <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+    <script
+      type="text/javascript"
+      src="https://apps.elfsight.com/p/platform.js"
+      defer
+    ></script>
 
     <?php
         $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
