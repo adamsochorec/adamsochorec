@@ -134,15 +134,14 @@
               alt="22050630028185"
             />
           </div>
-          <div id="web-dev"></div>
-          <div id="blog"></div>
+          <div id="web-dev"></div>        
+
         </div>
-        <hr class="reveal" />
       </article>
       <!-- VISUALS END -->
       <!-- WEB DEV START -->
       <article id="web-dev">
-        <section class="wrapper-standard reveal">
+        <section class="wrapper-standard reveal"><hr class="reveal" />
           <h2></h2>
           <br />
           <div class="grid-container gallery reveal">
@@ -186,8 +185,10 @@
               <div class="grid-item" id="memos">
                 <span>Memos</span>
               </div>
-            </a>
-          </div>
+            </a>          
+
+          </div>        <div id="blog"></div>
+
           <hr class="reveal" />
         </section>
       </article>
@@ -870,7 +871,7 @@
                 <input
                   type="hidden"
                   name="_captcha"
-                  value="true"
+                  value="false"
                 /><!-- Spam captcha deactivation -->
                 <input
                   type="hidden"
