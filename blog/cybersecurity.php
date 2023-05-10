@@ -2878,7 +2878,7 @@ C502.2,625.2,499,621.9,499,618.3z"
             </div>
           </a>
           <a class="hh-stretch" href="/blog/aland">
-            <div class="grid-item reveal" id="aland">
+            <div class="grid-item" id="aland">
               <span></span>
             </div>
           </a>

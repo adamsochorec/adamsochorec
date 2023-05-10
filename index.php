@@ -37,7 +37,7 @@
         <div class="grid-container">
           <div class="hhh-stretch">
             <iframe
-              class="vimeo"
+              style="animation: none"
               src="https://player.vimeo.com/video/818670329?h=1decec98cc"
               allow="autoplay; fullscreen; picture-in-picture"
               allowfullscreen
@@ -291,7 +291,8 @@
             alt="Portrait of Adam Sochorec diving underwater."
           />
           <img
-            class="reveal partner-logos"
+            class="reveal"
+            style="animation: none"
             src="/img/partners.png"
             alt="Logos of past collaborators and partners: Roskilde Festival 2022, Confucius Institute IBA Kolding, Antiyber Bullying Project, OLDstars, Slovo 21, Franklin Covey Czech, Divadlo na Vinohradech, Brick Gallery and Barae."
           />
@@ -824,11 +825,11 @@
                     autocomplete="email"
                   />
                   <br /><br />
-                  <p><label for="fullName">Full Name</label></p>
+                  <p><label for="name">Name *</label></p>
                   <input
                     type="text"
-                    id="fullName"
-                    name="Full Name"
+                    id="name"
+                    name="Name"
                     placeholder=""
                     autocomplete="name"
                   />

@@ -107,10 +107,8 @@ hr {
   -webkit-backdrop-filter: blur(15px);
   z-index: -1;
 }
-#about .partner-logos,
-.vimeo,
 #prints img,
-#aland .noanimation {
+#map img {
   animation: none;
 }
 /* BROWSER SETTINGS START */
@@ -416,7 +414,6 @@ source {
   font-size: 0.7rem;
 }
 #map img {
-  animation: none;
   border-radius: unset;
 }
 #map {
@@ -1092,23 +1089,13 @@ nav li a.about::before {
 #about .intro-section {
   background-image: url(/img/22_kompr.gif);
 }
-#about .partner-logos {
-  margin: 0;
-}
+
 #about .languages {
-  animation: opacity-pulse-70 1s linear infinite alternate;
   height: 20px;
   padding-left: 5px;
   vertical-align: text-top;
 }
-@keyframes opacity-pulse-70 {
-  0% {
-    opacity: 70%;
-  }
-  100% {
-    opacity: 100%;
-  }
-}
+
 #about .skill-bar {
   border-radius: 20px;
   height: 5px;
@@ -1118,10 +1105,11 @@ nav li a.about::before {
   top: -1px;
 }
 #about .skill-bar.faded {
-  background-color: rgb(var(--white-color));
+  background-color: rgba(var(--white-color), 0.8);
   height: 3px;
   margin-bottom: 1rem;
   width: 100%;
+  animation: none;
 }
 #about .skill-bar {
   animation: opacity-pulse-30 1s linear infinite alternate;
@@ -1340,7 +1328,6 @@ nav li a.about::before {
   }
   header ul li {
     padding: 1em 0;
-    opacity: 80%;
   }
   header nav .logo {
     padding-top: 6px;

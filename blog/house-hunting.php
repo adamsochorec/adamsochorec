@@ -167,7 +167,7 @@
             </div>
           </a>
           <a class="hh-stretch" href="/blog/cybersecurity">
-            <div class="grid-item reveal" id="cybersecurity">
+            <div class="grid-item" id="cybersecurity">
               <span></span>
             </div>
           </a>

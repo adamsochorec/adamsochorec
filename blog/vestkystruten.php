@@ -29,8 +29,6 @@
       integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
       crossorigin=""
     ></script>
-    <script src="https://cdn.jsdelivr.net/npm/leaflet-gpx/gpx.min.js"></script>
-
     <!-- Leaflet script end -->
   </head>
 
@@ -191,7 +189,7 @@
             </div>
           </a>
           <a class="hh-stretch" href="/blog/cybersecurity">
-            <div class="grid-item reveal" id="cybersecurity">
+            <div class="grid-item" id="cybersecurity">
               <span></span>
             </div>
           </a>
@@ -206,7 +204,7 @@
       const map = L.map("map");
       map.attributionControl.setPrefix("");
       L.tileLayer(
-        "https://{s}.tile.thunderforest.com/landscape/{z}/{x}/{y}{r}.png?apikey=7c352c8ff1244dd8b732e349e0b0fe8d",
+        "https://{s}.tile.thunderforest.com/outdoors/{z}/{x}/{y}{r}.png?apikey=7c352c8ff1244dd8b732e349e0b0fe8d",
         {
           attribution:
             'Maps &copy; <a href="https://www.thunderforest.com">Thunderforest</a>, Data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>',
