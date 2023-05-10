@@ -20,14 +20,15 @@
       <article class="wrapper-narrow flex-center">
         <div class="pathname-container"></div>
 
-        <dotlottie-player
-          src="/img/lottie/error3.1.lottie"
-          background="transparent"
-          speed="0.7"
-          loop
-          autoplay
-        ></dotlottie-player>
-        <br />
+        <div class="lottie">
+          <dotlottie-player
+            src="/img/lottie/error3.1.lottie"
+            background="transparent"
+            speed="0.7"
+            loop
+            autoplay
+          ></dotlottie-player>
+        </div>
         <h1>The page you’re looking<br />for can’t be found.</h1>
         <br />
         <h2>

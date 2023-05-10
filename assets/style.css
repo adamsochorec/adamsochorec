@@ -97,7 +97,7 @@ main {
 }
 hr {
   border: 0.1px solid;
-  color: rgba(var(--white-color), 0.9);
+  color: rgba(var(--white-color), 1);
   margin: 2rem 0;
   opacity: 60%;
   z-index: 3;
@@ -1127,11 +1127,14 @@ nav li a.about::before {
 /* ABOUT END */
 
 /* NO INDEX PAGES START */
-#success dotlottie-player {
-  width: 6.25rem;
+#success .lottie {
+  width: 6.5rem;
+  height: 6.5rem;
 }
-#error dotlottie-player {
-  margin-bottom: -6.5rem;
+#error .lottie {
+  width: 21rem;
+  height: 11rem;
+  margin-bottom: 4rem;
 }
 .noindex h1 {
   font-size: var(--fontsize-h4);

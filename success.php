@@ -19,13 +19,16 @@
         <div class="pathname-container"></div>
         <div class="pathname-container"></div>
 
-        <dotlottie-player
-          src="/img/lottie/success.lottie"
-          background="transparent"
-          speed="1"
-          autoplay
-        ></dotlottie-player>
+        <div class="lottie">
+          <dotlottie-player
+            src="/img/lottie/success.lottie"
+            background="transparent"
+            speed="1"
+            autoplay
+          ></dotlottie-player>
+        </div>
         <br />
+
         <h1>Form submitted<br />successfully!</h1>
         <br />
         <h2>
