@@ -102,14 +102,13 @@ hr {
   opacity: 60%;
   z-index: 3;
 }
-.blur {
-  backdrop-filter: blur(15px);
-  -webkit-backdrop-filter: blur(15px);
-  z-index: -1;
-}
 #prints img,
 #map img {
   animation: none;
+}
+.blur {
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
 }
 /* BROWSER SETTINGS START */
 ::-webkit-scrollbar {
@@ -268,11 +267,7 @@ p a:hover {
 .pathname-current {
   font-size: calc(var(--fontsize-p) * 0.8);
 }
-.blur {
-  backdrop-filter: blur(15px);
-  -webkit-backdrop-filter: blur(15px);
-  z-index: -1;
-}
+
 /* PATHNAME NAVIGATION END */
 
 /* INTRO SECTION START */
@@ -322,6 +317,21 @@ p a:hover {
     background-color: rgba(var(--light-grey-color), 0.2);
   }
 }
+/* GRADIENT START */
+.gradient {
+  -webkit-animation: gradient 15s ease infinite;
+  animation: gradient 15s ease infinite;
+  background: linear-gradient(
+    -45deg,
+    rgb(var(--primary-color)),
+    rgb(var(--secondary-color))
+  );
+  background-size: 400% 400%;
+  transition: all 0.5s ease;
+}
+.gallery .gradient:hover {
+  background-size: 100% 100%;
+}
 @-webkit-keyframes gradient {
   0% {
     background-position: 0 50%;
@@ -344,6 +354,8 @@ p a:hover {
     background-position: 0 50%;
   }
 }
+/* GRADIENT END */
+
 /* ANIMATIONS END */
 
 /* WRAPPER START */
@@ -527,7 +539,7 @@ textarea {
 }
 header a {
   text-decoration: none;
-  color: rgba(var(--primary-color), 0.8);
+  color: rgba(var(--primary-color), 1);
 }
 header nav .logo {
   float: left;
@@ -592,8 +604,6 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  padding: 0.5rem 0;
-  background: rgba(var(--black-color), 0.9);
   z-index: 9;
   will-change: transform;
   transition: background 0.3s,
@@ -604,6 +614,10 @@ header {
     background 0.3s, -webkit-transform 0.5s cubic-bezier(0.694, 0.048, 0.335, 1);
   transform: translateY(0);
   -webkit-transform: translateY(0);
+}
+header .blur {
+  padding: 0.5rem 0;
+  background: rgba(var(--black-color), 0.5);
 }
 header nav ul {
   list-style: none;
@@ -771,7 +785,10 @@ ul.menu-left.collapse {
 }
 .gallery .grid-item,
 .gallery .grid-item::after,
-.gallery .grid-item:hover {
+.gallery .grid-item:hover,
+.gallery a,
+.gallery a::after,
+.gallery a:hover {
   border-radius: var(--border-radius-2);
   transition: var(--transition-2);
 }
@@ -909,42 +926,13 @@ nav li a.web-dev::before {
 /* WEB DEV START*/
 
 /* CYBERSECURITY START */
-#cybersecurity .intro-section {
-  animation: gradient-background 1s linear infinite alternate;
-  -webkit-animation: gradient 15s ease infinite;
-  animation: gradient 15s ease infinite;
-  background: linear-gradient(
-    -45deg,
-    rgb(var(--primary-color)),
-    rgb(var(--secondary-color))
-  );
-  background-size: 400% 400%;
-  transition: all 0.5s ease;
-}
-.read-more {
-  margin: 0;
-  position: relative;
-}
+
 #cybersecurity .pathname-current:before,
 #cybersecurity h1:before,
 .gallery #cybersecurity span:before {
   content: "Cybersecurity";
 }
-.gallery #cybersecurity {
-  animation: gradient-background 1s linear infinite alternate;
-  -webkit-animation: gradient 15s ease infinite;
-  animation: gradient 15s ease infinite;
-  background: linear-gradient(
-    -45deg,
-    rgba(var(--primary-color), 0.6),
-    rgba(var(--secondary-color), 0.6)
-  );
-  background-size: 400% 400%;
-  transition: all 0.5s ease;
-}
-.gallery #cybersecurity {
-  background-size: 400% 400%;
-}
+
 #cybersecurity .btn-area input {
   background: 0;
   background-color: rgb(var(--white-color));
@@ -1112,16 +1100,15 @@ nav li a.about::before {
   animation: none;
 }
 #about .skill-bar {
-  animation: opacity-pulse-30 1s linear infinite alternate;
-  background-color: rgb(var(--primary-color));
+  animation: opacity-pulse 1s linear infinite alternate;
   width: 0;
 }
-@keyframes opacity-pulse-30 {
+@keyframes opacity-pulse {
   0% {
-    opacity: 30%;
+    background-color: rgba(var(--primary-color), 0.7);
   }
   100% {
-    opacity: 100%;
+    background-color: rgba(var(--secondary-color), 0.7);
   }
 }
 /* ABOUT END */

@@ -210,7 +210,7 @@
                 <span></span>
               </div>
             </a>
-            <a class="hh-stretch" href="/blog/cybersecurity">
+            <a class="hh-stretch gradient" href="/blog/cybersecurity">
               <div class="grid-item" id="cybersecurity">
                 <span></span>
               </div>
@@ -284,6 +284,7 @@
             <br /><br />Thanks for visiting my website, and I hope you enjoy my
             work!
           </p>
+
           <hr class="reveal" />
           <img
             class="reveal"

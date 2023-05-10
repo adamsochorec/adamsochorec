@@ -23,7 +23,7 @@
     ?>
     <main>
       <section class="intro-section-wrapper">
-        <article id="passwordGenerator" class="intro-section">
+        <article id="passwordGenerator" class="intro-section gradient">
           <section class="intro-subsection">
             <h2>Get an ultimate password</h2>
             <br />
