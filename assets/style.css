@@ -1397,8 +1397,6 @@ nav li a.about::before {
   .hide {
     display: none;
   }
-  #vestkystruten iframe:hover {
-    transform: none;
-  }
+
 }
 /* MEDIA QERRIES START */
