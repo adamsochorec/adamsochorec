@@ -13,7 +13,7 @@
       name="keywords"
       content="adamsochorec, adam sochorec, @adamsochorec, Åland Islands, Finland, Autumn, Turku, Vaasa, Archipelago Sea, Mariehamn, Fasta, Djupviksgrottan cave, hitchhiking, Jomala, rural settlements, camping, bushfraft, wilderness, adventure, hiking, exploration, ferry, cruise, archipelagos, natural beauty, island hopping, cultural heritage, outdoor activities, backpacking, outdoor travel, outdoor living, outdoor adventure, outdoor lifestyle, outdoor recreation, outdoor exploration, natural wonders, outdoor adventure travel, outdoor excursion, outdoor journey, outdoor trip, outdoor vacation, outdoor getaway, outdoor holiday, outdoor escapade, outdoor adventure trip, outdoor adventure vacation, outdoor adventure holiday, outdoor adventure getaway, outdoor adventure escapade, outdoor adventure journey, outdoor adventure trip"
     />
-    <title>Åland | Adam Sochorec</title>
+    <title>Åland 🇦🇽 | Adam Sochorec</title>
     <!-- Leaflet script start -->
     <link
       rel="stylesheet"
@@ -55,10 +55,10 @@
           >
             <!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
             <path
-              d="M128 0c17.7 0 32 14.3 32 32V64H288V32c0-17.7 14.3-32 32-32s32 14.3 32 32V64h48c26.5 0 48 21.5 48 48v48H0V112C0 85.5 21.5 64 48 64H96V32c0-17.7 14.3-32 32-32zM0 192H448V464c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V192zm64 80v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V272c0-8.8-7.2-16-16-16H80c-8.8 0-16 7.2-16 16zm128 0v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V272c0-8.8-7.2-16-16-16H208c-8.8 0-16 7.2-16 16zm144-16c-8.8 0-16 7.2-16 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V272c0-8.8-7.2-16-16-16H336zM64 400v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V400c0-8.8-7.2-16-16-16H80c-8.8 0-16 7.2-16 16zm144-16c-8.8 0-16 7.2-16 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V400c0-8.8-7.2-16-16-16H208zm112 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V400c0-8.8-7.2-16-16-16H336c-8.8 0-16 7.2-16 16z"
+              d="M152 24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H64C28.7 64 0 92.7 0 128v16 48V448c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V192 144 128c0-35.3-28.7-64-64-64H344V24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H152V24zM48 192H400V448c0 8.8-7.2 16-16 16H64c-8.8 0-16-7.2-16-16V192z"
             />
           </svg>
-          October 2022
+          &nbsp October 2022
         </p>
         <div class="img">
           <img
@@ -452,7 +452,7 @@
               <span></span>
             </div>
           </a>
-          <a class="hh-stretch" href="/blog/cybersecurity">
+          <a class="hh-stretch gradient" href="/blog/cybersecurity">
             <div class="grid-item" id="cybersecurity">
               <span></span>
             </div>
@@ -464,6 +464,7 @@
           ?>
       </article>
     </main>
+
     <script type="text/javascript">
       const map = L.map("map");
       map.attributionControl.setPrefix("");
@@ -476,7 +477,46 @@
         }
       ).addTo(map);
 
-      map.setView([60.22776, 19.88992], 8);
+      map.setView([60.22776, 19.88992], 8.5);
+
+      // jomala church
+      const church = L.circle([60.15495, 19.9485], {
+        color: "rgb(0, 126, 227)",
+        fillColor: "rgb(0, 126, 227)",
+        fillOpacity: 0.5,
+        radius: 200,
+      }).addTo(map);
+      church.bindPopup(
+        '<a target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/St._Olaf%27s_Church,_Jomala">Church in Jomala</a>'
+      );
+
+      // Djupviksgrottan church
+      const djupviksgrottan = L.circle([60.40028675968187, 19.831030380385], {
+        color: "rgb(0, 126, 227)",
+        fillColor: "rgb(0, 126, 227)",
+        fillOpacity: 0.5,
+        radius: 200,
+      }).addTo(map);
+      djupviksgrottan.bindPopup("Djupviksgrottan cave");
+
+      // historical graveyards
+      const graveyeard = L.circle([60.20918, 20.26775], {
+        color: "rgb(0, 126, 227)",
+        fillColor: "rgb(0, 126, 227)",
+        fillOpacity: 0.5,
+        radius: 200,
+      }).addTo(map);
+      graveyeard.bindPopup(
+        '<a target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Pr%C3%A4st%C3%B6,_%C3%85land#History">historical graveyards</a>'
+      );
+      // Fishing villiage church
+      const village = L.circle([60.33996874932223, 20.325043048644517], {
+        color: "rgb(0, 126, 227)",
+        fillColor: "rgb(0, 126, 227)",
+        fillOpacity: 0.5,
+        radius: 200,
+      }).addTo(map);
+      village.bindPopup("Fishing village");
     </script>
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';

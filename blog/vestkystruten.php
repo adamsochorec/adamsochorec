@@ -15,7 +15,7 @@
     Jutland, Vestkystruten 1, Danish national cycle route 1, public
     shelters, North Sea, fjords, coastal views, beauty, YouTube, travel vlogs"
     />
-    <title>Vestkystruten | Adam Sochorec</title>
+    <title>Vestkystruten 🇩🇰 | Adam Sochorec</title>
     <!-- Leaflet script start -->
     <link
       rel="stylesheet"
@@ -57,10 +57,10 @@
           >
             <!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
             <path
-              d="M128 0c17.7 0 32 14.3 32 32V64H288V32c0-17.7 14.3-32 32-32s32 14.3 32 32V64h48c26.5 0 48 21.5 48 48v48H0V112C0 85.5 21.5 64 48 64H96V32c0-17.7 14.3-32 32-32zM0 192H448V464c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V192zm64 80v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V272c0-8.8-7.2-16-16-16H80c-8.8 0-16 7.2-16 16zm128 0v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V272c0-8.8-7.2-16-16-16H208c-8.8 0-16 7.2-16 16zm144-16c-8.8 0-16 7.2-16 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V272c0-8.8-7.2-16-16-16H336zM64 400v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V400c0-8.8-7.2-16-16-16H80c-8.8 0-16 7.2-16 16zm144-16c-8.8 0-16 7.2-16 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V400c0-8.8-7.2-16-16-16H208zm112 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V400c0-8.8-7.2-16-16-16H336c-8.8 0-16 7.2-16 16z"
+              d="M152 24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H64C28.7 64 0 92.7 0 128v16 48V448c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V192 144 128c0-35.3-28.7-64-64-64H344V24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H152V24zM48 192H400V448c0 8.8-7.2 16-16 16H64c-8.8 0-16-7.2-16-16V192z"
             />
           </svg>
-          August 2022
+          &nbsp August 2022
         </p>
         <iframe
           class="vimeo"
@@ -188,7 +188,7 @@
               <span></span>
             </div>
           </a>
-          <a class="hh-stretch" href="/blog/cybersecurity">
+          <a class="hh-stretch gradient" href="/blog/cybersecurity">
             <div class="grid-item" id="cybersecurity">
               <span></span>
             </div>
@@ -200,6 +200,10 @@
           ?>
       </article>
     </main>
+    <?php
+    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+    include $IPATH . 'global-footer.php';
+    ?>
     <script type="text/javascript">
       const map = L.map("map");
       map.attributionControl.setPrefix("");
@@ -212,19 +216,30 @@
         }
       ).addTo(map);
 
-      map.setView([55.95627, 10.07469], 6);
+      map.setView([55.5361, 10.1124], 6);
 
-      // marker
-      L.marker([63.825, 20.27965]).addTo(map);
-      var polygon = L.polygon([
-        [54.78138, 9.43334],
-        [57.7226, 10.58348],
-      ]).addTo(map);
+      // ride
+      const route = L.polyline(
+        [
+          [54.7938, 9.4403], // Flensburg
+          [54.9397, 8.8633], // Tønder
+          [55.3281, 8.7625], // Ribe
+          [55.4667, 8.4514], // Esbjerg
+          [55.5469, 8.1027], // Blåvandshuk Fyr
+          [56.0026, 8.1317], // Hvide Sande
+          [56.0937, 8.2444], // Ringkøbing
+          [56.9597, 8.7023], // Thisted
+          [57.4567, 9.9933], // Hjørring
+          [57.7253, 10.583], // Skagen
+          [57.7442, 10.6444], // Grenen
+        ],
+        {
+          color: "rgb(0, 126, 227)",
+        }
+      ).addTo(map);
+      route.bindPopup(
+        "Distance: 575.30 km <br>Avg speed: 21.6 km<br>Max speed: 48.4 km"
+      );
     </script>
-
-    <?php
-    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-    include $IPATH . 'global-footer.php';
-    ?>
   </body>
 </html>

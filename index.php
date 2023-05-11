@@ -258,19 +258,19 @@
         <section class="wrapper-standard">
           <hr class="reveal" />
           <p class="reveal">
-            As a Czech-born multimedia design student currently studying at
+            As a Czech-born 🇨🇿 multimedia design student currently studying at
             <a
               href="https://www.iba.dk/fuldtidsuddannelser"
               target="_blank"
               rel="noopener noreferrer"
               >Erhversakademi Kolding</a
             >
-            in Denmark, I have a passion for all things creative. Photography,
-            in particular, has always been a big part of my life. I specialize
-            in portraits and landscapes, and I'm always looking for new and
-            exciting ways to capture the world around me. Whether I'm using my
-            Canon 6D or my iPhone 13 mini, I'm always on the lookout for new
-            subjects and techniques to try out.<br />
+            in Denmark 🇩🇰, I have a passion for all things creative.
+            Photography, in particular, has always been a big part of my life. I
+            specialize in portraits and landscapes, and I'm always looking for
+            new and exciting ways to capture the world around me. Whether I'm
+            using my Canon 6D or my iPhone 13 mini, I'm always on the lookout
+            for new subjects and techniques to try out.<br />
             Recently, I've been exploring the possibilities of 3D scanning and
             modelling, and in the past, I was an avid
             <a

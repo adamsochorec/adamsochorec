@@ -13,7 +13,7 @@
       name="keywords"
       content="adamsochorec, adam sochorec, @adamsochorec, house hunting, photographer, artist, Todd Hido, urbex, Scandinavian architecture, Cheap Old Houses, abandoned buildings, exterior atmosphere, lonely constructions, medium format camera, neighbourhood, Palosaari, Vaasa, pale green colour, family house, broken windows, damaged entrance staircase, photographer's instinct, city planning department, demolition, Ostrobothnian Museum, historical value, owner's permission, sunrise, early autumn morning, interior, building, documentation, beauty, history, photography, architecture, heritage, urban exploration, abandoned places, abandoned property, abandoned house, abandoned home, abandoned buildings, abandoned structure, abandoned spaces, abandoned photography, abandoned art, abandoned history, abandoned culture, abandoned landscapes"
     />
-    <title>House Hunting | Adam Sochorec</title>
+    <title>House Hunting 🇫🇮 | Adam Sochorec</title>
   </head>
 
   <body id="house-hunting" class="blog-item">
@@ -41,10 +41,10 @@
           >
             <!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
             <path
-              d="M128 0c17.7 0 32 14.3 32 32V64H288V32c0-17.7 14.3-32 32-32s32 14.3 32 32V64h48c26.5 0 48 21.5 48 48v48H0V112C0 85.5 21.5 64 48 64H96V32c0-17.7 14.3-32 32-32zM0 192H448V464c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V192zm64 80v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V272c0-8.8-7.2-16-16-16H80c-8.8 0-16 7.2-16 16zm128 0v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V272c0-8.8-7.2-16-16-16H208c-8.8 0-16 7.2-16 16zm144-16c-8.8 0-16 7.2-16 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V272c0-8.8-7.2-16-16-16H336zM64 400v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V400c0-8.8-7.2-16-16-16H80c-8.8 0-16 7.2-16 16zm144-16c-8.8 0-16 7.2-16 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V400c0-8.8-7.2-16-16-16H208zm112 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V400c0-8.8-7.2-16-16-16H336c-8.8 0-16 7.2-16 16z"
+              d="M152 24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H64C28.7 64 0 92.7 0 128v16 48V448c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V192 144 128c0-35.3-28.7-64-64-64H344V24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H152V24zM48 192H400V448c0 8.8-7.2 16-16 16H64c-8.8 0-16-7.2-16-16V192z"
             />
           </svg>
-          October 2022
+          &nbsp October 2022
         </p>
         <div class="img">
           <img

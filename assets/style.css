@@ -604,7 +604,7 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 9;
+  z-index: 9999;
   will-change: transform;
   transition: background 0.3s,
     -webkit-transform 0.5s cubic-bezier(0.694, 0.048, 0.335, 1);
@@ -1008,7 +1008,7 @@ nav li a.web-dev::before {
 #house-hunting .pathname-current:before,
 #house-hunting h1:before,
 .gallery #house-hunting span:before {
-  content: "House Hunting";
+  content: "House Hunting 🇫🇮";
 }
 .gallery #blavand {
   background-image: url(/img/22041518018133_kompr.jpg);
@@ -1016,7 +1016,7 @@ nav li a.web-dev::before {
 #blavand .pathname-current:before,
 #blavand h1:before,
 .gallery #blavand span:before {
-  content: "Blåvand";
+  content: "Blåvand 🇩🇰";
 }
 .gallery #aland {
   background-image: url(/img/22101685388877_kompr.jpg);
@@ -1024,7 +1024,7 @@ nav li a.web-dev::before {
 #aland .pathname-current:before,
 #aland h1:before,
 .gallery #aland span:before {
-  content: "Åland";
+  content: "Åland 🇦🇽";
 }
 .gallery #lakeland {
   background-image: url(/img/22081522748781_kompr.jpg);
@@ -1032,7 +1032,7 @@ nav li a.web-dev::before {
 #lakeland .pathname-current:before,
 #lakeland h1:before,
 .gallery #lakeland span:before {
-  content: "Lakeland";
+  content: "Lakeland 🇫🇮";
 }
 .gallery #västerbotten {
   background-image: url(/img/2209048838_kompr.jpg);
@@ -1040,7 +1040,7 @@ nav li a.web-dev::before {
 #västerbotten .pathname-current:before,
 #västerbotten h1:before,
 .gallery #västerbotten span:before {
-  content: "Västerbotten";
+  content: "Västerbotten 🇸🇪";
 }
 .gallery #kvarken {
   background-image: url(/img/22082424738796_kompr.jpg);
@@ -1056,7 +1056,7 @@ nav li a.web-dev::before {
 #vestkystruten .pathname-current:before,
 #vestkystruten h1:before,
 .gallery #vestkystruten span:before {
-  content: "Vestkystruten";
+  content: "Vestkystruten 🇩🇰";
 }
 #vestkystruten iframe {
   height: 20rem;

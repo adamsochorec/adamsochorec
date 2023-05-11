@@ -98,3 +98,7 @@ function onFormSubmission(e) {
 }
 contactForm.addEventListener("submit", onFormSubmission);
 // LOADER AT SUBMITING A FORM END
+
+// MAP START
+
+// MAP END

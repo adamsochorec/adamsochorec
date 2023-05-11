@@ -13,7 +13,7 @@
       name="keywords"
       content="adamsochorec, adam sochorec, @adamsochorec, Blåvand, Blåvandshuk, Denmark, World War Two, bunker, graffiti, sandy beach, North Sea, lighthouse, Danish, German, summer houses, vacation homes, dunes, west coast, Germany, Baltic Sea, Skagen, Blåvandstrand, waves, WWII bunkers, Atlantic Wall, 3D modeling app, Polycam, 3D scanning, dune landscape, Bjarke Ingels's Tirpitz museum, Danish military, natural beauty, west coast, Star Wars, Scarif, amber, souvenir shop, elderly woman, cashier's desk, lucky, beach, walk, hike, explore, history, culture, outdoor, adventure, travel, tourism, vacation, holiday, getaway, escapade, journey, trip, excursion, outdoor living, outdoor lifestyle, outdoor recreation, outdoor exploration, outdoor adventure, outdoor adventure travel, outdoor excursion, outdoor journey, outdoor trip, outdoor vacation, outdoor getaway, outdoor holiday, outdoor escapade, outdoor adventure trip, outdoor adventure vacation, outdoor adventure holiday, outdoor adventure getaway, outdoor adventure escapade, outdoor adventure journey, outdoor adventure trip"
     />
-    <title>Blåvand | Adam Sochorec</title>
+    <title>Blåvand 🇩🇰 | Adam Sochorec</title>
     <!-- Leaflet script start -->
     <link
       rel="stylesheet"
@@ -55,10 +55,10 @@
           >
             <!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
             <path
-              d="M128 0c17.7 0 32 14.3 32 32V64H288V32c0-17.7 14.3-32 32-32s32 14.3 32 32V64h48c26.5 0 48 21.5 48 48v48H0V112C0 85.5 21.5 64 48 64H96V32c0-17.7 14.3-32 32-32zM0 192H448V464c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V192zm64 80v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V272c0-8.8-7.2-16-16-16H80c-8.8 0-16 7.2-16 16zm128 0v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V272c0-8.8-7.2-16-16-16H208c-8.8 0-16 7.2-16 16zm144-16c-8.8 0-16 7.2-16 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V272c0-8.8-7.2-16-16-16H336zM64 400v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V400c0-8.8-7.2-16-16-16H80c-8.8 0-16 7.2-16 16zm144-16c-8.8 0-16 7.2-16 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V400c0-8.8-7.2-16-16-16H208zm112 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V400c0-8.8-7.2-16-16-16H336c-8.8 0-16 7.2-16 16z"
+              d="M152 24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H64C28.7 64 0 92.7 0 128v16 48V448c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V192 144 128c0-35.3-28.7-64-64-64H344V24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H152V24zM48 192H400V448c0 8.8-7.2 16-16 16H64c-8.8 0-16-7.2-16-16V192z"
             />
           </svg>
-          April 2022
+          &nbsp April 2022
         </p>
         <div class="img">
           <img
@@ -224,7 +224,7 @@
           breathtaking. In addition, I would also recommend visiting nearby
           Bjarke Ingels's
           <a
-            href="https://en.wikipedia.org/wiki/Tirpitz_Museum_%28Denmark%29"
+            href="https://tirpitz.dk/"
             target="_blank"
             rel="no opener no-referrer"
             >Tirpitz museum</a
@@ -254,7 +254,7 @@
               <span></span>
             </div>
           </a>
-          <a class="hh-stretch" href="/blog/cybersecurity">
+          <a class="hh-stretch gradient" href="/blog/cybersecurity">
             <div class="grid-item" id="cybersecurity">
               <span></span>
             </div>
@@ -266,6 +266,10 @@
           ?>
       </article>
     </main>
+    <?php
+    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+    include $IPATH . 'global-footer.php';
+    ?>
     <script type="text/javascript">
       const map = L.map("map");
       map.attributionControl.setPrefix("");
@@ -278,14 +282,28 @@
         }
       ).addTo(map);
 
-      map.setView([55.55868, 8.57641], 8);
+      // set the view of a map
+      map.setView([55.55781, 8.15], 12);
 
-      // marker
-      L.marker([55.55868, 8.07641]).addTo(map);
+      // lighthouse
+      const lighthouse = L.circle([55.55781, 8.08323], {
+        color: "rgb(0, 126, 227)",
+        fillColor: "rgb(0, 126, 227)",
+        fillOpacity: 0.5,
+        radius: 200,
+      }).addTo(map);
+      lighthouse.bindPopup("Blåvand Lighthouse");
+
+      // tirpitz
+      const tirpitz = L.circle([55.5504, 8.17224], {
+        color: "rgb(0, 126, 227)",
+        fillColor: "rgb(0, 126, 227)",
+        fillOpacity: 0.5,
+        radius: 200,
+      }).addTo(map);
+      tirpitz.bindPopup(
+        '<a href="https://tirpitz.dk/" target="_blank" rel="no opener no-referrer">Tirpitz museum</a>'
+      );
     </script>
-    <?php
-    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-    include $IPATH . 'global-footer.php';
-    ?>
   </body>
 </html>
