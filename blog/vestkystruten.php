@@ -60,7 +60,7 @@
               d="M152 24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H64C28.7 64 0 92.7 0 128v16 48V448c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V192 144 128c0-35.3-28.7-64-64-64H344V24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H152V24zM48 192H400V448c0 8.8-7.2 16-16 16H64c-8.8 0-16-7.2-16-16V192z"
             />
           </svg>
-          &nbsp August 2022
+          &nbsp; August 2022
         </p>
         <iframe
           class="vimeo"
@@ -146,16 +146,17 @@
             >Baltic Sea</a
           >
           meet together. We were constantly amazed by the beauty of the country
-          and the kindness of the people we met along the way. Overall, it was a
-          truly unforgettable experience and one that we highly recommend to
-          anyone looking to explore Denmark. If you're interested in learning
-          more about our journey, be sure to check out
+          and the kindness of the people we met along the way. <br />Overall, it
+          was a truly unforgettable experience and one that we highly recommend
+          to anyone looking to explore Denmark. <br />
+          <br />Consider also giving thumbs up to the video on
           <a
             target="_blank"
             rel="noopener noreferrer"
             href="https://www.youtube.com/watch?v=3go3v59pfEo"
             >our video on YouTube</a
-          >. And don't forget to give it a like and subscribe
+          >
+          and
           <a
             target="_blank"
             rel="noopener noreferrer"
@@ -223,13 +224,27 @@
         [
           [54.7938, 9.4403], // Flensburg
           [54.9397, 8.8633], // Tønder
+          [55.2167, 8.8167], // Skærbæk
           [55.3281, 8.7625], // Ribe
+          [55.4858, 8.6992], // Bramming
           [55.4667, 8.4514], // Esbjerg
-          [55.5469, 8.1027], // Blåvandshuk Fyr
-          [56.0026, 8.1317], // Hvide Sande
-          [56.0937, 8.2444], // Ringkøbing
+          [55.6215, 8.4805], // Varde
+          [56.0078, 8.1246], // Hvide Sand
+          [56.1193, 8.1167], // Søndervig
+          [56.0886, 8.2584], // Ringkøbning
+          [56.3023, 8.6358], // Høver
+          [56.3608, 8.6161], // Holstebro
+          [56.4842, 8.5775], // Struer
+          [56.7355, 8.2632], // Hvidbjerg
+          [56.7789, 8.2624], // Hurup
           [56.9597, 8.7023], // Thisted
+          [57.1591, 9.0239], // Bulbjerg
+          [57.1354, 9.3549], // Hjordal
+          [57.2056, 9.6453], // Pandrup
+          [57.3665, 9.6693], // Løkken
+          [57.3729, 9.7186], // Lønstrup
           [57.4567, 9.9933], // Hjørring
+          [57.5275, 9.8583], // Ålbæk
           [57.7253, 10.583], // Skagen
           [57.7442, 10.6444], // Grenen
         ],
@@ -238,7 +253,7 @@
         }
       ).addTo(map);
       route.bindPopup(
-        "Distance: 575.30 km <br>Avg speed: 21.6 km<br>Max speed: 48.4 km"
+        "Distance: <b> 575.30 km</b> <br>Avg speed: <b>21.6 km</b><br>Max speed: <b>48.4 km</b>"
       );
     </script>
   </body>

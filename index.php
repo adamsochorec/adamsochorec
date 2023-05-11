@@ -155,9 +155,7 @@
               rel="noopener noreferrer"
               href="https://slavicmedia.dk/"
             >
-              <div class="grid-item" id="slavic-media">
-                <span>Slavic Media</span>
-              </div>
+              <div class="grid-item" id="slavic-media"></div>
             </a>
             <!-- 
             <a

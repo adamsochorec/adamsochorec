@@ -3,5 +3,9 @@
   "css.hover.references": false,
   "less.hover.references": false,
   "scss.hover.references": false,
-  "liveServer.settings.port": 5501
+  "liveServer.settings.port": 5501,
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.autopep8"
+  },
+  "python.formatting.provider": "none"
 }

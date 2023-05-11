@@ -319,8 +319,8 @@ p a:hover {
 }
 /* GRADIENT START */
 .gradient {
-  -webkit-animation: gradient 15s ease infinite;
-  animation: gradient 15s ease infinite;
+  -webkit-animation: gradient 7s ease infinite;
+  animation: gradient 7s ease infinite;
   background: linear-gradient(
     -45deg,
     rgb(var(--primary-color)),
@@ -415,8 +415,8 @@ source {
   width: 0.5rem;
 }
 #date {
-  padding-bottom: 5px;
-  height: 15px;
+  padding-bottom: 3px;
+  width: 15px;
   fill: var(--text-color);
 }
 .alt-alt {
@@ -1058,9 +1058,7 @@ nav li a.web-dev::before {
 .gallery #vestkystruten span:before {
   content: "Vestkystruten 🇩🇰";
 }
-#vestkystruten iframe {
-  height: 20rem;
-}
+
 /* BLOG END */
 
 /* ABOUT START */
@@ -1100,10 +1098,10 @@ nav li a.about::before {
   animation: none;
 }
 #about .skill-bar {
-  animation: opacity-pulse 1s linear infinite alternate;
+  animation: lsd-pulse 1s linear infinite alternate;
   width: 0;
 }
-@keyframes opacity-pulse {
+@keyframes lsd-pulse {
   0% {
     background-color: rgba(var(--primary-color), 0.7);
   }
