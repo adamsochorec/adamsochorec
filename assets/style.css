@@ -923,6 +923,9 @@ nav li a.web-dev::before {
 .gallery #slavic-media {
   background-image: url(/img/slavicmedia.png);
 }
+.gallery #okonord {
+  background-image: url(/img/22082525588812.png);
+}
 /* WEB DEV START*/
 
 /* CYBERSECURITY START */
@@ -1397,6 +1400,5 @@ nav li a.about::before {
   .hide {
     display: none;
   }
-
 }
 /* MEDIA QERRIES START */

@@ -164,7 +164,7 @@
               rel="noopener noreferrer"
               href="https://okonord.dk/"
             >
-              <div class="grid-item" id="oko-nord">
+              <div class="grid-item" id="okonord">
                 <span>ØkoNord</span>
               </div>
             </a>-->
