@@ -48,7 +48,7 @@
           a magnificent antique frame, which together with original prints
           create an unique piece of art.
         </p>
-        <div id="i."></div>
+        <div id="i"></div>
         <hr class="reveal" />
         <h3 class="reveal">I.</h3>
         <div
@@ -66,7 +66,7 @@
             >Martina T.</a
           >
         </p>
-        <div id="ii."></div>
+        <div id="ii"></div>
         <hr class="reveal" />
         <section>
           <h3 class="reveal">II.</h3>
@@ -86,7 +86,7 @@
             >
           </p>
         </section>
-        <div id="iii."></div>
+        <div id="iii"></div>
         <hr class="reveal" />
         <section>
           <h3 class="reveal">III.</h3>
@@ -96,7 +96,7 @@
           <p class="reveal">
             Price: 3.500 DKK
             <br /><b>One piece in stock</b><br />Material: plexiglass, wood,
-            fine photo paper<br />Dimensions :76 x 57cm<br /><br />Model:
+            fine photo paper<br />Dimensions: 76 x 57cm<br /><br />Model:
             <a
               href="https://www.instagram.com/dancheeofficial/"
               target="_blank"
@@ -105,7 +105,7 @@
             >
           </p>
         </section>
-        <div id="iv."></div>
+        <div id="iv"></div>
         <hr class="reveal" />
         <section>
           <h3 class="reveal">IV.</h3>
@@ -118,7 +118,7 @@
             fine photo paper<br />Dimensions: 76 x 65cm
           </p>
         </section>
-        <div id="v."></div>
+        <div id="v"></div>
         <hr class="reveal" />
         <section>
           <h3 class="reveal">V.</h3>
@@ -137,7 +137,7 @@
             >
           </p>
         </section>
-        <div id="vi."></div>
+        <div id="vi"></div>
         <hr class="reveal" />
         <section>
           <h3 class="reveal">VI.</h3>
@@ -150,7 +150,7 @@
             fine photo paper<br />Dimensions: 63 x 53cm
           </p>
         </section>
-        <div id="vii."></div>
+        <div id="vii"></div>
         <hr />
         <section>
           <h3 class="reveal">VII.</h3>
