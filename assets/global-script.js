@@ -100,17 +100,19 @@ contactForm.addEventListener("submit", onFormSubmission);
 // LOADER AT SUBMITING A FORM END
 
 // CHANGE HEADER RGBA AT SCROLL START
-window.addEventListener("scroll", function () {
+/* window.addEventListener("scroll", function () {
   const header = document.querySelector("header");
   const blur = document.querySelector(".blur");
   if (window.pageYOffset > 740) {
     header.style.backgroundColor = "rgba(0, 0, 0, 0.2)";
     blur.style.backdropFilter = "blur(15px)";
     /* set your desired background color here */
+/*
   } else {
     header.style.backgroundColor = "rgba(0, 0, 0, 0)";
     blur.style.backdropFilter = "none";
     /* set your desired background color here */
+/*
   }
-});
+}); */
 // CHANGE HEADER RGBA AT SCROLL END

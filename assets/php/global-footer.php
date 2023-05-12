@@ -15,7 +15,7 @@
         <?= date('Y') ?></span
       ></b
     >
-    <span>Slavic Media</span>
+    <span>ØkoNord</span>
   </div>
   <script
     type="text/javascript"
