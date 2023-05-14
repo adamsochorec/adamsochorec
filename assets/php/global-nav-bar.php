@@ -11,8 +11,8 @@
           <span></span>
         </a>
         <ul class="menu-left">
-          <li><a href="/prints">prints</a></li>
-          <li><a href="/#web-dev">web-dev</a></li>
+          <!-- <li><a href="/prints">prints</a></li>-->
+          <li><a href="/#web-dev">web dev</a></li>
           <li><a href="/#blog">blog</a></li>
           <li><a href="/#about">about</a></li>
           <li><a href="/#contact">contact</a></li>

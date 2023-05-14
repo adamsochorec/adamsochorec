@@ -39,9 +39,8 @@
         <div class="pathname-container">
           <i
             ><span class="pathname"><a href="/"></a> / </span>
-            <span class="pathname"><a href="/#blog"></a> / </span>
-            <span class="pathname-current"></span
-          ></i>
+            <span class="pathname"><a href="/#blog"></a> / västerbotten</span>
+          </i>
         </div>
         <br />
         <h1></h1>
@@ -57,7 +56,7 @@
               d="M128 0c17.7 0 32 14.3 32 32V64H288V32c0-17.7 14.3-32 32-32s32 14.3 32 32V64h48c26.5 0 48 21.5 48 48v48H0V112C0 85.5 21.5 64 48 64H96V32c0-17.7 14.3-32 32-32zM0 192H448V464c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V192zm64 80v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V272c0-8.8-7.2-16-16-16H80c-8.8 0-16 7.2-16 16zm128 0v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V272c0-8.8-7.2-16-16-16H208c-8.8 0-16 7.2-16 16zm144-16c-8.8 0-16 7.2-16 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V272c0-8.8-7.2-16-16-16H336zM64 400v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V400c0-8.8-7.2-16-16-16H80c-8.8 0-16 7.2-16 16zm144-16c-8.8 0-16 7.2-16 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V400c0-8.8-7.2-16-16-16H208zm112 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V400c0-8.8-7.2-16-16-16H336c-8.8 0-16 7.2-16 16z"
             />
           </svg>
-          September 2022
+          &nbsp; September 2022
         </p>
         <div class="img">
           <img
@@ -95,7 +94,7 @@
             >Everyman's right</a
           >. These were the focus of our trip for the next four days.
         </p>
-        <div id="map" style="border-radius: 6px">
+        <div id="map">
           <p class="alt-alt">
             Satellite view of an central part of the Scandinavia.
           </p>

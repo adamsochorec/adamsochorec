@@ -12,7 +12,7 @@
   --black-color: 0, 0, 0;
   --fontsize-xl-h1: clamp(3rem, 1rem + 10vw, 7rem);
   --fontsize-h1: clamp(1.9rem, 1rem + 10vw, 3rem);
-  --fontsize-h2: calc(var(--fontsize-h1) * 0.8);
+  --fontsize-h2: calc(var(--fontsize-h1) * 0.6);
   --fontsize-h3: calc(var(--fontsize-h2) * 0.95);
   --fontsize-h4: calc(var(--fontsize-h3) * 0.8);
   --fontsize-h5: calc(var(--fontsize-h4) * 0.8);
@@ -163,9 +163,7 @@ h6 {
   position: relative;
   text-shadow: var(--text-shadow-1);
 }
-h1,
-#homepage h1,
-#homepage h2 {
+h1 {
   font-size: var(--fontsize-h1);
 }
 h2 {
@@ -405,7 +403,7 @@ iframe,
 img,
 source {
   animation: skeleton-loading 1s linear infinite alternate;
-  border-radius: var(--border-radius-2);
+  border-radius: 0;
   height: 100%;
   width: 100%;
 }
@@ -909,11 +907,7 @@ footer .footer-ps span:nth-child(2) {
 /* PRINTS END */
 
 /* WEB DEV START*/
-#web-dev h2:before,
-.pathname.web-dev:nth-child(2) a::before,
-nav li a.web-dev::before {
-  content: "Web Dev";
-}
+
 .gallery #zebra-design {
   background-image: url(/web-dev/zebra-design/img/zebraGif_kompr.jpg);
 }
@@ -935,7 +929,9 @@ nav li a.web-dev::before {
 .gallery #cybersecurity span:before {
   content: "Cybersecurity";
 }
-
+#cybersecurity .intro-section h2 {
+  font-size: var(--fontsize-h1);
+}
 #cybersecurity .btn-area input {
   background: 0;
   background-color: rgb(var(--white-color));
@@ -1001,10 +997,14 @@ nav li a.web-dev::before {
 /* CYBERSECURITY END */
 
 /* BLOG START */
+.blog-item .pathname-container {
+  text-transform: lowercase;
+}
 #blog h2:before,
 .blog-item .pathname:nth-child(2) a::before {
   content: "Blog";
 }
+
 .gallery #house-hunting {
   background-image: url(/img/22100983718847_kompr.jpg);
 }
@@ -1066,19 +1066,12 @@ nav li a.web-dev::before {
 
 /* ABOUT START */
 
-#about img {
-  height: auto;
-  width: 95%;
-}
-#about .pathname-current::before,
-#about h2:before,
-nav li a.about::before {
-  content: "About";
-}
 #about .intro-section {
   background-image: url(/img/22_kompr.gif);
 }
-
+#about img {
+  margin: 0;
+}
 #about .languages {
   height: 20px;
   padding-left: 5px;
@@ -1163,11 +1156,7 @@ nav li a.about::before {
   .btn-shadow {
     top: -43px;
   }
-  .btn-area #btn,
-  .btn-area #btn:after,
-  .btn-shadow {
-    height: 3rem;
-  }
+
   .gallery .grid-item {
     height: 5rem;
   }
@@ -1213,9 +1202,7 @@ nav li a.about::before {
   header nav ul li a {
     display: block;
   }
-  .hideLanguages {
-    display: none;
-  }
+
   #visuals .grid-container,
   .intro-section-wrapper {
     padding-left: var(--homepage-padding);
@@ -1268,9 +1255,9 @@ nav li a.about::before {
     display: block;
     clear: both;
   }
-  .intro-section h2,
+  #cybersecurity .intro-section h2,
   h1 {
-    font-size: calc(var(--fontsize-h1) * 0.7);
+    font-size: calc(var(--fontsize-h1) * 0.6);
   }
   h2 {
     font-size: calc(var(--fontsize-h2) * 0.7);
@@ -1303,7 +1290,7 @@ nav li a.about::before {
   .btn-area #btn,
   .btn-area #btn:after,
   .btn-shadow {
-    font-size: calc(var(--fontsize-h5) * 0.6);
+    font-size: calc(var(--fontsize-p));
   }
   #cybersecurity .btn-area input,
   #cybersecurity .btn-area input::placeholder {
@@ -1337,6 +1324,9 @@ nav li a.about::before {
   }
   header .hamburger {
     display: none;
+  }
+  header .blur {
+    height: 46.65px;
   }
 }
 @media only screen and (max-width: 947px) {

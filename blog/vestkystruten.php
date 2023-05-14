@@ -42,9 +42,8 @@
         <div class="pathname-container">
           <i
             ><span class="pathname"><a href="/"></a> / </span>
-            <span class="pathname"><a href="/#blog"></a> / </span>
-            <span class="pathname-current"></span
-          ></i>
+            <span class="pathname"><a href="/#blog"></a> / vestkystruten</span>
+          </i>
         </div>
         <br />
         <h1></h1>
@@ -131,7 +130,7 @@
           possible, and we had the time of our lives exploring the beautiful
           landscape and meeting friendly locals.
         </p>
-        <div id="map" style="border-radius: 6px">
+        <div id="map">
           <p class="alt-alt">??</p>
         </div>
 
