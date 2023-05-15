@@ -548,7 +548,7 @@
                     placeholder=""
                   />
                   <br /><br />
-                  <p><label for="company">Company </label></p>
+                  <p><label for="company">Company (optional)</label></p>
                   <input
                     type="text"
                     id="company"
