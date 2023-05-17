@@ -263,7 +263,7 @@
               rel="noopener noreferrer"
               >Erhversakademi Kolding</a
             >
-            in Denmark 🇩🇰. At the moment I'm launching a small media production
+            in Denmark 🇩🇰. &nbsp;At the moment I'm launching a small media production
             business -
             <a
               href="https://www.slavicmedia.dk"

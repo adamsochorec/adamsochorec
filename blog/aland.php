@@ -125,7 +125,7 @@
           >
           not matching the early ferry departure time.
         </p>
-        <div id="map">
+        <div id="map" style="border-radius: 6px;">
           <p class="alt-alt">
             Satellite view of Archipelago sea on the left, Åland Islands in the
             middle, and the Åland sea on the right

@@ -94,7 +94,7 @@
             >Everyman's right</a
           >. These were the focus of our trip for the next four days.
         </p>
-        <div id="map">
+        <div id="map" style="border-radius: 6px;">
           <p class="alt-alt">
             Satellite view of an central part of the Scandinavia.
           </p>

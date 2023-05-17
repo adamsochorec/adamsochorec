@@ -80,7 +80,7 @@
           time, Blåvand was hosting a festival and the main road through the
           city was congested with cars with Danish and German license plates.
         </p>
-        <div id="map">
+        <div id="map" style="border-radius: 6px;">
           <p class="alt-alt">
             Satellite view of the westernmost protrusion of continental Denmark.
           </p>

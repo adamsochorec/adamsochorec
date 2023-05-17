@@ -130,7 +130,7 @@
           possible, and we had the time of our lives exploring the beautiful
           landscape and meeting friendly locals.
         </p>
-        <div id="map">
+        <div id="map" style="border-radius: 6px;">
           <p class="alt-alt">??</p>
         </div>
 
