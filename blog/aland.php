@@ -125,12 +125,14 @@
           >
           not matching the early ferry departure time.
         </p>
-        <div id="map" style="border-radius: 6px;">
+       <div class="map-wrapper">
+        <div id="map" >
           <p class="alt-alt">
             Satellite view of Archipelago sea on the left, Åland Islands in the
             middle, and the Åland sea on the right
           </p>
         </div>
+       </div>
 
         <p>
           For the first few hours of our cruise, we navigated through hundreds
@@ -466,6 +468,7 @@
 
     <script type="text/javascript">
       const map = L.map("map");
+      const mapContainer = document.getElementById("map");
       map.attributionControl.setPrefix("");
       L.tileLayer(
         "https://{s}.tile.thunderforest.com/outdoors/{z}/{x}/{y}{r}.png?apikey=7c352c8ff1244dd8b732e349e0b0fe8d",
@@ -475,8 +478,10 @@
           maxZoom: 22,
         }
       ).addTo(map);
-
       map.setView([60.22776, 19.88992], 8.5);
+      
+      mapContainer.style.borderRadius = "6px";
+      
 
       // jomala church
       const church = L.circle([60.15495, 19.9485], {

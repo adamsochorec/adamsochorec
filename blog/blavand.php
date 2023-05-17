@@ -80,7 +80,7 @@
           time, Blåvand was hosting a festival and the main road through the
           city was congested with cars with Danish and German license plates.
         </p>
-        <div id="map" style="border-radius: 6px;">
+        <div id="map">
           <p class="alt-alt">
             Satellite view of the westernmost protrusion of continental Denmark.
           </p>
@@ -270,7 +270,9 @@
     include $IPATH . 'global-footer.php';
     ?>
     <script type="text/javascript">
-      const map = L.map("map");
+      const map = L.map("map");  
+      const mapContainer = document.getElementById("map");
+      map.attributionControl.setPrefix("");
       map.attributionControl.setPrefix("");
       L.tileLayer(
         "https://{s}.tile.thunderforest.com/outdoors/{z}/{x}/{y}{r}.png?apikey=7c352c8ff1244dd8b732e349e0b0fe8d",
@@ -283,6 +285,7 @@
 
       // set the view of a map
       map.setView([55.55781, 8.15], 12);
+      mapContainer.style.borderRadius = "6px";
 
       // lighthouse
       const lighthouse = L.circle([55.55781, 8.08323], {

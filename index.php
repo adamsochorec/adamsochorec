@@ -240,9 +240,11 @@
 
       <!-- BLOG END -->
       <!-- ABOUT START -->
+      <div class="intro-section-wrapper">
+
       <article id="about">
-        <div class="intro-section-wrapper">
-          <div class="intro-section flex-center">
+       
+          <div class="intro-section">
             <div class="intro-subsection">
               <h1 class="reveal">About</h1>
               <?php
@@ -251,10 +253,10 @@
             ?>
               <div></div>
             </div>
-          </div>
+        </div> <div class="blur">
         </div>
         <section class="wrapper-standard">
-          <hr class="reveal" />
+          <hr style="opacity: 0"; />
           <p class="reveal">
             As a Czech-born 🇨🇿 multimedia design student currently studying at
             <a
@@ -289,7 +291,8 @@
             class="reveal"
             src="/img/about.jpg"
             alt="Portrait of Adam Sochorec"
-          />
+          />         
+
           <img
             class="reveal clients"
             style="animation: none"
@@ -498,12 +501,15 @@
             </ul>
           </div>
           <div id="contact"></div>
-          <hr class="reveal" />
-        </section>
+        </section>       
+
       </article>
+      </div>
       <article id="contact">
         <section class="wrapper-standard">
-          <section class="contact-form-section">
+          <section class="contact-form-section">   
+                   <hr style="opacity:0" />
+
             <h1 class="reveal">Contact</h1>
             <br /><br />
             <form

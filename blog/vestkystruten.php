@@ -206,6 +206,7 @@
     ?>
     <script type="text/javascript">
       const map = L.map("map");
+      const mapContainer = document.getElementById("map");
       map.attributionControl.setPrefix("");
       L.tileLayer(
         "https://{s}.tile.thunderforest.com/outdoors/{z}/{x}/{y}{r}.png?apikey=7c352c8ff1244dd8b732e349e0b0fe8d",
@@ -215,7 +216,7 @@
           maxZoom: 22,
         }
       ).addTo(map);
-
+      mapContainer.style.borderRadius = "6px";
       map.setView([55.5361, 10.1124], 6);
 
       // ride

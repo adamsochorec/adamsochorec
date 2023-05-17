@@ -94,7 +94,7 @@
             >Everyman's right</a
           >. These were the focus of our trip for the next four days.
         </p>
-        <div id="map" style="border-radius: 6px;">
+        <div id="map">
           <p class="alt-alt">
             Satellite view of an central part of the Scandinavia.
           </p>
@@ -416,8 +416,11 @@
     include $IPATH . 'global-footer.php';
     ?>
     <script type="text/javascript">
-      const map = L.map("map");
+      const map = L.map("map");    
+      const mapContainer = document.getElementById("map");
+
       map.attributionControl.setPrefix("");
+      
       L.tileLayer(
         "https://{s}.tile.thunderforest.com/outdoors/{z}/{x}/{y}{r}.png?apikey=7c352c8ff1244dd8b732e349e0b0fe8d",
         {
@@ -427,6 +430,8 @@
         }
       ).addTo(map);
       map.setView([63.825, 20.27965], 7);
+      mapContainer.style.borderRadius = "6px";
+
 
       // Umeå
       const umea = L.circle([63.82626312337281, 20.262169118602223], {
