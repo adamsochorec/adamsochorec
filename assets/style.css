@@ -108,9 +108,8 @@ hr {
 }
 .blur {
   backdrop-filter: blur(35px);
-  -webkit-backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(35px);
   background: rgba(var(--black-color), 0.5);
-
 }
 /* BROWSER SETTINGS START */
 ::-webkit-scrollbar {
@@ -402,7 +401,7 @@ svg {
 }
 .blog-item img,
 .blog-item iframe,
- .img-fill {
+.img-fill {
   border-radius: var(--border-radius-2);
 }
 iframe,
@@ -944,7 +943,7 @@ footer .footer-ps span:nth-child(2) {
   border: none;
   border-radius: var(--border-radius-1);
   box-sizing: border-box;
-  font-size: var(--fontsize-h4);
+  font-size: 2.5rem;
   height: 60px;
   letter-spacing: var(--letter-spacing);
   margin: 0.3rem 0 0;
@@ -1070,22 +1069,22 @@ footer .footer-ps span:nth-child(2) {
 /* BLOG END */
 
 /* ABOUT START */
-:root{
+:root {
   --about-into-section-margin: 47vh;
 }
 #about {
   background-image: url(/img/23_kompr.gif);
   background-position: center;
 }
-#about .intro-section{
+#about .intro-section {
   height: var(--about-into-section-margin);
   text-align: left;
 }
 
-#about .blur{
+#about .blur {
   position: absolute;
   width: 100vw;
-  margin-top:  var(--about-into-section-margin);
+  margin-top: var(--about-into-section-margin);
   height: 290%;
 }
 #about img {
@@ -1172,10 +1171,6 @@ footer .footer-ps span:nth-child(2) {
   }
 }
 @media only screen and (max-width: 415px) {
-  .btn-shadow {
-    top: -43px;
-  }
-
   .gallery .grid-item {
     height: 5rem;
   }

@@ -142,74 +142,15 @@
         </div>
       </article>
       <!-- VISUALS END -->
-      <!-- WEB DEV START -->
-      <article id="web-dev">
-        <section class="wrapper-standard reveal">
-          <hr class="reveal" />
-          <h1>Web-dev</h1>
-          <br />
-          <div class="grid-container gallery reveal">
-            <a
-              class="hh-stretch"
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://slavicmedia.dk/"
-            >
-              <div class="grid-item" id="slavic-media"></div>
-            </a>
-            <!-- 
-            <a
-              class="hh-stretch"
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://okonord.dk/"
-            >
-              <div class="grid-item" id="okonord">
-                <span>ØkoNord</span>
-              </div>
-            </a>-->
-            <a
-              class="hh-stretch"
-              target="_blank"
-              rel="noopener noreferrer"
-              href="/web-dev/zebra-design.php"
-            >
-              <div class="grid-item" id="zebra-design">
-                <span>Zebra-design</span>
-              </div>
-            </a>
-            <a
-              class="hh-stretch"
-              target="_blank"
-              rel="noopener noreferrer"
-              href="/web-dev/memos.php"
-            >
-              <div class="grid-item" id="memos">
-                <span>Memos</span>
-              </div>
-            </a>
-          </div>
-          <div id="blog"></div>
-
-          <hr class="reveal" />
-        </section>
-      </article>
-
-      <!-- WEB DEV END -->
       <!-- BLOG START -->
       <article id="blog">
         <section class="wrapper-standard reveal">
-          <h1></h1>
-
+          <hr class="reveal" />
+          <h1 class="reveal"></h1>
           <br />
-          <div class="grid-container gallery">
+          <div class="grid-container gallery reveal">
             <a class="hh-stretch" href="/blog/blavand">
               <div class="grid-item" id="blavand">
-                <span></span>
-              </div>
-            </a>
-            <a class="hh-stretch gradient" href="/blog/cybersecurity">
-              <div class="grid-item" id="cybersecurity">
                 <span></span>
               </div>
             </a>
@@ -233,17 +174,50 @@
                 <span></span>
               </div>
             </a>
+            <a class="hh-stretch gradient" href="/blog/cybersecurity">
+              <div class="grid-item" id="cybersecurity">
+                <span></span>
+              </div>
+            </a>
+          </div>
+          <div id="web-dev"></div>
+        </section>
+      </article>
+      <!-- BLOG END -->
+      <!-- WEB DEV START -->
+      <article id="web-dev">
+        <section class="wrapper-standard reveal">
+          <hr class="reveal" />
+          <h1 class="reveal">Web-dev</h1>
+          <br />
+          <div class="grid-container gallery reveal">
+            <a
+              class="hh-stretch"
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://slavicmedia.dk/"
+            >
+              <div class="grid-item" id="slavic-media"></div>
+            </a>
+            <!-- 
+                <a
+                  class="hh-stretch"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://okonord.dk/"
+                >
+                  <div class="grid-item" id="okonord">
+                    <span>ØkoNord</span>
+                  </div>
+                </a>-->
           </div>
           <hr class="reveal" />
         </section>
       </article>
-
-      <!-- BLOG END -->
+      <!-- WEB DEV END -->
       <!-- ABOUT START -->
       <div class="intro-section-wrapper">
-
-      <article id="about">
-       
+        <article id="about">
           <div class="intro-section">
             <div class="intro-subsection">
               <h1 class="reveal">About</h1>
@@ -253,262 +227,263 @@
             ?>
               <div></div>
             </div>
-        </div> <div class="blur">
-        </div>
-        <section class="wrapper-standard">
-          <hr style="opacity: 0"; />
-          <p class="reveal">
-            As a Czech-born 🇨🇿 multimedia design student currently studying at
-            <a
-              href="https://www.iba.dk/fuldtidsuddannelser"
-              target="_blank"
-              rel="noopener noreferrer"
-              >Erhversakademi Kolding</a
-            >
-            in Denmark 🇩🇰. &nbsp;At the moment I'm launching a small media production
-            business -
-            <a
-              href="https://www.slavicmedia.dk"
-              target="_blank"
-              rel="noopener noreferrer"
-              >Slavic Media</a
-            >. <br /><br />Photography, in particular, has always been a big
-            part of my life. I use either Canon 6D or my iPhone 13 mini.
+          </div>
+          <div class="blur"></div>
+          <section class="wrapper-standard">
+            <hr style="opacity: 0" ; />
+            <p class="reveal">
+              As a Czech-born 🇨🇿 multimedia design student currently studying at
+              <a
+                href="https://www.iba.dk/fuldtidsuddannelser"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Erhversakademi Kolding</a
+              >
+              in Denmark 🇩🇰. &nbsp;At the moment I'm launching a small media
+              production business -
+              <a
+                href="https://www.slavicmedia.dk"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Slavic Media</a
+              >. <br /><br />Photography, in particular, has always been a big
+              part of my life. I use either Canon 6D or my iPhone 13 mini.
+              <br /><br />
+              Since my multimedia design stuies I engage in web development and
+              web-design. <br /><br />
+              <a
+                href="https://www.flickr.com/photos/141401020@N03/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Lego building</a
+              >
+              was also a great chapter of my creative development
+            </p>
+
+            <hr class="reveal" />
+            <img
+              class="reveal"
+              src="/img/about.jpg"
+              alt="Portrait of Adam Sochorec"
+            />
+
+            <img
+              class="reveal clients"
+              style="animation: none"
+              src="/img/clients.png"
+              alt="Logos of past collaborators and partners: Roskilde Festival 2022, Confucius Institute IBA Kolding, Antiyber Bullying Project, OLDstars, Slovo 21, Franklin Covey Czech, Divadlo na Vinohradech, Brick Gallery and Barae."
+            />
+            <hr class="reveal" />
+
+            <h2 class="reveal">Language competences</h2>
             <br /><br />
-            Since my multimedia design stuies I engage in web development and
-            web-design. <br /><br />
-            <a
-              href="https://www.flickr.com/photos/141401020@N03/"
-              target="_blank"
-              rel="noopener noreferrer"
-              >Lego building</a
-            >
-            was also a great chapter of my creative development
-          </p>
-
-          <hr class="reveal" />
-          <img
-            class="reveal"
-            src="/img/about.jpg"
-            alt="Portrait of Adam Sochorec"
-          />         
-
-          <img
-            class="reveal clients"
-            style="animation: none"
-            src="/img/clients.png"
-            alt="Logos of past collaborators and partners: Roskilde Festival 2022, Confucius Institute IBA Kolding, Antiyber Bullying Project, OLDstars, Slovo 21, Franklin Covey Czech, Divadlo na Vinohradech, Brick Gallery and Barae."
-          />
-          <hr class="reveal" />
-
-          <h2 class="reveal">Language competences</h2>
-          <br /><br />
-          <div class="grid-container skills-section">
-            <div class="grid-item">
-              <div class="reveal">
-                <p>Czech 🇨🇿</p>
-                <div class="skill-bar faded">
-                  <div class="skill-bar" data-progress="95"></div>
+            <div class="grid-container skills-section">
+              <div class="grid-item">
+                <div class="reveal">
+                  <p>Czech 🇨🇿</p>
+                  <div class="skill-bar faded">
+                    <div class="skill-bar" data-progress="95"></div>
+                  </div>
                 </div>
-              </div>
-              <div class="reveal">
-                <p>English 🇬🇧</p>
+                <div class="reveal">
+                  <p>English 🇬🇧</p>
 
-                <div class="skill-bar faded">
-                  <div class="skill-bar" data-progress="80"></div>
+                  <div class="skill-bar faded">
+                    <div class="skill-bar" data-progress="80"></div>
+                  </div>
                 </div>
-              </div>
-              <div class="reveal">
-                <p>Danish 🇩🇰</p>
-                <div class="skill-bar faded">
-                  <div class="skill-bar" data-progress="55"></div>
-                </div>
-              </div>
-            </div>
-
-            <div class="grid-item">
-              <div class="reveal">
-                <p>
-                  HTML5
-                  <svg
-                    class="languages"
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 512 512"
-                  >
-                    <path
-                      fill="#E34F26"
-                      d="M71,460 L30,0 481,0 440,460 255,512"
-                    />
-                    <path fill="#EF652A" d="M256,472 L405,431 440,37 256,37" />
-                    <path
-                      fill="#EBEBEB"
-                      d="M256,208 L181,208 176,150 256,150 256,94 255,94 114,94 115,109 129,265 256,265zM256,355 L255,355 192,338 188,293 158,293 132,293 139,382 255,414 256,414z"
-                    />
-                    <path
-                      fill="#FFF"
-                      d="M255,208 L255,265 325,265 318,338 255,355 255,414 371,382 372,372 385,223 387,208 371,208zM255,94 L255,129 255,150 255,150 392,150 392,150 392,150 393,138 396,109 397,94z"
-                    />
-                  </svg>
-                </p>
-                <div class="skill-bar faded">
-                  <div class="skill-bar" data-progress="70"></div>
-                </div>
-              </div>
-              <div class="reveal">
-                <p>
-                  CSS3
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    class="languages"
-                    viewBox="0 0 512 512"
-                  >
-                    <path
-                      fill="#264de4"
-                      d="M71.357 460.819L30.272 0h451.456l-41.129 460.746L255.724 512z"
-                    />
-                    <path
-                      fill="#2965f1"
-                      d="M405.388 431.408l35.148-393.73H256v435.146z"
-                    />
-                    <path
-                      fill="#ebebeb"
-                      d="M124.46 208.59l5.065 56.517H256V208.59zM119.419 150.715H256V94.197H114.281zM256 355.372l-.248.066-62.944-16.996-4.023-45.076h-56.736l7.919 88.741 115.772 32.14.26-.073z"
-                    />
-                    <path
-                      fill="#fff"
-                      d="M255.805 208.59v56.517H325.4l-6.56 73.299-63.035 17.013v58.8l115.864-32.112.85-9.549 13.28-148.792 1.38-15.176 10.203-114.393H255.805v56.518h79.639L330.3 208.59z"
-                    />
-                  </svg>
-                </p>
-                <div class="skill-bar faded">
-                  <div class="skill-bar" data-progress="60"></div>
+                <div class="reveal">
+                  <p>Danish 🇩🇰</p>
+                  <div class="skill-bar faded">
+                    <div class="skill-bar" data-progress="55"></div>
+                  </div>
                 </div>
               </div>
 
-              <div class="reveal">
-                <p>
-                  JavaScript
-                  <svg
-                    class="languages"
-                    data-name="Layer 1"
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 78.56 88.92"
-                  >
-                    <path
-                      d="M78.56,0H0L7.36,79.87l31.91,9.05,31.91-9.05L78.56,0Z"
-                      style="fill: #e6a329"
-                    />
-                    <path
-                      d="M39.28,6.51V82.15l25.86-7.32L71.42,6.51H39.28Z"
-                      style="fill: #f1bf22"
-                    />
-                    <path
-                      d="M59.85,16.31H20.09l-2.77,29.9,.06-.19H51.15l-1.1,12.65-10.78,3.1-10.94-3.15-.66-7.66h-9.93l1.42,15.3,20.1,5.71,20.11-5.71,2.77-30.03H26.31l.46-10.01h24.87l.37,5.73h10.01l-2.18-15.65Z"
-                      style="fill: #fff"
-                    />
-                    <path
-                      d="M39.29,16.31H20.09l-2.77,29.9,.06-.19h21.9v-9.75h-11.57l.46-10.01h11.12v-9.95Zm-11.58,34.66h-9.95l1.42,15.29,20.1,5.7v-10.18l-10.94-3.16-.63-7.66Z"
-                      style="fill: #ebebeb"
-                    />
-                  </svg>
-                </p>
-                <div class="skill-bar faded">
-                  <div class="skill-bar" data-progress="30"></div>
+              <div class="grid-item">
+                <div class="reveal">
+                  <p>
+                    HTML5
+                    <svg
+                      class="languages"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 512 512"
+                    >
+                      <path
+                        fill="#E34F26"
+                        d="M71,460 L30,0 481,0 440,460 255,512"
+                      />
+                      <path
+                        fill="#EF652A"
+                        d="M256,472 L405,431 440,37 256,37"
+                      />
+                      <path
+                        fill="#EBEBEB"
+                        d="M256,208 L181,208 176,150 256,150 256,94 255,94 114,94 115,109 129,265 256,265zM256,355 L255,355 192,338 188,293 158,293 132,293 139,382 255,414 256,414z"
+                      />
+                      <path
+                        fill="#FFF"
+                        d="M255,208 L255,265 325,265 318,338 255,355 255,414 371,382 372,372 385,223 387,208 371,208zM255,94 L255,129 255,150 255,150 392,150 392,150 392,150 393,138 396,109 397,94z"
+                      />
+                    </svg>
+                  </p>
+                  <div class="skill-bar faded">
+                    <div class="skill-bar" data-progress="70"></div>
+                  </div>
+                </div>
+                <div class="reveal">
+                  <p>
+                    CSS3
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="languages"
+                      viewBox="0 0 512 512"
+                    >
+                      <path
+                        fill="#264de4"
+                        d="M71.357 460.819L30.272 0h451.456l-41.129 460.746L255.724 512z"
+                      />
+                      <path
+                        fill="#2965f1"
+                        d="M405.388 431.408l35.148-393.73H256v435.146z"
+                      />
+                      <path
+                        fill="#ebebeb"
+                        d="M124.46 208.59l5.065 56.517H256V208.59zM119.419 150.715H256V94.197H114.281zM256 355.372l-.248.066-62.944-16.996-4.023-45.076h-56.736l7.919 88.741 115.772 32.14.26-.073z"
+                      />
+                      <path
+                        fill="#fff"
+                        d="M255.805 208.59v56.517H325.4l-6.56 73.299-63.035 17.013v58.8l115.864-32.112.85-9.549 13.28-148.792 1.38-15.176 10.203-114.393H255.805v56.518h79.639L330.3 208.59z"
+                      />
+                    </svg>
+                  </p>
+                  <div class="skill-bar faded">
+                    <div class="skill-bar" data-progress="60"></div>
+                  </div>
+                </div>
+
+                <div class="reveal">
+                  <p>
+                    JavaScript
+                    <svg
+                      class="languages"
+                      data-name="Layer 1"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 78.56 88.92"
+                    >
+                      <path
+                        d="M78.56,0H0L7.36,79.87l31.91,9.05,31.91-9.05L78.56,0Z"
+                        style="fill: #e6a329"
+                      />
+                      <path
+                        d="M39.28,6.51V82.15l25.86-7.32L71.42,6.51H39.28Z"
+                        style="fill: #f1bf22"
+                      />
+                      <path
+                        d="M59.85,16.31H20.09l-2.77,29.9,.06-.19H51.15l-1.1,12.65-10.78,3.1-10.94-3.15-.66-7.66h-9.93l1.42,15.3,20.1,5.71,20.11-5.71,2.77-30.03H26.31l.46-10.01h24.87l.37,5.73h10.01l-2.18-15.65Z"
+                        style="fill: #fff"
+                      />
+                      <path
+                        d="M39.29,16.31H20.09l-2.77,29.9,.06-.19h21.9v-9.75h-11.57l.46-10.01h11.12v-9.95Zm-11.58,34.66h-9.95l1.42,15.29,20.1,5.7v-10.18l-10.94-3.16-.63-7.66Z"
+                        style="fill: #ebebeb"
+                      />
+                    </svg>
+                  </p>
+                  <div class="skill-bar faded">
+                    <div class="skill-bar" data-progress="30"></div>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <hr class="reveal" />
-          <h2 class="reveal">@adamsochorec</h2>
-          <br />
-          <div class="grid-container">
-            <ul>
-              <li class="reveal">
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://www.brothers-brick.com/2017/08/21/forgotten-not-gone/"
-                  >The Brothers Brick</a
-                >
-              </li>
-              <li class="reveal">
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://www.brothers-brick.com/2017/08/27/post-apocalyptic-friendships-best/"
-                  >The Brothers Brick</a
-                >
-              </li>
-              <li class="reveal">
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://gjjlc.lixin.edu.cn/jdxw/109749.htm"
-                  >Shanghai Lixin University</a
-                >
-              </li>
-              <li class="reveal">
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://gjjlc.lixin.edu.cn/jdxw/106321.htm"
-                  >Shanghai Lixin University</a
-                >
-              </li>
-              <li class="reveal">
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://www.instagram.com/p/CPkl9MtKWiz/?igshid=YmMyMTA2M2Y="
-                  >Divadlo Na Vinohradech</a
-                >
-              </li>
-            </ul>
-            <ul>
-              <li class="reveal">
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://www.divadlodisk.cz/repertoar/hrdina-zapadu-83"
-                  >Divadlo Disk</a
-                >
-              </li>
-
-              <li class="reveal">
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://www.artivistlab.info/purano-hangos/exhibitions-photo-album"
-                  >Artivist Lab</a
-                >
-              </li>
-              <li class="reveal">
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://www.respekt.cz/galerie/cool-kids-saving-hot-planet"
-                  >Respekt</a
-                >
-              </li>
-              <li class="reveal">
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://www.hatefree.cz/clanky/tamara-moyzes-2"
-                  >HateFree</a
-                >
-              </li>
-            </ul>
-          </div>
-          <div id="contact"></div>
-        </section>       
-
-      </article>
+            <hr class="reveal" />
+            <h2 class="reveal">@adamsochorec</h2>
+            <br />
+            <div class="grid-container">
+              <ul>
+                <li class="reveal">
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://www.brothers-brick.com/2017/08/21/forgotten-not-gone/"
+                    >The Brothers Brick</a
+                  >
+                </li>
+                <li class="reveal">
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://www.brothers-brick.com/2017/08/27/post-apocalyptic-friendships-best/"
+                    >The Brothers Brick</a
+                  >
+                </li>
+                <li class="reveal">
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://gjjlc.lixin.edu.cn/jdxw/109749.htm"
+                    >Shanghai Lixin University</a
+                  >
+                </li>
+                <li class="reveal">
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://gjjlc.lixin.edu.cn/jdxw/106321.htm"
+                    >Shanghai Lixin University</a
+                  >
+                </li>
+              </ul>
+              <ul>
+                <li class="reveal">
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://www.divadlodisk.cz/repertoar/hrdina-zapadu-83"
+                    >Divadlo Disk</a
+                  >
+                </li>
+                <li class="reveal">
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://www.instagram.com/p/CPkl9MtKWiz/?igshid=YmMyMTA2M2Y="
+                    >Divadlo Na Vinohradech</a
+                  >
+                </li>
+                <li class="reveal">
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://www.artivistlab.info/purano-hangos/exhibitions-photo-album"
+                    >Artivist Lab</a
+                  >
+                </li>
+                <li class="reveal">
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://www.respekt.cz/galerie/cool-kids-saving-hot-planet"
+                    >Respekt</a
+                  >
+                </li>
+                <li class="reveal">
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://www.hatefree.cz/clanky/tamara-moyzes-2"
+                    >HateFree</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div id="contact"></div>
+          </section>
+        </article>
       </div>
       <article id="contact">
         <section class="wrapper-standard">
-          <section class="contact-form-section">   
-                   <hr style="opacity:0" />
+          <section class="contact-form-section">
+            <hr style="opacity: 0" />
 
             <h1 class="reveal">Contact</h1>
             <br /><br />
@@ -595,11 +570,11 @@
               </div>
             </form>
           </section>
+          <?php
+          $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+          include $IPATH . 'global-totop.php';
+          ?>
         </section>
-        <?php
-        $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-        include $IPATH . 'global-totop.php';
-        ?>
       </article>
       <!-- ABOUT END -->
     </main>
