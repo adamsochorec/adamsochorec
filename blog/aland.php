@@ -468,7 +468,6 @@
 
     <script type="text/javascript">
       const map = L.map("map");
-      const mapContainer = document.getElementById("map");
       map.attributionControl.setPrefix("");
       L.tileLayer(
         "https://{s}.tile.thunderforest.com/outdoors/{z}/{x}/{y}{r}.png?apikey=7c352c8ff1244dd8b732e349e0b0fe8d",
@@ -480,9 +479,6 @@
       ).addTo(map);
       map.setView([60.22776, 19.88992], 8.5);
       
-      mapContainer.style.borderRadius = "6px";
-      
-
       // jomala church
       const church = L.circle([60.15495, 19.9485], {
         color: "rgb(0, 126, 227)",

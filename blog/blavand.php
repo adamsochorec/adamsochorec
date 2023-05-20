@@ -271,7 +271,6 @@
     ?>
     <script type="text/javascript">
       const map = L.map("map");  
-      const mapContainer = document.getElementById("map");
       map.attributionControl.setPrefix("");
       map.attributionControl.setPrefix("");
       L.tileLayer(
@@ -285,7 +284,6 @@
 
       // set the view of a map
       map.setView([55.55781, 8.15], 12);
-      mapContainer.style.borderRadius = "6px";
 
       // lighthouse
       const lighthouse = L.circle([55.55781, 8.08323], {

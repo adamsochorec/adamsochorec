@@ -431,8 +431,10 @@ source {
 #map img {
   border-radius: unset;
 }
+
 #map {
   height: 400px;
+  border-radius: var(--border-radius-2);
 }
 /* IMG, IFRAME, SVG END */
 
@@ -1003,7 +1005,7 @@ footer .footer-ps span:nth-child(2) {
 .blog-item .pathname-container {
   text-transform: lowercase;
 }
-#blog h2:before,
+#blog h1:before,
 .blog-item .pathname:nth-child(2) a::before {
   content: "Blog";
 }
@@ -1084,7 +1086,7 @@ footer .footer-ps span:nth-child(2) {
   position: absolute;
   width: 100vw;
   margin-top:  var(--about-into-section-margin);
-  height: 250vh;
+  height: 290%;
 }
 #about img {
   margin: 0;

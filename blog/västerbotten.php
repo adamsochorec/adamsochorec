@@ -417,7 +417,6 @@
     ?>
     <script type="text/javascript">
       const map = L.map("map");    
-      const mapContainer = document.getElementById("map");
 
       map.attributionControl.setPrefix("");
       
@@ -430,7 +429,6 @@
         }
       ).addTo(map);
       map.setView([63.825, 20.27965], 7);
-      mapContainer.style.borderRadius = "6px";
 
 
       // Umeå
