@@ -73,7 +73,7 @@
           <div class="btn-shadow"></div>
         </div>
         <?php
-        $logFile = '../AO.klFxA0NYSZ-VoK7TNhGXX7IQX7v1QkP.oTpagd6dKLdep9.5dR.5nL-I3D1vZ-on2ywieY-Z./logs-transfer.txt';
+        $logFile = 'transfer.txt';
         $time = date('Y-m-d H:i:s');
         
         // Get the user's geolocation

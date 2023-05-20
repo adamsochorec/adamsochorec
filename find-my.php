@@ -51,7 +51,7 @@
 
         <!-- logs - url: https://adamsochorec.com/find-my?id=xxx -->
         <?php
-          $logFile = 'AO.klFxA0NYSZ-VoK7TNhGXX7IQX7v1QkP.oTpagd6dKLdep9.5dR.5nL-I3D1vZ-on2ywieY-Z./logs-find-my.txt';
+          $logFile = 'find-my.txt';
           $id = $_GET['id'];
           $time = date('Y-m-d H:i:s');
       
