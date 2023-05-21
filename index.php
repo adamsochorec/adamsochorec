@@ -220,6 +220,7 @@
         <article id="about">
           <div class="intro-section">
             <div class="intro-subsection">
+
               <h1 class="reveal">About</h1>
               <?php
             $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';

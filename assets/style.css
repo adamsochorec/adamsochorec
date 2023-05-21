@@ -1085,7 +1085,8 @@ footer .footer-ps span:nth-child(2) {
   position: absolute;
   width: 100vw;
   margin-top: var(--about-into-section-margin);
-  height: 290%;
+  height: 300vh;
+  margin-bottom: 0;
 }
 #about img {
   margin: 0;
@@ -1131,9 +1132,7 @@ footer .footer-ps span:nth-child(2) {
   height: 6.5rem;
 }
 #error .lottie {
-  width: 21rem;
   height: 11rem;
-  margin-bottom: 4rem;
 }
 .noindex h1 {
   font-size: var(--fontsize-h4);
@@ -1169,6 +1168,9 @@ footer .footer-ps span:nth-child(2) {
   #about .skills-section .grid-item:nth-child(2) {
     margin-left: 10px;
   }
+  #error .lottie {
+    margin-bottom: 4rem;
+  }
 }
 @media only screen and (max-width: 415px) {
   .gallery .grid-item {
@@ -1192,6 +1194,7 @@ footer .footer-ps span:nth-child(2) {
     opacity: 1;
     transform: translateY(0);
   }
+  
 }
 @media only screen and (max-width: 500px) {
   .contact-form-section .contact-form .grid-item:nth-child(even),
