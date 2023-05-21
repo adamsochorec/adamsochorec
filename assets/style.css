@@ -1194,7 +1194,6 @@ footer .footer-ps span:nth-child(2) {
     opacity: 1;
     transform: translateY(0);
   }
-  
 }
 @media only screen and (max-width: 500px) {
   .contact-form-section .contact-form .grid-item:nth-child(even),
@@ -1383,7 +1382,6 @@ footer .footer-ps span:nth-child(2) {
 
   #cybersecurity .img-fill:hover,
   #prints img:hover,
-  .blog-item iframe:hover,
   .blog-item img:hover,
   .blog-item #map:hover {
     transform: scale(1.5);
@@ -1392,8 +1390,6 @@ footer .footer-ps span:nth-child(2) {
   #cybersecurity .img-fill:hover,
   #prints img,
   #prints img:hover,
-  .blog-item iframe,
-  .blog-item iframe:hover,
   .blog-item .img img,
   .blog-item .img img:hover,
   .blog-item #map,
@@ -1407,4 +1403,4 @@ footer .footer-ps span:nth-child(2) {
     display: none;
   }
 }
-/* MEDIA QERRIES START */
+/* MEDIA QERRIES END */

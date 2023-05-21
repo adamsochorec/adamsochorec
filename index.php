@@ -220,7 +220,6 @@
         <article id="about">
           <div class="intro-section">
             <div class="intro-subsection">
-
               <h1 class="reveal">About</h1>
               <?php
             $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
@@ -585,5 +584,6 @@
     include $IPATH . 'global-footer.php';
     ?>
     <!-- FOOTER END -->
+    <script type="text/javascript" src="/assets/index.js"></script>
   </body>
 </html>
