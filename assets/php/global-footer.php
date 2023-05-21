@@ -19,5 +19,6 @@
   </div>
   
   <script type="text/javascript" src="/assets/global-script.js"></script>
+  <script type="text/javascript" src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 </footer>
 <!-- FOOTER END -->

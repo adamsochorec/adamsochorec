@@ -483,7 +483,7 @@
       <article id="contact">
         <section class="wrapper-standard">
           <section class="contact-form-section">
-            <hr style="opacity: 0" />
+            <hr />
 
             <h1 class="reveal">Contact</h1>
             <br /><br />

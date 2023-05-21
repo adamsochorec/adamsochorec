@@ -162,10 +162,11 @@ h6 {
   color: var(--text-color);
   font-family: var(--heading-font);
   position: relative;
-  text-shadow: var(--text-shadow-1);
 }
 h1 {
   font-size: var(--fontsize-h1);
+  letter-spacing: 5px;
+  text-transform: uppercase;
 }
 h2 {
   font-size: var(--fontsize-h2);
@@ -199,6 +200,7 @@ p,
   font-size: var(--fontsize-p);
   font-weight: var(--paragraph-weight);
   line-height: 1.5;
+  letter-spacing: 0.7px;
 }
 main ul {
   list-style-type: circle;
@@ -699,9 +701,11 @@ ul.menu-left.collapse {
   border: solid 1.5px rgb(var(--primary-color));
   color: var(--text-color);
   display: flex;
-  font-size: var(--fontsize-p);
+  font-size: 12px;
   justify-content: center;
-  letter-spacing: var(--letter-spacing);
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-weight: 300;
   line-height: 1.5rem;
   outline: transparent;
 }
@@ -945,7 +949,6 @@ footer .footer-ps span:nth-child(2) {
   box-sizing: border-box;
   font-size: 2.5rem;
   height: 60px;
-  letter-spacing: var(--letter-spacing);
   margin: 0.3rem 0 0;
   outline: 0;
   padding: 0;
@@ -1306,7 +1309,7 @@ footer .footer-ps span:nth-child(2) {
   .btn-area #btn,
   .btn-area #btn:after,
   .btn-shadow {
-    font-size: calc(var(--fontsize-p));
+    font-size: 11px;
   }
   #cybersecurity .btn-area input,
   #cybersecurity .btn-area input::placeholder {
