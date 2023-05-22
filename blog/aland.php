@@ -388,7 +388,8 @@
           <img
             src="/img/22101786668900.jpg"
             alt="Photo of me carrying posing Marcel upon my shoulders while standing in the cold Archipelago sea."
-          />
+          /><br /><br class="hide" />
+          <p><i class="note">Fishing village nearby Norrgård</i></p>
         </div>
         <p>
           Our final task was to make it back to Mariehamn. We had no luck with
@@ -465,7 +466,13 @@
           ?>
       </article>
     </main>
-    <script type="text/javascript" src="./aland.js"></script>
+    <script type="text/javascript" src="/assets/map.js"></script>
+
+    <script type="text/javascript">
+      map.setView([60.22776, 19.88992], 8.5);
+    </script>
+    <script type="text/javascript" src="/assets/map-variables.js"></script>
+
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'global-footer.php';

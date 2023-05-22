@@ -265,10 +265,16 @@
           ?>
       </article>
     </main>
+    <script type="text/javascript" src="/assets/map.js"></script>
+    <script type="text/javascript">
+      // set the view of a map
+      map.setView([55.55781, 8.15], 12);
+    </script>
+    <script type="text/javascript" src="/assets/map-variables.js"></script>
+
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'global-footer.php';
     ?>
-    <script type="text/javascript" src="./blavand.js"></script>
   </body>
 </html>

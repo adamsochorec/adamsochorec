@@ -415,6 +415,11 @@
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'global-footer.php';
     ?>
-    <script type="text/javascript" src="./vasterbotten.js"></script>
+    <script type="text/javascript" src="/assets/map.js"></script>
+    <script type="text/javascript">
+      // set the view of a map
+      map.setView([63.825, 20.27965], 7);
+    </script>
+    <script type="text/javascript" src="/assets/map-variables.js"></script>
   </body>
 </html>

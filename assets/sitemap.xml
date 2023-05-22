@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://adamsochorec.com/</loc>
-    <lastmod>2023-05-07</lastmod>
+    <lastmod>2023-05-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
       <image:image>
@@ -107,26 +107,22 @@
       </image:image>
       <image:image>
         <image:loc>https://adamsochorec.com/img/about.jpg</image:loc>
-        <image:title>Portrait of Adam Sochorec diving underwater.</image:title>
+        <image:title>Portrait of Adam Sochorec</image:title>
       </image:image>
       <image:image>
-        <image:loc>https://adamsochorec.com/img/partners.png</image:loc>
+        <image:loc>https://adamsochorec.com/img/clients.png</image:loc>
         <image:title>Logos of past collaborators and partners: Roskilde Festival 2022, Confucius Institute IBA Kolding, Antiyber Bullying Project, OLDstars, Slovo 21, Franklin Covey Czech, Divadlo na Vinohradech, Brick Gallery and Barae.</image:title>
       </image:image>
   </url>
   <url>
     <loc>https://adamsochorec.com/blog/vestkystruten</loc>
-    <lastmod>2023-05-07</lastmod>
+    <lastmod>2023-05-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
-      <image:image>
-        <image:loc>https://adamsochorec.com/img/IMG_1849.jpg</image:loc>
-        <image:title>Me &amp; Marcel on the northernmost point of Denmark - Skagen</image:title>
-      </image:image>
   </url>
   <url>
     <loc>https://adamsochorec.com/blog/aland</loc>
-    <lastmod>2023-05-07</lastmod>
+    <lastmod>2023-05-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
       <image:image>
@@ -193,14 +189,8 @@
       </image:image>
   </url>
   <url>
-    <loc>https://adamsochorec.com/prints</loc>
-    <lastmod>2023-05-07</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
     <loc>https://adamsochorec.com/blog/blavand</loc>
-    <lastmod>2023-05-07</lastmod>
+    <lastmod>2023-05-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
       <image:image>
@@ -225,14 +215,8 @@
       </image:image>
   </url>
   <url>
-    <loc>https://adamsochorec.com/web-dev/memos.php</loc>
-    <lastmod>2023-05-07</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
     <loc>https://adamsochorec.com/blog/v%C3%A4sterbotten</loc>
-    <lastmod>2023-05-07</lastmod>
+    <lastmod>2023-05-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
       <image:image>
@@ -266,7 +250,7 @@
   </url>
   <url>
     <loc>https://adamsochorec.com/blog/house-hunting</loc>
-    <lastmod>2023-05-07</lastmod>
+    <lastmod>2023-05-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
       <image:image>
@@ -294,7 +278,7 @@
   </url>
   <url>
     <loc>https://adamsochorec.com/blog/cybersecurity</loc>
-    <lastmod>2023-05-07</lastmod>
+    <lastmod>2023-05-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>

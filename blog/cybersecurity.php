@@ -2894,7 +2894,7 @@ C502.2,625.2,499,621.9,499,618.3z"
       src="https://unpkg.com/@dotlottie/player-component@1.0.0/dist/dotlottie-player.js"
       defer
     ></script>
-    <script type="text/javascript" src="./cybersecurity.js"></script>
+    <script type="text/javascript" src="/assets/cybersecurity.js"></script>
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'global-footer.php';

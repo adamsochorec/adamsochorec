@@ -200,11 +200,15 @@
           ?>
       </article>
     </main>
-
+    <script type="text/javascript" src="/assets/map.js"></script>
+    <script type="text/javascript">
+      // set the view of a map
+      map.setView([55.5361, 10.1124], 6);
+    </script>
+    <script type="text/javascript" src="/assets/map-variables.js"></script>
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'global-footer.php';
     ?>
-    <script type="text/javascript" src="/assets/vestkystruten.js"></script>
   </body>
 </html>
