@@ -9,13 +9,34 @@
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'leaflet-head.php';
     ?>
-    <?php
-    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-    include $IPATH . 'blog-desc.php';
-    ?>
+    <meta
+      name="description"
+      content="Embark on a thrilling adventure to the
+    Åland Islands, a Swedish-speaking territory under Finnish jurisdiction.
+    Starting from Turku, navigate the Archipelago Sea's skerries, exploring from
+    south to north and indulging in bushcraft camping. Experience the
+    Djupviksgrottan cave, Jomala Church, and breathtaking landscapes as you
+    hitchhike and hike across the islands."
+    />
     <meta
       name="keywords"
-      content="adamsochorec, adam sochorec, @adamsochorec, Åland Islands, Finland, Autumn, Turku, Vaasa, Archipelago Sea, Mariehamn, Fasta, Djupviksgrottan cave, hitchhiking, Jomala, rural settlements, camping, bushfraft, wilderness, adventure, hiking, exploration, ferry, cruise, archipelagos, natural beauty, island hopping, cultural heritage, outdoor activities, backpacking, outdoor travel, outdoor living, outdoor adventure, outdoor lifestyle, outdoor recreation, outdoor exploration, natural wonders, outdoor adventure travel, outdoor excursion, outdoor journey, outdoor trip, outdoor vacation, outdoor getaway, outdoor holiday, outdoor escapade, outdoor adventure trip, outdoor adventure vacation, outdoor adventure holiday, outdoor adventure getaway, outdoor adventure escapade, outdoor adventure journey, outdoor adventure trip"
+      content="Åland Islands,
+      Finnish Jurisdiction,
+      Swedish-speaking,
+      Turku, Finland,
+      Vaasa,
+      Archipelago Sea,
+      Skerries,
+      Mariehamn,
+      Lake Långsjön,
+      Djupviksgrottan Cave,
+      Jomala Church,
+      Hiking,
+      Hitchhiking,
+      Bushcraft Camp,
+      Scandinavian Culture,
+      Prästo Island,
+      Vårdö"
     />
     <title>Åland 🇦🇽 | Adam Sochorec</title>
   </head>

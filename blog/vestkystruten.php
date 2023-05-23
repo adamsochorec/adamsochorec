@@ -9,15 +9,21 @@
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'leaflet-head.php';
     ?>
-    <?php
-    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-    include $IPATH . 'blog-desc.php';
-    ?>
+    <meta
+      name="description"
+      content="Join us on an unforgettable bike trip
+    from Flensburg, Germany, to Skagen, Denmark, journeying along the stunning
+    west coast of the Jutland peninsula. Explore Denmark's beauty, meet friendly
+    locals, and experience a blend of breathtaking coastal views and charming
+    small towns."
+    />
     <meta
       name="keywords"
-      content="adamsochorec, adam sochorec, @adamsochorec, bike trip, Flensburg, Skagen, west coast,
-    Jutland, Vestkystruten 1, Danish national cycle route 1, public
-    shelters, North Sea, fjords, coastal views, beauty, YouTube, travel vlogs"
+      content="Bike Trip, Flensburg, Skagen, West Coast,
+    Peninsula Jutland, Danish National Cycle Route 1, Vestkystruten, Biking,
+    Denmark, Forest, Public Shelters, North Sea, Inland Fjords, Landscape,
+    Locals, Interactive Map, Coastal Views, Small Towns, North Sea, Baltic Sea,
+    Travel Vlogs, Marcel's Channel, YouTube Video."
     />
     <title>Vestkystruten 🇩🇰 | Adam Sochorec</title>
   </head>

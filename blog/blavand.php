@@ -14,8 +14,12 @@
     include $IPATH . 'leaflet-head.php';
     ?>
     <meta
+      name="description"
+      content="Join me on my unforgettable trip to Blåvand, Denmark's westernmost city. Strolling around the charming city, grabbing a fresh shrimp salad, and marvelling at the towering Blåvand Lighthouse. I walked among the dunes, listened to the North Sea, and explored historic WWII bunkers."
+    />
+    <meta
       name="keywords"
-      content="adamsochorec, adam sochorec, @adamsochorec, Blåvand, Blåvandshuk, Denmark, World War Two, bunker, graffiti, sandy beach, North Sea, lighthouse, Danish, German, summer houses, vacation homes, dunes, west coast, Germany, Baltic Sea, Skagen, Blåvandstrand, waves, WWII bunkers, Atlantic Wall, 3D modeling app, Polycam, 3D scanning, dune landscape, Bjarke Ingels's Tirpitz museum, Danish military, natural beauty, west coast, Star Wars, Scarif, amber, souvenir shop, elderly woman, cashier's desk, lucky, beach, walk, hike, explore, history, culture, outdoor, adventure, travel, tourism, vacation, holiday, getaway, escapade, journey, trip, excursion, outdoor living, outdoor lifestyle, outdoor recreation, outdoor exploration, outdoor adventure, outdoor adventure travel, outdoor excursion, outdoor journey, outdoor trip, outdoor vacation, outdoor getaway, outdoor holiday, outdoor escapade, outdoor adventure trip, outdoor adventure vacation, outdoor adventure holiday, outdoor adventure getaway, outdoor adventure escapade, outdoor adventure journey, outdoor adventure trip"
+      content="Kolding, Oksbøl, Blåvand, Denmark, Blåvand Lighthouse, Summer Houses, Pine Trees, North Sea Shore, Blåvandshuk, WWII Bunkers, Atlantic Wall, 3D Modeling App, Polycam, Dunes, Star Wars, Amber, Jewelry, Danish Military, Training Grounds, Bjarke Ingels, Tirpitz Museum."
     />
     <title>Blåvand 🇩🇰 | Adam Sochorec</title>
   </head>

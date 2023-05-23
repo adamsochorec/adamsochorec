@@ -9,13 +9,13 @@
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'leaflet-head.php';
     ?>
-    <?php
-    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-    include $IPATH . 'blog-desc.php';
-    ?>
+    <meta
+      name="description"
+      content="Embark on a remarkable journey in Västerbotten, Sweden. From an exchange program at Vaasan Ylipsto to exploring the local countryside, engage in bushcraft, forest camping, and fishing under the Swedish Everyman's Right. Immerse yourself in the rich Sámi culture of Lapland, take up Brazilian Jiu-jitsu at Umeå Kampcenter, and embrace the Scandinavian lifestyle. Experience the breathtaking aurora, learn primitive living techniques, and explore the beauty of Lapland."
+    />
     <meta
       name="keywords"
-      content="adamsochorec, adam sochorec, @adamsochorec,"
+      content="Sweden Travel, Västerbotten Province, Exchange Program, Bushcraft, Everyman's Right, Umeå, Sámi People, Lapland, Forest Camping, Brazilian Jiu-jitsu, Umeå Kampcenter, Fishing, Primitive Living, Aurora, Scandinavian Lifestyle"
     />
     <title>Västerbotten 🇸🇪 | Adam Sochorec</title>
   </head>

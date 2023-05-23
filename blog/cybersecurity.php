@@ -7,13 +7,13 @@
     ?>
     <meta
       name="description"
-      content="Essential steps leading to your secure and healthy online presence."
+      content="Discover essential steps to secure and fortify your online presence. Learn the importance of contemporary passwords, two-factor authentication (2FA), and how to tackle social engineering vulnerabilities. Let's take control of our digital footprint to ensure online security and privacy."
     />
     <meta
       name="keywords"
-      content="cyber, security, cybersecurity, cyber-security, blog, digital, identity, hackers, hacking design, adam, sochorec, @adamsochorec, adamsochorec, adamsochorec.com, contemporary, passwords, strong, password, 2FA, two, factor, authentication, sim, swapping, Social, engineering, managers, Rostislav, Gabriela, Sochorcová, Sofie, Petra, Magdalena, Magda, gábina, portfolio, web, dev, homepage, web, development, web-dev, web-development, "
+      content="Online Presence, Contemporary Passwords, Social Engineering, Unique Password, Password Manager, Password Strength Calculator, iCloud Keychain, Apple Users, LastPass, Keeper, Hardware Key, Two-factor Authentication, 2FA, Single-use Time-dependent Code, Email, Verification App, Recovery Codes, SIM Swapping, Authy, Service Verification Native App, Personal Information, Privacy, Online Shopping, Data Access, Random Non-organic Passwords, Password Entropy Calculator, Google's Control, Internet"
     />
-    <title class="brg">Cybersecurity | Adam Sochorec</title>
+    <title>Cybersecurity | Adam Sochorec</title>
   </head>
 
   <body id="cybersecurity" class="blog-item">

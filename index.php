@@ -123,20 +123,17 @@
             <img src="/img/23_kompr.gif" alt="23" />
           </div>
           <div class="v-stretch reveal">
-            <img src="/img/21090567896881.jpg" alt="21090567896881" />
+            <img src="/img/2304142145473.jpg" alt="2304142145473" />
           </div>
           <div class="h-stretch reveal">
-            <img src="/img/2012184555.jpg" alt="2012184555" />
+            <img src="/img/22031613938003.jpg" alt="22031613938003" />
           </div>
           <div class="v-stretch reveal">
-            <img src="/img/21111395827265.jpg" alt="2107265" />
+            <img src="/img/22082525588812.jpg" alt="22082525588812" />
           </div>
+
           <div class="v-stretch reveal">
-            <img
-              class="hideImg"
-              src="/img/22050630028185.jpg"
-              alt="22050630028185"
-            />
+            <img class="hideImg" src="/img/2208258806.jpg" alt="2208258806" />
           </div>
           <div id="web-dev"></div>
         </div>

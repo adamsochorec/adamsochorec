@@ -9,13 +9,13 @@
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'leaflet-head.php';
     ?>
-    <?php
-    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-    include $IPATH . 'blog-desc.php';
-    ?>
+    <meta
+      name="description"
+      content="Embark on an exploratory journey into urbex, inspired by the House Hunting concept of artist Todd Hido. Experience the charm and melancholy of a pastel green, forsaken family house in Vaasa, Finland, through a photographer's lens."
+    />
     <meta
       name="keywords"
-      content="adamsochorec, adam sochorec, @adamsochorec, house hunting, photographer, artist, Todd Hido, urbex, Scandinavian architecture, Cheap Old Houses, abandoned buildings, exterior atmosphere, lonely constructions, medium format camera, neighbourhood, Palosaari, Vaasa, pale green colour, family house, broken windows, damaged entrance staircase, photographer's instinct, city planning department, demolition, Ostrobothnian Museum, historical value, owner's permission, sunrise, early autumn morning, interior, building, documentation, beauty, history, photography, architecture, heritage, urban exploration, abandoned places, abandoned property, abandoned house, abandoned home, abandoned buildings, abandoned structure, abandoned spaces, abandoned photography, abandoned art, abandoned history, abandoned culture, abandoned landscapes"
+      content="House Hunting, Todd Hido, Urbex, Scandinavian Architecture, Cheap Old Houses, Abandoned Buildings, Exterior Atmosphere, Medium Format Camera, Palosaari, Vaasa, Finland, Old-fashioned Family House, Broken Windows, Damaged Staircase, Uninhabited Building, City Planning Department, Demolition, Ostrobothnian Museum, Historical Value, Interior Photography, Sunrise, Autumn Morning, Bleached Spots, Walls, Framed Photos and Paintings, Urbex, Photographer's Perspective"
     />
     <title>House Hunting 🇫🇮 | Adam Sochorec</title>
   </head>
