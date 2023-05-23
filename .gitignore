@@ -2,4 +2,4 @@
 .gitignore
 
 # Ignore the img directory and everything in it
-/img/
+/img
