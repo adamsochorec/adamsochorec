@@ -1,21 +1,26 @@
 function getPassword() {
-  let chars =
+  const chars =
     "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ......-----";
   const passwordLength = 19;
   let password = "";
+
   for (let i = 0; i < passwordLength; i++) {
     let randomNumber = Math.floor(Math.random() * chars.length);
-    password += chars.substring(randomNumber, randomNumber + 1);
+    password += chars.charAt(randomNumber);
   }
   document.getElementById("password").value = password;
 }
-let btn = document.getElementById("btn");
-btn.addEventListener("click", getPassword, textChange);
+
 const superBtn = document.getElementById("btn");
-const password = document.getElementById("password");
-superBtn.addEventListener("click", textChange);
+const passwordField = document.getElementById("password");
+
 function textChange() {
   superBtn.classList.toggle("clicked");
-  password.select();
+  passwordField.select();
   document.execCommand("Copy");
 }
+
+superBtn.addEventListener("click", function () {
+  getPassword();
+  textChange();
+});

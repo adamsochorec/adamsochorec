@@ -6,8 +6,7 @@ const hamburger = document.querySelector(".hamburger"),
   contactForm = document.querySelector("form"),
   skillBars = document.querySelectorAll(".skill-bar");
 
-let didScroll,
-  lastScrollTop = 0;
+let lastScrollTop = 0;
 
 // TOGGLE HAMBURGER & COLLAPSE NAV START
 hamburger.addEventListener("click", function () {
@@ -23,17 +22,17 @@ menuLeftLinks.forEach(function (link) {
   });
 });
 
-// SHOW/HIDE NAV
-window.addEventListener("scroll", function (event) {
-  didScroll = true;
-});
+let ticking = false;
+window.addEventListener("scroll", function (e) {
+  if (!ticking) {
+    window.requestAnimationFrame(function () {
+      hasScrolled();
+      ticking = false;
+    });
 
-setInterval(function () {
-  if (didScroll) {
-    hasScrolled();
-    didScroll = false;
+    ticking = true;
   }
-}, 250);
+});
 
 function hasScrolled() {
   const st = window.pageYOffset || document.documentElement.scrollTop;

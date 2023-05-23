@@ -7,6 +7,10 @@
     ?>
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+    include $IPATH . 'leaflet-head.php';
+    ?>
+    <?php
+    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'blog-desc.php';
     ?>
     <meta
@@ -14,20 +18,6 @@
       content="adamsochorec, adam sochorec, @adamsochorec,"
     />
     <title>Västerbotten 🇸🇪 | Adam Sochorec</title>
-    <!-- Leaflet script start -->
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
-      integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
-      crossorigin=""
-    />
-    <!-- Make sure you put this AFTER Leaflet's CSS -->
-    <script
-      src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
-      integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
-      crossorigin=""
-    ></script>
-    <!-- Leaflet script end -->
   </head>
   <body id="västerbotten" class="blog-item">
     <?php
@@ -96,7 +86,9 @@
         </p>
         <div id="map">
           <p class="alt-alt">
-            Satellite view of an central part of the Scandinavia.
+            Interactive map of the western part of Sweden and the eastern part
+            of Finland. Important locations from the article are marked on the
+            map with descriptions.
           </p>
         </div>
 
@@ -416,10 +408,6 @@
     include $IPATH . 'global-footer.php';
     ?>
     <script type="text/javascript" src="/assets/map.js"></script>
-    <script type="text/javascript">
-      // set the view of a map
-      map.setView([63.825, 20.27965], 7);
-    </script>
-    <script type="text/javascript" src="/assets/map-variables.js"></script>
+    <script type="text/javascript" src="/assets/vasterbotten.js"></script>
   </body>
 </html>

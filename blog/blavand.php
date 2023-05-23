@@ -9,25 +9,15 @@
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'blog-desc.php';
     ?>
+    <?php
+    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+    include $IPATH . 'leaflet-head.php';
+    ?>
     <meta
       name="keywords"
       content="adamsochorec, adam sochorec, @adamsochorec, Blåvand, Blåvandshuk, Denmark, World War Two, bunker, graffiti, sandy beach, North Sea, lighthouse, Danish, German, summer houses, vacation homes, dunes, west coast, Germany, Baltic Sea, Skagen, Blåvandstrand, waves, WWII bunkers, Atlantic Wall, 3D modeling app, Polycam, 3D scanning, dune landscape, Bjarke Ingels's Tirpitz museum, Danish military, natural beauty, west coast, Star Wars, Scarif, amber, souvenir shop, elderly woman, cashier's desk, lucky, beach, walk, hike, explore, history, culture, outdoor, adventure, travel, tourism, vacation, holiday, getaway, escapade, journey, trip, excursion, outdoor living, outdoor lifestyle, outdoor recreation, outdoor exploration, outdoor adventure, outdoor adventure travel, outdoor excursion, outdoor journey, outdoor trip, outdoor vacation, outdoor getaway, outdoor holiday, outdoor escapade, outdoor adventure trip, outdoor adventure vacation, outdoor adventure holiday, outdoor adventure getaway, outdoor adventure escapade, outdoor adventure journey, outdoor adventure trip"
     />
     <title>Blåvand 🇩🇰 | Adam Sochorec</title>
-    <!-- Leaflet script start -->
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
-      integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
-      crossorigin=""
-    />
-    <!-- Make sure you put this AFTER Leaflet's CSS -->
-    <script
-      src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
-      integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
-      crossorigin=""
-    ></script>
-    <!-- Leaflet script end -->
   </head>
   <body id="blavand" class="blog-item">
     <?php
@@ -82,7 +72,8 @@
         </p>
         <div id="map">
           <p class="alt-alt">
-            Satellite view of the westernmost protrusion of continental Denmark.
+            Interactive map of an Blavands Huk. Important locations from the
+            article are marked on the map with descriptions.
           </p>
         </div>
         <p>
@@ -266,12 +257,7 @@
       </article>
     </main>
     <script type="text/javascript" src="/assets/map.js"></script>
-    <script type="text/javascript">
-      // set the view of a map
-      map.setView([55.55781, 8.15], 12);
-    </script>
-    <script type="text/javascript" src="/assets/map-variables.js"></script>
-
+    <script type="text/javascript" src="/assets/blavand.js"></script>
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'global-footer.php';

@@ -21,6 +21,9 @@
   --logo-font: IBM;
   --alt-logo-font: BigBlue;
   --text-color: #fff;
+  --letter-spacing-1: 0.7px;
+  --letter-spacing-2: 3px;
+  --letter-spacing-3: 5px;
   --paragraph-weight: 250;
   --content-font: SF Pro Light;
   --heading-font: SF Pro Regular;
@@ -165,7 +168,7 @@ h6 {
 }
 h1 {
   font-size: var(--fontsize-h1);
-  letter-spacing: 5px;
+  letter-spacing: var(--letter-spacing-2);
   text-transform: uppercase;
 }
 h2 {
@@ -200,7 +203,7 @@ p,
   font-size: var(--fontsize-p);
   font-weight: var(--paragraph-weight);
   line-height: 1.5;
-  letter-spacing: 0.7px;
+  letter-spacing: var(--letter-spacing-1);
 }
 main ul {
   list-style-type: circle;
@@ -463,6 +466,8 @@ source {
   font-size: calc(var(--fontsize-p) * 0.9);
   font-weight: var(--paragraph-weight);
   line-height: 20px;
+  letter-spacing: var(--letter-spacing-1);
+
 }
 .contact-form-section .contact-form input,
 .contact-form-section .contact-form select,
@@ -703,7 +708,7 @@ ul.menu-left.collapse {
   display: flex;
   font-size: 12px;
   justify-content: center;
-  letter-spacing: 3px;
+  letter-spacing: var(--letter-spacing-2);
   text-transform: uppercase;
   font-weight: 300;
   line-height: 1.5rem;
@@ -1140,11 +1145,15 @@ footer .footer-ps span:nth-child(2) {
 .noindex h1 {
   font-size: var(--fontsize-h4);
   font-weight: var(--paragraph-weight);
+  text-transform: unset;
   text-align: center;
+  letter-spacing: var(--letter-spacing-1);
 }
 .noindex h2 {
-  font-size: var(--fontsize-h6);
+  font-size: var(--fontsize-h5);
   font-weight: var(--paragraph-weight);
+  text-transform: unset;
+  letter-spacing: var(--letter-spacing-1);
   text-align: center;
   text-decoration: none;
   text-shadow: none;

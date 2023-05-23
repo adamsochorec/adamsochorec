@@ -7,6 +7,10 @@
     ?>
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+    include $IPATH . 'leaflet-head.php';
+    ?>
+    <?php
+    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'blog-desc.php';
     ?>
     <meta
@@ -80,11 +84,20 @@
         <p>
           In the past, I tried several times to apply the inspiration I gained
           from Hiddo's works to lonely constructions in Czechia and Denmark.
+        </p>
+        <div id="map" style="border-radius: 6px">
+          <p class="alt-alt">
+            Interactive map of a Finnish city Vaasa with the marker of an
+            approximate location of the building introduced in the article.
+          </p>
+        </div>
+        <p>
           Even though the exterior atmosphere was slightly more matching to the
           one that Hido works with - lonely lights, night, and fog often
           captured through long exposure on a medium format camera, I felt that
           this time I was the closest to Hido's world.
         </p>
+
         <div class="img">
           <img
             src="/img/22100983878849.jpg"
@@ -165,7 +178,7 @@
               <span></span>
             </div>
           </a>
-          <a class="hh-stretch" href="/blog/cybersecurity">
+          <a class="hh-stretch gradient" href="/blog/cybersecurity">
             <div class="grid-item" id="cybersecurity">
               <span></span>
             </div>
@@ -177,7 +190,8 @@
         ?>
       </article>
     </main>
-
+    <script type="text/javascript" src="/assets/map.js"></script>
+    <script type="text/javascript" src="/assets/house-hunting.js"></script>
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'global-footer.php';

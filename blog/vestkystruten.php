@@ -7,6 +7,10 @@
     ?>
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+    include $IPATH . 'leaflet-head.php';
+    ?>
+    <?php
+    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'blog-desc.php';
     ?>
     <meta
@@ -16,20 +20,6 @@
     shelters, North Sea, fjords, coastal views, beauty, YouTube, travel vlogs"
     />
     <title>Vestkystruten 🇩🇰 | Adam Sochorec</title>
-    <!-- Leaflet script start -->
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
-      integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
-      crossorigin=""
-    />
-    <!-- Make sure you put this AFTER Leaflet's CSS -->
-    <script
-      src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
-      integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
-      crossorigin=""
-    ></script>
-    <!-- Leaflet script end -->
   </head>
 
   <body id="vestkystruten" class="blog-item">
@@ -131,7 +121,10 @@
           landscape and meeting friendly locals.
         </p>
         <div id="map" style="border-radius: 6px">
-          <p class="alt-alt">??</p>
+          <p class="alt-alt">
+            Interactive map of a danish peninsula Jutland, with a line depicting
+            our route from the south to the north of Denmark.
+          </p>
         </div>
 
         <p>
@@ -201,11 +194,7 @@
       </article>
     </main>
     <script type="text/javascript" src="/assets/map.js"></script>
-    <script type="text/javascript">
-      // set the view of a map
-      map.setView([55.5361, 10.1124], 6);
-    </script>
-    <script type="text/javascript" src="/assets/map-variables.js"></script>
+    <script type="text/javascript" src="/assets/vestkystruten.js"></script>
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'global-footer.php';

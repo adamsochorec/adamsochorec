@@ -7,6 +7,10 @@
     ?>
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+    include $IPATH . 'leaflet-head.php';
+    ?>
+    <?php
+    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'blog-desc.php';
     ?>
     <meta
@@ -14,20 +18,6 @@
       content="adamsochorec, adam sochorec, @adamsochorec, Åland Islands, Finland, Autumn, Turku, Vaasa, Archipelago Sea, Mariehamn, Fasta, Djupviksgrottan cave, hitchhiking, Jomala, rural settlements, camping, bushfraft, wilderness, adventure, hiking, exploration, ferry, cruise, archipelagos, natural beauty, island hopping, cultural heritage, outdoor activities, backpacking, outdoor travel, outdoor living, outdoor adventure, outdoor lifestyle, outdoor recreation, outdoor exploration, natural wonders, outdoor adventure travel, outdoor excursion, outdoor journey, outdoor trip, outdoor vacation, outdoor getaway, outdoor holiday, outdoor escapade, outdoor adventure trip, outdoor adventure vacation, outdoor adventure holiday, outdoor adventure getaway, outdoor adventure escapade, outdoor adventure journey, outdoor adventure trip"
     />
     <title>Åland 🇦🇽 | Adam Sochorec</title>
-    <!-- Leaflet script start -->
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
-      integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
-      crossorigin=""
-    />
-    <!-- Make sure you put this AFTER Leaflet's CSS -->
-    <script
-      src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
-      integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
-      crossorigin=""
-    ></script>
-    <!-- Leaflet script end -->
   </head>
 
   <body id="aland" class="blog-item">
@@ -128,8 +118,10 @@
         <div class="map-wrapper">
           <div id="map">
             <p class="alt-alt">
-              Satellite view of Archipelago sea on the left, Åland Islands in
-              the middle, and the Åland sea on the right
+              Interactive map of an Aland Islands with a trace of our journey
+              from Vaasa in Finland and Marcel’s journey from Denmark. Other
+              important locations from the article are marked on the map with
+              descriptions.
             </p>
           </div>
         </div>
@@ -468,10 +460,7 @@
     </main>
     <script type="text/javascript" src="/assets/map.js"></script>
 
-    <script type="text/javascript">
-      map.setView([60.22776, 19.88992], 8.5);
-    </script>
-    <script type="text/javascript" src="/assets/map-variables.js"></script>
+    <script type="text/javascript" src="/assets/aland.js"></script>
 
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
