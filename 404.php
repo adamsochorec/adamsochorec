@@ -22,7 +22,7 @@
 
         <div class="lottie">
           <dotlottie-player
-            src="/img/lottie/error3.1.lottie"
+            src="/assets/lottie/error3.1.lottie"
             background="transparent"
             speed="0.7"
             loop

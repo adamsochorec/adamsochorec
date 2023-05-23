@@ -467,7 +467,6 @@ source {
   font-weight: var(--paragraph-weight);
   line-height: 20px;
   letter-spacing: var(--letter-spacing-1);
-
 }
 .contact-form-section .contact-form input,
 .contact-form-section .contact-form select,
@@ -784,7 +783,6 @@ ul.menu-left.collapse {
   overflow: hidden;
   position: relative;
 }
-
 .gallery a:hover {
   text-decoration: none;
 }
@@ -921,13 +919,6 @@ footer .footer-ps span:nth-child(2) {
 /* PRINTS END */
 
 /* WEB DEV START*/
-
-.gallery #zebra-design {
-  background-image: url(/web-dev/zebra-design/img/zebraGif_kompr.jpg);
-}
-.gallery #memos {
-  background-image: url(/web-dev/memos/img/_MG_0188_kompr.jpg);
-}
 .gallery #slavic-media {
   background-image: url(/img/slavicmedia.png);
 }

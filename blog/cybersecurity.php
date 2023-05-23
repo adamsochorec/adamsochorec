@@ -36,7 +36,7 @@
                 autocomplete="new-password"
               />
               <br />
-              <div id="btn" onclick="getPassword();"></div>
+              <div id="btn"></div>
               <div class="btn-shadow"></div>
             </section>
             <section class="read-more">
@@ -44,7 +44,7 @@
                 <h5>Learn more about cybersecurity</h5>
                 <lottie-player
                   id="scrollLottie"
-                  src="/img/lottie/scroll-down.json"
+                  src="/assets/lottie/scroll-down.json"
                   background="transparent"
                   loop
                   speed="2"
@@ -2894,7 +2894,6 @@ C502.2,625.2,499,621.9,499,618.3z"
       src="https://unpkg.com/@dotlottie/player-component@1.0.0/dist/dotlottie-player.js"
       defer
     ></script>
-    <script type="text/javascript" src="/assets/cybersecurity.js"></script>
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'global-footer.php';

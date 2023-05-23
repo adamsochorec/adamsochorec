@@ -407,7 +407,5 @@
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'global-footer.php';
     ?>
-    <script type="text/javascript" src="/assets/map.js"></script>
-    <script type="text/javascript" src="/assets/vasterbotten.js"></script>
   </body>
 </html>

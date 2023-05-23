@@ -114,7 +114,7 @@
             <img src="/img/21041385565587.jpg" alt="21041385565587" />
           </div>
           <div class="h-stretch reveal">
-            <img src="/img/211102002.jpg" alt="211102002" />
+            <img src="/img/21042289925635.jpg" alt="21042289925635" />
           </div>
           <div class="h-stretch reveal">
             <img src="/img/22_kompr.gif" alt="22" />
@@ -149,8 +149,8 @@
           <h1 class="reveal"></h1>
           <br />
           <div class="grid-container gallery reveal">
-            <a class="hh-stretch" href="/blog/blavand">
-              <div class="grid-item" id="blavand">
+            <a class="hh-stretch" href="/blog/aland">
+              <div class="grid-item" id="aland">
                 <span></span>
               </div>
             </a>
@@ -169,11 +169,12 @@
                 <span></span>
               </div>
             </a>
-            <a class="hh-stretch" href="/blog/aland">
-              <div class="grid-item" id="aland">
+            <a class="hh-stretch" href="/blog/blavand">
+              <div class="grid-item" id="blavand">
                 <span></span>
               </div>
             </a>
+
             <a class="hh-stretch gradient" href="/blog/cybersecurity">
               <div class="grid-item" id="cybersecurity">
                 <span></span>
@@ -263,7 +264,7 @@
             <hr class="reveal" />
             <img
               class="reveal"
-              src="/img/about.jpg"
+              src="/img/22042404538028-2.jpg"
               alt="Portrait of Adam Sochorec"
             />
 
@@ -584,6 +585,5 @@
     include $IPATH . 'global-footer.php';
     ?>
     <!-- FOOTER END -->
-    <script type="text/javascript" src="/assets/index.js"></script>
   </body>
 </html>

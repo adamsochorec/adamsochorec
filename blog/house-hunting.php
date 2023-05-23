@@ -190,8 +190,6 @@
         ?>
       </article>
     </main>
-    <script type="text/javascript" src="/assets/map.js"></script>
-    <script type="text/javascript" src="/assets/house-hunting.js"></script>
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'global-footer.php';

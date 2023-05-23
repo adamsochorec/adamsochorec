@@ -185,8 +185,8 @@
         </p>
         <div class="img">
           <img
-            src="/img/IMG_3063.jpg"
-            alt="Photo of resting Andreas with dark sky in the background. Andreas’s face is highlighted by the screen of the phone he is holding"
+            src="/img/22101585098869.jpg"
+            alt="Photo of Andreas standing on the rock in the forest with a hiking pole out of a tree branch"
           />
         </div>
         <p>
@@ -412,9 +412,10 @@
           protected me from most of the rain, but some still got in. Andreas,
           who had wisely set up a modest tent using his tarp, was the driest of
           us in the morning. Unfortunately, the tarp tent did not cover his feet
-          and the large open entrance allowed the rain to get in. On the final
-          morning, we compared our level of wetness and said goodbye. Marcel
-          travelled back to Denmark via
+          and the large open entrance allowed the rain to alt="Photo of Andreas
+          standing on the rock in the forest with a hike pole out of a tree
+          branch" get in. On the final morning, we compared our level of wetness
+          and said goodbye. Marcel travelled back to Denmark via
           <a
             target="_blank"
             rel="noopener noreferrer"
@@ -458,10 +459,6 @@
           ?>
       </article>
     </main>
-    <script type="text/javascript" src="/assets/map.js"></script>
-
-    <script type="text/javascript" src="/assets/aland.js"></script>
-
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'global-footer.php';
