@@ -1,1 +1,1 @@
-/.gitignore, /img
+/img/     # ignore all files in the img directory
