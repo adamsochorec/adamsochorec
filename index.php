@@ -7,20 +7,12 @@
     ?>
     <meta
       name="description"
-      content="As a Czech-born multimedia design student
-    currently studying at Erhvesakademi Kolding in Denmark, I have a passion for
-    all things creative. Photography, in particular, has always been a big part
-    of my life. I specialize in portraits and landscapes, and I'm always looking
-    for new and exciting ways to capture the world around me. Whether I'm using
-    my Canon 6D or my iPhone 13 mini, I'm always on the lookout for new subjects
-    and techniques to try out. Recently, I've been exploring the possibilities
-    of 3D scanning and modelling, and in the past, I was an avid lego builder. When I'm not behind the camera, you can find me hiking through the
-    mountains, sleeping in the forest, or biking through the city. Thank you for
-    visiting my website, and I hope you enjoy my work!"
+      content="
+      Greetings from Denmark! As a Czech-born multimedia design student 🇨🇿, I'm bringing the Slavic spirit to my new venture, Slavic Media – small but mighty! I'm a Canon-wielding photography enthusiast with a side of iPhone, and a website wizard, thanks to my multimedia studies on Erhversakademi Kolding. Former LEGO architect, current purveyor of digital aesthetics and sarcasm. Remember, no cookies—just creativity!"
     />
     <meta
       name="keywords"
-      content="adamsochorec, adam sochorec, @adamsochorec, web portfolio, web dev, web development, web-dev, web developer, Photography, Photos, 3D modeling, Polycam, 3D scaning, Web Designer, freelance photographer, content creator, content creation, IBA Kolding, Erhversakademi Kolding, front-end programming, travel blog, Denmark, Czechia, Finland, Prague, Vaasa, Vaasan Yliopsto, Kolding, Knud's Garage, Kolding Expo, photo prints, "
+      content="adamsochorec, adam sochorec, @adamsochorec, web portfolio, web dev, web development, web-dev, web developer, Photography, Photos, 3D modeling, Polycam, 3D scaning, Web Designer, freelance photographer, content creator, content creation, IBA Kolding, Erhversakademi Kolding, front-end programming, travel blog, Denmark, Czechia, Finland, Prague, Vaasa, Vaasan Yliopsto, Kolding, CSS, HTML, PHP, JavaScript, Czech, English, Danish, Flickr, Sketchfab, Lego architect, lego builder, no cookies"
     />
     <title>Adam Sochorec</title>
   </head>
@@ -48,34 +40,60 @@
             >
           </div>
           <div class="h-stretch">
-            <img src="/img/22050630038186.jpg" alt="22050630038186" />
+            <img
+              src="/img/22050630038186.jpg"
+              alt="Dancing girl at a rave at Råværket, Kolding"
+            />
           </div>
           <div class="h-stretch">
-            <img src="/img/22050630108189.jpg" alt="22050630108189" />
+            <img
+              src="/img/22050630108189.jpg"
+              alt="Energetic dancer at a Råværket rave, Kolding"
+            />
           </div>
           <div class="hhh-stretch">
-            <img src="/img/2202137912.jpg" alt="2202137912" />
+            <img
+              src="/img/2202137912.jpg"
+              alt="Glowing Shell gas station at night in Kolding"
+            />
           </div>
           <div class="h-stretch">
-            <img src="/img/21082261146778.jpg" alt="21082261146778" />
+            <img
+              src="/img/21082261146778.jpg"
+              alt="Man's face lit by his cigarette under the moonlight, Kolding"
+            />
           </div>
           <div class="h-stretch">
-            <img src="/img/2202137909.jpg" alt="2202137909" />
+            <img
+              src="/img/2202137909.jpg"
+              alt="Illuminated Shell gas station at night in Kolding"
+            />
           </div>
           <div class="v-stretch">
-            <img src="/img/21052108355967.jpg" alt="21052108355967" />
+            <img
+              src="/img/21052108355967.jpg"
+              alt="Portrait of a man in a pink balaclava with extravagant sunglasses, Prague"
+            />
           </div>
           <div class="h-stretch">
-            <img src="/img/21071948976502.jpg" alt="21071948976502" />
+            <img
+              src="/img/21071948976502.jpg"
+              alt="Male rapper with glowing gas station background, Prague"
+            />
           </div>
           <div class="v-stretch reveal">
-            <img src="/img/21090565126832.jpg" alt="21090565126832" />
+            <img
+              src="/img/21090565126832.jpg"
+              alt="Closeup of a girl's face blurred by a glass with water droplets, Kolding"
+            />
           </div>
+
           <iframe
             class="h-stretch reveal"
             src="https://sketchfab.com/models/dd16bb89f8844760ab31396d495fd0ce/embed?autospin=1&ui_theme=dark&dnt=1"
             ><p class="alt-alt">
-              3D scan of an Atlantic Wall bunker from WWII.
+              3D scan of an Atlantic Wall bunker from WWII at the tip of
+              Blavands Huk.
             </p>
           </iframe>
           <iframe
@@ -84,57 +102,109 @@
             ><p class="alt-alt">3D scan of an outdoor concrete architecure.</p>
           </iframe>
           <div class="v-stretch reveal">
-            <img src="/img/20111503544421.jpg" alt="20111503544421" />
+            <img
+              src="/img/20111503544421.jpg"
+              alt="Woman's bare back adorned with a gold chain, studio photograph from Prague"
+            />
           </div>
           <div class="h-stretch reveal">
-            <img src="/img/2105281156137.jpg" alt="2105281156137" />
+            <img
+              src="/img/2105281156137.jpg"
+              alt="Woman holding a violin, resting her head on it, photographed in Prague"
+            />
           </div>
           <div class="v-stretch reveal">
-            <img src="/img/21101786787138.jpg" alt="21101786787138" />
+            <img
+              src="/img/21101786787138.jpg"
+              alt="Woman in red top with vibrant lipstick, face obscured by plexiglass"
+            />
           </div>
           <div class="hh-stretch reveal">
-            <img src="/img/21041425600.jpg" alt="21041425600" />
+            <img
+              src="/img/21041425600.jpg"
+              alt="David Steigerwald unclothed, seated in a cage at Divadlo Na Vinohradech, Prague"
+            />
           </div>
           <div class="v-stretch reveal">
-            <img src="/img/21090567466861.jpg" alt="21090567466861" />
+            <img
+              src="/img/21090567466861.jpg"
+              alt="Semi-dressed woman shielding herself with arms, her shadow visible in the background, photograph from Kolding"
+            />
           </div>
           <div class="h-stretch reveal">
-            <img src="/img/21100178367026.jpg" alt="21100178367026" />
+            <img
+              src="/img/21100178367026.jpg"
+              alt="Silhouette of two girls exchanging smoke, under blue lighting with orange accents, photographed in Kolding"
+            />
           </div>
           <div class="h-stretch reveal">
-            <img src="/img/21082462356794.jpg" alt="21082462356794" />
+            <img
+              src="/img/21082462356794.jpg"
+              alt="Image description not available"
+            />
           </div>
           <div class="v-stretch reveal">
-            <img src="/img/21090566586849.jpg" alt="21090566586849" />
+            <img
+              src="/img/21090566586849.jpg"
+              alt="Close-up of a girl's face leaning on a mirror, creating a reflection, with pink backdrop, photographed in Kolding"
+            />
           </div>
           <div class="hh-stretch reveal">
-            <img src="/img/21042593335697.jpg" alt="21042593335697" />
+            <img
+              src="/img/21042593335697.jpg"
+              alt="Close-up portrait of Tereza Císařová laying on a table with fries, photographed at Divadlo Na Vinohradech"
+            />
           </div>
           <div class="h-stretch reveal">
-            <img src="/img/21041385565587.jpg" alt="21041385565587" />
+            <img
+              src="/img/21041385565587.jpg"
+              alt="Face of Daniel Babmas under blue lighting, with pink background, photographed at Divadlo Na Vinohradech"
+            />
           </div>
           <div class="h-stretch reveal">
-            <img src="/img/21042289925635.jpg" alt="21042289925635" />
+            <img
+              src="/img/21042289925635.jpg"
+              alt="Portrait of a bare-skinned woman with closed eyes, taken in Prague"
+            />
           </div>
           <div class="h-stretch reveal">
-            <img src="/img/22_kompr.gif" alt="22" />
+            <img
+              src="/img/22_kompr.gif"
+              alt="Animated MRI scans of Adam Sochorec's head"
+            />
           </div>
           <div class="h-stretch reveal">
-            <img src="/img/23_kompr.gif" alt="23" />
+            <img
+              src="/img/23_kompr.gif"
+              alt="Animation of Adam Sochorec's head using MRI images"
+            />
           </div>
           <div class="v-stretch reveal">
-            <img src="/img/2304142145473.jpg" alt="2304142145473" />
+            <img
+              src="/img/2304142145473.jpg"
+              alt="Møns Klint forest enveloped in morning fog with laser beams piercing the sky"
+            />
           </div>
           <div class="h-stretch reveal">
-            <img src="/img/22031613938003.jpg" alt="22031613938003" />
+            <img
+              src="/img/22031613938003.jpg"
+              alt="Willow tree by the Kolding Slotsøen lake in morning mist, with Koldnighus in the distance"
+            />
           </div>
           <div class="v-stretch reveal">
-            <img src="/img/22082525588812.jpg" alt="22082525588812" />
+            <img
+              src="/img/22082525588812.jpg"
+              alt="Aerial view of a fog-engulfed forest in Kvarken Archipelago"
+            />
+          </div>
+          <div class="v-stretch reveal">
+            <img
+              class="hideImg"
+              src="/img/2208258806.jpg"
+              alt="Björkoby fishing village shrouded in morning fog"
+            />
           </div>
 
-          <div class="v-stretch reveal">
-            <img class="hideImg" src="/img/2208258806.jpg" alt="2208258806" />
-          </div>
           <div id="web-dev"></div>
         </div>
       </article>
@@ -230,41 +300,40 @@
           <section class="wrapper-standard">
             <hr style="opacity: 0" ; />
             <p class="reveal">
-              As a Czech-born 🇨🇿 multimedia design student currently studying at
-              <a
-                href="https://www.iba.dk/fuldtidsuddannelser"
-                target="_blank"
-                rel="noopener noreferrer"
-                >Erhversakademi Kolding</a
-              >
-              in Denmark 🇩🇰. &nbsp;At the moment I'm launching a small media
-              production business -
+              Greetings from Denmark! As a Czech-born multimedia design student
+              🇨🇿, I'm bringing the Slavic spirit to my new venture,
               <a
                 href="https://www.slavicmedia.dk"
                 target="_blank"
                 rel="noopener noreferrer"
                 >Slavic Media</a
-              >. <br /><br />Photography, in particular, has always been a big
-              part of my life. I use either Canon 6D or my iPhone 13 mini.
-              <br /><br />
-              Since my multimedia design stuies I engage in web development and
-              web-design. <br /><br />
+              >
+              – small but mighty! <br /><br />I'm a Canon-wielding photography
+              enthusiast with a side of iPhone, and a website wizard, thanks to
+              my multimedia studies on
+              <a
+                href="https://www.iba.dk/fuldtidsuddannelser"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Erhversakademi Kolding</a
+              >.<br />
+              <br />
+              Former
               <a
                 href="https://www.flickr.com/photos/141401020@N03/"
                 target="_blank"
                 rel="noopener noreferrer"
-                >Lego building</a
-              >
-              was also a great chapter of my creative development
+                >LEGO architect</a
+              >, current purveyor of digital aesthetics and sarcasm.<br /><br />Remember,
+              no cookies—just creativity!
             </p>
 
             <hr class="reveal" />
             <img
               class="reveal"
               src="/img/22042404538028-2.jpg"
-              alt="Portrait of Adam Sochorec"
+              alt="Black and white portrait of Adam Sochorec captured in a Tribe Media studios in Kolding"
             />
-
             <img
               class="reveal clients"
               style="animation: none"
