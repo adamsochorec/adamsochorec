@@ -709,7 +709,7 @@ ul.menu-left.collapse {
   justify-content: center;
   letter-spacing: var(--letter-spacing-2);
   text-transform: uppercase;
-  font-weight: 300;
+  font-weight: var(--heading-weight);
   line-height: 1.5rem;
   outline: transparent;
 }
