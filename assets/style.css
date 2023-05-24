@@ -705,7 +705,7 @@ ul.menu-left.collapse {
   border: solid 1.5px rgb(var(--primary-color));
   color: var(--text-color);
   display: flex;
-  font-size: 12px;
+  font-size: var(--fontsize-p);
   justify-content: center;
   letter-spacing: var(--letter-spacing-2);
   text-transform: uppercase;
