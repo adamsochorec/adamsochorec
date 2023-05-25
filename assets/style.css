@@ -42,6 +42,8 @@
   --logo-adam: 16px;
   --logo-sochorec: 9.5px;
   --logo-querries: 0.85;
+  --blur-1: blur(2px);
+  --blur-2: blur(35px);
 }
 @font-face {
   font-family: "SF Pro Regular";
@@ -109,9 +111,13 @@ hr {
 #map img {
   animation: none;
 }
+
 .blur {
-  backdrop-filter: blur(35px);
-  -webkit-backdrop-filter: blur(35px);
+  backdrop-filter: var(--blur-2); /* Standard syntax */
+  -webkit-backdrop-filter: var(--blur-2); /* Chrome, Safari, Opera */
+  -moz-backdrop-filter: var(--blur-2); /* Firefox */
+  -ms-backdrop-filter: var(--blur-2); /* Edge */
+  -o-backdrop-filter: var(--blur-2); /* Older versions of Opera */
   background: rgba(var(--black-color), 0.5);
 }
 /* BROWSER SETTINGS START */
@@ -435,10 +441,16 @@ source {
 #map img {
   border-radius: unset;
 }
-
 #map {
   height: 400px;
   border-radius: var(--border-radius-2);
+}
+#map,
+#map:hover,
+#map::after,
+#map::before,
+#map:focus {
+  border-radius: var(--border-radius-2) !important;
 }
 /* IMG, IFRAME, SVG END */
 
@@ -705,7 +717,7 @@ ul.menu-left.collapse {
   border: solid 1.5px rgb(var(--primary-color));
   color: var(--text-color);
   display: flex;
-  font-size: var(--fontsize-p);
+  font-size: 13px;
   justify-content: center;
   letter-spacing: var(--letter-spacing-2);
   text-transform: uppercase;
@@ -771,9 +783,10 @@ ul.menu-left.collapse {
   grid-gap: 1rem;
   grid-template-columns: repeat(3, 1fr);
 }
-.gallery .grid-item {
+.gallery .grid-item,
+.gallery .blur {
   align-items: center;
-  aspect-ratio: 5/4;
+  aspect-ratio: 11/7;
   display: flex;
   justify-content: center;
   width: 100%;
@@ -782,6 +795,15 @@ ul.menu-left.collapse {
   background-size: cover;
   overflow: hidden;
   position: relative;
+}
+.gallery .blur {
+  z-index: 1;
+  background: rgba(var(--black-color), 0.1);
+  backdrop-filter: var(--blur-1); /* Standard syntax */
+  -webkit-backdrop-filter: var(--blur-1); /* Chrome, Safari, Opera */
+  -moz-backdrop-filter: var(--blur-1); /* Firefox */
+  -ms-backdrop-filter: var(--blur-1); /* Edge */
+  -o-backdrop-filter: var(--blur-1); /* Older versions of Opera */
 }
 .gallery a:hover {
   text-decoration: none;
@@ -817,16 +839,13 @@ ul.menu-left.collapse {
 .gallery .grid-item:hover::after {
   transform: scale(1.1);
 }
-.gallery .grid-item {
-  aspect-ratio: 11/7;
-}
-.gallery .hh-stretch .grid-item {
+.gallery .hh-stretch .grid-item,
+.gallery .hh-stretch .grid-item .blur {
   aspect-ratio: 5/1;
 }
 .gallery .hh-stretch .grid-item span {
   font-size: var(--fontsize-h3);
 }
-
 /* GALLERY GRID END */
 
 /* FOOTER START */
@@ -1009,7 +1028,7 @@ footer .footer-ps span:nth-child(2) {
 }
 
 .gallery #house-hunting {
-  background-image: url(/img/22100983718847_kompr.jpg);
+  background-image: url(/img/22100983718847.jpg);
 }
 #house-hunting .pathname-current:before,
 #house-hunting h1:before,
@@ -1017,7 +1036,7 @@ footer .footer-ps span:nth-child(2) {
   content: "House Hunting 🇫🇮";
 }
 .gallery #blavand {
-  background-image: url(/img/22041518018133_kompr.jpg);
+  background-image: url(/img/22041518018133.jpg);
 }
 #blavand .pathname-current:before,
 #blavand h1:before,
@@ -1025,7 +1044,7 @@ footer .footer-ps span:nth-child(2) {
   content: "Blåvand 🇩🇰";
 }
 .gallery #aland {
-  background-image: url(/img/22101685388877_kompr.jpg);
+  background-image: url(/img/22101685388877.jpg);
 }
 #aland .pathname-current:before,
 #aland h1:before,
@@ -1033,7 +1052,7 @@ footer .footer-ps span:nth-child(2) {
   content: "Åland 🇦🇽";
 }
 .gallery #lakeland {
-  background-image: url(/img/22081522748781_kompr.jpg);
+  background-image: url(/img/22081522748781.jpg);
 }
 #lakeland .pathname-current:before,
 #lakeland h1:before,
@@ -1041,7 +1060,7 @@ footer .footer-ps span:nth-child(2) {
   content: "Lakeland 🇫🇮";
 }
 .gallery #västerbotten {
-  background-image: url(/img/2209048838_kompr.jpg);
+  background-image: url(/img/2209048838.jpg);
 }
 #västerbotten .pathname-current:before,
 #västerbotten h1:before,
@@ -1049,7 +1068,7 @@ footer .footer-ps span:nth-child(2) {
   content: "Västerbotten 🇸🇪";
 }
 .gallery #kvarken {
-  background-image: url(/img/22082424738796_kompr.jpg);
+  background-image: url(/img/22082424738796.jpg);
 }
 #kvarken .pathname-current:before,
 #kvarken h1:before,
@@ -1057,7 +1076,7 @@ footer .footer-ps span:nth-child(2) {
   content: "Kvarken";
 }
 .gallery #vestkystruten {
-  background-image: url(/img/IMG_1849_kompr.jpg);
+  background-image: url(/img/IMG_1849.jpg);
 }
 #vestkystruten .pathname-current:before,
 #vestkystruten h1:before,
@@ -1084,7 +1103,7 @@ footer .footer-ps span:nth-child(2) {
   position: absolute;
   width: 100vw;
   margin-top: var(--about-into-section-margin);
-  height: 300vh;
+  height: 200vh;
   margin-bottom: 0;
 }
 #about img {

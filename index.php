@@ -218,27 +218,37 @@
           <div class="grid-container gallery reveal">
             <a class="hh-stretch" href="/blog/aland">
               <div class="grid-item" id="aland">
-                <span></span>
+                <div class="blur">
+                  <span></span>
+                </div>
               </div>
             </a>
             <a href="/blog/house-hunting">
               <div class="grid-item" id="house-hunting">
-                <span></span>
+                <div class="blur">
+                  <span></span>
+                </div>
               </div>
             </a>
             <a href="/blog/västerbotten">
               <div class="grid-item" id="västerbotten">
-                <span></span>
+                <div class="blur">
+                  <span></span>
+                </div>
               </div>
             </a>
             <a href="/blog/vestkystruten">
               <div class="grid-item" id="vestkystruten">
-                <span></span>
+                <div class="blur">
+                  <span></span>
+                </div>
               </div>
             </a>
             <a class="hh-stretch" href="/blog/blavand">
               <div class="grid-item" id="blavand">
-                <span></span>
+                <div class="blur">
+                  <span></span>
+                </div>
               </div>
             </a>
 
@@ -626,7 +636,7 @@
                 <input
                   type="hidden"
                   name="_captcha"
-                  value="true"
+                  value="false"
                 /><!-- Spam captcha deactivation -->
                 <input
                   type="hidden"

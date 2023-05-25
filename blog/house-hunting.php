@@ -85,7 +85,7 @@
           In the past, I tried several times to apply the inspiration I gained
           from Hiddo's works to lonely constructions in Czechia and Denmark.
         </p>
-        <div id="map" style="border-radius: 6px">
+        <div id="map">
           <p class="alt-alt">
             Interactive map of a Finnish city Vaasa with the marker of an
             approximate location of the building introduced in the article.
@@ -160,22 +160,30 @@
         <div class="grid-container gallery">
           <a class="hh-stretch" href="/blog/aland">
             <div class="grid-item" id="aland">
-              <span></span>
+              <div class="blur">
+                <span></span>
+              </div>
             </div>
           </a>
           <a href="/blog/blavand">
             <div class="grid-item" id="blavand">
-              <span></span>
+              <div class="blur">
+                <span></span>
+              </div>
             </div>
           </a>
           <a href="/blog/västerbotten">
             <div class="grid-item" id="västerbotten">
-              <span></span>
+              <div class="blur">
+                <span></span>
+              </div>
             </div>
           </a>
           <a href="/blog/vestkystruten">
             <div class="grid-item" id="vestkystruten">
-              <span></span>
+              <div class="blur">
+                <span></span>
+              </div>
             </div>
           </a>
           <a class="hh-stretch gradient" href="/blog/cybersecurity">
