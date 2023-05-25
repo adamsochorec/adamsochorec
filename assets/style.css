@@ -555,6 +555,7 @@ textarea {
   animation: gradient 15s ease infinite;
   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
   -webkit-background-clip: text;
+  background-clip: text;
   background-size: 400% 400%;
   -webkit-text-fill-color: transparent;
 }
@@ -749,11 +750,13 @@ ul.menu-left.collapse {
 #btn {
   border-radius: var(--border-radius-3);
   cursor: pointer;
+  transition: var(--transition-1);
   -webkit-transition: var(--transition-1);
   z-index: 9;
 }
 #btn:hover {
   background: #680068;
+  transition: var(--transition-1);
   -webkit-transition: var(--transition-1);
 }
 #btn:active {
@@ -899,12 +902,14 @@ footer .footer-ps span:nth-child(2) {
 }
 .social-icons svg {
   fill: rgb(var(--white-color));
+  transition: var(--transition-1);
   -webkit-transition: var(--transition-1);
   width: 1.2rem;
 }
 .social-icons svg:hover {
   fill: rgb(var(--primary-color));
   transform: scale(1.3);
+  transition: var(--transition-1);
   -webkit-transition: var(--transition-1);
 }
 .social-icons a {
