@@ -112,7 +112,12 @@ hr {
   animation: none;
 }
 
-.blur {
+.blur,
+.blur::before,
+.blur:active,
+.blur::after,
+.blur:focus,
+.blur:hover {
   backdrop-filter: var(--blur-2); /* Standard syntax */
   -webkit-backdrop-filter: var(--blur-2); /* Chrome, Safari, Opera */
   -moz-backdrop-filter: var(--blur-2); /* Firefox */
@@ -784,26 +789,30 @@ ul.menu-left.collapse {
   grid-template-columns: repeat(3, 1fr);
 }
 .gallery .grid-item,
-.gallery .blur {
-  align-items: center;
+.gallery .grid-item .blur {
+  width: 100%;
   aspect-ratio: 11/7;
+  align-items: center;
   display: flex;
   justify-content: center;
-  width: 100%;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
   position: relative;
 }
-.gallery .blur {
+.gallery .grid-item .blur,
+.gallery .grid-item .blur:active,
+.gallery .grid-item .blur::before,
+.gallery .grid-item .blur:hover::after,
+.gallery .grid-item .blur:focus::after {
   z-index: 1;
   background: rgba(var(--black-color), 0.1);
-  backdrop-filter: var(--blur-1); /* Standard syntax */
-  -webkit-backdrop-filter: var(--blur-1); /* Chrome, Safari, Opera */
-  -moz-backdrop-filter: var(--blur-1); /* Firefox */
-  -ms-backdrop-filter: var(--blur-1); /* Edge */
-  -o-backdrop-filter: var(--blur-1); /* Older versions of Opera */
+  backdrop-filter: blur(2px); /* Standard syntax */
+  -webkit-backdrop-filter: blur(2px); /* Chrome, Safari, Opera */
+  -moz-backdrop-filter: blur(2px); /* Firefox */
+  -ms-backdrop-filter: blur(2px); /* Edge */
+  -o-backdrop-filter: blur(2px); /* Older versions of Opera */
 }
 .gallery a:hover {
   text-decoration: none;
@@ -820,7 +829,12 @@ ul.menu-left.collapse {
 .gallery .grid-item:hover,
 .gallery a,
 .gallery a::after,
-.gallery a:hover {
+.gallery a:hover,
+.gallery .grid-item .blur,
+.gallery .grid-item .blur:active,
+.gallery .grid-item .blur::before,
+.gallery .grid-item .blur:hover::after,
+.gallery .grid-item .blur:focus::after {
   border-radius: var(--border-radius-2);
   transition: var(--transition-2);
 }
@@ -1195,7 +1209,8 @@ footer .footer-ps span:nth-child(2) {
   }
 }
 @media only screen and (max-width: 415px) {
-  .gallery .grid-item {
+  .gallery .grid-item,
+  .gallery .grid-item .blur {
     height: 5rem;
   }
   .noindex h1 {
@@ -1227,7 +1242,8 @@ footer .footer-ps span:nth-child(2) {
     display: flex;
     flex-direction: column;
   }
-  .gallery .grid-item {
+  .gallery .grid-item,
+  .gallery .grid-item .blur {
     aspect-ratio: 10/2;
   }
   .gallery .grid-item span,
