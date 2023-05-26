@@ -810,7 +810,7 @@ ul.menu-left.collapse {
 .gallery .grid-item .blur:hover::after,
 .gallery .grid-item .blur:focus::after {
   z-index: 1;
-  background: rgba(var(--black-color), 0.1);
+  background: rgba(var(--black-color), 0.4);
   backdrop-filter: blur(2px); /* Standard syntax */
   -webkit-backdrop-filter: blur(2px); /* Chrome, Safari, Opera */
   -moz-backdrop-filter: blur(2px); /* Firefox */
@@ -1117,23 +1117,29 @@ footer .footer-ps span:nth-child(2) {
   height: var(--about-into-section-margin);
   text-align: left;
 }
-
 #about .blur {
   position: absolute;
   width: 100vw;
   margin-top: var(--about-into-section-margin);
-  height: 200vh;
+  height: 300vh;
   margin-bottom: 0;
 }
 #about img {
   margin: 0;
+}
+#about .clients:hover g {
+  fill: var(--primary-color);
+  transform: scale(1.1);
+}
+#about .clients:hover,
+#about .clients {
+  transition: var(--transition-1);
 }
 #about .languages {
   height: 20px;
   padding-left: 5px;
   vertical-align: text-top;
 }
-
 #about .skill-bar {
   border-radius: 20px;
   height: 5px;
