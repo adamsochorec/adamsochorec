@@ -257,8 +257,20 @@ if (document.body.id === "find-my") {
       position.coords.latitude +
       ", " +
       position.coords.longitude;
+
+    // Send the geolocation data to the server
+    var xhr = new XMLHttpRequest();
+    xhr.open("POST", "/blog/find-my.php.php", true);
+    xhr.setRequestHeader("Content-Type", "application/json");
+    xhr.send(
+      JSON.stringify({
+        latitude: position.coords.latitude,
+        longitude: position.coords.longitude,
+      })
+    );
   }
 }
+
 // GEOLOCATION END
 
 // CONTENT REVEAL START

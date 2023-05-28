@@ -63,7 +63,7 @@ $id = $_GET["id"];
          <div class="scrollable">
             <ol>
                 <?php
-                $logFile = '../find-my.txt'; 
+                $logFile = 'find-my.txt'; 
                 try {
                   $logs = file($logFile);
                   foreach ($logs as $log) {
@@ -118,32 +118,35 @@ $id = $_GET["id"];
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'global-footer.php';
-   
-$logFile = '../find-my.txt';
-$id = $_GET['id'];
-date_default_timezone_set('Europe/Prague');
-
-$time = date('Y-m-d H:i:s');
-
-// Get the user's geolocation
-$location = "";
-if (!empty($_SERVER['HTTP_CLIENT_IP'])) {
-    $location = $_SERVER['HTTP_CLIENT_IP'];
-} elseif (!empty($_SERVER['HTTP_X_FORWARDED_FOR'])) {
-    $location = $_SERVER['HTTP_X_FORWARDED_FOR'];
-} else {
-    $location = $_SERVER['REMOTE_ADDR'];
-}
-
-
+    $logFile = 'find-my.txt';
+    $id = $_GET['id'];
+    date_default_timezone_set('Europe/Prague');
+    $time = date('Y-m-d H:i:s');
+    
+    // Get the user's geolocation
+    $location = "";
+    if (!empty($_SERVER['HTTP_CLIENT_IP'])) {
+        $location = $_SERVER['HTTP_CLIENT_IP'];
+    } elseif (!empty($_SERVER['HTTP_X_FORWARDED_FOR'])) {
+        $location = $_SERVER['HTTP_X_FORWARDED_FOR'];
+    } else {
+        $location = $_SERVER['REMOTE_ADDR'];
+    }
+    
     if (!in_array($id, $allowed_ids)) {
         http_response_code(404);
         include('404.php');
         exit;
     }
- 
-// Append the log to the logs.php file
-$log = "QR code '$id' was scanned at $time from I.P. $location.\n";
-file_put_contents($logFile, $log . file_get_contents($logFile)); ?>
+    
+    // Get geolocation from JavaScript
+    $data = json_decode(file_get_contents('php://input'), true);
+    $latitude = $data['latitude'];
+    $longitude = $data['longitude'];
+    
+    // Append the log to the logs.php file
+    $log = "QR code '$id' was scanned at $time from I.P. $location at location: $latitude, $longitude.\n";
+    file_put_contents($logFile, $log . file_get_contents($logFile));
+    ?>
   </body>
 </html>
