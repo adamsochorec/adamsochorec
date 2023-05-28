@@ -1,5 +1,3 @@
-<?php header('Content-Type: text/html'); ?>
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -21,25 +19,18 @@
     <!-- HEADER END -->
     <main>
       <article class="wrapper-narrow flex-center">
-        <?php
-        $allowed_ids = array("bike", "drone", "SSD", "leatherman", "MacBook", "mouse", "AirPods", "keys", "wallet", "bottle", "helmet", "iPhone");
-        $id = $_GET["id"];
-        
-        if (!in_array($id, $allowed_ids)) {
-            http_response_code(404);
-            include('404.php');
-            exit;
-        }
-        ?>
         <br />
+        <?php
+        $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+        include $IPATH . 'find-my-body.php'; ?>
         <dotlottie-player
-          src="/img/lottie/track.lottie"
+          src="/assets/lottie/track.lottie"
           background="transparent"
           speed="1"
           autoplay
           loop
         ></dotlottie-player>
-        <h1>Find My</h1>
+        <h1></h1>
         <hr />
         <h2>
           It looks like you have found my
@@ -49,26 +40,6 @@
           Thanks!
         </h2>
 
-        <!-- logs - url: https://adamsochorec.com/find-my?id=xxx -->
-        <?php
-          $logFile = 'find-my.txt';
-          $id = $_GET['id'];
-          $time = date('Y-m-d H:i:s');
-      
-          // Get the user's geolocation
-          $location = "";
-          if (!empty($_SERVER['HTTP_CLIENT_IP'])) {
-              $location = $_SERVER['HTTP_CLIENT_IP'];
-          } elseif (!empty($_SERVER['HTTP_X_FORWARDED_FOR'])) {
-              $location = $_SERVER['HTTP_X_FORWARDED_FOR'];
-          } else {
-              $location = $_SERVER['REMOTE_ADDR'];
-          }
-
-        // Append the log to the logs.php file
-        $log = "QR code '$id' was scanned at $time from I.P. $location.\n";
-        file_put_contents($logFile, $log . file_get_contents($logFile));
-        ?>
         <hr />
       </article>
     </main>
@@ -99,6 +70,7 @@
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'global-footer.php';
     ?>
+
     <!-- FOOTER END -->
   </body>
 </html>

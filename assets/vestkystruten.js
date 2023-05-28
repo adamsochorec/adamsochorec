@@ -1,5 +1,4 @@
 // VESTKYSTRUTEN START
-if (document.body.id === "vestkystruten") {
   const map = createMap(); // call createMap() to get the map object
   map.setView([55.5361, 10.1124], 6); // set the view of a map
 
@@ -37434,5 +37433,4 @@ if (document.body.id === "vestkystruten") {
   vestkystruten.bindPopup(
     "Distance: <b> 575.30 km</b> <br>Avg speed: <b>21.6 km</b><br>Max speed: <b>48.4 km</b>"
   );
-}
 // VESTKYSTRUTEN END

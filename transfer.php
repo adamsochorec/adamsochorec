@@ -31,7 +31,7 @@
         }
         ?>
         <dotlottie-player
-          src="/img/lottie/track.lottie"
+          src="/assets/lottie/track.lottie"
           background="transparent"
           speed="1"
           autoplay

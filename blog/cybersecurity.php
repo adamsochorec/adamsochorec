@@ -2857,13 +2857,6 @@ C502.2,625.2,499,621.9,499,618.3z"
         <h2 class="reveal">Further reading</h2>
         <br />
         <section class="grid-container gallery reveal">
-          <a class="hh-stretch" href="/blog/blavand">
-            <div class="grid-item reveal" id="blavand">
-              <div class="blur">
-                <span></span>
-              </div>
-            </div>
-          </a>
           <a href="/blog/house-hunting">
             <div class="grid-item reveal" id="house-hunting">
               <div class="blur">
@@ -2880,13 +2873,6 @@ C502.2,625.2,499,621.9,499,618.3z"
           </a>
           <a href="/blog/vestkystruten">
             <div class="grid-item reveal" id="vestkystruten">
-              <div class="blur">
-                <span></span>
-              </div>
-            </div>
-          </a>
-          <a class="hh-stretch" href="/blog/aland">
-            <div class="grid-item" id="aland">
               <div class="blur">
                 <span></span>
               </div>

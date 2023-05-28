@@ -965,8 +965,9 @@ footer .footer-ps span:nth-child(2) {
 }
 /* WEB DEV START*/
 
-/* CYBERSECURITY START */
+/* BLOG START */
 
+/* CYBERSECURITY START */
 #cybersecurity .pathname-current:before,
 #cybersecurity h1:before,
 .gallery #cybersecurity span:before {
@@ -1036,8 +1037,20 @@ footer .footer-ps span:nth-child(2) {
   fill: rgb(var(--white-color));
 }
 /* CYBERSECURITY END */
+/* FIND-MY BLOG START */
+.scrollable {
+  height: 300px;
+  overflow: auto;
+  scroll-behavior: smooth;
+  background-color: rgba(var(--grey-color), 1);
+}
+.scrollable-wrapper {
+  padding: 25px 10px;
+  background-color: rgba(var(--grey-color), 1);
+  border-radius: var(--border-radius-2);
+}
+/* FIND-MY BLOG END */
 
-/* BLOG START */
 .blog-item .pathname-container {
   text-transform: lowercase;
 }
@@ -1045,7 +1058,6 @@ footer .footer-ps span:nth-child(2) {
 .blog-item .pathname:nth-child(2) a::before {
   content: "Blog";
 }
-
 .gallery #house-hunting {
   background-image: url(/img/22100983718847.jpg);
 }
@@ -1102,7 +1114,14 @@ footer .footer-ps span:nth-child(2) {
 .gallery #vestkystruten span:before {
   content: "Vestkystruten 🇩🇰";
 }
-
+#find-my .pathname-current:before,
+#find-my h1:before,
+.gallery #find-my span:before {
+  content: "Find my";
+}
+.gallery #find-my {
+  background-image: url(/img/.jpg);
+}
 /* BLOG END */
 
 /* ABOUT START */
@@ -1127,12 +1146,11 @@ footer .footer-ps span:nth-child(2) {
 #about img {
   margin: 0;
 }
-#about .clients:hover g {
-  fill: var(--primary-color);
-  transform: scale(1.1);
+#about .clients:hover path {
+  fill: rgba(var(--primary-color));
 }
-#about .clients:hover,
-#about .clients {
+#about .clients:hover path,
+#about .clients path {
   transition: var(--transition-1);
 }
 #about .languages {

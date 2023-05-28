@@ -39,31 +39,31 @@
               </p></iframe
             >
           </div>
-          <div class="h-stretch reveal">
+          <div class="h-stretch">
             <img
               src="/img/22050630038186.jpg"
               alt="Dancing girl at a rave at Råværket, Kolding"
             />
           </div>
-          <div class="h-stretch reveal">
+          <div class="h-stretch">
             <img
               src="/img/22050630108189.jpg"
               alt="Energetic dancer at a Råværket rave, Kolding"
             />
           </div>
-          <div class="hhh-stretch reveal">
+          <div class="hhh-stretch">
             <img
               src="/img/2202137912.jpg"
               alt="Glowing Shell gas station at night in Kolding"
             />
           </div>
-          <div class="h-stretch reveal">
+          <div class="h-stretch">
             <img
               src="/img/21082261146778.jpg"
               alt="Man's face lit by his cigarette under the moonlight, Kolding"
             />
           </div>
-          <div class="h-stretch reveal">
+          <div class="h-stretch">
             <img
               src="/img/2202137909.jpg"
               alt="Illuminated Shell gas station at night in Kolding"

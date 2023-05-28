@@ -167,20 +167,12 @@
         <h2>Further reading</h2>
         <br />
         <div class="grid-container gallery">
-          <a class="hh-stretch" href="/blog/västerbotten">
-            <div class="grid-item" id="västerbotten">
-              <div class="blur">
-                <span></span>
-              </div>
+          <a class="gradient" href="/blog/cybersecurity">
+            <div class="grid-item" id="cybersecurity">
+              <span></span>
             </div>
           </a>
-          <a href="/blog/blavand">
-            <div class="grid-item" id="blavand">
-              <div class="blur">
-                <span></span>
-              </div>
-            </div>
-          </a>
+
           <a href="/blog/house-hunting">
             <div class="grid-item" id="house-hunting">
               <div class="blur">
@@ -193,11 +185,6 @@
               <div class="blur">
                 <span></span>
               </div>
-            </div>
-          </a>
-          <a class="hh-stretch gradient" href="/blog/cybersecurity">
-            <div class="grid-item" id="cybersecurity">
-              <span></span>
             </div>
           </a>
         </div>
