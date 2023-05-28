@@ -116,24 +116,23 @@
           </p>
           <hr class="reveal" />
           <section>
-            <h4 class="reveal">1.2. Check the strength of your password.</h4>
+            <h4 class="reveal">1.2. Password strength</h4>
+            <br />
+            <form
+              class="reveal"
+              id="password-strength-form"
+              action=""
+              method="get"
+              accept-charset="utf-8"
+            >
+              <input id="myPassword" type="password" name="" value="" />
+            </form>
             <br />
             <p class="reveal">
               Contemporary password hacking is more about social engineering and
               working with the most commonly used words/phrases in dictionaries,
               than processing-heavy combinatorics.<br /><br />
             </p>
-
-            <p class="reveal">
-              Try out the
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://www.security.org/how-secure-is-my-password/"
-                >Password Strength Calculator</a
-              >, do not share your actual passwords!
-            </p>
-            <br />
           </section>
         </section>
         <hr class="reveal" />
@@ -2887,8 +2886,7 @@ C502.2,625.2,499,621.9,499,618.3z"
     </main>
     <script
       type="text/javascript"
-      src="https://unpkg.com/@dotlottie/player-component@1.0.0/dist/dotlottie-player.js"
-      defer
+      src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"
     ></script>
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';

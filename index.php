@@ -89,7 +89,7 @@
           </div>
 
           <iframe
-            class="h-stretch reveal"
+            class="h-stretch reveal hideIframe"
             src="https://sketchfab.com/models/dd16bb89f8844760ab31396d495fd0ce/embed?autospin=1&ui_theme=dark&dnt=1"
             ><p class="alt-alt">
               3D scan of an Atlantic Wall bunker from WWII at the tip of
@@ -97,7 +97,7 @@
             </p>
           </iframe>
           <iframe
-            class="h-stretch reveal"
+            class="h-stretch reveal hideIframe"
             src="https://sketchfab.com/models/14f04b6252fe44fab20845fe3856401f/embed?autospin=1&ui_theme=dark&dnt=1"
             ><p class="alt-alt">3D scan of an outdoor concrete architecure.</p>
           </iframe>
