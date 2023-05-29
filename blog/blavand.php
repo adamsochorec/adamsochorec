@@ -7,10 +7,6 @@
     ?>
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-    include $IPATH . 'blog-desc.php';
-    ?>
-    <?php
-    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'leaflet-head.php';
     ?>
     <meta
@@ -242,8 +238,8 @@
               </div>
             </div>
           </a>
-          <a href="/blog/västerbotten">
-            <div class="grid-item" id="västerbotten">
+          <a href="/blog/vasterbotten">
+            <div class="grid-item" id="vasterbotten">
               <div class="blur">
                 <span></span>
               </div>

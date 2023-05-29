@@ -19,7 +19,7 @@
     />
     <title>Västerbotten 🇸🇪 | Adam Sochorec</title>
   </head>
-  <body id="västerbotten" class="blog-item">
+  <body id="vasterbotten" class="blog-item">
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'global-nav-bar.php';

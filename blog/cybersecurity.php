@@ -2861,8 +2861,8 @@ C502.2,625.2,499,621.9,499,618.3z"
               </div>
             </div>
           </a>
-          <a href="/blog/västerbotten">
-            <div class="grid-item reveal" id="västerbotten">
+          <a href="/blog/vasterbotten">
+            <div class="grid-item reveal" id="vasterbotten">
               <div class="blur">
                 <span></span>
               </div>

@@ -366,7 +366,7 @@ if (document.body.id === "house-hunting") {
 // HOUSE HUNTING END
 
 // VASTERBOTTEN START
-if (document.body.id === "västerbotten") {
+if (document.body.id === "vasterbotten") {
   const map = createMap(); // call createMap() to get the map object
   map.setView([63.825, 20.27965], 7); // set the view of a map
 
