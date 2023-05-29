@@ -26,4 +26,4 @@ def gpx_to_coordinates_list(gpx_file, output_file):
 
 
 # Call the function
-gpx_to_coordinates_list('aland.gpx', 'aland.txt')
+gpx_to_coordinates_list('samso.gpx', 'samso.txt')

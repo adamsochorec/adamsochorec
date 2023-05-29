@@ -85,11 +85,13 @@
           In the past, I tried several times to apply the inspiration I gained
           from Hiddo's works to lonely constructions in Czechia and Denmark.
         </p>
-        <div id="map">
-          <p class="alt-alt">
-            Interactive map of a Finnish city Vaasa with the marker of an
-            approximate location of the building introduced in the article.
-          </p>
+        <div class="map-margin">
+          <div id="map">
+            <p class="alt-alt">
+              Interactive map of a Finnish city Vaasa with the marker of an
+              approximate location of the building introduced in the article.
+            </p>
+          </div>
         </div>
         <p>
           Even though the exterior atmosphere was slightly more matching to the

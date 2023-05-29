@@ -125,13 +125,19 @@
               method="get"
               accept-charset="utf-8"
             >
-              <input id="myPassword" type="password" name="" value="" />
+              <input
+                id="myPassword"
+                type="password"
+                name=""
+                value=""
+                autocomplete="current-password"
+              />
             </form>
             <br />
             <p class="reveal">
               Contemporary password hacking is more about social engineering and
               working with the most commonly used words/phrases in dictionaries,
-              than processing-heavy combinatorics.<br /><br />
+              than processing-heavy combinatorics.
             </p>
           </section>
         </section>
@@ -2829,14 +2835,6 @@ C502.2,625.2,499,621.9,499,618.3z"
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://www.security.org/how-secure-is-my-password/"
-                >Password Strength Calculator
-              </a>
-            </li>
-            <li class="reveal">
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
                 href="https://www.omnicalculator.com/other/password-entropy"
                 >Password Entropy Calculator
               </a>
@@ -2886,8 +2884,9 @@ C502.2,625.2,499,621.9,499,618.3z"
     </main>
     <script
       type="text/javascript"
-      src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"
+      src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"
     ></script>
+
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'global-footer.php';

@@ -197,16 +197,16 @@ if (document.body.id === "cybersecurity") {
             thismeter.removeClass().html("");
           } else if (total <= 1) {
             thismeter.removeClass();
-            thismeter.addClass("veryweak").html("<p>Strength: very weak</p>");
+            thismeter.addClass("veryweak").html("<p>Strength: <i>very weak</i></p>");
           } else if (total == 2) {
             thismeter.removeClass();
-            thismeter.addClass("weak").html("<p>Strength: weak</p>");
+            thismeter.addClass("weak").html("<p>Strength: <i>weak</i></p>");
           } else if (total == 3) {
             thismeter.removeClass();
-            thismeter.addClass("medium").html("<p>Strength: medium</p>");
+            thismeter.addClass("medium").html("<p>Strength: <i>medium</i></p>");
           } else {
             thismeter.removeClass();
-            thismeter.addClass("strong").html("<p>Strength: strong</p>");
+            thismeter.addClass("strong").html("<p>Strength: <i>strong</i></p>");
           }
           console.log(total);
         }
@@ -424,39 +424,6 @@ if (document.body.id === "västerbotten") {
 // VASTERBOTTEN END
 
 // MAP END
-
-// GEOLOCATION START
-if (document.body.id === "find-my") {
-  const x = document.getElementById("geolocation");
-
-  function getLocation() {
-    if (navigator.geolocation) {
-      navigator.geolocation.getCurrentPosition(showPosition);
-    } else {
-      x.innerHTML = "Geolocation is not supported by this browser.";
-    }
-  }
-  function showPosition(position) {
-    x.innerHTML =
-      "Your geolocation: " +
-      position.coords.latitude +
-      ", " +
-      position.coords.longitude;
-
-    // Send the geolocation data to the server
-    var xhr = new XMLHttpRequest();
-    xhr.open("POST", "/blog/find-my.php.php", true);
-    xhr.setRequestHeader("Content-Type", "application/json");
-    xhr.send(
-      JSON.stringify({
-        latitude: position.coords.latitude,
-        longitude: position.coords.longitude,
-      })
-    );
-  }
-}
-
-// GEOLOCATION END
 
 // CONTENT REVEAL START
 function reveal() {

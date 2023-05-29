@@ -409,7 +409,8 @@ svg {
 }
 
 .blog-item .img,
-.blog-item #map {
+.blog-item .map-margin,
+.blog-item iframe {
   margin: 2.5rem 0 2.5rem 0;
 }
 .blog-item iframe {
@@ -420,6 +421,7 @@ svg {
 .img-fill {
   border-radius: var(--border-radius-2);
 }
+
 iframe,
 img,
 source {
@@ -442,6 +444,7 @@ source {
 }
 .note {
   font-size: 0.7rem;
+  color: var(--text-color);
 }
 #map img {
   border-radius: unset;
@@ -1041,7 +1044,7 @@ footer .footer-ps span:nth-child(2) {
 #password-strength-form input[type="text"] {
   background: transparent;
   border: 2px solid rgba(var(--white-color));
-  color: var(--text-color);
+  color: var(--black-color);
   font-size: var(--fontsize-p);
   height: 43px;
   text-indent: 6px;
@@ -1078,12 +1081,12 @@ footer .footer-ps span:nth-child(2) {
   height: 36px;
   z-index: -1;
   border-radius: 5px;
-  padding-right: 13px;
 }
 .button_strength {
   color: var(--text-color);
   margin-top: 40px;
   font-size: 13px;
+  text-decoration: underline;
 }
 .strength_meter div {
   width: 0%;
@@ -1095,7 +1098,6 @@ footer .footer-ps span:nth-child(2) {
   -o-transition: all 0.3s ease-in-out;
   -ms-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  padding-right: 12px;
   border-radius: 5px;
 }
 .strength_meter div p {
@@ -1105,7 +1107,7 @@ footer .footer-ps span:nth-child(2) {
   font-size: 13px;
 }
 .veryweak {
-  background-color: #ffa0a0;
+  background-color: #dd7272;
   border-color: #f04040 !important;
   width: 25% !important;
 }
@@ -1126,7 +1128,7 @@ footer .footer-ps span:nth-child(2) {
 }
 
 /* CYBERSECURITY END */
-/* FIND-MY BLOG START */
+/* FIND-MY BLOG START 
 .scrollable {
   height: 300px;
   overflow: auto;
@@ -1203,13 +1205,13 @@ footer .footer-ps span:nth-child(2) {
 .gallery #vestkystruten span:before {
   content: "Vestkystruten 🇩🇰";
 }
-#find-my .pathname-current:before,
-#find-my h1:before,
-.gallery #find-my span:before {
-  content: "Find my";
+.gallery #samso {
+  background-image: url(https://i.vimeocdn.com/video/1674112437-3e477e6644cd2f292e041b2c20e2be32a353d2d213f95c995c18ff73708e0f76-d?mw=3000&mh=1687&q=70.jpg);
 }
-.gallery #find-my {
-  background-image: url(/img/.jpg);
+#samso .pathname-current:before,
+#vestkystruten h1:before,
+.gallery #samso span:before {
+  content: "Samsø 🇩🇰";
 }
 /* BLOG END */
 
@@ -1326,6 +1328,7 @@ footer .footer-ps span:nth-child(2) {
     margin-bottom: 4rem;
   }
 }
+
 @media only screen and (max-width: 415px) {
   .gallery .grid-item,
   .gallery .grid-item .blur {
@@ -1469,7 +1472,7 @@ footer .footer-ps span:nth-child(2) {
   }
   #cybersecurity .btn-area input,
   #cybersecurity .btn-area input::placeholder {
-    font-size: var(--fontsize-h6);
+    font-size: var(--fontsize-h4);
   }
 }
 @media only screen and (max-width: 768px) {
@@ -1556,6 +1559,10 @@ footer .footer-ps span:nth-child(2) {
     transition: var(--transition-1);
     -webkit-transition: var(--transition-1);
     z-index: 999;
+  }
+  #cybersecurity .img-fill:hover,
+  .blog-item .img img:hover,
+  .blog-item #map:hover {
     box-shadow: rgba(0, 0, 0, 0.56) 0 22px 70px 4px;
   }
   .hide {

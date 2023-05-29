@@ -74,10 +74,17 @@
           time, Blåvand was hosting a festival and the main road through the
           city was congested with cars with Danish and German license plates.
         </p>
-        <div id="map">
-          <p class="alt-alt">
-            Interactive map of an Blavands Huk. Important locations from the
-            article are marked on the map with descriptions.
+        <div class="map-margin">
+          <div id="map">
+            <p class="alt-alt">
+              Interactive map of an Blavands Huk. Important locations from the
+              article are marked on the map with descriptions.
+            </p>
+          </div>
+          <p>
+            <i class="note"
+              >Zoom in and click on the waypoints to see more details</i
+            >
           </p>
         </div>
         <p>

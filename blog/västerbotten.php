@@ -84,11 +84,18 @@
             >Everyman's right</a
           >. These were the focus of our trip for the next four days.
         </p>
-        <div id="map">
-          <p class="alt-alt">
-            Interactive map of the western part of Sweden and the eastern part
-            of Finland. Important locations from the article are marked on the
-            map with descriptions.
+        <div class="map-margin">
+          <div id="map">
+            <p class="alt-alt">
+              Interactive map of the western part of Sweden and the eastern part
+              of Finland. Important locations from the article are marked on the
+              map with descriptions.
+            </p>
+          </div>
+          <p>
+            <i class="note"
+              >Zoom in and click on the route to see more details</i
+            >
           </p>
         </div>
 

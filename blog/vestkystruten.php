@@ -63,7 +63,7 @@
           allow="autoplay; fullscreen; picture-in-picture"
           allowfullscreen
           ><p class="alt-alt">
-            Link to a YoutTube blog from our journey made by Marcel.
+            Link to a Vimeo blog from our journey made by Marcel.
           </p>
         </iframe>
 
@@ -126,13 +126,19 @@
           possible, and we had the time of our lives exploring the beautiful
           landscape and meeting friendly locals.
         </p>
-        <div id="map" style="border-radius: 6px">
-          <p class="alt-alt">
-            Interactive map of a danish peninsula Jutland, with a line depicting
-            our route from the south to the north of Denmark.
+        <div class="map-margin">
+          <div id="map" style="border-radius: 6px">
+            <p class="alt-alt">
+              Interactive map of a danish peninsula Jutland, with a line
+              depicting our route from the south to the north of Denmark.
+            </p>
+          </div>
+          <p>
+            <i class="note"
+              >Zoom in and click on the route to see more details</i
+            >
           </p>
         </div>
-
         <p>
           From breathtaking coastal views to charming small towns, this trip had
           it all. And the destination, Skagen, was a unique place where the

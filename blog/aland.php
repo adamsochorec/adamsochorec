@@ -136,7 +136,7 @@
           >
           not matching the early ferry departure time.
         </p>
-        <div class="map-wrapper">
+        <div class="map-margin">
           <div id="map">
             <p class="alt-alt">
               Interactive map of an Aland Islands with a trace of our journey
@@ -145,6 +145,11 @@
               descriptions.
             </p>
           </div>
+          <p>
+            <i class="note"
+              >Zoom in and click on the route to see more details</i
+            >
+          </p>
         </div>
 
         <p>

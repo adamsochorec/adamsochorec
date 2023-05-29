@@ -5,10 +5,10 @@ map.setView([55.5361, 10.1124], 6); // set the view of a map
 // DAY 1 START
 // camp Tonder
 const tonder = L.circle([54.9533, 8.8522], {
-  color: "rgb(128, 0, 128)",
-  fillColor: "rgb(128, 0, 128)",
+  color: "black",
+  fillColor: "black",
   fillOpacity: 0.5,
-  radius: 800,
+  radius: 1000,
 }).addTo(map);
 tonder.bindPopup("<b>Tønder</b><br>1st camp");
 const day1 = L.polyline(
@@ -4443,19 +4443,19 @@ const day1 = L.polyline(
     [54.95335, 8.852183],
   ],
   {
-    color: "#698396",
+    color: "rgb(0, 126, 227)",
   }
 ).addTo(map);
-day1.bindPopup("Day <b>1</b><br>Distance: <b>72 / 575 km</b>");
+day1.bindPopup("Day: <b>1</b><br>Distance: <b>72 / 575 km</b>");
 // DAY 1 END
 
 // DAY 2 START
 // camp Esbjerg
-const esbjerg = L.circle([55.45171185862622, 8.518810239691877], {
+const esbjerg = L.circle([23.5, 53.3], {
   color: "rgb(128, 0, 128)",
   fillColor: "rgb(128, 0, 128)",
   fillOpacity: 0.5,
-  radius: 800,
+  radius: 1000,
 }).addTo(map);
 esbjerg.bindPopup("<b>Esbjerg</b><br>2nd camp");
 
@@ -11485,6 +11485,26 @@ const day2 = L.polyline(
     [55.451937, 8.51889],
     [55.451877, 8.519055],
     [55.451803, 8.519173],
+  ],
+  {
+    color: "rgb( 128, 0, 128)",
+  }
+).addTo(map);
+day2.bindPopup("Day: <b>2</b><br>Distance: <b>142 / 575 km</b>");
+// DAY 2 END
+
+// DAY 3 START
+// camp daco
+const daco = L.circle([55.45171185862622, 8.518810239691877], {
+  color: "black",
+  fillColor: "black",
+  fillOpacity: 0.5,
+  radius: 1000,
+}).addTo(map);
+daco.bindPopup("<b>Esbjerg</b><br>2nd camp");
+
+const day3 = L.polyline(
+  [
     [55.451713, 8.51924],
     [55.451663, 8.51906],
     [55.451653, 8.518927],
@@ -16124,6 +16144,29 @@ const day2 = L.polyline(
     [55.794232, 8.218702],
     [55.794232, 8.218522],
     [55.794245, 8.21834],
+    [55.8360373977801, 8.26598497015403],
+  ],
+  {
+    color: "rgb(0, 126, 227)",
+  }
+).addTo(map);
+day3.bindPopup("Day: <b>3</b><br>Distance: <b>200 / 575 km</b>");
+// DAY 3 END
+
+// DAY 4 START
+// camp Bork Hytteby Sande
+const borkhytteby = L.circle([55.8360373977801, 8.26598497015403], {
+  color: "black",
+  fillColor: "black",
+  fillOpacity: 0.5,
+  radius: 1000,
+}).addTo(map);
+borkhytteby.bindPopup("<b>Bork Hytteby</b><br>3rd camp");
+const day4 = L.polyline(
+  [
+    [55.794245, 8.21834],
+    [55.8360373977801, 8.26598497015403],
+    [55.819436196084425, 8.188532567348954],
     [55.794253, 8.21814],
     [55.794268, 8.217942],
     [55.794283, 8.217767],
@@ -17731,40 +17774,6 @@ const day2 = L.polyline(
     [56.117863, 8.169675],
     [56.117797, 8.169788],
     [56.117707, 8.169953],
-  ],
-  {
-    color: "#A9C8C0",
-  }
-).addTo(map);
-day2.bindPopup("Day <b>2</b><br>Distance: <b>142 / 575 km</b>");
-// DAY 2 END
-
-// DAY 3 START
-// camp Hvide Sande
-const hvidesande = L.circle([99, 12], {
-  color: "rgb(128, 0, 128)",
-  fillColor: "rgb(128, 0, 128)",
-  fillOpacity: 0.5,
-  radius: 800,
-}).addTo(map);
-hvidesande.bindPopup("<b>Hvide Sande</b><br>3rd camp");
-const day3 = L.polyline([], {
-  color: "#DBBC8E",
-}).addTo(map);
-day3.bindPopup("Day <b>3</b><br>Distance: <b>142 / 575 km</b>");
-// DAY 3 END
-
-// DAY 4 START
-// Ringkøbning camp
-const ringkobning = L.circle([56.11770208765801, 8.264963249214688], {
-  color: "rgb(128, 0, 128)",
-  fillColor: "rgb(128, 0, 128)",
-  fillOpacity: 0.5,
-  radius: 800,
-}).addTo(map);
-ringkobning.bindPopup("<b>Ringkøbning</b><br>4th camp");
-const day4 = L.polyline(
-  [
     [56.117613, 8.17011],
     [56.117525, 8.17027],
     [56.117435, 8.170435],
@@ -18242,6 +18251,25 @@ const day4 = L.polyline(
     [56.114838, 8.263128],
     [56.114732, 8.263167],
     [56.114627, 8.263205],
+  ],
+  {
+    color: "rgb(128, 0, 128)",
+  }
+).addTo(map);
+day4.bindPopup("Day: <b>4</b><br>Distance: <b>240 / 575 km</b>");
+// DAY 4 END
+
+// DAY 5 START
+// Ringkøbning camp
+const ringkobning = L.circle([56.11770208765801, 8.264963249214688], {
+  color: "black",
+  fillColor: "black",
+  fillOpacity: 0.5,
+  radius: 1000,
+}).addTo(map);
+ringkobning.bindPopup("<b>Ringkøbning</b><br>4th camp");
+const day5 = L.polyline(
+  [
     [56.114532, 8.263275],
     [56.114455, 8.263417],
     [56.114348, 8.263473],
@@ -23288,22 +23316,22 @@ const day4 = L.polyline(
     [56.496841, 8.52841],
   ],
   {
-    color: "#AE8A8C",
+    color: "rgb(0, 126, 227)",
   }
 ).addTo(map);
-day4.bindPopup("Day <b>4</b><br>Distance: <b>200 / 575 km</b>");
-// DAY 4 END
+day5.bindPopup("Day: <b>5</b><br>Distance: <b>290 / 575 km</b>");
+// DAY 5 END
 
-// DAY 5 START
+// DAY 6 START
 // camp Struer
 const struer = L.circle([56.49684296070563, 8.540471116855057], {
-  color: "rgb(128, 0, 128)",
-  fillColor: "rgb(128, 0, 128)",
+  color: "black",
+  fillColor: "black",
   fillOpacity: 0.5,
-  radius: 800,
+  radius: 1000,
 }).addTo(map);
 struer.bindPopup("<b>Struer</b><br>5th camp");
-const day5 = L.polyline(
+const day6 = L.polyline(
   [
     [56.496916, 8.528519],
     [56.497003, 8.52861],
@@ -25502,25 +25530,6 @@ const day5 = L.polyline(
     [56.658134, 8.490306],
     [56.658121, 8.490109],
     [56.65811, 8.489923],
-  ],
-  {
-    color: "#85586F",
-  }
-).addTo(map);
-day5.bindPopup("Day <b>5</b><br>Distance: <b>240 / 575 km</b>");
-// DAY 5 END
-
-// DAY 6 START
-// Koldby camp
-const koldby = L.circle([56.8188, 8.4899], {
-  color: "rgb(128, 0, 128)",
-  fillColor: "rgb(128, 0, 128)",
-  fillOpacity: 0.5,
-  radius: 800,
-}).addTo(map);
-koldby.bindPopup("<b>Koldby</b><br>6th camp");
-const day6 = L.polyline(
-  [
     [56.658097, 8.489739],
     [56.658093, 8.489554],
     [56.658078, 8.48937],
@@ -27746,27 +27755,27 @@ const day6 = L.polyline(
     [56.786684, 8.467883],
     [56.786775, 8.4679],
     [56.786906, 8.467934],
-    [56.787035, 8.467965],
-    [56.787152, 8.46798],
-    [56.787252, 8.468011],
-    [56.787349, 8.467995],
-    [56.787453, 8.468044],
-    [56.95656, 8.705378],
-    [56.956678, 8.70554],
-    [56.956723, 8.705723],
-    [56.956778, 8.705858],
-    [56.956835, 8.706003],
-    [56.95688, 8.706173],
-    [56.95694, 8.706317],
-    [56.957005, 8.706475],
-    [56.95705, 8.706668],
-    [56.957105, 8.706855],
-    [56.957175, 8.707045],
-    [56.957225, 8.707238],
-    [56.957287, 8.707412],
-    [56.957347, 8.70758],
-    [56.957395, 8.707752],
-    [56.957448, 8.707927],
+    [56.8188, 8.4899],
+  ],
+  {
+    color: "rgb(128, 0, 128)",
+  }
+).addTo(map);
+day6.bindPopup("Day: <b>6</b><br>Distance: <b>332 / 575 km</b>");
+// DAY 6 END
+
+// DAY 7 START
+// Koldby camp
+const koldby = L.circle([56.8188, 8.4899], {
+  color: "black",
+  fillColor: "black",
+  fillOpacity: 0.5,
+  radius: 1000,
+}).addTo(map);
+koldby.bindPopup("<b>Koldby</b><br>6th camp");
+const day7 = L.polyline(
+  [
+    [56.8188, 8.4899],
     [56.95751, 8.708088],
     [56.957563, 8.708265],
     [56.957618, 8.708445],
@@ -30568,22 +30577,22 @@ const day6 = L.polyline(
     [57.147543, 9.019492],
   ],
   {
-    color: "#AC7D88",
+    color: "rgb(0, 126, 227)",
   }
 ).addTo(map);
-day6.bindPopup("Day <b>6</b><br>Distance: <b>X / 575 km</b>");
-// DAY 6 END
+day7.bindPopup("Day: <b>7</b><br>Distance: <b>400 / 575 km</b>");
+// DAY 7 END
 
-// DAY 7 START
+// DAY 8 START
 // Bulbjerg camp
 const bulbjerg = L.circle([57.14751303580976, 9.034673720490325], {
-  color: "rgb(128, 0, 128)",
-  fillColor: "rgb(128, 0, 128)",
+  color: "black",
+  fillColor: "black",
   fillOpacity: 0.5,
-  radius: 800,
+  radius: 1000,
 }).addTo(map);
 bulbjerg.bindPopup("<b>Bulbjerg</b><br>7th camp");
-const day7 = L.polyline(
+const day8 = L.polyline(
   [
     [57.147627, 9.019563],
     [57.14771, 9.01964],
@@ -30931,22 +30940,22 @@ const day7 = L.polyline(
     [57.42116, 9.778973],
   ],
   {
-    color: "#DEB6AB",
+    color: "rgb(128, 0, 128)",
   }
 ).addTo(map);
-day7.bindPopup("Day <b>7</b><br>Distance: <b>332 / 575 km</b>");
-// DAY 7 END
+day8.bindPopup("Day: <b>8</b><br>Distance: <b>470 / 575 km</b>");
+// DAY 8 END
 
-// DAY 8 START
+// DAY 9 START
 // Løkken camp
 const lokken = L.circle([57.42113728450632, 9.783090327206713], {
-  color: "rgb(128, 0, 128)",
-  fillColor: "rgb(128, 0, 128)",
+  color: "black",
+  fillColor: "black",
   fillOpacity: 0.5,
-  radius: 800,
+  radius: 1000,
 }).addTo(map);
 lokken.bindPopup("<b>Løkken</b><br>8th camp");
-const day8 = L.polyline(
+const day9 = L.polyline(
   [
     [57.421242, 9.778867],
     [57.421319, 9.778761],
@@ -35897,22 +35906,22 @@ const day8 = L.polyline(
     [57.64302, 10.436763],
   ],
   {
-    color: " #B7D3DF",
+    color: "rgb(0, 126, 227)",
   }
 ).addTo(map);
-day8.bindPopup("Day <b>8</b><br>Distance: <b>400 / 575 km</b>");
-// DAY 8 END
+day9.bindPopup("Day: <b>9</b><br>Distance: <b>539 / 575 km</b>");
+// DAY 9 END
 
-// DAY 9 START
+// DAY 10 START
 // Råbjerg Mile camp
 const raabjerg = L.circle([57.643021085207884, 10.40802680191705], {
-  color: "rgb(128, 0, 128)",
-  fillColor: "rgb(128, 0, 128)",
+  color: "black",
+  fillColor: "black",
   fillOpacity: 0.5,
-  radius: 800,
+  radius: 1000,
 }).addTo(map);
-raabjerg.bindPopup("<b>Råbjerg Mile</b><br>)9th camp");
-const day9 = L.polyline(
+raabjerg.bindPopup("<b>Råbjerg Mile</b><br>9th camp");
+const day10 = L.polyline(
   [
     [57.642938, 10.436876],
     [57.642845, 10.436934],
@@ -37536,23 +37545,17 @@ const day9 = L.polyline(
     [57.739347, 10.636],
   ],
   {
-    color: "#C9BBCF",
+    color: "rgb(128, 0, 128)",
   }
 ).addTo(map);
-day9.bindPopup("Day <b>9</b><br>Distance: <b>470 / 575 km</b>");
-// DAY 9 END
+day10.bindPopup("Day: <b>10</b><br>Distance: <b>575 / 575 km</b>");
 
-// DAY 10 START
 // Skagen camp
-const skagen = L.circle([57.739347, 10.636], {
-  color: "rgb(128, 0, 128)",
-  fillColor: "rgb(128, 0, 128)",
+const skagen = L.circle([57.74473247359381, 10.6551913065348], {
+  color: "black",
+  fillColor: "black",
   fillOpacity: 0.5,
-  radius: 800,
+  radius: 1000,
 }).addTo(map);
-skagen.bindPopup("<b>Skagen</b><br>)Final destination camp");
-const day10 = L.polyline([], {
-  color: "#FAE8EO",
-}).addTo(map);
-day10.bindPopup("Day <b>10</b><br>Distance: <b>470 / 575 km</b>");
-// DAY 9 END
+skagen.bindPopup("<b>Grenen, Skagen</b><br>)Final destination");
+// DAY 10 END
