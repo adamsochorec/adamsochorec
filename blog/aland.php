@@ -147,7 +147,8 @@
           </div>
           <p>
             <i class="note"
-              >Zoom in and click on the route to see more details</i
+              >Zoom in and click on the route to see more details.<br />Straight
+              direct lines are the distances we hitchhiked.</i
             >
           </p>
         </div>

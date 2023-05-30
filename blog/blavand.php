@@ -79,7 +79,7 @@
           </div>
           <p>
             <i class="note"
-              >Zoom in and click on the waypoints to see more details</i
+              >Zoom in and click on the waypoints to see more details.</i
             >
           </p>
         </div>

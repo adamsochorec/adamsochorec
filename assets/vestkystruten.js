@@ -4452,8 +4452,8 @@ day1.bindPopup("Day: <b>1</b><br>Distance: <b>72 / 575 km</b>");
 // DAY 2 START
 // camp Esbjerg
 const esbjerg = L.circle([23.5, 53.3], {
-  color: "rgb(128, 0, 128)",
-  fillColor: "rgb(128, 0, 128)",
+  color: "black",
+  fillColor: "black",
   fillOpacity: 0.5,
   radius: 1000,
 }).addTo(map);
@@ -11487,7 +11487,7 @@ const day2 = L.polyline(
     [55.451803, 8.519173],
   ],
   {
-    color: "rgb( 128, 0, 128)",
+    color: "rgb(128, 0, 128)",
   }
 ).addTo(map);
 day2.bindPopup("Day: <b>2</b><br>Distance: <b>142 / 575 km</b>");

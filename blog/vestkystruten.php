@@ -135,7 +135,7 @@
           </div>
           <p>
             <i class="note"
-              >Zoom in and click on the route to see more details</i
+              >Zoom in and click on the route to see more details.</i
             >
           </p>
         </div>
