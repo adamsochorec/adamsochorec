@@ -1,9 +1,5 @@
-// ALAND START
-const map = createMap(); // call createMap() to get the map object
-map.setView([60.22776, 19.88992], 8.5); // set the view of a map
-
-// DAY 1 START
-// Turku camp
+const map = createMap();
+map.setView([60.22776, 19.88992], 8.5);
 const turku = L.circle([60.43518036116087, 22.227638902633263], {
   color: "black",
   fillColor: "black",
@@ -11,11 +7,9 @@ const turku = L.circle([60.43518036116087, 22.227638902633263], {
   radius: 400,
 }).addTo(map);
 turku.bindPopup("<b>Turku</b><br>1st camp");
-
-// Turku - Mariehamn
 const ferryThere = L.polyline(
   [
-    [60.43347859465514, 22.221916349658606], // Turku
+    [60.43347859465514, 22.221916349658606],
     [60.43269329942604, 22.206638223196226],
     [60.43075615674277, 22.199211356165907],
     [60.42593897724281, 22.18658568221436],
@@ -56,17 +50,11 @@ const ferryThere = L.polyline(
     [60.08115410555886, 19.92828368137605],
     [60.08537991691636, 19.928652070905418],
     [60.09193479944121, 19.927654572474303],
-    [60.0921307244843, 19.929685803822334], // Mariehamn
+    [60.0921307244843, 19.929685803822334],
   ],
-  {
-    color: "rgba(0, 126, 227, 0.7)",
-    dashArray: "10, 10",
-  }
+  { color: "rgba(0, 126, 227, 0.7)", dashArray: "1, 5" }
 ).addTo(map);
-ferryThere.bindPopup(
-  "Day: <b>1 & 6</b><br>4h Ferry between Ålands and Finland</b>"
-);
-// Godby camp
+
 const godby = L.circle([60.22985490115892, 19.964375647748913], {
   color: "black",
   fillColor: "black",
@@ -74,7 +62,6 @@ const godby = L.circle([60.22985490115892, 19.964375647748913], {
   radius: 400,
 }).addTo(map);
 godby.bindPopup("<b>Godby</b><br>2nd and 5th camp");
-// jomala church
 const church = L.circle([60.15495, 19.9485], {
   color: "black",
   fillColor: "black",
@@ -82,7 +69,6 @@ const church = L.circle([60.15495, 19.9485], {
   radius: 400,
 }).addTo(map);
 church.bindPopup("<b>Jomala</b><br>St. Olaf's Church");
-// Ingbyberget
 const ingbyberget = L.circle([60.17270690889153, 19.949081546073536], {
   color: "black",
   fillColor: "black",
@@ -92,7 +78,7 @@ const ingbyberget = L.circle([60.17270690889153, 19.949081546073536], {
 ingbyberget.bindPopup("<b>Ingbyberget</b><br>Prehistorical cave");
 const day1 = L.polyline(
   [
-    [60.0921307244843, 19.929685803822334], // Mariehamn
+    [60.0921307244843, 19.929685803822334],
     [60.100689, 19.943479],
     [60.100665, 19.943476],
     [60.100658, 19.943498],
@@ -14177,15 +14163,11 @@ const day1 = L.polyline(
     [60.228975, 19.96453],
     [60.228967, 19.964519],
   ],
-  {
-    color: "rgba(0, 126, 227, 0.7)",
-  }
+  { color: "rgba(0, 126, 227, 0.7)" }
 ).addTo(map);
-day1.bindPopup("Day: <b>1</b><br>Distance: <b>XX km</b>");
-// DAY 1 END
-
-// DAY 2 START
-// Djupviksgrottan
+day1.bindPopup(
+  "Day: <b>1<br><u>Distance:</u><br>&nbsp;&nbsp;&nbsp;Hiked: <b>26 km</b><br>&nbsp;&nbsp;&nbsp;Hitchhiked: <b>0 km</b>"
+);
 const djupviksgrottan = L.circle([60.40028675968187, 19.831030380385], {
   color: "black",
   fillColor: "black",
@@ -22080,14 +22062,11 @@ const day2 = L.polyline(
     [60.399863, 19.831016],
     [60.39986, 19.83103],
   ],
-  {
-    color: "rgba(128, 0, 128, 0.7)",
-  }
+  { color: "rgba(128, 0, 128, 0.7)" }
 ).addTo(map);
-day2.bindPopup("Day: <b>2</b><br>Distance: <b>XX / XX km</b>");
-// DAY 2 END
-
-// DAY 3 START
+day2.bindPopup(
+  "Day: <b>2</b><br><u>Distance:</u><br>&nbsp;&nbsp;&nbsp;Hiked: <b>11,5 km</b><br>&nbsp;&nbsp;&nbsp;Hitchhiked: <b>15 km</b>"
+);
 const day3 = L.polyline(
   [
     [60.399862, 19.831053],
@@ -28207,7 +28186,7 @@ const day3 = L.polyline(
     [60.230407, 19.999946],
     [60.230411, 19.999962],
     [60.230418, 19.999979],
-    [60.230426, 20.0],
+    [60.230426, 20],
     [60.230434, 20.000038],
     [60.230435, 20.000056],
     [60.230438, 20.00006],
@@ -28579,15 +28558,11 @@ const day3 = L.polyline(
     [60.204685, 20.26458],
     [60.204671, 20.264586],
   ],
-  {
-    color: "rgba(0, 126, 227, 0.7)",
-  }
+  { color: "rgba(0, 126, 227, 0.7)" }
 ).addTo(map);
-day3.bindPopup("Day: <b>3</b><br>Distance: <b>XX / XX km</b>");
-// DAY 3 END
-
-// DAY 4 START
-// Prästö camp
+day3.bindPopup(
+  "Day: <b>3</b><br><u>Distance:</u><br>&nbsp;&nbsp;&nbsp;Hiked: <b>28,5 km</b><br>&nbsp;&nbsp;&nbsp;Hitchhiked: <b>34 km</b>"
+);
 const prasto = L.circle([60.20581741081814, 20.26394042343963], {
   color: "black",
   fillColor: "black",
@@ -28595,7 +28570,6 @@ const prasto = L.circle([60.20581741081814, 20.26394042343963], {
   radius: 400,
 }).addTo(map);
 prasto.bindPopup("<b>Prästö</b><br>4th camp");
-// historical graveyards
 const graveyeard = L.circle([60.20918, 20.26775], {
   color: "black",
   fillColor: "black",
@@ -28605,7 +28579,6 @@ const graveyeard = L.circle([60.20918, 20.26775], {
 graveyeard.bindPopup(
   '<b>Prästö</b><br><a target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Pr%C3%A4st%C3%B6,_%C3%85land#History">Historical graveyards</a>'
 );
-// Fishing villiage
 const village = L.circle([60.335115181094885, 20.308171173616707], {
   color: "black",
   fillColor: "black",
@@ -73137,14 +73110,11 @@ const day4 = L.polyline(
     [60.229857, 19.986658],
     [60.229852, 19.98667],
   ],
-  {
-    color: "rgba(128, 0, 128, 0.7)",
-  }
+  { color: "rgba(128, 0, 128, 0.7)" }
 ).addTo(map);
-day4.bindPopup("Day: <b>4</b><br>Distance: <b>XX / XX km</b>");
-// DAY 4 END
-
-// DAY 5 START
+day4.bindPopup(
+  "Day: <b>4</b><br><u>Distance:</u><br>&nbsp;&nbsp;&nbsp;Hiked: <b>18 km</b><br>&nbsp;&nbsp;&nbsp;Hitchhiked: <b>48 km</b>"
+);
 const mariehamn = L.circle([60.11396, 19.95156], {
   color: "black",
   fillColor: "black",
@@ -115698,17 +115668,14 @@ const day5 = L.polyline(
     [60.114395, 19.953433],
     [60.114395, 19.953433],
   ],
-  {
-    color: "rgba(128, 0, 128, 0.5)",
-  }
+  { color: "rgba(128, 0, 128, 0.5)" }
 ).addTo(map);
-day5.bindPopup("Day: <b>5</b><br>Distance: <b>XX / XX km</b>");
-// DAY 5 END
-
-// DAY 6 START
+day5.bindPopup(
+  "Day: <b>5</b><br><u>Distance:</u><br>&nbsp;&nbsp;&nbsp;Hiked: <b>16,6 km</b><br>&nbsp;&nbsp;&nbsp;Hitchhiked: <b>0 km</b>"
+);
 const ferryBack = L.polyline(
   [
-    [60.43347859465514, 22.221916349658606], // Turku
+    [60.43347859465514, 22.221916349658606],
     [60.43269329942604, 22.206638223196226],
     [60.43075615674277, 22.199211356165907],
     [60.42593897724281, 22.18658568221436],
@@ -115749,14 +115716,58 @@ const ferryBack = L.polyline(
     [60.08115410555886, 19.92828368137605],
     [60.08537991691636, 19.928652070905418],
     [60.09193479944121, 19.927654572474303],
-    [60.0921307244843, 19.929685803822334], // Mariehamn
+    [60.0921307244843, 19.929685803822334],
   ],
-  {
-    color: "rgba(128, 0, 128, 0.4)",
-    dashArray: "5, 10",
-  }
+  { color: "rgba(128, 0, 128, 0.4)", dashArray: "1, 5" }
 ).addTo(map);
-ferryBack.bindPopup(
-  "Day: <b>1 & 6</b><br>4h Ferry between Ålands and Finland</b>"
+
+const ferry = L.polyline(
+  [
+    [60.43347859465514, 22.221916349658606],
+    [60.43269329942604, 22.206638223196226],
+    [60.43075615674277, 22.199211356165907],
+    [60.42593897724281, 22.18658568221436],
+    [60.42211614213502, 22.172580732957183],
+    [60.42134200816794, 22.154027553971286],
+    [60.42134200816794, 22.154027553971286],
+    [60.41579549140333, 22.131957825414148],
+    [60.28696667376318, 22.025703743434466],
+    [60.26750600862519, 21.93920090341851],
+    [60.25379882479327, 21.833934686700356],
+    [60.251024052931804, 21.819131618564025],
+    [60.23110408802799, 21.77241973371457],
+    [60.22048604491883, 21.714194351995236],
+    [60.20904738263495, 21.57340077921829],
+    [60.19695074329876, 21.509912084226272],
+    [60.18092400498544, 21.467805596474655],
+    [60.1765071001442, 21.439844256952092],
+    [60.086895874924245, 21.220758923011214],
+    [60.04516506076755, 21.1429362389217],
+    [59.9830187064899, 21.05082829696503],
+    [59.970015683383444, 21.00411640534723],
+    [59.970015683383444, 21.003129534540548],
+    [59.96230263591848, 20.78271852453898],
+    [59.95703290847721, 20.745875341523735],
+    [59.83267791242854, 20.314741690656078],
+    [59.805225189447036, 20.179869339147515],
+    [59.815587961577535, 19.841109361826515],
+    [59.84109354175815, 19.797242407681974],
+    [59.85405499203828, 19.788641044124223],
+    [59.90628162599837, 19.7963822713262],
+    [59.985973736969186, 19.829927584998874],
+    [60.013068423616275, 19.850570857537484],
+    [60.014572124350494, 19.85276382527686],
+    [60.03960209660658, 19.89033955727183],
+    [60.06075235651573, 19.910232594437293],
+    [60.06902485676186, 19.92275783843562],
+    [60.068657234127635, 19.922021059376892],
+    [60.08115410555886, 19.92828368137605],
+    [60.08537991691636, 19.928652070905418],
+    [60.09193479944121, 19.927654572474303],
+    [60.0921307244843, 19.929685803822334],
+  ],
+  { color: "rgba(128, 0, 128, 0)" }
+).addTo(map);
+ferry.bindPopup(
+  "Day: <b>1</b> & <b>6</b><br>4h ferry <b>Mariehamn</b> 🇦🇽 ⇄ <b>Turku 🇫🇮</b>"
 );
-// DAY 6 END
