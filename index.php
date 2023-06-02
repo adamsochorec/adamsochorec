@@ -193,7 +193,7 @@
           </div>
           <div class="v-stretch reveal">
             <img
-              src="/img/22082525588812.jpg"
+              src="/img/2208252558881.jpg"
               alt="Aerial view of a fog-engulfed forest in Kvarken Archipelago"
             />
           </div>

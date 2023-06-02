@@ -1,5 +1,7 @@
-const map = createMap();
-map.setView([60.22776, 19.88992], 8.5);
+// ALAND START
+const map = createMap(); // call createMap() to get the map object
+map.setView([60.22776, 19.88992], 8.5); // set the view of a map
+
 // DAY 1 START
 // Turku camp
 const turku = L.circle([60.43518036116087, 22.227638902633263], {
@@ -9,6 +11,7 @@ const turku = L.circle([60.43518036116087, 22.227638902633263], {
   radius: 400,
 }).addTo(map);
 turku.bindPopup("<b>Turku</b><br>1st camp");
+
 // Turku - Mariehamn
 const ferryThere = L.polyline(
   [
@@ -57,8 +60,10 @@ const ferryThere = L.polyline(
   ],
   { color: "rgba(0, 126, 227, 0.7)", dashArray: "1, 5" }
 ).addTo(map);
+ferryThere.bindPopup(
+  "Day: <b>1 & 6</b><br>4h Ferry between Ålands and Finland</b>"
+);
 // Godby camp
-
 const godby = L.circle([60.22985490115892, 19.964375647748913], {
   color: "black",
   fillColor: "black",
@@ -66,7 +71,6 @@ const godby = L.circle([60.22985490115892, 19.964375647748913], {
   radius: 400,
 }).addTo(map);
 godby.bindPopup("<b>Godby</b><br>2nd and 5th camp");
-// jomala church
 const church = L.circle([60.15495, 19.9485], {
   color: "black",
   fillColor: "black",
@@ -75,7 +79,6 @@ const church = L.circle([60.15495, 19.9485], {
 }).addTo(map);
 church.bindPopup("<b>Jomala</b><br>St. Olaf's Church");
 // Ingbyberget
-
 const ingbyberget = L.circle([60.17270690889153, 19.949081546073536], {
   color: "black",
   fillColor: "black",
