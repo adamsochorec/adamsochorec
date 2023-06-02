@@ -21,7 +21,3 @@
     </div>
   </div>
 </header>
-<?php
-$IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-include $IPATH . 'global-nav-bar.php';
-?>

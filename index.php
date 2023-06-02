@@ -193,7 +193,7 @@
           </div>
           <div class="v-stretch reveal">
             <img
-              src="/img/2208252558881.jpg"
+              src="/img/22082525588812.jpg"
               alt="Aerial view of a fog-engulfed forest in Kvarken Archipelago"
             />
           </div>
@@ -541,7 +541,7 @@
                     href="https://www.respekt.cz/galerie/cool-kids-saving-hot-planet"
                     >Respekt</a
                   >
-                </li>
+                </li>efefe
                 <li class="hideLi reveal">
                   <a
                     target="_blank"
