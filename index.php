@@ -41,49 +41,49 @@
           </div>
           <div class="h-stretch">
             <img
-              src="/img/22050630038186.jpg"
+              src="/img/2022-05-06-1856.jpg"
               alt="Dancing girl at a rave at Råværket, Kolding"
             />
           </div>
           <div class="h-stretch">
             <img
-              src="/img/22050630108189.jpg"
+              src="/img/2022-05-06-1859.jpg"
               alt="Energetic dancer at a Råværket rave, Kolding"
             />
           </div>
           <div class="hhh-stretch">
             <img
-              src="/img/2202137912.jpg"
+              src="/img/2022-02-13-10115.jpg"
               alt="Glowing Shell gas station at night in Kolding"
             />
           </div>
           <div class="h-stretch">
             <img
-              src="/img/21082261146778.jpg"
+              src="/img/2021-08-22-9235.jpg"
               alt="Man's face lit by his cigarette under the moonlight, Kolding"
             />
           </div>
           <div class="h-stretch">
             <img
-              src="/img/2202137909.jpg"
+              src="/img/2022-02-13-3564.jpg"
               alt="Illuminated Shell gas station at night in Kolding"
             />
           </div>
           <div class="v-stretch reveal">
             <img
-              src="/img/21052108355967.jpg"
+              src="/img/2021-05-21-605.jpg"
               alt="Portrait of a man in a pink balaclava with extravagant sunglasses, Prague"
             />
           </div>
           <div class="h-stretch reveal">
             <img
-              src="/img/21071948976502.jpg"
+              src="/img/2021-07-19-9232.jpg"
               alt="Male rapper with glowing gas station background, Prague"
             />
           </div>
           <div class="v-stretch reveal">
             <img
-              src="/img/21090565126832.jpg"
+              src="/img/2021-09-05-1200.jpg"
               alt="Closeup of a girl's face blurred by a glass with water droplets, Kolding"
             />
           </div>
@@ -103,104 +103,104 @@
           </iframe>
           <div class="v-stretch reveal">
             <img
-              src="/img/20111503544421.jpg"
+              src="/img/2020-11-15-8154.jpg"
               alt="Woman's bare back adorned with a gold chain, studio photograph from Prague"
             />
           </div>
           <div class="h-stretch reveal">
             <img
-              src="/img/2105281156137.jpg"
+              src="/img/2021-05-28-9829.jpg"
               alt="Woman holding a violin, resting her head on it, photographed in Prague"
             />
           </div>
           <div class="v-stretch reveal">
             <img
-              src="/img/21101786787138.jpg"
+              src="/img/2021-10-17-1432.jpg"
               alt="Woman in red top with vibrant lipstick, face obscured by plexiglass"
             />
           </div>
           <div class="hh-stretch reveal">
             <img
-              src="/img/21041425600.jpg"
+              src="/img/2021-04-14-9741.jpg"
               alt="David Steigerwald unclothed, seated in a cage at Divadlo Na Vinohradech, Prague"
             />
           </div>
           <div class="v-stretch reveal">
             <img
-              src="/img/21090567466861.jpg"
+              src="/img/2021-09-05-9996.jpg"
               alt="Semi-dressed woman shielding herself with arms, her shadow visible in the background, photograph from Kolding"
             />
           </div>
           <div class="h-stretch reveal">
             <img
-              src="/img/21100178367026.jpg"
+              src="/img/2021-10-01-10033.jpg"
               alt="Silhouette of two girls exchanging smoke, under blue lighting with orange accents, photographed in Kolding"
             />
           </div>
           <div class="h-stretch reveal">
             <img
-              src="/img/21082462356794.jpg"
-              alt="Image description not available"
+              src="/img/2021-08-24-9986.jpg"
+              alt="Close-up of a girl's face with colorful makeup around her eyes, making her look like a buterfly"
             />
           </div>
           <div class="v-stretch reveal">
             <img
-              src="/img/21090566586849.jpg"
+              src="/img/2021-09-05-9991.jpg"
               alt="Close-up of a girl's face leaning on a mirror, creating a reflection, with pink backdrop, photographed in Kolding"
             />
           </div>
           <div class="hh-stretch reveal">
             <img
-              src="/img/21042593335697.jpg"
+              src="/img/2021-04-25-461.jpg"
               alt="Close-up portrait of Tereza Císařová laying on a table with fries, photographed at Divadlo Na Vinohradech"
             />
           </div>
           <div class="h-stretch reveal">
             <img
-              src="/img/21041385565587.jpg"
+              src="/img/2021-04-13-361.jpg"
               alt="Face of Daniel Babmas under blue lighting, with pink background, photographed at Divadlo Na Vinohradech"
             />
           </div>
           <div class="h-stretch reveal">
             <img
-              src="/img/21042289925635.jpg"
+              src="/img/2021-04-22-9745.jpg"
               alt="Portrait of a bare-skinned woman with closed eyes, taken in Prague"
             />
           </div>
           <div class="h-stretch reveal">
             <img
-              src="/img/22_kompr.gif"
+              src="/img/MRI-1-kompr.gif"
               alt="Animated MRI scans of Adam Sochorec's head"
             />
           </div>
           <div class="h-stretch reveal">
             <img
-              src="/img/23_kompr.gif"
+              src="/img/MRI-2-kompr.gif"
               alt="Animation of Adam Sochorec's head using MRI images"
             />
           </div>
           <div class="v-stretch reveal">
             <img
-              src="/img/2304142145473.jpg"
+              src="/img/2023-04-14-9322.jpg"
               alt="Møns Klint forest enveloped in morning fog with laser beams piercing the sky"
             />
           </div>
           <div class="h-stretch reveal">
             <img
-              src="/img/22031613938003.jpg"
+              src="/img/2022-03-16-4161.jpg"
               alt="Willow tree by the Kolding Slotsøen lake in morning mist, with Koldnighus in the distance"
             />
           </div>
           <div class="v-stretch reveal">
             <img
-              src="/img/22082525588812.jpg"
+              src="/img/2022-08-25-4205.jpg"
               alt="Aerial view of a fog-engulfed forest in Kvarken Archipelago"
             />
           </div>
           <div class="v-stretch reveal">
             <img
               class="hideImg"
-              src="/img/2208258806.jpg"
+              src="/img/2022-08-25-9270.jpg"
               alt="Björkoby fishing village shrouded in morning fog"
             />
           </div>
@@ -334,13 +334,13 @@
                 rel="noopener noreferrer"
                 >LEGO architect</a
               >, current purveyor of digital aesthetics and sarcasm.<br /><br />Remember,
-              no cookies—just creativity!
+              no cookies — just creativity!
             </p>
 
             <hr class="reveal" />
             <img
               class="reveal"
-              src="/img/22042404538028-2.jpg"
+              src="/img/2022-04-24-176-2.jpg"
               alt="Black and white portrait of Adam Sochorec captured in a Tribe Media studios in Kolding"
             />
             <img
@@ -541,7 +541,7 @@
                     href="https://www.respekt.cz/galerie/cool-kids-saving-hot-planet"
                     >Respekt</a
                   >
-                </li>efefe
+                </li>
                 <li class="hideLi reveal">
                   <a
                     target="_blank"

@@ -50,7 +50,7 @@
         </p>
         <div class="img">
           <img
-            src="/img/2209048838.jpg"
+            src="/img/2022-09-04-4233.jpg"
             alt="Panorama shot of an mire, where we bushcrafted. Heap and weed around the lake is mustard yellow, surrounded by a wall of a forest trees."
           />
         </div>
@@ -144,7 +144,7 @@
         </p>
         <div class="img">
           <img
-            src="/img/2209012611001.jpg"
+            src="/img/2022-09-01-4214.jpg"
             alt="View from the ship to the ship docks in Umeå, there is a coast guard boat in foreground, in background are two wind turbines."
           />
           <br /><br class="hide" />
@@ -203,7 +203,7 @@
           >
         </p>
         <div class="img">
-          <img src="/img/22090226268821.jpg" alt="" />
+          <img src="/img/2022-09-02-4216.jpg" alt="" />
           <br /><br class="hide" />
           <p>
             <i class="note"
@@ -254,7 +254,7 @@
         </p>
         <div class="img">
           <img
-            src="/img/2209032665002.jpg"
+            src="/img/2022-09-03-4227.jpg"
             alt="Panorama photo of our camp-site on the shore of a mire"
           />
           <br /><br class="hide" />
@@ -276,7 +276,7 @@
         <br class="hide" />
         <div class="img">
           <img
-            src="/img/IMG00119.jpg"
+            src="/img/poncho-setup.jpg"
             alt="Ilustration ilustrating various simple field shelters made with a rope and tarp."
           />
           <br /><br class="hide" /><br class="hide" />
@@ -313,7 +313,7 @@
         </p>
         <div class="img">
           <img
-            src="/img/2209048834.jpg"
+            src="/img/2022-09-04-4229.jpg"
             alt="Portrait of a Joakim sitting on a tarp in the grass, hand on his hand-crafted machete, raindeer's fur around the shoulder. The mire is in the background."
           />
           <br /><br class="hide" />
@@ -356,7 +356,7 @@
         </p>
         <div class="img">
           <img
-            src="/img/2209018820.jpg"
+            src="/img/2022-09-01-4215.jpg"
             alt="Photo of a collection of several sizes of original Sámi knives hand crafted by Joakim, each made for a specific actitivty."
           />
           <br /><br class="hide" />

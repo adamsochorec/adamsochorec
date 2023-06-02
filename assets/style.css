@@ -945,7 +945,7 @@ footer .footer-ps span:nth-child(2) {
 
 /* VISUALS END */
 
-/* PRINTS START */
+/* PRINTS START 
 
 #prints h1 {
   text-align: center;
@@ -964,7 +964,7 @@ footer .footer-ps span:nth-child(2) {
   background-image: url(/img/slavicmedia.png);
 }
 .gallery #okonord {
-  background-image: url(/img/22082525588812.png);
+  background-image: url(/img/okonord.png);
 }
 /* WEB DEV START*/
 
@@ -1150,7 +1150,7 @@ footer .footer-ps span:nth-child(2) {
   content: "Blog";
 }
 .gallery #house-hunting {
-  background-image: url(/img/22100983718847.jpg);
+  background-image: url(/img/2022-10-09-2277.jpg);
 }
 #house-hunting .pathname-current:before,
 #house-hunting h1:before,
@@ -1158,7 +1158,7 @@ footer .footer-ps span:nth-child(2) {
   content: "House Hunting 🇫🇮";
 }
 .gallery #blavand {
-  background-image: url(/img/22041518018133.jpg);
+  background-image: url(/img/2022-04-15-10184.jpg);
 }
 #blavand .pathname-current:before,
 #blavand h1:before,
@@ -1166,13 +1166,14 @@ footer .footer-ps span:nth-child(2) {
   content: "Blåvand 🇩🇰";
 }
 .gallery #aland {
-  background-image: url(/img/22101685388877.jpg);
+  background-image: url(/img/2022-10-16-3695.jpg);
 }
 #aland .pathname-current:before,
 #aland h1:before,
 .gallery #aland span:before {
   content: "Åland 🇦🇽";
 }
+/*
 .gallery #lakeland {
   background-image: url(/img/22081522748781.jpg);
 }
@@ -1181,14 +1182,16 @@ footer .footer-ps span:nth-child(2) {
 .gallery #lakeland span:before {
   content: "Lakeland 🇫🇮";
 }
+*/
 .gallery #vasterbotten {
-  background-image: url(/img/2209048838.jpg);
+  background-image: url(/img/2022-09-04-4233.jpg);
 }
 #vasterbotten .pathname-current:before,
 #vasterbotten h1:before,
 .gallery #vasterbotten span:before {
   content: "Västerbotten 🇸🇪";
 }
+/*
 .gallery #kvarken {
   background-image: url(/img/22082424738796.jpg);
 }
@@ -1197,8 +1200,9 @@ footer .footer-ps span:nth-child(2) {
 .gallery #kvarken span:before {
   content: "Kvarken";
 }
+*/
 .gallery #vestkystruten {
-  background-image: url(/img/IMG_1849.jpg);
+  background-image: url(/img/2022-07-26-4169.jpg);
 }
 #vestkystruten .pathname-current:before,
 #vestkystruten h1:before,
@@ -1220,7 +1224,7 @@ footer .footer-ps span:nth-child(2) {
   --about-into-section-margin: 47vh;
 }
 #about {
-  background-image: url(/img/23_kompr.gif);
+  background-image: url(/img/MRI-2-kompr.gif);
   background-position: center;
 }
 #about .intro-section {

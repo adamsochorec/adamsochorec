@@ -119,7 +119,7 @@
             </div>
           </a>
           <a href="/blog/västerbotten">
-            <div class="grid-item" id="västerbotten">
+            <div class="grid-item" id="vasterbotten">
               <div class="blur">
                 <span></span>
               </div>

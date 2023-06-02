@@ -332,8 +332,8 @@ if (document.body.id === "blavand") {
 
   // lighthouse
   const lighthouse = L.circle([55.55781, 8.08323], {
-    color: "rgb(0, 126, 227)",
-    fillColor: "rgb(0, 126, 227)",
+    color: "black",
+    fillColor: "black",
     fillOpacity: 0.5,
     radius: 200,
   }).addTo(map);
@@ -341,8 +341,8 @@ if (document.body.id === "blavand") {
 
   // tirpitz
   const tirpitz = L.circle([55.5504, 8.17224], {
-    color: "rgb(0, 126, 227)",
-    fillColor: "rgb(0, 126, 227)",
+    color: "black",
+    fillColor: "black",
     fillOpacity: 0.5,
     radius: 200,
   }).addTo(map);
@@ -359,8 +359,8 @@ if (document.body.id === "house-hunting") {
 
   // house
   const gerbyntie = L.circle([63.123166699294224, 21.615346790887852], {
-    color: "rgb(0, 126, 227)",
-    fillColor: "rgb(0, 126, 227)",
+    color: "black",
+    fillColor: "black",
     fillOpacity: 0.5,
     radius: 200,
   }).addTo(map);
