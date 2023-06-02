@@ -54,30 +54,31 @@
 
 // HOMEPAGE START
 if (document.body.id === "homepage") {
-  (function contactForm() {
-    const contactForm = document.querySelector("form"),
-      skillBars = document.querySelectorAll(".skill-bar");
+  const skillBars = document.querySelectorAll(".skill-bar");
 
-    function setProgress(e, progress) {
-      e.style.opacity = 1;
-      e.style.width = `${progress}%`;
-    }
-    // SKILL BARS START
-    function showProgress() {
-      skillBars.forEach((bar) => {
-        const progress = bar.dataset.progress;
-        setProgress(bar, progress);
-      });
-    }
-    showProgress();
-    // SKILL BARS END
+  function setProgress(e, progress) {
+    e.style.opacity = 1;
+    e.style.width = `${progress}%`;
+  }
+  // SKILL BARS START
+  function showProgress() {
+    skillBars.forEach((bar) => {
+      const progress = bar.dataset.progress;
+      setProgress(bar, progress);
+    });
+  }
+  showProgress();
+  // SKILL BARS END
+
+  (function contactForm() {
+    const contactForm = document.querySelector("form");
 
     /// LOADER AT SUBMITING A FORM START
     function onFormSubmission(event) {
       const isValid = Array.from(event.target.elements).every((element) =>
-        element.reportValidity()
-      );
-      const submitButton = document.querySelector(".submit-btn");
+          element.reportValidity()
+        ),
+        submitButton = document.querySelector(".submit-btn");
 
       if (isValid) {
         submitButton.innerHTML = "<div class='loader'></div>";
@@ -87,12 +88,25 @@ if (document.body.id === "homepage") {
     }
     contactForm.addEventListener("submit", onFormSubmission);
     // LOADER AT SUBMITING A FORM END
+
+    // SUBMIT AT ENTER START
+    document.addEventListener("keyup", function (event) {
+      if (event.keyCode === 13) {
+        onFormSubmission(event);
+      }
+    });
+    // SUBMIT AT ENTER END
   })();
 }
 // CYBERSECURITY START
 // CYBERSECURITY SUPERBTN START
 if (document.body.id === "cybersecurity") {
   (function cybersecurity() {
+    const superBtn = document.getElementById("btn"),
+      passwordField = document.getElementById("password"),
+      introSectionWrapper = document.getElementById("passwordGeneratorArea");
+    let keyupListener;
+
     function getPassword() {
       const chars =
         "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ......-----";
@@ -105,21 +119,54 @@ if (document.body.id === "cybersecurity") {
       }
       return password;
     }
-
     function textChange(btn, pwdField) {
       btn.classList.toggle("clicked");
       pwdField.select();
-      document.execCommand("Copy");
+
+      if (!navigator.clipboard) {
+        try {
+          document.execCommand("copy");
+        } catch (err) {
+          console.error("Fallback: Oops, unable to copy", err);
+        }
+        return;
+      }
+      navigator.clipboard.writeText(pwdField.value).then(
+        function () {
+          console.log("Async: Copying to clipboard was successful!");
+        },
+        function (err) {
+          console.error("Async: Could not copy text: ", err);
+        }
+      );
     }
-
-    const superBtn = document.getElementById("btn");
-    const passwordField = document.getElementById("password");
-
     superBtn.addEventListener("click", function () {
       passwordField.value = getPassword();
       textChange(superBtn, passwordField);
     });
+
+    function generateAndCopyPassword() {
+      passwordField.value = getPassword();
+      textChange(superBtn, passwordField);
+    }
+
+    superBtn.addEventListener("click", generateAndCopyPassword);
+    // Listen for the Enter key while mouse is hovering over the intro-section-wrapper div
+
+    introSectionWrapper.addEventListener("mouseenter", function () {
+      keyupListener = function (event) {
+        if (event.keyCode === 13) {
+          generateAndCopyPassword();
+        }
+      };
+      document.addEventListener("keyup", keyupListener);
+    });
+
+    introSectionWrapper.addEventListener("mouseleave", function () {
+      document.removeEventListener("keyup", keyupListener);
+    });
   })();
+
   // CYBERSECURITY SUPER BTN END
 
   // PASWORD STRENGHT START
@@ -379,7 +426,9 @@ if (document.body.id === "vasterbotten") {
     fillOpacity: 0.5,
     radius: 1000,
   }).addTo(map);
-  umea.bindPopup('<a target="_blank" rel="noopener noreferrer" href="http://www.umeakampcenter.se">Umeå Kampcenter');
+  umea.bindPopup(
+    '<a target="_blank" rel="noopener noreferrer" href="http://www.umeakampcenter.se">Umeå Kampcenter'
+  );
 
   // bullmarkForest
   const bullmarkForest = L.circle([64.03357459146424, 20.483846795069944], {

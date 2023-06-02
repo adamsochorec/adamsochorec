@@ -421,7 +421,6 @@ svg {
 .img-fill {
   border-radius: var(--border-radius-2);
 }
-
 iframe,
 img,
 source {
@@ -831,7 +830,10 @@ ul.menu-left.collapse {
   z-index: 1;
 }
 .gallery .grid-item,
-.gallery .grid-item::after,
+.gallery .grid-item:active,
+.gallery .grid-item::before,
+.gallery .grid-item:hover::after,
+.gallery .grid-item:focus::after.gallery .grid-item::after,
 .gallery .grid-item:hover,
 .gallery a,
 .gallery a::after,
@@ -1217,6 +1219,9 @@ footer .footer-ps span:nth-child(2) {
 .gallery #samso span:before {
   content: "Samsø 🇩🇰";
 }
+#samso iframe.vimeo {
+  margin: 0;
+}
 /* BLOG END */
 
 /* ABOUT START */
@@ -1280,7 +1285,7 @@ footer .footer-ps span:nth-child(2) {
     background-color: rgba(var(--secondary-color), 0.7);
   }
 }
-#about .grid-container ul:first-child{
+#about .grid-container ul:first-child {
   padding-left: 20px;
 }
 /* ABOUT END */
@@ -1349,9 +1354,10 @@ footer .footer-ps span:nth-child(2) {
   }
 }
 @media only screen and (min-width: 440px) {
-.hideLi{
-  display: none;
-}}
+  .hideLi {
+    display: none;
+  }
+}
 @media only screen and (min-width: 500px) {
   #about .skills-section .grid-item:nth-child(1) {
     margin-right: 3rem;
@@ -1578,6 +1584,11 @@ footer .footer-ps span:nth-child(2) {
   }
   .hide {
     display: none;
+  }
+}
+@media only screen and (min-width: 1300px) {
+  #about .blur {
+    height: 200vh;
   }
 }
 /* MEDIA QERRIES END

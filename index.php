@@ -565,7 +565,6 @@
             <br /><br />
             <form
               id="contactForm"
-              onclick="loading()"
               action="https://formsubmit.co/2007080c2cf8bd2ebb68506e7aa98c5f"
               method="POST"
               novalidate
@@ -586,6 +585,7 @@
                   <br /><br />
                   <p><label for="name">Name *</label></p>
                   <input
+                    required
                     type="text"
                     id="name"
                     name="Name"
@@ -619,6 +619,7 @@
               <div class="reveal">
                 <p><label for="message">Message * </label></p>
                 <textarea
+                  minlength="10"
                   name="Message"
                   rows="7"
                   id="message"

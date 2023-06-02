@@ -60,6 +60,7 @@
           &nbsp; February 2023
         </p>
         <iframe
+          style="animation: none"
           class="vimeo"
           src="https://player.vimeo.com/video/818670329?h=1decec98cc"
           allow="autoplay; fullscreen; picture-in-picture"

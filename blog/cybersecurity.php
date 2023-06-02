@@ -22,7 +22,7 @@
     include $IPATH . 'global-nav-bar.php';
     ?>
     <main>
-      <section class="intro-section-wrapper">
+      <section class="intro-section-wrapper" id="passwordGeneratorArea">
         <article id="passwordGenerator" class="intro-section gradient">
           <section class="intro-subsection">
             <h2>Get an ultimate password</h2>
