@@ -542,7 +542,7 @@
                     >Respekt</a
                   >
                 </li>
-                <li class="reveal">
+                <li class="hideLi reveal">
                   <a
                     target="_blank"
                     rel="noopener noreferrer"
