@@ -47,7 +47,8 @@
     include $IPATH . 'global-nav-bar.php';
     ?>
     <main>
-      <article class="wrapper-standard">
+      <article class="wrapper-wide">
+        <h1></h1>
         <div class="pathname-container">
           <i
             ><span class="pathname"><a href="/"></a> / </span>
@@ -55,8 +56,7 @@
           </i>
         </div>
         <br />
-        <h1></h1>
-        <br />
+
         <p class="pathname">
           <svg
             id="date"
@@ -76,7 +76,7 @@
             alt="Dusty red gravel road cutting surrounding autumn colured forest in a half"
           />
         </div>
-        <p>
+        <p class="dropcap">
           The
           <a
             target="_blank"
@@ -99,8 +99,10 @@
             >Finnish conscription</a
           >. Although the western shore of the mainland is bilingual (Swedish
           and Finnish), the Åland Islands are entirely Swedish-speaking.
-          <br />
-          <br />I had been planning an expedition to the <i>land of ål</i> (
+        </p>
+
+        <p>
+          I had been planning an expedition to the <i>land of ål</i> (
           <a
             target="_blank"
             rel="noopener noreferrer"

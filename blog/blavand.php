@@ -26,15 +26,14 @@
     ?>
 
     <main>
-      <article class="wrapper-standard">
+      <article class="wrapper-wide">
+        <h1></h1>
         <div class="pathname-container">
           <i
             ><span class="pathname"><a href="/"></a> / </span>
             <span class="pathname"><a href="/#blog"></a> / blåvand</span>
           </i>
         </div>
-        <br />
-        <h1></h1>
         <br />
         <p class="pathname">
           <svg
@@ -70,6 +69,7 @@
           time, Blåvand was hosting a festival and the main road through the
           city was congested with cars with Danish and German license plates.
         </p>
+
         <div class="map-margin">
           <div id="map">
             <p class="alt-alt">

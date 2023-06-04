@@ -1,6 +1,6 @@
 // VESTKYSTRUTEN START
 const map = createMap(); // call createMap() to get the map object
-map.setView([55.5361, 10.1124], 6); // set the view of a map
+map.setView([56.1361, 9.9124], 6); // set the view of a map
 
 // DAY 1 START
 // camp Tonder

@@ -54,14 +54,13 @@
 
 // HOMEPAGE START
 if (document.body.id === "homepage") {
-  const skillBars = document.querySelectorAll(".skill-bar");
-
   function setProgress(e, progress) {
     e.style.opacity = 1;
     e.style.width = `${progress}%`;
   }
   // SKILL BARS START
   function showProgress() {
+    const skillBars = document.querySelectorAll(".skill-bar");
     skillBars.forEach((bar) => {
       const progress = bar.dataset.progress;
       setProgress(bar, progress);
@@ -173,7 +172,7 @@ if (document.body.id === "cybersecurity") {
   $(document).ready(function ($) {
     $("#myPassword").strength({
       strengthClass: "strength",
-      strengthMeterClass: "strength_meter",
+      strengthMeterClass: "strength_meter flex-center",
       strengthButtonClass: "button_strength",
       strengthButtonText: "Show Password",
       strengthButtonTextToggle: "Hide Password",
@@ -375,7 +374,7 @@ function createMap() {
 // BLAVAND START
 if (document.body.id === "blavand") {
   const map = createMap(); // call createMap() to get the map object
-  map.setView([55.55781, 8.15], 12); // set the view of a map
+  map.setView([55.55781, 8.25], 11); // set the view of a map
 
   // lighthouse
   const lighthouse = L.circle([55.55781, 8.08323], {
@@ -417,7 +416,7 @@ if (document.body.id === "house-hunting") {
 // VASTERBOTTEN START
 if (document.body.id === "vasterbotten") {
   const map = createMap(); // call createMap() to get the map object
-  map.setView([63.6, 20.7], 7); // set the view of a map
+  map.setView([63.6, 20.7], 6); // set the view of a map
 
   // Umeå
   const umea = L.circle([63.82886098513121, 20.266655834001106], {

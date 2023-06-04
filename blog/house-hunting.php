@@ -26,7 +26,8 @@
     include $IPATH . 'global-nav-bar.php';
     ?>
     <main>
-      <article class="wrapper-standard">
+      <article class="wrapper-wide">
+        <h1></h1>
         <div class="pathname-container">
           <i
             ><span class="pathname"><a href="/"></a> / </span>
@@ -34,8 +35,7 @@
           </i>
         </div>
         <br />
-        <h1></h1>
-        <br />
+
         <p class="pathname">
           <svg
             id="date"
@@ -75,6 +75,7 @@
           project, and Hido's narrative style of documenting the past by
           capturing the current state or remnants of abandoned buildings.
         </p>
+
         <div class="img">
           <img
             src="/img/2022-10-09-2278.jpg"

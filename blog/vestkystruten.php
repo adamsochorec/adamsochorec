@@ -34,7 +34,8 @@
     include $IPATH . 'global-nav-bar.php';
     ?>
     <main>
-      <article class="wrapper-standard">
+      <article class="wrapper-wide">
+        <h1></h1>
         <div class="pathname-container">
           <i
             ><span class="pathname"><a href="/"></a> / </span>
@@ -42,8 +43,7 @@
           </i>
         </div>
         <br />
-        <h1></h1>
-        <br />
+
         <p class="pathname">
           <svg
             id="date"
@@ -66,7 +66,6 @@
             Link to a Vimeo blog from our journey made by Marcel.
           </p>
         </iframe>
-
         <p class="dropcap">
           Recently, me and my friend
           <a

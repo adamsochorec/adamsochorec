@@ -36,15 +36,14 @@
     include $IPATH . 'global-nav-bar.php';
     ?>
     <main>
-      <article class="wrapper-standard">
+      <article class="wrapper-wide">
+        <h1></h1>
         <div class="pathname-container">
           <i
             ><span class="pathname"><a href="/"></a> / </span>
             <span class="pathname"><a href="/#blog"></a> / samsø</span>
           </i>
         </div>
-        <br />
-        <h1></h1>
         <br />
         <p class="pathname">
           <svg
@@ -67,7 +66,6 @@
           allowfullscreen
           ><p class="alt-alt">Link to a short film from our journey.</p>
         </iframe>
-
         <p class="dropcap">
           Recently, me and my friend
           <a
@@ -80,6 +78,13 @@
           voluptas eaque aliquam autem hic repudiandae a voluptate id! Fugit
           numquam explicabo obcaecati alias incidunt, mollitia fugiat cum.
           Necessitatibus, exercitationem quod.
+        </p>
+
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur
+          fugiat aliquid, odio commodi deleniti repellat saepe esse labore
+          maxime laboriosam dignissimos pariatur suscipit ullam facere
+          voluptatum eveniet provident quis est!
         </p>
         <div class="map-margin">
           <div id="map" style="border-radius: 6px">
@@ -119,7 +124,7 @@
               </div>
             </div>
           </a>
-          <a href="/blog/västerbotten">
+          <a href="/blog/vasterbotten">
             <div class="grid-item" id="vasterbotten">
               <div class="blur">
                 <span></span>

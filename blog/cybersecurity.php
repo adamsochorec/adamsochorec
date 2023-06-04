@@ -55,7 +55,8 @@
           </section>
         </article>
       </section>
-      <article id="scrolllink" class="wrapper-standard">
+      <article id="scrolllink" class="wrapper-wide">
+        <h1 class="reveal"></h1>
         <div class="pathname-container reveal">
           <i
             ><span class="pathname"><a href="/"></a> / </span>
@@ -64,8 +65,7 @@
           ></i>
         </div>
         <br />
-        <h1 class="reveal"></h1>
-        <br />
+
         <p class="pathname reveal">
           <svg
             id="date"
@@ -79,7 +79,7 @@
           </svg>
           &nbsp; May 2022
         </p>
-        <br />
+        <br /><br />
         <h2 class="reveal">
           Essential steps leading to your secure and healthy online presence.
         </h2>
@@ -117,6 +117,11 @@
           <hr class="reveal" />
           <section>
             <h4 class="reveal">1.2. Password strength</h4>
+            <p class="note reveal">
+              This tool is safe to use. Everything is processed locally - no
+              data are sent or stored.
+            </p>
+
             <br />
             <form
               class="reveal"
@@ -124,6 +129,7 @@
               action=""
               method="get"
               accept-charset="utf-8"
+              spellcheck="false"
             >
               <input
                 id="myPassword"
