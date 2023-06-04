@@ -105,6 +105,22 @@
           maxime laboriosam dignissimos pariatur suscipit ullam facere
           voluptatum eveniet provident quis est!
         </p>
+        <div class="img">
+          <img src="/img/samso/screenshot.png" alt="" />
+        </div>
+        <div class="img">
+          <img src="/img/samso/2023-02-18-002.jpg" alt="" />
+        </div>
+        <div class="img">
+          <img src="/img/samso/2023-02-18-004.jpg" alt="" />
+        </div>
+        <div class="img">
+          <img src="/img/samso/2023-02-19-4245.jpg" alt="" />
+        </div>
+        <div class="img">
+          <img src="/img/samso/2023-02-19-005.jpg" alt="" />
+        </div>
+
         <hr />
         <h2>Further reading</h2>
         <br />

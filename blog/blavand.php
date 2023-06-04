@@ -51,7 +51,7 @@
         <div class="img">
           <img
             src="/img/2022-04-15-10184.jpg"
-            alt="Photo of a giant World War Two bunker, covered by graffiti and being lifted from its base on the sandy beach. The North Sea and another bunker can be seen in the background.s"
+            alt="Photo of a giant World War Two bunker, covered by graffiti and being lifted from its base on the sandy beach. The North Sea and another bunker can be seen in the background."
           />
         </div>
         <p class="dropcap">
