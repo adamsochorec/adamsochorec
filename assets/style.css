@@ -44,6 +44,7 @@
   --logo-querries: 0.85;
   --blur-1: blur(2px);
   --blur-2: blur(35px);
+  --logo-shadow: 2px 2px 1px rgba(var(--secondary-color), 0.8);
 }
 @font-face {
   font-family: "SF Pro Regular";
@@ -70,6 +71,37 @@
 body {
   background-color: rgb(var(--black-color));
   overflow-x: hidden;
+}
+body#homepage {
+  background-image: url(/img/MRI-2-kompr.gif);
+}
+
+#homepage header .blur,
+#homepage header .blur::before,
+#homepage header .blur:active,
+#homepage header .blur::after,
+#homepage header .blur:focus,
+#homepage header .blur:hover {
+  backdrop-filter: none !important; /* Standard syntax */
+  -webkit-backdrop-filter: none !important; /* Chrome, Safari, Opera */
+  -moz-backdrop-filter: none !important; /* Firefox */
+  -ms-backdrop-filter: none !important; /* Edge */
+  -o-backdrop-filter: none !important; /* Older versions of Opera */
+  background-color: rgba(0, 0, 0, 0) !important;
+}
+#homepage .blur.body-blur {
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  z-index: -1 !important;
+  background-color: rgba(var(--black-color), 0.7) !important;
+}
+#homepage .intro-black {
+  height: 100vh;
+  width: 100vw;
+  z-index: -2;
+  position: absolute;
+  background-color: rgba(var(--black-color), 1);
 }
 #homepage article,
 main {
@@ -233,9 +265,10 @@ main li {
   margin: 10px 10px 10px 0;
 }
 /* LINK START */
-a {
+a,
+a:hover {
   cursor: pointer;
-  text-decoration: none;
+  text-decoration: none !important;
 }
 main li a,
 h1 a,
@@ -392,7 +425,8 @@ hr {
 .btn-area #btn,
 .btn-area #btn:after,
 .btn-shadow,
-.wrapper-narrow {
+.wrapper-narrow,
+.wrapper-narrow hr {
   width: 21rem;
 }
 /* WRAPPER END */
@@ -568,6 +602,7 @@ textarea {
 header a {
   text-decoration: none;
   color: rgba(var(--primary-color), 1);
+  text-shadow: var(--logo-shadow);
 }
 header nav .logo {
   float: left;
@@ -712,6 +747,7 @@ ul.menu-left.collapse {
   background-color: rgba(var(--primary-color), 1);
   transition: all 0.25s;
   margin-top: 4px;
+  box-shadow: var(--logo-shadow);
 }
 /* HEADER END */
 
@@ -1225,10 +1261,13 @@ footer .footer-ps span:nth-child(2) {
 :root {
   --about-into-section-margin: 47vh;
 }
-#about {
-  background-image: url(/img/MRI-2-kompr.gif);
-  background-position: center;
+#about h1 {
+  position: relative;
+  left: 20px;
+  z-index: 3;
+  top: 25px;
 }
+
 #about .intro-section {
   height: var(--about-into-section-margin);
   text-align: left;
@@ -1311,9 +1350,7 @@ footer .footer-ps span:nth-child(2) {
   text-decoration: none;
   text-shadow: none;
 }
-.noindex h2 a:hover {
-  text-decoration: none;
-}
+
 #find-my dotlottie-player,
 #transfer dotlottie-player {
   margin-bottom: -3rem;
@@ -1480,6 +1517,10 @@ footer .footer-ps span:nth-child(2) {
   #password-strength-form input[type="text"] {
     font-size: var(--fontsize-h4);
   }
+  #about h1 {
+    z-index: 3;
+    top: 14px;
+  }
 }
 @media only screen and (max-width: 768px) {
   header ul {
@@ -1576,9 +1617,5 @@ footer .footer-ps span:nth-child(2) {
     display: none;
   }
 }
-@media only screen and (min-height: 800px) {
-  #about .blur {
-    height: 200vh;
-  }
-}
+
 /* MEDIA QERRIES END */
