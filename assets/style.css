@@ -73,7 +73,8 @@ body {
   overflow-x: hidden;
 }
 body#homepage {
-  background-image: url(/img/MRI-2-kompr.gif);
+  background-image: url(/img/MRI-2-kompr.gif)!important;
+  background-position: center;
 }
 
 #homepage header .blur,
