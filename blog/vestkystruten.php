@@ -66,6 +66,20 @@
             Link to a Vimeo blog from our journey made by Marcel.
           </p>
         </iframe>
+        <!--   <iframe
+          id="ytplayer"
+          type="text/html"
+          width="720"
+          height="405"
+          src="https://www.youtube-nocookie.com/embed/3go3v59pfEo?modestbranding=1"
+          frameborder="0"
+          encrypted-media
+          allowfullscreen
+          ><p class="alt-alt">
+            Link to a Vimeo blog from our journey made by Marcel.
+          </p>
+        </iframe>
+        -->
         <p class="dropcap">
           Recently, me and my friend
           <a
