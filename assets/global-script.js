@@ -54,11 +54,30 @@
 
 // HOMEPAGE START
 if (document.body.id === "homepage") {
+  // YOUTUBE PLAYER START
+  /*
+  var player;
+
+  function onYouTubeIframeAPIReady() {
+    player = new YT.Player("player", {
+      videoId: "Muvkn0OGDbw",
+      playerVars: {
+        autoplay: 0,
+        modestbranding: 1,
+        loop: 1,
+        controls: 0,
+        playlist: "Muvkn0OGDbw",
+      },
+    });
+  }
+  */
+  // YOUTUBE PLAYER END
+
+  // SKILL BARS START
   function setProgress(e, progress) {
     e.style.opacity = 1;
     e.style.width = `${progress}%`;
   }
-  // SKILL BARS START
   function showProgress() {
     const skillBars = document.querySelectorAll(".skill-bar");
     skillBars.forEach((bar) => {

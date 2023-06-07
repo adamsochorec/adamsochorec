@@ -57,16 +57,8 @@
           </svg>
           &nbsp; August 2022
         </p>
+
         <iframe
-          class="vimeo"
-          src="https://player.vimeo.com/video/825793407?h=9c6c7c993e"
-          allow="autoplay; fullscreen; picture-in-picture"
-          allowfullscreen
-          ><p class="alt-alt">
-            Link to a Vimeo blog from our journey made by Marcel.
-          </p>
-        </iframe>
-        <!--   <iframe
           id="ytplayer"
           type="text/html"
           width="720"
@@ -76,10 +68,9 @@
           encrypted-media
           allowfullscreen
           ><p class="alt-alt">
-            Link to a Vimeo blog from our journey made by Marcel.
+            Link to a YouTube blog from our journey made by Marcel.
           </p>
         </iframe>
-        -->
         <p class="dropcap">
           Recently, me and my friend
           <a

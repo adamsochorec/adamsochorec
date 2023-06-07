@@ -58,28 +58,20 @@
           </svg>
           &nbsp; February 2023
         </p>
+
         <iframe
-          style="animation: none"
-          class="vimeo"
-          src="https://player.vimeo.com/video/818670329?h=1decec98cc"
-          allow="autoplay; fullscreen; picture-in-picture"
-          allowfullscreen
-          ><p class="alt-alt">Link to a short film from our journey.</p>
-        </iframe>
-        <!--   <iframe
           id="ytplayer"
           type="text/html"
           width="720"
           height="405"
-          src="https://www.youtube-nocookie.com/embed/3go3v59pfEo?modestbranding=1"
+          src="https://www.youtube-nocookie.com/embed/Muvkn0OGDbw?modestbranding=1"
           frameborder="0"
           encrypted-media
           allowfullscreen
           ><p class="alt-alt">
-            Link to a Vimeo blog from our journey made by Marcel.
+            Link to a YouTube blog from our journey made by Marcel.
           </p>
         </iframe>
-        -->
         <p class="dropcap">
           Recently, me and my friend
           <a
