@@ -1245,17 +1245,6 @@ footer .footer-ps span:nth-child(2) {
 .gallery #vestkystruten span:before {
   content: "Vestkystruten 🇩🇰";
 }
-.gallery #samso {
-  background-image: url(https://i.vimeocdn.com/video/1674112437-3e477e6644cd2f292e041b2c20e2be32a353d2d213f95c995c18ff73708e0f76-d?mw=3000&mh=1687&q=70.jpg);
-}
-#samso .pathname-current:before,
-#samso h1:before,
-.gallery #samso span:before {
-  content: "Samsø 🇩🇰";
-}
-#samso iframe.vimeo {
-  margin-top: 0;
-}
 /* BLOG END */
 
 /* ABOUT START */
