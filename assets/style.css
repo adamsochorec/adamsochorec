@@ -1293,6 +1293,10 @@ footer .footer-ps span:nth-child(2) {
 #about .clients path, #about .clients:hover g,
 #about .clients g {
   transition: var(--transition-1);
+  -webkit-transition: var(--transition-1);
+  -moz-backdrop-transition: var(--transition-1); /* Firefox */
+  -ms-backdrop-transition: var(--transition-1); /* Edge */
+  -o-backdrop-transition:var(--transition-1);
 }
 #about .languages {
   height: 20px;
