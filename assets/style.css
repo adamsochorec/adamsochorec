@@ -37,7 +37,8 @@
   --transition-2: all.3s ease-in-out;
   --nav-bar-top-position: 45px;
   --shadow-transition: translate(4px, -4px);
-  --box-shadow-1: -8px 8px 0 rgb(var(--primary-color));
+  --box-shadow-1: rgba(0, 0, 0, 0.3) 0 19px 38px,
+    rgba(0, 0, 0, 0.22) 0 15px 12px;
   --homepage-padding: 50px;
   --logo-adam: 16px;
   --logo-sochorec: 9.5px;
@@ -137,8 +138,8 @@ hr {
   border: 0.1px solid;
   color: rgba(var(--white-color), 1);
   margin: 2rem 0;
-  opacity: 60%;
   z-index: 3;
+  box-shadow: var(--box-shadow-1);
 }
 #prints img,
 #map img {
@@ -508,6 +509,7 @@ source {
   border-radius: var(--border-radius-2);
   padding: 0.8rem;
   width: 100%;
+  box-shadow: var(--box-shadow-1);
 }
 .contact-form-section input,
 .contact-form-section select,
@@ -777,7 +779,7 @@ ul.menu-left.collapse {
 }
 .btn-shadow {
   background: rgb(var(--primary-color));
-  box-shadow: rgba(0, 0, 0, 0.3) 0 19px 38px, rgba(0, 0, 0, 0.22) 0 15px 12px;
+  box-shadow: var(--box-shadow-1);
   top: -25px;
   z-index: 1;
 }
@@ -840,6 +842,7 @@ ul.menu-left.collapse {
   background-size: cover;
   overflow: hidden;
   position: relative;
+  box-shadow: var(--box-shadow-1);
 }
 .gallery .grid-item .blur,
 .gallery .grid-item .blur:active,
@@ -953,6 +956,7 @@ footer .footer-ps span:nth-child(2) {
 .social-icons a {
   margin-right: 0.5rem;
   text-decoration: none;
+  box-shadow: var(--box-shadow-1);
 }
 .social-icons a:nth-child(5) {
   margin-right: 0;
@@ -979,20 +983,6 @@ footer .footer-ps span:nth-child(2) {
 }
 
 /* VISUALS END */
-
-/* PRINTS START 
-  
-  #prints h1 {
-    text-align: center;
-  }
-  #prints .intro-section {
-    background-image: url(/img/prints.jpg);
-  }
-  #prints img {
-    border-radius: var(--border-radius-1);
-    margin: 1rem 0 1rem 0;
-  }
-  /* PRINTS END */
 
 /* WEB DEV START*/
 .gallery #slavic-media {
