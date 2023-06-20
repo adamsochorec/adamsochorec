@@ -998,8 +998,12 @@ footer .footer-ps span:nth-child(2) {
 .gallery #slavic-media {
   background-image: url(/img/slavicmedia.png);
 }
+
 .gallery #okonord {
   background-image: url(/img/okonord.png);
+}
+.gallery #husetfundament {
+  background-image: url(/img/husetfundament.png);
 }
 /* WEB DEV START*/
 
@@ -1280,14 +1284,14 @@ footer .footer-ps span:nth-child(2) {
   cursor: pointer;
 }
 #about .clients:hover path,
-#about .clients path, 
+#about .clients path,
 #about .clients:hover g,
 #about .clients g {
   transition: var(--transition-1);
   -webkit-transition: var(--transition-1);
   -moz-transition: var(--transition-1); /* Firefox */
   -ms-transition: var(--transition-1); /* Edge */
-  -o-transition:var(--transition-1);
+  -o-transition: var(--transition-1);
 }
 #about .languages {
   height: 20px;
