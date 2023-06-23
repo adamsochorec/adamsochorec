@@ -78,6 +78,10 @@ body#homepage {
 }
 main {
   animation: transitionIn 1s;
+  -webkit-animation: transitionIn 1s;
+  -moz-animation: transitionIn 1s;
+  -ms-animation: transitionIn 1s;
+  -o-animation: transitionIn 1s;
 }
 @keyframes transitionIn {
   from {
