@@ -76,7 +76,19 @@ body#homepage {
   background-image: url(/img/MRI-2-kompr.gif) !important;
   background-position: center;
 }
-
+main {
+  animation: transitionIn 1s;
+}
+@keyframes transitionIn {
+  from {
+    opacity: 0;
+    transform: rotateX (-10deg);
+  }
+  to {
+    opacity: 1;
+    transform: rotateX(0);
+  }
+}
 #homepage header .blur,
 #homepage header .blur::before,
 #homepage header .blur:active,
@@ -137,7 +149,6 @@ hr {
   border: 0.1px solid;
   color: rgba(var(--white-color), 1);
   margin: 2rem 0;
-  opacity: 60%;
   z-index: 3;
 }
 #prints img,
@@ -1008,7 +1019,8 @@ footer .footer-ps span:nth-child(2) {
 /* WEB DEV START*/
 
 /* BLOG START */
-.blog-item h1 {
+.blog-item h1,
+.noindex .pathname-container {
   margin-top: 7.4rem;
 }
 .blog-item .pathname-container {
@@ -1462,7 +1474,8 @@ footer .footer-ps span:nth-child(2) {
     grid-template-columns: repeat(2, 1fr);
     padding-top: var(--nav-bar-top-position);
   }
-  .blog-item h1 {
+  .blog-item h1,
+  .noindex .pathname-container {
     margin-top: 4rem;
   }
   .intro-section {
