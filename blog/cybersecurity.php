@@ -27,10 +27,10 @@
           <section class="intro-subsection">
             <h2>Get an ultimate password</h2>
             <br />
-            <section class="btn-area flex-center">
+            <section class="btn-area flex-centre”>
               <input
                 type="text"
-                placeholder="of 124 bit strength"
+                placeholder="of 124-bit strength"
                 id="password"
                 readonly=""
                 autocomplete="new-password"
@@ -87,9 +87,9 @@
         <section>
           <h3 class="reveal">1. Contemporary passwords</h3>
           <br />
-          <p class="dropcap reveal">
+          <p class=“drop-cap reveal">
             The most effective way how today to hack someone's identity is to
-            "social engineer". That means "guess" someone's password based on
+            "social engineer". That means “guessing” someone's password based on
             the target's public information (date of birth, postal code, house
             number, etc.) usually on social sites.<br />
           </p>
@@ -104,7 +104,7 @@
           <p class="reveal">
             Another step forward to secure your online and offline identity is
             using a unique password for each account you own. That creates a
-            powerful a cascade of barriers that possible hackers might cross
+            powerful cascade of barriers that possible hackers might cross
             pretty easily with a single or similar password.<br />
           </p>
 
@@ -2684,9 +2684,9 @@ C502.2,625.2,499,621.9,499,618.3z"
           </p>
           <p class="reveal">
             <br /><br />You can easily avoid this by using a mobile app for 2FA
-            that is independent of your phone number. Most of the online
+            that is independent of your phone number. Most the online
             services provide their native app for 2FA or they support trusted
-            third party apps for secure two-factor authentication.
+            third-party apps for secure two-factor authentication.
           </p>
         </section>
         <hr class="reveal" />
@@ -2707,7 +2707,7 @@ C502.2,625.2,499,621.9,499,618.3z"
           <p></p>
           <ol class="reveal">
             <li>
-              Set-up a 2FA for your online accounts with 2FA support through:
+              Set up a 2FA for your online accounts with 2FA support through:
             </li>
             <ul>
               <li>
@@ -2720,7 +2720,7 @@ C502.2,625.2,499,621.9,499,618.3z"
                 - Apple users
               </li>
               <li>
-                Trusted third party 2FA app such as
+                Trusted third-party 2FA apps such as
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
@@ -2745,7 +2745,7 @@ C502.2,625.2,499,621.9,499,618.3z"
                 Service's verification native app (f.e. Adobe - Account Access)
               </li>
               <li>
-                If the service does support any mentioned methods, use SMS
+                If the service does support any mentioned methods, use the SMS
                 verification
               </li>
             </ul>
@@ -2770,10 +2770,10 @@ C502.2,625.2,499,621.9,499,618.3z"
           </p>
 
           <p class="reveal">
-            When installing a new app, checkout in settings its requests to read
+            When installing a new app, check out in settings its requests to read
             your data - decide which are necessary for the app functionality.<br />For
             example, does your app for online shopping needs access to your
-            contact, and messages?<br />By using random non-organic passwords
+            contact and messages?<br />By using random non-organic passwords
             will most personal information in the online space lose its value
             (as a possible key to your sensitive data).
           </p>
@@ -2800,7 +2800,7 @@ C502.2,625.2,499,621.9,499,618.3z"
               required sensitive information visibility as private
             </li>
             <li>
-              Before filling out any information about you, ask yourself if is
+              Before filling out any information about yourself, ask yourself if is
               it fundamental for app/service functionality
             </li>
             <li>Stick to the random non-organic passwords</li>
@@ -2818,7 +2818,7 @@ C502.2,625.2,499,621.9,499,618.3z"
                 target="_blank"
                 rel="noopener noreferrer"
                 href="https://open.spotify.com/episode/2hJsSOoQkgnlQLEFrdBVFp?si=06ff9cdeb3da4cbc"
-                >Story about professional social engineer
+                >Story about a professional social engineer
               </a>
             </li>
             <li class="reveal">
