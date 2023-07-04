@@ -13,7 +13,7 @@
       name="description"
       content="Join us on an unforgettable bike trip
     from Flensburg, Germany, to Skagen, Denmark, journeying along the stunning
-    west coast of the Jutland peninsula. Explore Denmark's beauty, meet friendly
+    the west coast of the Jutland peninsula. Explore Denmark's beauty, meet friendly
     locals, and experience a blend of breathtaking coastal views and charming
     small towns."
     />
@@ -111,8 +111,8 @@
           >
             Vestkystruten</a
           >. We biked <b>over 570 km in 10 days</b>, taking in the stunning
-          views and experiencing all that Denmark had to offer. Along the way,
-          we slept in the forest and in
+          views and experience all that Denmark had to offer. Along the way, we
+          slept in the forest and in
           <a
             target="_blank"
             rel="noopener noreferrer"
@@ -133,7 +133,7 @@
         <div class="map-margin">
           <div id="map" style="border-radius: 6px">
             <p class="alt-alt">
-              Interactive map of a danish peninsula Jutland, with a line
+              Interactive map of the Danish peninsula Jutland, with a line
               depicting our route from the south to the north of Denmark.
             </p>
           </div>
@@ -162,7 +162,8 @@
             target="_blank"
             rel="noopener noreferrer"
             href="https://www.youtube.com/watch?v=3go3v59pfEo"
-            >our video on YouTube</a
+          >
+            Our video on YouTube</a
           >
           and
           <a

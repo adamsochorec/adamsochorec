@@ -57,7 +57,7 @@
         <p class="dropcap">
           On the 12th of April, I woke up early and packed a backpack with lunch
           before heading to the Kolding train station. I took a train to Oksbøl,
-          which is located near Blåvand, the westernmost city in Denmark. My
+          which is located near Blåvand, the westernmost city in Denmark. My the
           plan was to visit the
           <a
             target="_blank"
@@ -85,7 +85,7 @@
         </div>
         <p>
           I stopped at a local fisherman's shop to buy a shrimp salad from a
-          bakery and began walking. The town center of Blåvand is not large and
+          bakery and began walking. The town centre of Blåvand is not large and
           it wasn't long before I reached an area with dozens of summer houses
           surrounded by pine trees. As I neared the shore, the vacation homes
           gave way to standalone houses built in the dunes a few meters from the
@@ -106,7 +106,7 @@
             href="https://en.wikipedia.org/wiki/North_Sea"
             >North Sea</a
           >
-          shore, I headed slightly north to follow the 400 km long west coast
+          shore, I headed slightly north to follow the 400 km-long west coast
           that borders Germany to the south and flows into the
           <a
             target="_blank"
@@ -139,7 +139,7 @@
           during the war. I noticed that these bunkers were spaced about every
           few hundred meters along the entire west coast. However, "standing"
           might not be the right term to describe their condition. After more
-          than half a century of neglect in the sand, these bunkers had sunken
+          then half a century of neglect in the sand, these bunkers had sunken
           into the ground.
         </p>
         <div class="img">
@@ -151,9 +151,9 @@
         <p>
           Their exteriors were often covered in graffiti and some even had
           additional metal constructions shaped like horses or giraffes. As I
-          passed more and more bunkers, each with its own unique design and
-          level of deterioration, I had the idea to scan them using a 3D
-          modeling app called
+          passed more and more bunkers, each with its unique design and level of
+          deterioration, I had the idea to scan them using a 3D modelling app
+          called
           <a target="_blank" rel="noopener noreferrer" href="https://poly.cam"
             >Polycam</a
           >.
@@ -183,8 +183,8 @@
           When I reached the lighthouse, I bought a ticket to the top of the
           tower from a small house that was probably used to house the
           lighthouse crew. The view from the top was surreal, with dunes covered
-          in grass of varying colors and narrow paths running through them. The
-          landscape reminded me of the planet
+          in the grass of varying colours and narrow paths running through them.
+          The the landscape reminded me of the planet
           <a
             href="https://www.starwars.com/databank/scarif"
             target="_blank"
@@ -207,7 +207,7 @@
             href="https://en.wikipedia.org/wiki/Amber"
             >amber</a
           >
-          necklaces and jewelry. The elderly woman behind the cashier's desk
+          necklaces and jewellery. The elderly woman behind the cashier's desk
           told me that with a bit of luck, I might be able to find some amber on
           the beach. As I walked along the west coast, I noticed that the Danish
           military liked to train in the stratified terrain in the area

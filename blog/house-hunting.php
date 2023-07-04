@@ -52,7 +52,7 @@
         <div class="img">
           <img
             src="/img/2022-10-09-2277.jpg"
-            alt="Shot of abandoned property with garden and old family house built in a typical Scandinavian style - pastel green facade made out of wooden planks with white outlined corners and windows."
+            alt="Shot of abandoned property with garden and an old family house built in a typical Scandinavian style - pastel green facade made out of wooden planks with white outlined corners and windows."
           />
         </div>
         <p class="dropcap">
@@ -64,7 +64,7 @@
             href="http://www.toddhido.com/"
             >Todd Hido</a
           >. However, our motivations and final products differ significantly.
-          My goal was to combine urbex, my love of charming Scandinavian
+          My goal was to combine Urbex, my love of charming Scandinavian
           architecture, the
           <a
             target="_blank"
@@ -72,14 +72,14 @@
             href="https://www.instagram.com/CHEAPOLDHOUSES/"
             >Cheap Old Houses</a
           >
-          project, and Hido's narrative style of documenting the past by
+          the project, and Hido's narrative style of documenting the past by
           capturing the current state or remnants of abandoned buildings.
         </p>
 
         <div class="img">
           <img
             src="/img/2022-10-09-2278.jpg"
-            alt="Shot of abandoned property with garden and old family house built in a typical Scandinavian style - pastel green facade made out of wooden planks with white outlined corners and windows."
+            alt="Shot of abandoned property with garden and an old family house built in a typical Scandinavian style - pastel green facade made out of wooden planks with white outlined corners and windows."
           />
         </div>
         <p>
@@ -89,7 +89,7 @@
         <div class="map-margin">
           <div id="map">
             <p class="alt-alt">
-              Interactive map of a Finnish city Vaasa with the marker of an
+              Interactive map of the Finnish city Vaasa with the marker of an
               approximate location of the building introduced in the article.
             </p>
           </div>
@@ -109,8 +109,8 @@
         </div>
 
         <p>
-          On one of my walks in the neighborhood of Palosaari, in Finnish Vaasa,
-          I couldn't help but notice the beautiful pale green colour of a
+          On one of my walks in the neighbourhood of Palosaari, in Finnish
+          Vaasa, I couldn't help but notice the beautiful pale green colour of a
           low-key, old-fashioned family house. Upon closer inspection, I saw
           broken windows and a damaged entrance staircase, indicating that the
           building was uninhabited. The building immediately sparked my
@@ -120,7 +120,7 @@
         <div class="img">
           <img
             src="/img/2022-10-09-2282.jpg"
-            alt="Photo taken from a plan view of an old wooden narrow staircase. The staircase leads from the ground floor to the first floor."
+            alt="Photo was taken from a plan view of an old wooden narrow staircase. The staircase leads from the ground floor to the first floor."
           />
         </div>
         <p>

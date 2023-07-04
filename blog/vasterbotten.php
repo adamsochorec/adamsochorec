@@ -11,7 +11,7 @@
     ?>
     <meta
       name="description"
-      content="Embark on a remarkable journey in Västerbotten, Sweden. From an exchange program at Vaasan Ylipsto to exploring the local countryside, engage in bushcraft, forest camping, and fishing under the Swedish Everyman's Right. Immerse yourself in the rich Sámi culture of Lapland, take up Brazilian Jiu-jitsu at Umeå Kampcenter, and embrace the Scandinavian lifestyle. Experience the breathtaking aurora, learn primitive living techniques, and explore the beauty of Lapland."
+      content="Embark on a remarkable journey in Västerbotten, Sweden. From an exchange program at Vaasan Ylipsto to exploring the local countryside, engaging in bushcraft, forest camping, and fishing under the Swedish Everyman's Right. Immerse yourself in the rich Sámi culture of Lapland, take up Brazilian Jiu-jitsu at Umeå Kampcenter, and embrace the Scandinavian lifestyle. Experience the breathtaking aurora, learn primitive living techniques, and explore the beauty of Lapland."
     />
     <meta
       name="keywords"
@@ -51,7 +51,7 @@
         <div class="img">
           <img
             src="/img/2022-09-04-4233.jpg"
-            alt="Panorama shot of an mire, where we bushcrafted. Heap and weed around the lake is mustard yellow, surrounded by a wall of a forest trees."
+            alt="Panorama shot of a mire, where we bushcraft. Heap and weed around the lake are mustard yellow, surrounded by a wall of forest trees."
           />
         </div>
         <p class="dropcap">
@@ -72,7 +72,7 @@
             >Västerbotten</a
           >
           in Swedish, is one of the 21 counties in Sweden and its administrative
-          center is located in Umeå. The Finnish city of Vaasa, where my
+          the centre is located in Umeå. The Finnish city of Vaasa, where my the
           university is located, and Umeå, are connected by a 4-hour ferry ride
           across the narrowest part of the Bothnian Bay.<br /><br />
           As it was my first time in Sweden, I had high expectations for the
@@ -145,18 +145,18 @@
         <div class="img">
           <img
             src="/img/2022-09-01-4214.jpg"
-            alt="View from the ship to the ship docks in Umeå, there is a coast guard boat in foreground, in background are two wind turbines."
+            alt="View from the ship to the ship docks in Umeå, there is a coast guard boat in the foreground, in the background are two wind turbines."
           />
           <br /><br class="hide" />
           <p><i class="note">Ship docks in Umeå</i></p>
         </div>
         <p>
           Later that night, we decided to sleep in the surrounding forest. The
-          essence of the Everyman's right is that one can sleep, pick berries
-          and mushrooms, and set a campfire almost anywhere, with the exception
-          of private properties and national parks. This right to roam exists in
-          several other countries besides Finland and Sweden. We set up camp
-          under the bare sky in a
+          the essence of the Everyman's right is that one can sleep, pick
+          berries and mushrooms, and set a campfire almost anywhere, with the
+          exception of private properties and national parks. This right to roam
+          exists in several other countries besides Finland and Sweden. We set
+          up camp under the bare sky in a
           <a
             target="_blank"
             rel="noopener noreferrer"
@@ -171,8 +171,8 @@
           morning.<br />
           After my programming lecture ended, the boys were already preparing a
           light breakfast of porridge and tea. We also made sure to properly
-          extinguish the campfire and headed out to find nearby spiritual stone
-          formations from ancient times.<br />
+          extinguish the campfire and headed out to find a nearby spiritual
+          stone formations from ancient times.<br />
           After an hour of searching, we realized that the stones were not in
           the location we thought they were, so we headed back home with a few
           chanterelle mushrooms we had found in our pockets.<br /><br />
@@ -193,8 +193,8 @@
           >
           later that day. The 90-minute lecture was our first introduction to
           the
-          <i
-            >self-defence martial art and combat sport that is based on
+          <i>
+            Self-defence martial art and combat sport that is based on
             grappling, ground fighting (ne-waza), and submission holds. BJJ
             focuses on taking an opponent to the ground, controlling them,
             gaining a dominant position, and using various techniques to force
@@ -253,10 +253,8 @@
           landscape during this time.
         </p>
         <div class="img">
-          <img
-            src="/img/2022-09-03-4227.jpg"
-            alt="Panorama photo of our camp-site on the shore of a mire"
-          />
+          <img src="/img/2022-09-03-4227.jpg" alt="Panorama photo of our
+          campsite on the shore of a more” />
           <br /><br class="hide" />
           <p><i class="note">Our mire-camp site</i></p>
         </div>
@@ -265,7 +263,7 @@
           husky, Barnabas and walked through the mixed woods. As soon as we
           passed through the wall of trees, we could see the subject of our
           interest: a mire lake that was semi-cut throughout by a heap of
-          tentacles, which was solid enough to walk on. We followed the
+          tentacles, which were solid enough to walk on. We followed the
           tentacle-shaped ground to its tip, where we decided to set up camp.
           <br />The boys set up a tarp 45 degrees over a rope between the pines
           to create a single-sided shelter. Emil decided to sleep in a hammock.
@@ -275,10 +273,8 @@
         </p>
         <br class="hide" />
         <div class="img">
-          <img
-            src="/img/poncho-setup.jpg"
-            alt="Ilustration ilustrating various simple field shelters made with a rope and tarp."
-          />
+          <img src="/img/poncho-setup.jpg" alt=“Illustration Illustrating
+          various simple field shelters made with a rope and tarp." />
           <br /><br class="hide" /><br class="hide" />
           <p>
             <i class="note"
@@ -314,7 +310,7 @@
         <div class="img">
           <img
             src="/img/2022-09-04-4229.jpg"
-            alt="Portrait of a Joakim sitting on a tarp in the grass, hand on his hand-crafted machete, raindeer's fur around the shoulder. The mire is in the background."
+            alt="Portrait of a Joakim sitting on a tarp in the grass, hand on his hand-crafted machete, reindeer’s fur around the shoulder. The mire is in the background."
           />
           <br /><br class="hide" />
           <p><i class="note">Joakim</i></p>
@@ -332,10 +328,9 @@
             >The Revenant</a
           >
           Alone in the cold forest, chased by approaching blasts. As I looked
-          around, the surrounding colors reminded me of how insane this planet
-          is. The night was spent discussing around the fire. Most of the
-          conversations were held in Swedish, which I understand to some extent
-          because of its
+          around, the surrounding colours reminded me of how insane this planet
+          is. The night was spent discussing the fire. Most of the conversations
+          were held in Swedish, which I understand to some extent because of its
           <a
             target="_blank"
             rel="noopener noreferrer"
@@ -343,7 +338,7 @@
             >similarity to Danish</a
           >, which I study. So most of the time, I was observing, listening, and
           trying to decipher the ongoing conversation.<br />
-          A highlight of the night was the shallow but still green
+          A highlight of the night was shallow but still green
           <a
             target="_blank"
             rel="noopener noreferrer"
@@ -351,24 +346,24 @@
             >Aurora</a
           >
           that occurred in the clear sky for a few minutes. It was a signal from
-          God, a reminder that he is always up there, no matter what. Watching
-          my steps, watching out for me, despite my actions and location.
+          God, is a reminder that he is always up there, no matter what.
+          Watching my steps, watching out for me, despite my actions and
+          location.
         </p>
         <div class="img">
-          <img
-            src="/img/2022-09-01-4215.jpg"
-            alt="Photo of a collection of several sizes of original Sámi knives hand crafted by Joakim, each made for a specific actitivty."
-          />
+          <img src="/img/2022-09-01-4215.jpg" alt="Photo of a collection of
+          several sizes of original Sámi knives handcrafted by Joakim, each made
+          for a specific activity.” />
           <br /><br class="hide" />
           <p>
             <i class="note"
-              >Original Sámi knives hand crafted by Joakim, each of them has
-              been made for a specific activity</i
+              >Original Sámi knives handcrafted by Joakim, each of them has been
+              made for a specific activity</i
             >
           </p>
         </div>
         <p>
-          When we found our way through the vast forest to the cars the
+          When we found our way through the vast forest to the cars the the
           following morning, we drove to Joakim's place in Bullmark where we
           spent the rest of our last day relaxing and packing for the long
           journey back to Finland, which awaited us the next early morning.
