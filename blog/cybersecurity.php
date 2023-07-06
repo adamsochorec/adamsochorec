@@ -27,7 +27,7 @@
           <section class="intro-subsection">
             <h2>Get an ultimate password</h2>
             <br />
-            <section class="btn-area flex-centre”>
+            <section class="btn-area flex-center">
               <input
                 type="text"
                 placeholder="of 124-bit strength"
@@ -87,7 +87,7 @@
         <section>
           <h3 class="reveal">1. Contemporary passwords</h3>
           <br />
-          <p class=“drop-cap reveal">
+          <p class="drop-cap reveal">
             The most effective way how today to hack someone's identity is to
             "social engineer". That means “guessing” someone's password based on
             the target's public information (date of birth, postal code, house

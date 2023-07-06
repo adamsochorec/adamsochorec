@@ -115,6 +115,17 @@ if (document.body.id === "homepage") {
     });
     // SUBMIT AT ENTER END
   })();
+  // VIMEO GALLERY START
+  $(document).ready(function () {
+    $(".video-gallery").magnificPopup({
+      delegate: "a",
+      type: "iframe",
+      gallery: {
+        enabled: true,
+      },
+    });
+  });
+  // VIMEO GALLERY END
 }
 // CYBERSECURITY START
 // CYBERSECURITY SUPERBTN START

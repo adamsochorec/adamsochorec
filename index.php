@@ -5,6 +5,10 @@
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'global-head.php';
     ?>
+    <link
+      rel="stylesheet"
+      href="https://cdn.rawgit.com/dimsemenov/Magnific-Popup/master/dist/magnific-popup.min.css"
+    />
     <meta
       name="description"
       content="
@@ -28,19 +32,21 @@
       <div class="intro-black"></div>
       <!-- VISUALS START -->
       <article id="visuals">
-        <div class="grid-container">
-          <div class="hhh-stretch">
-            <iframe
-              style="animation: none"
-              src="https://player.vimeo.com/video/818670329?h=1decec98cc"
-              allow="autoplay; fullscreen; picture-in-picture"
-              allowfullscreen
-              ><p class="alt-alt">
-                Short drone reel from my visit of Samsø island in the Baltic
-                Sea.
-              </p></iframe
-            >
+        <div id="visual" class="video-gallery">
+          <div class="gallery-item reveal">
+            <img
+              src="/img/cover-samso.jpg"
+              alt="Short artistic film featuring drone-captured footage"
+            />
+            <div class="gallery-item-caption">
+              <a
+                class="vimeo-popup"
+                href="https://www.youtube-nocookie.com/embed/qHTNf_Nn7pE?modestbranding=1"
+              ></a>
+            </div>
           </div>
+        </div>
+        <div class="grid-container">
           <div class="h-stretch">
             <img
               src="/img/2022-05-06-1856.jpg"
@@ -2263,6 +2269,8 @@
     </main>
 
     <!-- FOOTER START -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://cdn.rawgit.com/dimsemenov/Magnific-Popup/master/dist/jquery.magnific-popup.min.js"></script>
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'global-footer.php';
