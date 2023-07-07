@@ -5,10 +5,7 @@
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'global-head.php';
     ?>
-    <link
-      rel="stylesheet"
-      href="https://cdn.rawgit.com/dimsemenov/Magnific-Popup/master/dist/magnific-popup.min.css"
-    />
+
     <meta
       name="description"
       content="
@@ -28,24 +25,14 @@
     ?>
     <!-- HEADER END -->
     <main>
-      <div class="blur body-blur"></div>
-      <div class="intro-black"></div>
       <!-- VISUALS START -->
+
       <article id="visuals">
-        <div id="visual" class="video-gallery">
-          <div class="gallery-item reveal">
-            <img
-              src="/img/cover-samso.jpg"
-              alt="Short artistic film featuring drone-captured footage"
-            />
-            <div class="gallery-item-caption">
-              <a
-                class="vimeo-popup"
-                href="https://www.youtube-nocookie.com/embed/qHTNf_Nn7pE?modestbranding=1"
-              ></a>
-            </div>
-          </div>
-        </div>
+        <section class="intro-section-wrapper">
+          <article class="intro-section">
+            <section class="intro-subsection"></section>
+          </article>
+        </section>
         <div class="grid-container">
           <div class="h-stretch">
             <img
@@ -65,12 +52,14 @@
               alt="Glowing Shell gas station at night in Kolding"
             />
           </div>
+
           <div class="h-stretch">
             <img
               src="/img/2021-08-22-9235.jpg"
               alt="Man's face lit by his cigarette under the moonlight, Kolding"
             />
           </div>
+
           <div class="h-stretch">
             <img
               src="/img/2022-02-13-3564.jpg"
@@ -193,16 +182,20 @@
               alt="Møns Klint forest enveloped in morning fog with laser beams piercing the sky"
             />
           </div>
-          <div class="h-stretch reveal">
-            <img
-              src="/img/2022-03-16-4161.jpg"
-              alt="Willow tree by the Kolding Slotsøen lake in morning mist, with Koldnighus in the distance"
-            />
+
+          <div class="h-stretch">
+            <iframe
+              src="https://www.youtube-nocookie.com/embed/qHTNf_Nn7pE?modestbranding=1"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
           </div>
           <div class="v-stretch reveal">
             <img
-              src="/img/2022-08-25-4205.jpg"
-              alt="Aerial view of a fog-engulfed forest in Kvarken Archipelago"
+              src="/img/2022-03-16-4161.jpg"
+              alt="Willow tree by the Kolding Slotsøen lake in morning mist, with Koldnighus in the distance"
             />
           </div>
           <div class="v-stretch reveal">
@@ -2259,10 +2252,6 @@
               </div>
             </form>
           </section>
-          <?php
-          $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-          include $IPATH . 'global-totop.php';
-          ?>
         </section>
       </article>
       <!-- ABOUT END -->
@@ -2270,7 +2259,6 @@
 
     <!-- FOOTER START -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <script src="https://cdn.rawgit.com/dimsemenov/Magnific-Popup/master/dist/jquery.magnific-popup.min.js"></script>
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'global-footer.php';

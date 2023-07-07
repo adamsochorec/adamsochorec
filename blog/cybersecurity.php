@@ -2882,10 +2882,7 @@ C502.2,625.2,499,621.9,499,618.3z"
             </div>
           </a>
         </section>
-        <?php
-          $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-          include $IPATH . 'global-totop.php';
-          ?>
+        
       </article>
     </main>
     <script

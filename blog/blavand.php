@@ -253,10 +253,6 @@
             </div>
           </a>
         </div>
-        <?php
-          $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-          include $IPATH . 'global-totop.php';
-          ?>
       </article>
     </main>
     <?php

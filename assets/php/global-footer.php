@@ -1,4 +1,5 @@
 <!-- FOOTER START -->
+<hr style="opacity: 0" />
 <footer>
   <?php
          $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
@@ -24,4 +25,5 @@
     src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"
   ></script>
 </footer>
+
 <!-- FOOTER END -->
