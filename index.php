@@ -175,15 +175,8 @@
               src="/img/MRI-2-kompr.gif"
               alt="Animation of Adam Sochorec's head using MRI images"
             />
-          </div>
-          <div class="v-stretch reveal">
-            <img
-              src="/img/2023-04-14-9322.jpg"
-              alt="Møns Klint forest enveloped in morning fog with laser beams piercing the sky"
-            />
-          </div>
-
-          <div class="h-stretch">
+          </div>  
+          <div class="hhh-stretch">
             <iframe
               class="reveal"
               style="animation: none"
@@ -198,10 +191,23 @@
           </div>
           <div class="v-stretch reveal">
             <img
+              src="/img/2023-04-14-9322.jpg"
+              alt="Møns Klint forest enveloped in morning fog with laser beams piercing the sky"
+            />
+          </div>
+          <div class="h-stretch reveal">
+            <img
               src="/img/2022-03-16-4161.jpg"
               alt="Willow tree by the Kolding Slotsøen lake in morning mist, with Koldnighus in the distance"
             />
           </div>
+          <div class="v-stretch reveal">
+            <img
+              src="/img/2022-08-25-4205.jpg"
+              alt="Møns Klint forest enveloped in morning fog with laser beams piercing the sky"
+            />
+          </div>
+          
           <div class="v-stretch reveal">
             <img
               class="hideImg"
@@ -209,6 +215,7 @@
               alt="Björkoby fishing village shrouded in morning fog"
             />
           </div>
+
         </div>
       </article>
       <!-- VISUALS END -->
@@ -2262,7 +2269,6 @@
     </main>
 
     <!-- FOOTER START -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'global-footer.php';
