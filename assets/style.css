@@ -904,6 +904,7 @@ footer {
   padding: 20px 0 20px 0;
   text-align: center;
   background-color: rgba(var(--grey-color), 0.8);
+  width: 100%;
 }
 .totop #scrollLottie {
   rotate: 180deg;
@@ -1359,14 +1360,15 @@ footer .footer-ps span:nth-child(2) {
   text-shadow: none;
 }
 .noindex footer{
-position: absolute;
-  bottom: 0;
-  width: 100%;
+margin-top: 6rem;
+position: relative !important;
+bottom: 0;
 }
-#find-my dotlottie-player,
-#transfer dotlottie-player {
-  margin-bottom: -3rem;
-  z-index: -1;
+.noindex#error footer{
+  margin-top: 5rem;
+}
+.noindex#success footer{
+  margin-top: 8rem;
 }
 /* NO INDEX PAGES END */
 

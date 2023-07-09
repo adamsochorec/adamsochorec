@@ -46,8 +46,6 @@
           </a>
         </h2>
       </article>
-      <div class="pathname-container"></div>
-    </main>
     <!-- LOTTIE PLAYER SCRIPTS START -->
     <script
       type="text/javascript"
