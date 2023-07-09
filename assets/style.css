@@ -101,6 +101,7 @@ header .blur:hover {
   -moz-backdrop-filter: var(--blur-2) !important; /* Firefox */
   -ms-backdrop-filter: var(--blur-2) !important; /* Edge */
   -o-backdrop-filter: var(--blur-2) !important; /* Older versions of Opera */
+  background-color: rgba(var(--black-color), 0.2);
 }
 #homepage article,
 main {
@@ -900,7 +901,7 @@ ul.menu-left.collapse {
 
 /* FOOTER START */
 footer {
-  padding: 30px 0 20px 0;
+  padding: 20px 0 20px 0;
   text-align: center;
   background-color: rgba(var(--grey-color), 0.8);
 }
@@ -961,7 +962,6 @@ footer .footer-ps span:nth-child(2) {
   padding-top: 0;
 }
 #visuals .intro-section {
-  background-image: url(/img/2022-08-25-4205.jpg);
   height: 100vh;
 }
 #visuals .grid-container {
@@ -1358,7 +1358,12 @@ footer .footer-ps span:nth-child(2) {
   text-decoration: none;
   text-shadow: none;
 }
-
+.noindex footer{
+position: absolute;
+  bottom: 0;
+  z-index: 99999;
+  width: 100%;
+}
 #find-my dotlottie-player,
 #transfer dotlottie-player {
   margin-bottom: -3rem;
@@ -1427,13 +1432,17 @@ footer .footer-ps span:nth-child(2) {
     height: 5rem;
   }
 }
+@media only screen and (max-width: 538px) {
+  #visuals .intro-section {
+    background-image: url(/img/2023-04-14-9322.jpg);
 
+  }
+}
 @media only screen and (min-width: 538px) {
   header nav ul li a {
     display: block;
   }
-
-  #visuals .grid-container,
+  #visuals,
   .intro-section-wrapper {
     padding-left: var(--homepage-padding);
     padding-right: var(--homepage-padding);
@@ -1441,6 +1450,10 @@ footer .footer-ps span:nth-child(2) {
   #visuals .intro-section-wrapper {
     padding-left: 0;
     padding-right: 0;
+  }
+  #visuals .intro-section {
+    background-image: url(/img/cover-samso.jpg);
+
   }
 }
 @media only screen and (max-width: 540px) {
@@ -1452,6 +1465,7 @@ footer .footer-ps span:nth-child(2) {
   .hideImg {
     display: none;
   }
+  
 }
 @media only screen and (max-width: 560px) {
   .v-stretch,

@@ -185,12 +185,16 @@
 
           <div class="h-stretch">
             <iframe
+              class="reveal"
+              style="animation: none"
               src="https://www.youtube-nocookie.com/embed/qHTNf_Nn7pE?modestbranding=1"
               title="YouTube video player"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowfullscreen
-            ></iframe>
+            >
+              Short artistic film featuring drone-captured footage
+            </iframe>
           </div>
           <div class="v-stretch reveal">
             <img
