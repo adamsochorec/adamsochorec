@@ -30,7 +30,15 @@
       <article id="visuals">
         <section class="intro-section-wrapper">
           <article class="intro-section">
-            <section class="intro-subsection"></section>
+            <iframe
+              src="https://www.youtube-nocookie.com/embed/qHTNf_Nn7pE?modestbranding=1"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            >
+              Short artistic film featuring drone-captured footage
+            </iframe>
           </article>
         </section>
         <div class="grid-container">
@@ -176,19 +184,6 @@
               alt="Animation of Adam Sochorec's head using MRI images"
             />
           </div>
-          <div class="hhh-stretch">
-            <iframe
-              class="reveal"
-              style="animation: none"
-              src="https://www.youtube-nocookie.com/embed/qHTNf_Nn7pE?modestbranding=1"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen
-            >
-              Short artistic film featuring drone-captured footage
-            </iframe>
-          </div>
           <div class="v-stretch reveal">
             <img
               src="/img/2023-04-14-9322.jpg"
@@ -221,12 +216,27 @@
       <!-- BLOG START -->
       <article id="blog">
         <section class="wrapper-standard reveal">
-          <hr class="reveal" />
+          <hr style="opacity: 0" />
           <h1 class="reveal"></h1>
           <div class="grid-container gallery reveal">
-            <a class="hh-stretch gradient" href="/blog/cybersecurity">
-              <div class="grid-item" id="cybersecurity">
-                <span></span>
+            <a class="hh-stretch" href="/blog/aland">
+              <div class="grid-item" id="aland">
+                <div class="blur">
+                  <span><br />🇦🇽</span>
+                </div>
+              </div>
+            </a>
+            <a href="/blog/house-hunting">
+              <div class="grid-item" id="house-hunting">
+                <div class="blur">
+                  <span><br />🇫🇮</span>
+                </div>
+              </div></a
+            ><a href="/blog/vasterbotten">
+              <div class="grid-item" id="vasterbotten">
+                <div class="blur">
+                  <span><br />🇸🇪</span>
+                </div>
               </div>
             </a>
             <a href="/blog/vestkystruten">
@@ -236,32 +246,16 @@
                 </div>
               </div>
             </a>
-            <a href="/blog/house-hunting">
-              <div class="grid-item" id="house-hunting">
-                <div class="blur">
-                  <span><br />🇫🇮</span>
-                </div>
-              </div> </a
-            ><a href="/blog/vasterbotten">
-              <div class="grid-item" id="vasterbotten">
-                <div class="blur">
-                  <span><br />🇸🇪</span>
-                </div>
-              </div>
-            </a>
-            <a class="hh-stretch" href="/blog/aland">
-              <div class="grid-item" id="aland">
-                <div class="blur">
-                  <span><br />🇦🇽</span>
-                </div>
-              </div>
-            </a>
-
             <a class="hh-stretch" href="/blog/blavand">
               <div class="grid-item" id="blavand">
                 <div class="blur">
                   <span><br />🇩🇰</span>
                 </div>
+              </div>
+            </a>
+            <a class="hh-stretch gradient" href="/blog/cybersecurity">
+              <div class="grid-item" id="cybersecurity">
+                <span></span>
               </div>
             </a>
           </div>
@@ -328,7 +322,7 @@
             >
             – small but mighty!
           </p>
-          <p>
+          <p class="reveal">
             I'm a Canon-wielding photography enthusiast with a side of iPhone,
             and a website wizard, thanks to my multimedia studies on
             <a
@@ -338,7 +332,7 @@
               >Erhversakademi Kolding</a
             >.
           </p>
-          <p>
+          <p class="reveal">
             Former
             <a
               href="https://www.flickr.com/photos/141401020@N03/"
@@ -347,9 +341,9 @@
               >LEGO architect</a
             >, current purveyor of digital aesthetics and sarcasm.
           </p>
-          <p>PS: No cookies — just creativity!</p>
+          <p class="reveal">PS: No cookies — just creativity!</p>
           <hr class="reveal" />
-          <h2>Collaborators & clients</h2>
+          <h2 class="reveal">Collaborators & Clients</h2>
           <svg
             class="reveal"
             version="1.1"
@@ -1968,10 +1962,9 @@
               </g>
             </a>
           </svg>
-
           <hr class="reveal" />
 
-          <h2 class="reveal">Language competences</h2>
+          <h2 class="reveal">Language Competences</h2>
           <div class="grid-container skills-section">
             <div class="grid-item">
               <div class="reveal">
@@ -2096,36 +2089,32 @@
                   target="_blank"
                   rel="noopener noreferrer"
                   href="https://www.brothers-brick.com/2017/08/21/forgotten-not-gone/"
-                  >The Brothers Brick</a
+                  >The Brothers Brick &#8250;</a
                 >
-                &#8250;
               </li>
               <li class="reveal">
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
                   href="https://www.brothers-brick.com/2017/08/27/post-apocalyptic-friendships-best/"
-                  >The Brothers Brick</a
+                  >The Brothers Brick &#8250;</a
                 >
-                &#8250;
               </li>
               <li class="reveal">
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
                   href="https://gjjlc.lixin.edu.cn/jdxw/109749.htm"
-                  >Shanghai Lixin University</a
+                  >Shanghai Lixin University &#8250;</a
                 >
-                &#8250;
               </li>
               <li class="reveal">
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
                   href="https://gjjlc.lixin.edu.cn/jdxw/106321.htm"
-                  >Shanghai Lixin University</a
+                  >Shanghai Lixin University &#8250;</a
                 >
-                &#8250;
               </li>
             </ul>
             <ul>
@@ -2134,45 +2123,40 @@
                   target="_blank"
                   rel="noopener noreferrer"
                   href="https://www.divadlodisk.cz/repertoar/hrdina-zapadu-83"
-                  >Divadlo Disk</a
+                  >Divadlo Disk &#8250;</a
                 >
-                &#8250;
               </li>
               <li class="reveal">
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
                   href="https://www.instagram.com/p/CPkl9MtKWiz/?igshid=YmMyMTA2M2Y="
-                  >Divadlo Na Vinohradech</a
+                  >Divadlo Na Vinohradech &#8250;</a
                 >
-                &#8250;
               </li>
               <li class="reveal">
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
                   href="https://www.artivistlab.info/purano-hangos/exhibitions-photo-album"
-                  >Artivist Lab</a
+                  >Artivist Lab &#8250;</a
                 >
-                &#8250;
               </li>
               <li class="reveal">
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
                   href="https://www.respekt.cz/galerie/cool-kids-saving-hot-planet"
-                  >Respekt</a
+                  >Respekt &#8250;</a
                 >
-                &#8250;
               </li>
               <li class="hideLi reveal">
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
                   href="https://www.hatefree.cz/clanky/tamara-moyzes-2"
-                  >HateFree</a
+                  >HateFree &#8250;</a
                 >
-                &#8250;
               </li>
             </ul>
           </div>
@@ -2182,7 +2166,7 @@
       <article id="contact">
         <section class="wrapper-standard">
           <section class="contact-form-section">
-            <hr />
+            <hr class="reveal" />
             <h1 class="reveal">Contact</h1>
             <form
               id="contactForm"

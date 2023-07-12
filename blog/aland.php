@@ -145,7 +145,7 @@
           >
           not matching the early ferry departure time.
         </p>
-        <div class="map-margin">
+        <div class="map-margin reveal">
           <div id="map">
             <p class="alt-alt">
               Interactive map of an Aland Islands with a trace of our journey
@@ -154,7 +154,7 @@
               descriptions.
             </p>
           </div>
-          <p class="flex-center">
+          <p class="flex-center reveal">
             ↑
             <span class="note"
               >Zoom in and click on the route to see more details,
@@ -163,7 +163,7 @@
           </p>
         </div>
 
-        <p>
+        <p class="reveal">
           For the first few hours of our cruise, we navigated through hundreds
           of
           <a
@@ -183,23 +183,23 @@
           (skerries). It is considered one of the largest areas by the number of
           archipelagos in the world and is truly an interesting sight to behold.
         </p>
-        <div class="img">
+        <div class="img reveal">
           <img
             src="/img/IMG_3017.jpg"
             alt="Photo of skerries covered by vegetation, located in the Archipelago sea"
           />
         </div>
-        <p class="flex-center">
+        <p class="flex-center reveal">
           ↑
-          <span class="note">Skerries in the Archipelago Sea </span>↓
+          <span class="note">Skerries in the Archipelago Sea.</span>↓
         </p>
-        <div class="img">
+        <div class="img reveal">
           <img
             src="/img/IMG_3020.jpg"
             alt="Photo of several boulder archipelagos with erected wind turbines, located in the Archipelago sea"
           />
         </div>
-        <p>
+        <p class="reveal">
           After disembarking from the Baltic princess in
           <a
             target="_blank"
@@ -221,13 +221,13 @@
           hydrate. This helped us to maintain our performance and motivation
           over the long haul.
         </p>
-        <div class="img">
+        <div class="img reveal">
           <img
             src="/img/2022-10-15-3690.jpg"
             alt="Photo of Andreas standing on the rock in the forest with a hiking pole out of a tree branch"
           />
         </div>
-        <p>
+        <p class="reveal">
           The following day we woke up in our
           <a
             target="_blank"
@@ -251,13 +251,13 @@
           Djupviksgrottan cave by the evening of the second day with the help of
           two hitchhiking rides.
         </p>
-        <div class="img">
+        <div class="img reveal">
           <img
             src="/img/2022-10-15-3689.jpg"
             alt="Marcel and Andreas are captured walking along the road, hitchhiking with their left thumbs, trying to stop approaching the car."
           />
         </div>
-        <p>
+        <p class="reveal">
           After saying goodbye to our last ferryman, we embarked on a journey
           through the western part of the islands. We walked and hitchhiked
           along the coast, taking in the beautiful scenery and meeting friendly
@@ -270,19 +270,19 @@
             >church in Jomala</a
           >, where we saw the graves of sailors who died at sea.
         </p>
-        <div class="img">
+        <div class="img reveal">
           <img
             src="/img/2022-10-16-3693.jpg"
             alt="Outside view at
     our Djupviksgrottan cave camp, Marcel is reading a book and Andreas is
     keeping an eye on a campfire."
           />
-          <p class="flex-center">
+          <p class="flex-center reveal">
             ↑
-            <span class="note">Djupviksgrottan cave</span>
+            <span class="note">Djupviksgrottan cave.</span>
           </p>
         </div>
-        <p>
+        <p class="reveal">
           Before leaving the cave, Marcel and I scouted the surrounding
           countryside and were surprised to discover fancy-looking and
           well-equipped cottages just a few hundred meters above the cave,
@@ -291,13 +291,13 @@
           Islands, passing rural settlements and farms, and seeking rides once
           again.
         </p>
-        <div class="img">
+        <div class="img reveal">
           <img
             src="/img/2022-10-16-3696.jpg"
             alt="Photo of pilgrims Marcel and Andreas walking over dusty red path up on a hill with Autumn forests in their background."
           />
         </div>
-        <p>
+        <p class="reveal">
           This time, our carriers were two fresh-looking wanderers we had talked
           with earlier that day in the cave (the only males who stopped for us
           during our entire journey!) We exchanged stories and tips with
@@ -306,14 +306,14 @@
           resupplied with groceries, recharged our lithium batteries, chilled in
           the lobby, and reviewed our strategy.
         </p>
-        <div class="img">
+        <div class="img reveal">
           <img
             src="/img/2022-10-16-3697.jpg"
             alt="Photo of an old blue Ford tractor with big red wheels, standing on aside of the road. The scene is listed by the morning sun."
           />
         </div>
 
-        <p>
+        <p class="reveal">
           It was just the second day of our expedition, and we had already
           reached our final destination. We decided to conquer the east of the
           archipelago territory as a plan for our remaining two days. To our
@@ -322,13 +322,13 @@
           unwillingness, we proceeded further into darkness, far away from the
           city lights, still hoping for a ride.
         </p>
-        <div class="img">
+        <div class="img reveal">
           <img
             src="/img/2022-10-15-3691.jpg"
             alt="Photo of Andreas and Marcel hiking through the forest in the northern part of Alands."
           />
         </div>
-        <p>
+        <p class="reveal">
           After an hour of struggling to attract passing drivers with smiles and
           hand waves, when it seemed that Ålanders were cold-hearted and without
           mercy for trespassing foreigners, a Nissan unnoticed our presence
@@ -337,17 +337,17 @@
           Karolina, offered us hot tea and a promise of warming up in her nearby
           house.
         </p>
-        <div class="img">
+        <div class="img reveal">
           <img
             src="/img/2022-10-17-3698.jpg"
             alt="Shot of a garden and family house built in a typical Scandinavian style - pastel green facade made out of wooden planks with white outlined corners and windows."
           />
-          <p class="flex-center">
+          <p class="flex-center reveal">
             ↑
-            <span class="note">Karolina's house</span>
+            <span class="note">Karolina's house.</span>
           </p>
         </div>
-        <p>
+        <p class="reveal">
           Later that evening we met most likely her entire family including
           cats, dogs, and chickens. Karolina's tribe made all of us wanderers
           feel as welcome as being back home and still being thousands of
@@ -361,13 +361,13 @@
           with the sound of the family's rooster and with both homemade yogurt
           and eggs.
         </p>
-        <div class="img">
+        <div class="img reveal">
           <img
             src="/img/2022-10-17-3699.jpg"
             alt="Photo of an empty road through the Autumn colored forest, aside from the road stands a traffic sign informing about the name of our surroundings - Prästo."
           />
         </div>
-        <p>
+        <p class="reveal">
           Karolina advised us to scout the island of Prästo, which is among the
           locals prominent due to several
           <a
@@ -389,7 +389,7 @@
             >Vårdö</a
           >.
         </p>
-        <div class="img">
+        <div class="img reveal">
           <img
             style="animation: none"
             src="/img/graveyards.png"
@@ -400,7 +400,7 @@
       respect and remembrance."
           />
         </div>
-        <p>
+        <p class="reveal">
           Our afternoon was spent in the spirit of attempts to fish in the
           crystal-clear water of an empty fishing village on the tip of Vårdö
           and swim in the October-cold
@@ -418,17 +418,17 @@
           for others, my debt to the universe will be repaid and someone else
           will be treated with kindness.
         </p>
-        <div class="img">
+        <div class="img reveal">
           <img
             src="/img/2022-10-17-3700.jpg"
             alt="Photo of me carrying posing Marcel upon my shoulders while standing in the cold Archipelago sea."
           />
-          <p class="flex-center">
+          <p class="flex-center reveal">
             ↑
-            <span class="note">Fishing village nearby Norrgård</span>
+            <span class="note">Fishing village nearby Norrgård.</span>
           </p>
         </div>
-        <p>
+        <p class="reveal">
           Our final task was to make it back to Mariehamn. We had no luck with
           hitchhiking, so after several hours of hiking through the empty red
           roads, we reached Godby, about 17km away, in the night and set up camp
@@ -437,13 +437,13 @@
           and spending the last night in the forest between the city and the
           seashore.
         </p>
-        <div class="img">
+        <div class="img reveal">
           <img
             src="/img/2022-10-14-2291.jpg"
             alt="Photo of resting Andreas with dark sky in the background. Andreas’s face is highlighted by the screen of the phone he is holding"
           />
         </div>
-        <p>
+        <p class="reveal">
           Despite feeling like we had overcome all obstacles, the last one was
           the rain that lasted throughout the night. Marcel, who slept under the
           open sky in just a sleeping bag, was especially hard hit and was
@@ -468,26 +468,29 @@
             >Stockholm</a
           >, while Andreas and I returned to Turku, Finland.
         </p>
-        <hr />
-        <h2>Further reading</h2>
+        <hr class="reveal" />
+        <h2 class="reveal">Further Reading</h2>
         <br />
-        <div class="grid-container gallery">
-          <a href="/blog/blavand">
-            <div class="grid-item" id="blavand">
-              <div class="blur">
-                <span><br />🇩🇰</span>
-              </div>
-            </div>
-          </a>
+        <div class="grid-container gallery reveal">
           <a href="/blog/house-hunting">
             <div class="grid-item" id="house-hunting">
               <div class="blur">
                 <span><br />🇫🇮</span>
               </div>
-            </div> </a
-          ><a class="gradient" href="/blog/cybersecurity">
-            <div class="grid-item" id="cybersecurity">
-              <span></span>
+            </div></a
+          >
+          <a href="/blog/vasterbotten">
+            <div class="grid-item" id="vasterbotten">
+              <div class="blur">
+                <span><br />🇸🇪</span>
+              </div>
+            </div>
+          </a>
+          <a href="/blog/vestkystruten">
+            <div class="grid-item" id="vestkystruten">
+              <div class="blur">
+                <span><br />🇩🇰</span>
+              </div>
             </div>
           </a>
         </div>

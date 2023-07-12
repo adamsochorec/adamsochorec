@@ -57,7 +57,7 @@
       <article id="scrolllink" class="wrapper-wide">
         <h1 class="reveal"></h1>
         <h2 class="reveal">
-          Essential steps leading to your secure and healthy online presence.
+          Essential Steps Leading to Your Secure and Healthy Online Presence.
         </h2>
         <div class="grid-container seventy-thirty">
           <div class="grid-item reveal">
@@ -89,7 +89,7 @@
         </div>
         <hr class="reveal" />
         <section>
-          <h3 class="reveal">1. Contemporary passwords</h3>
+          <h3 class="reveal">1. Contemporary Passwords</h3>
           <p class="drop-cap reveal">
             The most effective way how today to hack someone's identity is to
             "social engineer". That means “guessing” someone's password based on
@@ -119,7 +119,8 @@
           </p>
           <hr class="reveal" />
           <section>
-            <h4 class="reveal">1.2. Password strength</h4>
+            <h4 class="reveal">1.2 Password Strength</h4>
+            <br />
             <form
               class="reveal"
               id="password-strength-form"
@@ -153,7 +154,7 @@
         <hr class="reveal" />
         <section>
           <h4 class="reveal">
-            1.3. Problem solution
+            1.3 Problem Solution
             <svg
               id="screwdriver-wrench"
               xmlns="http://www.w3.org/2000/svg"
@@ -216,7 +217,7 @@
           </ol>
         </section>
         <hr class="reveal" />
-        <h3 class="reveal">2. What is 2FA and why is essential</h3>
+        <h3 class="reveal">2.What Is 2FA and Why Is It Essential.</h3>
         <section class="grid-container fifty-fifty">
           <div class="gri-item">
             <p class="reveal">
@@ -250,7 +251,7 @@
         </section>
         <hr class="reveal" />
         <section>
-          <h4 class="reveal">2.2. What is a SIM swapping</h4>
+          <h4 class="reveal">2.2 What Is SIM Swapping</h4>
           <br />
           <section class="img-fill reveal">
             <!-- Generator: Adobe Illustrator 27.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
@@ -2702,7 +2703,7 @@ C502.2,625.2,499,621.9,499,618.3z"
         <hr class="reveal" />
         <section>
           <h4 class="reveal">
-            2.3. Problem solution
+            2.3 Problem Solution
             <svg
               id="screwdriver-wrench"
               xmlns="http://www.w3.org/2000/svg"
@@ -2761,7 +2762,7 @@ C502.2,625.2,499,621.9,499,618.3z"
         </section>
         <hr class="reveal" />
         <section>
-          <h3 class="reveal">3. Social engineering vulnerability</h3>
+          <h3 class="reveal">3. Social Engineering Vulnerability</h3>
           <p class="reveal">
             Watch out for your online traces. Set your personal information
             (such as birthday, year of graduation, etc.) as private or at least
@@ -2788,7 +2789,7 @@ C502.2,625.2,499,621.9,499,618.3z"
         <hr class="reveal" />
         <section>
           <h4 class="reveal">
-            3.2. Problem solution
+            3.2 Problem Solution
             <svg
               id="screwdriver-wrench"
               xmlns="http://www.w3.org/2000/svg"
@@ -2815,43 +2816,39 @@ C502.2,625.2,499,621.9,499,618.3z"
 
         <hr class="reveal" />
         <section>
-          <h3 class="reveal">4. Related literature</h3>
+          <h3 class="reveal">4. Related Literature</h3>
           <ol>
             <li class="reveal">
               <a
                 target="_blank"
                 rel="noopener noreferrer"
                 href="https://open.spotify.com/episode/2hJsSOoQkgnlQLEFrdBVFp?si=06ff9cdeb3da4cbc"
-                >Story about a professional social engineer</a
+                >Story about a professional social engineer &#8250;</a
               >
-              &#8250;
             </li>
             <li class="reveal">
               <a
                 target="_blank"
                 rel="noopener noreferrer"
                 href="https://open.spotify.com/episode/4q0cNkAHQQMBTu4NmeNW7E?si=a4c35c68a1d34724"
-                >Google's control over the internet</a
+                >Google's control over the internet &#8250;</a
               >
-              &#8250;
             </li>
             <li class="reveal">
               <a
                 target="_blank"
                 rel="noopener noreferrer"
                 href="https://authy.com/blog/authy-vs-google-authenticator/"
-                >Authy vs. Google Authenticator</a
+                >Authy vs. Google Authenticator &#8250;</a
               >
-              &#8250;
             </li>
             <li class="reveal">
               <a
                 target="_blank"
                 rel="noopener noreferrer"
                 href="https://www.omnicalculator.com/other/password-entropy"
-                >Password Entropy Calculator</a
+                >Password Entropy Calculator &#8250;</a
               >
-              &#8250;
             </li>
 
             <li class="reveal">
@@ -2859,34 +2856,32 @@ C502.2,625.2,499,621.9,499,618.3z"
                 target="_blank"
                 rel="noopener noreferrer"
                 href="https://open.spotify.com/episode/5Snektk5Z2nUzM7DgoEBSx?si=eKX_d1f1SY6T3j5S3mkLgA"
-                >Hacking backstage</a
+                >Hacking backstage &#8250;</a
               >
-              &#8250;
             </li>
           </ol>
         </section>
         <hr class="reveal" />
-        <h2 class="reveal">Further reading</h2>
+        <h2 class="reveal">Further Reading</h2>
         <br />
         <section class="grid-container gallery reveal">
+          <a href="/blog/aland">
+            <div class="grid-item" id="aland">
+              <div class="blur">
+                <span><br />🇦🇽</span>
+              </div>
+            </div>
+          </a>
           <a href="/blog/house-hunting">
-            <div class="grid-item reveal" id="house-hunting">
+            <div class="grid-item" id="house-hunting">
               <div class="blur">
                 <span><br />🇫🇮</span>
               </div>
-            </div>
-          </a>
-          <a href="/blog/vasterbotten">
-            <div class="grid-item reveal" id="vasterbotten">
+            </div></a
+          ><a href="/blog/vasterbotten">
+            <div class="grid-item" id="vasterbotten">
               <div class="blur">
                 <span><br />🇸🇪</span>
-              </div>
-            </div>
-          </a>
-          <a href="/blog/vestkystruten">
-            <div class="grid-item reveal" id="vestkystruten">
-              <div class="blur">
-                <span><br />🇩🇰</span>
               </div>
             </div>
           </a>

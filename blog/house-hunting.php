@@ -83,17 +83,17 @@
           capturing the current state or remnants of abandoned buildings.
         </p>
 
-        <div class="img">
+        <div class="img reveal">
           <img
             src="/img/2022-10-09-2278.jpg"
             alt="Shot of abandoned property with garden and an old family house built in a typical Scandinavian style - pastel green facade made out of wooden planks with white outlined corners and windows."
           />
         </div>
-        <p>
+        <p class="reveal">
           In the past, I tried several times to apply the inspiration I gained
           from Hiddo's works to lonely constructions in Czechia and Denmark.
         </p>
-        <div class="map-margin">
+        <div class="map-margin reveal">
           <div id="map">
             <p class="alt-alt">
               Interactive map of the Finnish city Vaasa with the marker of an
@@ -101,21 +101,21 @@
             </p>
           </div>
         </div>
-        <p>
+        <p class="reveal">
           Even though the exterior atmosphere was slightly more matching to the
           one that Hido works with - lonely lights, night, and fog often
           captured through long exposure on a medium format camera, I felt that
           this time I was the closest to Hido's world.
         </p>
 
-        <div class="img">
+        <div class="img reveal">
           <img
             src="/img/2022-10-09-2279.jpg"
             alt="Photo of an empty room in the abandoned building, lit by the morning sun."
           />
         </div>
 
-        <p>
+        <p class="reveal">
           On one of my walks in the neighbourhood of Palosaari, in Finnish
           Vaasa, I couldn't help but notice the beautiful pale green colour of a
           low-key, old-fashioned family house. Upon closer inspection, I saw
@@ -124,13 +124,13 @@
           photographer's instinct and I saw an opportunity to experiment with
           new elements in a style I had been working with.
         </p>
-        <div class="img">
+        <div class="img reveal">
           <img
             src="/img/2022-10-09-2282.jpg"
             alt="Photo was taken from a plan view of an old wooden narrow staircase. The staircase leads from the ground floor to the first floor."
           />
         </div>
-        <p>
+        <p class="reveal">
           Beforehand, I contacted the city planning department to gather
           information about the property. We discovered that the building was
           marked for demolition, so my initial plan of taking photos to be used
@@ -139,7 +139,7 @@
           likely be consulted before a demolition permit is issued due to the
           building's age and potential historical value.
         </p>
-        <div class="img">
+        <div class="img reveal">
           <img
             src="/img/2022-10-09-2287.jpg"
             alt="Interior shot of a
@@ -148,7 +148,7 @@
           />
         </div>
 
-        <p>
+        <p class="reveal">
           With the owner's permission, my friend and fellow photographer
           <a
             target="_blank"
@@ -163,17 +163,10 @@
           frames and paintings. Despite the building's impending demolition, we
           were able to document its beauty and history through our photography.
         </p>
-        <hr />
-        <h2>Further reading</h2>
+        <hr class="reveal" />
+        <h2 class="reveal">Further Reading</h2>
         <br />
-        <div class="grid-container gallery">
-          <a href="/blog/blavand">
-            <div class="grid-item" id="blavand">
-              <div class="blur">
-                <span><br />🇩🇰</span>
-              </div>
-            </div>
-          </a>
+        <div class="grid-container gallery reveal">
           <a href="/blog/vasterbotten">
             <div class="grid-item" id="vasterbotten">
               <div class="blur">
@@ -183,6 +176,13 @@
           </a>
           <a href="/blog/vestkystruten">
             <div class="grid-item" id="vestkystruten">
+              <div class="blur">
+                <span><br />🇩🇰</span>
+              </div>
+            </div>
+          </a>
+          <a href="/blog/blavand">
+            <div class="grid-item" id="blavand">
               <div class="blur">
                 <span><br />🇩🇰</span>
               </div>

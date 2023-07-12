@@ -39,7 +39,7 @@
         <div class="grid-container seventy-thirty">
           <div class="grid-item">
             <div class="pathname-container">
-              <p>
+              <p class="reveal">
                 <span class="pathname"><a href="/"></a> &#8250; </span>
                 <span class="pathname"
                   ><a href="/#blog"></a> &#8250; vestkystruten</span
@@ -65,14 +65,12 @@
           </div>
         </div>
         <iframe
-          id="ytplayer"
-          type="text/html"
-          width="720"
-          height="405"
           src="https://www.youtube-nocookie.com/embed/3go3v59pfEo?modestbranding=1"
           frameborder="0"
+          title="YouTube video player"
           encrypted-media
           allowfullscreen
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           ><p class="alt-alt">
             Link to a YouTube blog from our journey made by Marcel.
           </p>
@@ -106,7 +104,6 @@
             >Jutland</a
           >. It was an epic journey that we'll never forget.
         </p>
-
         <p>
           Most of our time was spent biking along the Danish national cycle
           route 1, also called
@@ -136,21 +133,21 @@
           possible, and we had the time of our lives exploring the beautiful
           landscape and meeting friendly locals.
         </p>
-        <div class="map-margin">
-          <div id="map" style="border-radius: 6px">
+        <div class="map-margin reveal">
+          <div id="map">
             <p class="alt-alt">
               Interactive map of the Danish peninsula Jutland, with a line
               depicting our route from the south to the north of Denmark.
             </p>
           </div>
-          <p class="flex-center">
+          <p class="flex-cente reveal">
             ↑
             <span class="note"
               >Zoom in and click on the route to see more details</span
             >
           </p>
         </div>
-        <p>
+        <p class="reveal">
           From breathtaking coastal views to charming small towns, this trip had
           it all. And the destination, Skagen, was a unique place where the
           North Sea and
@@ -165,7 +162,7 @@
           was a truly unforgettable experience and one that we highly recommend
           to anyone looking to explore Denmark.
         </p>
-        <p>
+        <p class="reveal">
           Consider also giving thumbs up to the video on
           <a
             target="_blank"
@@ -183,21 +180,20 @@
           >
           for more travel vlogs!
         </p>
-        <hr />
-        <h2>Further reading</h2>
+        <hr class="reveal" />
+        <h2 class="reveal">Further Reading</h2>
         <br />
-        <div class="grid-container gallery">
+        <div class="grid-container gallery reveal">
+          <a href="/blog/blavand">
+            <div class="grid-item" id="blavand">
+              <div class="blur">
+                <span><br />🇩🇰</span>
+              </div>
+            </div>
+          </a>
           <a class="gradient" href="/blog/cybersecurity">
             <div class="grid-item" id="cybersecurity">
               <span></span>
-            </div>
-          </a>
-
-          <a href="/blog/house-hunting">
-            <div class="grid-item" id="house-hunting">
-              <div class="blur">
-                <span><br />🇫🇮</span>
-              </div>
             </div>
           </a>
           <a href="/blog/aland">

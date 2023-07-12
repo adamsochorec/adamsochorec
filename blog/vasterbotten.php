@@ -30,7 +30,7 @@
         <div class="grid-container seventy-thirty">
           <div class="grid-item">
             <div class="pathname-container">
-              <p>
+              <p class="reveal">
                 <span class="pathname"><a href="/"></a> &#8250; </span>
                 <span class="pathname"
                   ><a href="/#blog"></a> &#8250; västerbotten</span
@@ -93,7 +93,7 @@
             >Everyman's right</a
           >. These were the focus of our trip for the next four days.
         </p>
-        <div class="map-margin">
+        <div class="map-margin reveal">
           <div id="map">
             <p class="alt-alt">
               Interactive map of the western part of Sweden and the eastern part
@@ -101,15 +101,14 @@
               map with descriptions.
             </p>
           </div>
-          <p class="flex-center">
+          <p class="flex-center reveal">
             ↑
             <span class="note"
-              >Zoom in and click on the route to see more details
+              >Zoom in and click on the route to see more details.
             </span>
           </p>
         </div>
-
-        <p>
+        <p class="reveal">
           We arrived in Umeå on September 1st and were greeted warmly by our
           hosts. After a Czech-Swedish introduction and some trouble finding our
           car at the dock, we began our drive to the small inland village of
@@ -152,17 +151,17 @@
           furniture, reindeer trophies, and traditional hand-crafted knives of
           various sizes.
         </p>
-        <div class="img">
+        <div class="img reveal">
           <img
             src="/img/2022-09-01-4214.jpg"
             alt="View from the ship to the ship docks in Umeå, there is a coast guard boat in the foreground, in the background are two wind turbines."
           />
-          <p class="flex-center">
+          <p class="flex-center reveal">
             ↑
-            <span class="note">Ship docks in Umeå</span>
+            <span class="note">Ship docks in Umeå.</span>
           </p>
         </div>
-        <p>
+        <p class="reveal">
           Later that night, we decided to sleep in the surrounding forest. The
           the essence of the Everyman's right is that one can sleep, pick
           berries and mushrooms, and set a campfire almost anywhere, with the
@@ -189,7 +188,7 @@
           the location we thought they were, so we headed back home with a few
           chanterelle mushrooms we had found in our pockets.
         </p>
-        <p>
+        <p class="reveal">
           In addition to bush crafting, we also attended a free induction
           lecture on
           <a
@@ -216,9 +215,9 @@
             <br />-Wikipedia</i
           >
         </p>
-        <div class="img">
+        <div class="img reveal">
           <img src="/img/2022-09-02-4216.jpg" alt="" />
-          <p class="flex-center">
+          <p class="flex-center reveal">
             ↑
             <span class="note"
               >"Surrounded by berries and young pine forest, the trees were
@@ -227,7 +226,7 @@
             </span>
           </p>
         </div>
-        <p>
+        <p class="reveal">
           The martial arts lecture sparked our interest in continuing to test
           our strengths even after returning to Bullmark. Joakim had two pairs
           of hand-guards for sparring from his
@@ -266,18 +265,18 @@
           my friends, they don't usually respect others' right to wander in the
           landscape during this time.
         </p>
-        <div class="img">
+        <div class="img reveal">
           <img
             src="/img/2022-09-03-4227.jpg"
             alt="Panorama photo of our
           campsite on the shore of a more"
           />
-          <p class="flex-center">
+          <p class="flex-center reveal">
             ↑
-            <span class="note">Our mire-camp site</span>
+            <span class="note">Our mire-camp site.</span>
           </p>
         </div>
-        <p>
+        <p class="reveal">
           When we reached the end of the dirt road, we took our gear and Emil's
           husky, Barnabas and walked through the mixed woods. As soon as we
           passed through the wall of trees, we could see the subject of our
@@ -290,21 +289,20 @@
           reflective west on a tall pine tree around our campsite - so the
           hunters could see our position.
         </p>
-        <div class="img">
-          <img src="/img/poncho-setup.jpg" alt=“Illustration Illustrating
-          various simple field shelters made with a rope and tarp." />
-          <p class="flex-center">
+        <div class="img reveal">
+          <img
+            src="/img/tarp-setup.jpg"
+            alt="Illustration Illustrating
+          various simple field shelters made with a rope and tarp."
+          />
+          <p class="flex-center reveal">
             ↑
             <span class="note"
-              >Various simple field shelters made with a rope and tarp by
-              <a
-                href="https://www.globalsecurity.org/military/library/policy/army/fm/5-103/CH5.HTM"
-                >www.globalsecurity.org</a
-              >
+              >Various simple field shelters made with a rope and tarp.
             </span>
           </p>
         </div>
-        <p>
+        <p class="reveal">
           Right after setting up camp, light rain began and we had a chance to
           test our shelter. As I sat under the tarp, I observed how the sunny
           day transformed into a cloudy rainstorm, then into a sunny afternoon
@@ -325,17 +323,17 @@
           that. Something so harmless as a fog after the rain, but still so
           powerful and never-ending.
         </p>
-        <div class="img">
+        <div class="img reveal">
           <img
             src="/img/2022-09-04-4229.jpg"
             alt="Portrait of a Joakim sitting on a tarp in the grass, hand on his hand-crafted machete, reindeer’s fur around the shoulder. The mire is in the background."
           />
-          <p class="flex-center">
+          <p class="flex-center reveal">
             ↑
-            <span class="note">Joakim</span>
+            <span class="note">Joakim.</span>
           </p>
         </div>
-        <p>
+        <p class="reveal">
           As the sunset, I went for a walk around the heap of ground where we
           camped, when echoes of hunter's rifle blasts got more intense and less
           distant. My bare feet splashed in the soft moss and heap covering the
@@ -370,51 +368,48 @@
           Watching my steps, watching out for me, despite my actions and
           location.
         </p>
-        <div class="img">
+        <div class="img reveal">
           <img
             src="/img/2022-09-01-4215.jpg"
             alt="Photo of a collection of
           several sizes of original Sámi knives handcrafted by Joakim, each made
           for a specific activity."
           />
-          <p class="flex-center">
+          <p class="flex-center reveal">
             ↑
             <span class="note"
               >Original Sámi knives handcrafted by Joakim, each of them has been
-              made for a specific activity</span
+              made for a specific activity.</span
             >
           </p>
         </div>
-        <p>
+        <p class="reveal">
           When we found our way through the vast forest to the cars the the
           following morning, we drove to Joakim's place in Bullmark where we
           spent the rest of our last day relaxing and packing for the long
           journey back to Finland, which awaited us the next early morning.
         </p>
-        <hr />
-        <h2>Further reading</h2>
+        <hr class="reveal" />
+        <h2 class="reveal">Further Reading</h2>
         <br />
-        <div class="grid-container gallery">
-          <a href="/blog/house-hunting">
-            <div class="grid-item" id="house-hunting">
-              <div class="blur">
-                <span><br />🇫🇮</span>
-              </div>
-            </div>
-          </a>
-
-          <a href="/blog/aland">
-            <div class="grid-item" id="aland">
-              <div class="blur">
-                <span><br />🇦🇽</span>
-              </div>
-            </div>
-          </a>
+        <div class="grid-container gallery reveal">
           <a href="/blog/vestkystruten">
             <div class="grid-item" id="vestkystruten">
               <div class="blur">
                 <span><br />🇩🇰</span>
               </div>
+            </div>
+          </a>
+          <a href="/blog/blavand">
+            <div class="grid-item" id="blavand">
+              <div class="blur">
+                <span><br />🇩🇰</span>
+              </div>
+            </div>
+          </a>
+          <a class="gradient" href="/blog/cybersecurity">
+            <div class="grid-item" id="cybersecurity">
+              <span></span>
             </div>
           </a>
         </div>

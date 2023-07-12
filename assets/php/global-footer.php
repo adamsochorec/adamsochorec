@@ -5,7 +5,6 @@
          $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
          include $IPATH . 'global-social-icons.php';
          ?>
-  <br />
   <div class="footer-ps">
     <p>No cookies, only ❤ from Denmark</p>
   </div>
@@ -18,9 +17,7 @@
     >
     <span>Adam Sochorec</span>
   </div>
-
   <script type="text/javascript" src="/assets/global-script.js"></script>
- 
 </footer>
 
 <!-- FOOTER END -->

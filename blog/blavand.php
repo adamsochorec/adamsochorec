@@ -78,21 +78,21 @@
           city was congested with cars with Danish and German license plates.
         </p>
 
-        <div class="map-margin">
+        <div class="map-margin reveal">
           <div id="map">
             <p class="alt-alt">
               Interactive map of an Blavands Huk. Important locations from the
               article are marked on the map with descriptions.
             </p>
           </div>
-          <p class="flex-center">
+          <p class="flex-center reveal">
             ↑
             <span class="note"
-              >Zoom in and click on the waypoints to see more details</span
+              >Zoom in and click on the waypoints to see more details.</span
             >
           </p>
         </div>
-        <p>
+        <p class="reveal">
           I stopped at a local fisherman's shop to buy a shrimp salad from a
           bakery and began walking. The town centre of Blåvand is not large and
           it wasn't long before I reached an area with dozens of summer houses
@@ -100,13 +100,13 @@
           gave way to standalone houses built in the dunes a few meters from the
           sea.
         </p>
-        <div class="img">
+        <div class="img reveal">
           <img
             src="/img/2022-04-15-10179.jpg"
             alt="Photo of dunes covered by heath, in the left top corner can be seen a family house built among the dunes that are as high as the house."
           />
         </div>
-        <p>
+        <p class="reveal">
           According to my navigation app, I had about 20 minutes left on my
           walk. As I walked along the
           <a
@@ -151,13 +151,13 @@
           then half a century of neglect in the sand, these bunkers had sunken
           into the ground.
         </p>
-        <div class="img">
+        <div class="img reveal">
           <img
             src="/img/2022-04-15-10168.jpg"
             alt="WWII bunker sinking into the sand beach with metal decorations of horsetail and neck, kids are playing around."
           />
         </div>
-        <p>
+        <p class="reveal">
           Their exteriors were often covered in graffiti and some even had
           additional metal constructions shaped like horses or giraffes. As I
           passed more and more bunkers, each with its unique design and level of
@@ -167,7 +167,7 @@
             >Polycam</a
           >.
         </p>
-        <div class="img">
+        <div class="img reveal">
           <iframe
             src="https://sketchfab.com/models/dd16bb89f8844760ab31396d495fd0ce/embed?autospin=1&ui_theme=dark&dnt=1"
             ><p class="alt-alt">
@@ -175,29 +175,29 @@
             </p>
           </iframe>
         </div>
-        <p class="flex-center">
-          ↑ <span class="note"> The 3D scans taken with an iPhone </span>↓
+        <p class="flex-center reveal">
+          ↑ <span class="note"> The 3D scans taken with an iPhone.</span>↓
         </p>
 
-        <div class="img">
+        <div class="img reveal">
           <iframe
             src="https://sketchfab.com/models/37e4150677634273954aa6e69434ec15/embed?autospin=1&ui_theme=dark&dnt=1"
           >
           </iframe>
         </div>
-        <p>
+        <p class="reveal">
           While the app's scanning and processing options are not the most
           advanced, it is user-friendly and convenient to use. There are also
           several ways to use the app for free, such as creating user profiles
           and sharing scanned content.
         </p>
-        <div class="img">
+        <div class="img reveal">
           <img
             src="/img/2022-04-15-10183.jpg"
             alt="View upon a wide hilly heath with Blåvand lighthouse in the background."
           />
         </div>
-        <p>
+        <p class="reveal">
           When I reached the lighthouse, I bought a ticket to the top of the
           tower from a small house that was probably used to house the
           lighthouse crew. The view from the top was surreal, with dunes covered
@@ -211,13 +211,13 @@
           >
           from the Star Wars franchise.
         </p>
-        <div class="img">
+        <div class="img reveal">
           <img
             src="/img/2022-04-15-10177.jpg"
             alt="Panorama photo of landscape view from the top of Blåvand lighthouse. Both on right and left can be seen North sea and beaches, in between are mostly dunes covered by rusty heath."
           />
         </div>
-        <p>
+        <p class="reveal">
           Later, as I browsed the souvenir shop, I saw a large selection of
           <a
             target="_blank"
@@ -234,7 +234,7 @@
           antennas and small storage units. Yellow signs warned of military
           areas and fencing marked off the training grounds.
         </p>
-        <p>
+        <p class="reveal">
           Overall, my visit to Blåvand was a unique and memorable experience.
           The WWII bunkers, now used as playgrounds by children, were a poignant
           reminder of the past, and the natural beauty of the west coast was
@@ -247,10 +247,15 @@
             >Tirpitz museum</a
           >.
         </p>
-        <hr />
-        <h2>Further reading</h2>
+        <hr class="reveal" />
+        <h2 class="reveal">Further Reading</h2>
         <br />
-        <div class="grid-container gallery">
+        <div class="grid-container gallery reveal">
+          <a class="gradient" href="/blog/cybersecurity">
+            <div class="grid-item" id="cybersecurity">
+              <span></span>
+            </div>
+          </a>
           <a href="/blog/aland">
             <div class="grid-item" id="aland">
               <div class="blur">
@@ -258,20 +263,13 @@
               </div>
             </div>
           </a>
-          <a href="/blog/vasterbotten">
-            <div class="grid-item" id="vasterbotten">
+          <a href="/blog/house-hunting">
+            <div class="grid-item" id="house-hunting">
               <div class="blur">
-                <span><br />🇸🇪</span>
+                <span><br />🇫🇮</span>
               </div>
-            </div>
-          </a>
-          <a href="/blog/vestkystruten">
-            <div class="grid-item" id="vestkystruten">
-              <div class="blur">
-                <span><br />🇩🇰</span>
-              </div>
-            </div>
-          </a>
+            </div></a
+          >
         </div>
       </article>
     </main>

@@ -193,8 +193,8 @@ if (document.body.id === "cybersecurity") {
       strengthClass: "strength",
       strengthMeterClass: "strength_meter flex-center",
       strengthButtonClass: "button_strength",
-      strengthButtonText: "<u>Show Password</u> &#8250;",
-      strengthButtonTextToggle: "<u>Hide Password</u> &#8250;",
+      strengthButtonText: "Show Password",
+      strengthButtonTextToggle: "Hide Password",
     });
   });
   (function ($, window, document, undefined) {
@@ -292,13 +292,13 @@ if (document.body.id === "cybersecurity") {
               this.options.strengthClass +
               '" data-password="' +
               thisid +
-              '" type="text" name="" value=""><a data-password-button="' +
+              '" type="text" name="" value=""><p><a data-password-button="' +
               thisid +
               '" href="" class="' +
               this.options.strengthButtonClass +
               '">' +
               this.options.strengthButtonText +
-              '</a><div class="' +
+              '</a> &#8250;</p><div class="' +
               this.options.strengthMeterClass +
               '"><div data-meter="' +
               thisid +
