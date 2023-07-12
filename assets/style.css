@@ -1201,6 +1201,10 @@ footer .footer-ps span:nth-child(2) {
     border-radius: var(--border-radius-2);
   }
   /* FIND-MY BLOG END */
+.gallery span:before,
+.gallery span {
+  text-align: center;
+}
 
 .gallery #house-hunting {
   background-image: url(/img/2022-10-09-2277.jpg);
@@ -1208,7 +1212,7 @@ footer .footer-ps span:nth-child(2) {
 #house-hunting .pathname-current:before,
 #house-hunting h1:before,
 .gallery #house-hunting span:before {
-  content: "House Hunting 🇫🇮";
+  content: "House Hunting";
 }
 .gallery #blavand {
   background-image: url(/img/2022-04-15-10184.jpg);
@@ -1216,7 +1220,7 @@ footer .footer-ps span:nth-child(2) {
 #blavand .pathname-current:before,
 #blavand h1:before,
 .gallery #blavand span:before {
-  content: "Blåvand 🇩🇰";
+  content: "Blåvand";
 }
 .gallery #aland {
   background-image: url(/img/2022-10-16-3695.jpg);
@@ -1224,7 +1228,7 @@ footer .footer-ps span:nth-child(2) {
 #aland .pathname-current:before,
 #aland h1:before,
 .gallery #aland span:before {
-  content: "Åland 🇦🇽";
+  content: "Åland";
 }
 /*
   .gallery #lakeland {
@@ -1242,7 +1246,7 @@ footer .footer-ps span:nth-child(2) {
 #vasterbotten .pathname-current:before,
 #vasterbotten h1:before,
 .gallery #vasterbotten span:before {
-  content: "Västerbotten 🇸🇪";
+  content: "Västerbotten";
 }
 /*
   .gallery #kvarken {
@@ -1260,18 +1264,13 @@ footer .footer-ps span:nth-child(2) {
 #vestkystruten .pathname-current:before,
 #vestkystruten h1:before,
 .gallery #vestkystruten span:before {
-  content: "Vestkystruten 🇩🇰";
+  content: "Vestkystruten";
 }
 /* BLOG END */
 
 /* ABOUT START */
 :root {
   --about-into-section-margin: 47vh;
-}
-#about h1 {
-  position: relative;
-  left: 20px;
-  top: 27px;
 }
 
 #about .intro-section {
@@ -1285,7 +1284,8 @@ footer .footer-ps span:nth-child(2) {
   height: 300vh;
   margin-bottom: 0;
 }
-#about img {
+#about img,
+.grid-container .hh-stretch {
   margin: 0;
   box-shadow: 7px -3px 8px rgb(var(--black-color));
 }
@@ -1521,7 +1521,7 @@ footer .footer-ps span:nth-child(2) {
   }
   #cybersecurity .intro-section h2,
   h1 {
-    font-size: calc(var(--fontsize-h1) * 0.5);
+    font-size: calc(var(--fontsize-h1) * 0.8);
   }
   h2 {
     font-size: calc(var(--fontsize-h2) * 0.7);
@@ -1555,10 +1555,6 @@ footer .footer-ps span:nth-child(2) {
   #password-strength-form input[type="password"],
   #password-strength-form input[type="text"] {
     font-size: var(--fontsize-h4);
-  }
-  #about h1 {
-    z-index: 3;
-    top: 14px;
   }
 }
 @media only screen and (max-width: 768px) {

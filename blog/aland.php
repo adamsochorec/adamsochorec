@@ -475,14 +475,14 @@
           <a href="/blog/blavand">
             <div class="grid-item" id="blavand">
               <div class="blur">
-                <span></span>
+                <span><br />🇩🇰</span>
               </div>
             </div>
           </a>
           <a href="/blog/house-hunting">
             <div class="grid-item" id="house-hunting">
               <div class="blur">
-                <span></span>
+                <span><br />🇫🇮</span>
               </div>
             </div> </a
           ><a class="gradient" href="/blog/cybersecurity">

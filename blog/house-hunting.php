@@ -170,21 +170,21 @@
           <a href="/blog/blavand">
             <div class="grid-item" id="blavand">
               <div class="blur">
-                <span></span>
+                <span><br />🇩🇰</span>
               </div>
             </div>
           </a>
           <a href="/blog/vasterbotten">
             <div class="grid-item" id="vasterbotten">
               <div class="blur">
-                <span></span>
+                <span><br />🇸🇪</span>
               </div>
             </div>
           </a>
           <a href="/blog/vestkystruten">
             <div class="grid-item" id="vestkystruten">
               <div class="blur">
-                <span></span>
+                <span><br />🇩🇰</span>
               </div>
             </div>
           </a>

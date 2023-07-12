@@ -2872,21 +2872,21 @@ C502.2,625.2,499,621.9,499,618.3z"
           <a href="/blog/house-hunting">
             <div class="grid-item reveal" id="house-hunting">
               <div class="blur">
-                <span></span>
+                <span><br />🇫🇮</span>
               </div>
             </div>
           </a>
           <a href="/blog/vasterbotten">
             <div class="grid-item reveal" id="vasterbotten">
               <div class="blur">
-                <span></span>
+                <span><br />🇸🇪</span>
               </div>
             </div>
           </a>
           <a href="/blog/vestkystruten">
             <div class="grid-item reveal" id="vestkystruten">
               <div class="blur">
-                <span></span>
+                <span><br />🇩🇰</span>
               </div>
             </div>
           </a>

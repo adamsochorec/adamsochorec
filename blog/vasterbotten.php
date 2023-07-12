@@ -398,7 +398,7 @@
           <a href="/blog/house-hunting">
             <div class="grid-item" id="house-hunting">
               <div class="blur">
-                <span></span>
+                <span><br />🇫🇮</span>
               </div>
             </div>
           </a>
@@ -406,14 +406,14 @@
           <a href="/blog/aland">
             <div class="grid-item" id="aland">
               <div class="blur">
-                <span></span>
+                <span><br />🇦🇽</span>
               </div>
             </div>
           </a>
           <a href="/blog/vestkystruten">
             <div class="grid-item" id="vestkystruten">
               <div class="blur">
-                <span></span>
+                <span><br />🇩🇰</span>
               </div>
             </div>
           </a>

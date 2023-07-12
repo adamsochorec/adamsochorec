@@ -223,7 +223,6 @@
         <section class="wrapper-standard reveal">
           <hr class="reveal" />
           <h1 class="reveal"></h1>
-          <br />
           <div class="grid-container gallery reveal">
             <a class="hh-stretch gradient" href="/blog/cybersecurity">
               <div class="grid-item" id="cybersecurity">
@@ -233,27 +232,27 @@
             <a href="/blog/vestkystruten">
               <div class="grid-item" id="vestkystruten">
                 <div class="blur">
-                  <span></span>
+                  <span><br />🇩🇰</span>
                 </div>
               </div>
             </a>
             <a href="/blog/house-hunting">
               <div class="grid-item" id="house-hunting">
                 <div class="blur">
-                  <span></span>
+                  <span><br />🇫🇮</span>
                 </div>
               </div> </a
             ><a href="/blog/vasterbotten">
               <div class="grid-item" id="vasterbotten">
                 <div class="blur">
-                  <span></span>
+                  <span><br />🇸🇪</span>
                 </div>
               </div>
             </a>
             <a class="hh-stretch" href="/blog/aland">
               <div class="grid-item" id="aland">
                 <div class="blur">
-                  <span></span>
+                  <span><br />🇦🇽</span>
                 </div>
               </div>
             </a>
@@ -261,7 +260,7 @@
             <a class="hh-stretch" href="/blog/blavand">
               <div class="grid-item" id="blavand">
                 <div class="blur">
-                  <span></span>
+                  <span><br />🇩🇰</span>
                 </div>
               </div>
             </a>
@@ -275,7 +274,6 @@
         <section class="wrapper-standard reveal">
           <hr class="reveal" />
           <h1 class="reveal">Web-dev</h1>
-          <br />
           <div class="grid-container gallery reveal">
             <a
               class="hh-stretch"
