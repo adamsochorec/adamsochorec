@@ -49,27 +49,34 @@
     <main>
       <article class="wrapper-wide">
         <h1></h1>
-        <div class="pathname-container">
-          <i
-            ><span class="pathname"><a href="/"></a> / </span>
-            <span class="pathname"><a href="/#blog"></a> / åland</span>
-          </i>
+        <div class="grid-container seventy-thirty">
+          <div class="grid-item">
+            <div class="pathname-container">
+              <p>
+                <span class="pathname"><a href="/"></a> &#8250; </span>
+                <span class="pathname"
+                  ><a href="/#blog"></a> &#8250; åland</span
+                >
+              </p>
+            </div>
+          </div>
+          <div class="grid-item">
+            <p>
+              <span class="pathname">
+                <svg
+                  id="date"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 448 512"
+                >
+                  <path
+                    d="M152 24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H64C28.7 64 0 92.7 0 128v16 48V448c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V192 144 128c0-35.3-28.7-64-64-64H344V24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H152V24zM48 192H400V448c0 8.8-7.2 16-16 16H64c-8.8 0-16-7.2-16-16V192z"
+                  />
+                </svg>
+                &nbsp; October 2022</span
+              >
+            </p>
+          </div>
         </div>
-        <br />
-
-        <p class="pathname">
-          <svg
-            id="date"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 448 512"
-          >
-            <!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-            <path
-              d="M152 24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H64C28.7 64 0 92.7 0 128v16 48V448c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V192 144 128c0-35.3-28.7-64-64-64H344V24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H152V24zM48 192H400V448c0 8.8-7.2 16-16 16H64c-8.8 0-16-7.2-16-16V192z"
-            />
-          </svg>
-          &nbsp; October 2022
-        </p>
         <div class="img">
           <img
             src="/img/2022-10-16-3695.jpg"
@@ -147,10 +154,11 @@
               descriptions.
             </p>
           </div>
-          <p>
-            <i class="note"
-              >Zoom in and click on the route to see more details.<br />Straight
-              direct lines are the distances we hitchhiked.</i
+          <p class="flex-center">
+            ↑
+            <span class="note"
+              >Zoom in and click on the route to see more details,
+              <br />Straight lines are the distances we hitchhiked.</span
             >
           </p>
         </div>
@@ -174,7 +182,6 @@
           home to around <b>50,000 archipelagos</b> and tiny rocky islands
           (skerries). It is considered one of the largest areas by the number of
           archipelagos in the world and is truly an interesting sight to behold.
-          <br />
         </p>
         <div class="img">
           <img
@@ -182,13 +189,15 @@
             alt="Photo of skerries covered by vegetation, located in the Archipelago sea"
           />
         </div>
-        <p><i class="note">Skerries in the Archipelago Sea</i></p>
+        <p class="flex-center">
+          ↑
+          <span class="note">Skerries in the Archipelago Sea </span>↓
+        </p>
         <div class="img">
           <img
             src="/img/IMG_3020.jpg"
             alt="Photo of several boulder archipelagos with erected wind turbines, located in the Archipelago sea"
           />
-          <br /><br class="hide" />
         </div>
         <p>
           After disembarking from the Baltic princess in
@@ -268,8 +277,10 @@
     our Djupviksgrottan cave camp, Marcel is reading a book and Andreas is
     keeping an eye on a campfire."
           />
-          <br /><br class="hide" />
-          <p><i class="note">The Djupviksgrottan cave</i></p>
+          <p class="flex-center">
+            ↑
+            <span class="note">Djupviksgrottan cave</span>
+          </p>
         </div>
         <p>
           Before leaving the cave, Marcel and I scouted the surrounding
@@ -331,8 +342,10 @@
             src="/img/2022-10-17-3698.jpg"
             alt="Shot of a garden and family house built in a typical Scandinavian style - pastel green facade made out of wooden planks with white outlined corners and windows."
           />
-          <br /><br class="hide" />
-          <p><i class="note">Karolina's house</i></p>
+          <p class="flex-center">
+            ↑
+            <span class="note">Karolina's house</span>
+          </p>
         </div>
         <p>
           Later that evening we met most likely her entire family including
@@ -409,8 +422,11 @@
           <img
             src="/img/2022-10-17-3700.jpg"
             alt="Photo of me carrying posing Marcel upon my shoulders while standing in the cold Archipelago sea."
-          /><br /><br class="hide" />
-          <p><i class="note">Fishing village nearby Norrgård</i></p>
+          />
+          <p class="flex-center">
+            ↑
+            <span class="note">Fishing village nearby Norrgård</span>
+          </p>
         </div>
         <p>
           Our final task was to make it back to Mariehamn. We had no luck with

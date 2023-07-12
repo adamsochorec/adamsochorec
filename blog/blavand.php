@@ -28,26 +28,34 @@
     <main>
       <article class="wrapper-wide">
         <h1></h1>
-        <div class="pathname-container">
-          <i
-            ><span class="pathname"><a href="/"></a> / </span>
-            <span class="pathname"><a href="/#blog"></a> / blåvand</span>
-          </i>
+        <div class="grid-container seventy-thirty">
+          <div class="grid-item">
+            <div class="pathname-container">
+              <p>
+                <span class="pathname"><a href="/"></a> &#8250; </span>
+                <span class="pathname"
+                  ><a href="/#blog"></a> &#8250; blåvand</span
+                >
+              </p>
+            </div>
+          </div>
+          <div class="grid-item">
+            <p>
+              <span class="pathname">
+                <svg
+                  id="date"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 448 512"
+                >
+                  <path
+                    d="M152 24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H64C28.7 64 0 92.7 0 128v16 48V448c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V192 144 128c0-35.3-28.7-64-64-64H344V24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H152V24zM48 192H400V448c0 8.8-7.2 16-16 16H64c-8.8 0-16-7.2-16-16V192z"
+                  />
+                </svg>
+                &nbsp; April 2022</span
+              >
+            </p>
+          </div>
         </div>
-        <br />
-        <p class="pathname">
-          <svg
-            id="date"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 448 512"
-          >
-            <!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-            <path
-              d="M152 24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H64C28.7 64 0 92.7 0 128v16 48V448c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V192 144 128c0-35.3-28.7-64-64-64H344V24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H152V24zM48 192H400V448c0 8.8-7.2 16-16 16H64c-8.8 0-16-7.2-16-16V192z"
-            />
-          </svg>
-          &nbsp; April 2022
-        </p>
         <div class="img">
           <img
             src="/img/2022-04-15-10184.jpg"
@@ -77,9 +85,10 @@
               article are marked on the map with descriptions.
             </p>
           </div>
-          <p>
-            <i class="note"
-              >Zoom in and click on the waypoints to see more details.</i
+          <p class="flex-center">
+            ↑
+            <span class="note"
+              >Zoom in and click on the waypoints to see more details</span
             >
           </p>
         </div>
@@ -158,15 +167,24 @@
             >Polycam</a
           >.
         </p>
-        <iframe
-          src="https://sketchfab.com/models/dd16bb89f8844760ab31396d495fd0ce/embed?autospin=1&ui_theme=dark&dnt=1"
-          ><p class="alt-alt">3D scan of an Atlantic Wall bunker from WWII.</p>
-        </iframe>
+        <div class="img">
+          <iframe
+            src="https://sketchfab.com/models/dd16bb89f8844760ab31396d495fd0ce/embed?autospin=1&ui_theme=dark&dnt=1"
+            ><p class="alt-alt">
+              3D scan of an Atlantic Wall bunker from WWII.
+            </p>
+          </iframe>
+        </div>
+        <p class="flex-center">
+          ↑ <span class="note"> The 3D scans taken with an iPhone </span>↓
+        </p>
 
-        <iframe
-          src="https://sketchfab.com/models/37e4150677634273954aa6e69434ec15/embed?autospin=1&ui_theme=dark&dnt=1"
-        >
-        </iframe>
+        <div class="img">
+          <iframe
+            src="https://sketchfab.com/models/37e4150677634273954aa6e69434ec15/embed?autospin=1&ui_theme=dark&dnt=1"
+          >
+          </iframe>
+        </div>
         <p>
           While the app's scanning and processing options are not the most
           advanced, it is user-friendly and convenient to use. There are also
@@ -214,10 +232,12 @@
           surrounding Blåvand. The beach and sand fields to the northeast had
           several watchtowers, as well as other military facilities such as
           antennas and small storage units. Yellow signs warned of military
-          areas and fencing marked off the training grounds.<br /><br />Overall,
-          my visit to Blåvand was a unique and memorable experience. The WWII
-          bunkers, now used as playgrounds by children, were a poignant reminder
-          of the past, and the natural beauty of the west coast was
+          areas and fencing marked off the training grounds.
+        </p>
+        <p>
+          Overall, my visit to Blåvand was a unique and memorable experience.
+          The WWII bunkers, now used as playgrounds by children, were a poignant
+          reminder of the past, and the natural beauty of the west coast was
           breathtaking. In addition, I would also recommend visiting nearby
           Bjarke Ingels's
           <a

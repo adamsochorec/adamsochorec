@@ -36,28 +36,34 @@
     <main>
       <article class="wrapper-wide">
         <h1></h1>
-        <div class="pathname-container">
-          <i
-            ><span class="pathname"><a href="/"></a> / </span>
-            <span class="pathname"><a href="/#blog"></a> / vestkystruten</span>
-          </i>
+        <div class="grid-container seventy-thirty">
+          <div class="grid-item">
+            <div class="pathname-container">
+              <p>
+                <span class="pathname"><a href="/"></a> &#8250; </span>
+                <span class="pathname"
+                  ><a href="/#blog"></a> &#8250; vestkystruten</span
+                >
+              </p>
+            </div>
+          </div>
+          <div class="grid-item">
+            <p>
+              <span class="pathname">
+                <svg
+                  id="date"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 448 512"
+                >
+                  <path
+                    d="M152 24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H64C28.7 64 0 92.7 0 128v16 48V448c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V192 144 128c0-35.3-28.7-64-64-64H344V24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H152V24zM48 192H400V448c0 8.8-7.2 16-16 16H64c-8.8 0-16-7.2-16-16V192z"
+                  />
+                </svg>
+                &nbsp; August 2022</span
+              >
+            </p>
+          </div>
         </div>
-        <br />
-
-        <p class="pathname">
-          <svg
-            id="date"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 448 512"
-          >
-            <!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-            <path
-              d="M152 24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H64C28.7 64 0 92.7 0 128v16 48V448c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V192 144 128c0-35.3-28.7-64-64-64H344V24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H152V24zM48 192H400V448c0 8.8-7.2 16-16 16H64c-8.8 0-16-7.2-16-16V192z"
-            />
-          </svg>
-          &nbsp; August 2022
-        </p>
-
         <iframe
           id="ytplayer"
           type="text/html"
@@ -137,9 +143,10 @@
               depicting our route from the south to the north of Denmark.
             </p>
           </div>
-          <p>
-            <i class="note"
-              >Zoom in and click on the route to see more details.</i
+          <p class="flex-center">
+            ↑
+            <span class="note"
+              >Zoom in and click on the route to see more details</span
             >
           </p>
         </div>
@@ -156,14 +163,16 @@
           meet together. We were constantly amazed by the beauty of the country
           and the kindness of the people we met along the way. <br />Overall, it
           was a truly unforgettable experience and one that we highly recommend
-          to anyone looking to explore Denmark. <br />
-          <br />Consider also giving thumbs up to the video on
+          to anyone looking to explore Denmark.
+        </p>
+        <p>
+          Consider also giving thumbs up to the video on
           <a
             target="_blank"
             rel="noopener noreferrer"
             href="https://www.youtube.com/watch?v=3go3v59pfEo"
           >
-            Our video on YouTube</a
+            our video on YouTube</a
           >
           and
           <a

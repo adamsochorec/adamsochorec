@@ -175,7 +175,7 @@
               src="/img/MRI-2-kompr.gif"
               alt="Animation of Adam Sochorec's head using MRI images"
             />
-          </div>  
+          </div>
           <div class="hhh-stretch">
             <iframe
               class="reveal"
@@ -207,7 +207,7 @@
               alt="Møns Klint forest enveloped in morning fog with laser beams piercing the sky"
             />
           </div>
-          
+
           <div class="v-stretch reveal">
             <img
               class="hideImg"
@@ -215,7 +215,6 @@
               alt="Björkoby fishing village shrouded in morning fog"
             />
           </div>
-
         </div>
       </article>
       <!-- VISUALS END -->
@@ -319,7 +318,6 @@
             src="/img/2022-04-24-176-2.jpg"
             alt="Black and white portrait of Adam Sochorec captured in a Tribe Media studios in Kolding"
           />
-          <hr class="reveal" />
 
           <p class="reveal">
             Greetings from Denmark! As a Czech-born multimedia design student
@@ -330,26 +328,30 @@
               rel="noopener noreferrer"
               >Slavic Media</a
             >
-            – small but mighty! <br /><br />I'm a Canon-wielding photography
-            enthusiast with a side of iPhone, and a website wizard, thanks to my
-            multimedia studies on
+            – small but mighty!
+          </p>
+          <p>
+            I'm a Canon-wielding photography enthusiast with a side of iPhone,
+            and a website wizard, thanks to my multimedia studies on
             <a
               href="https://www.iba.dk/fuldtidsuddannelser"
               target="_blank"
               rel="noopener noreferrer"
               >Erhversakademi Kolding</a
-            >.<br />
-            <br />
+            >.
+          </p>
+          <p>
             Former
             <a
               href="https://www.flickr.com/photos/141401020@N03/"
               target="_blank"
               rel="noopener noreferrer"
               >LEGO architect</a
-            >, current purveyor of digital aesthetics and sarcasm.<br /><br />Remember,
-            no cookies — just creativity!
+            >, current purveyor of digital aesthetics and sarcasm.
           </p>
+          <p>PS: No cookies — just creativity!</p>
           <hr class="reveal" />
+          <h2>Collaborators & clients</h2>
           <svg
             class="reveal"
             version="1.1"
@@ -1972,7 +1974,6 @@
           <hr class="reveal" />
 
           <h2 class="reveal">Language competences</h2>
-          <br /><br />
           <div class="grid-container skills-section">
             <div class="grid-item">
               <div class="reveal">
@@ -2090,7 +2091,6 @@
           </div>
           <hr class="reveal" />
           <h2 class="reveal">@adamsochorec</h2>
-          <br />
           <div class="grid-container">
             <ul>
               <li class="reveal">
@@ -2100,6 +2100,7 @@
                   href="https://www.brothers-brick.com/2017/08/21/forgotten-not-gone/"
                   >The Brothers Brick</a
                 >
+                &#8250;
               </li>
               <li class="reveal">
                 <a
@@ -2108,6 +2109,7 @@
                   href="https://www.brothers-brick.com/2017/08/27/post-apocalyptic-friendships-best/"
                   >The Brothers Brick</a
                 >
+                &#8250;
               </li>
               <li class="reveal">
                 <a
@@ -2116,6 +2118,7 @@
                   href="https://gjjlc.lixin.edu.cn/jdxw/109749.htm"
                   >Shanghai Lixin University</a
                 >
+                &#8250;
               </li>
               <li class="reveal">
                 <a
@@ -2124,6 +2127,7 @@
                   href="https://gjjlc.lixin.edu.cn/jdxw/106321.htm"
                   >Shanghai Lixin University</a
                 >
+                &#8250;
               </li>
             </ul>
             <ul>
@@ -2134,6 +2138,7 @@
                   href="https://www.divadlodisk.cz/repertoar/hrdina-zapadu-83"
                   >Divadlo Disk</a
                 >
+                &#8250;
               </li>
               <li class="reveal">
                 <a
@@ -2142,6 +2147,7 @@
                   href="https://www.instagram.com/p/CPkl9MtKWiz/?igshid=YmMyMTA2M2Y="
                   >Divadlo Na Vinohradech</a
                 >
+                &#8250;
               </li>
               <li class="reveal">
                 <a
@@ -2150,6 +2156,7 @@
                   href="https://www.artivistlab.info/purano-hangos/exhibitions-photo-album"
                   >Artivist Lab</a
                 >
+                &#8250;
               </li>
               <li class="reveal">
                 <a
@@ -2158,6 +2165,7 @@
                   href="https://www.respekt.cz/galerie/cool-kids-saving-hot-planet"
                   >Respekt</a
                 >
+                &#8250;
               </li>
               <li class="hideLi reveal">
                 <a
@@ -2166,6 +2174,7 @@
                   href="https://www.hatefree.cz/clanky/tamara-moyzes-2"
                   >HateFree</a
                 >
+                &#8250;
               </li>
             </ul>
           </div>
@@ -2176,9 +2185,7 @@
         <section class="wrapper-standard">
           <section class="contact-form-section">
             <hr />
-
             <h1 class="reveal">Contact</h1>
-            <br /><br />
             <form
               id="contactForm"
               action="https://formsubmit.co/2007080c2cf8bd2ebb68506e7aa98c5f"
@@ -2187,7 +2194,7 @@
               enctype="multipart/form-data"
             >
               <!-- Email invisibility -->
-              <div class="grid-container contact-form reveal">
+              <div class="grid-container contact-form fifty-fifty reveal">
                 <div class="grid-item">
                   <p><label for="email">Email * </label></p>
                   <input
@@ -2198,7 +2205,7 @@
                     required
                     autocomplete="email"
                   />
-                  <br /><br />
+                  <br />
                   <p><label for="name">Name *</label></p>
                   <input
                     required
@@ -2209,7 +2216,7 @@
                     autocomplete="name"
                   />
 
-                  <br /><br />
+                  <br />
                 </div>
                 <div class="grid-item">
                   <p><label for="subject">Subject * </label></p>
@@ -2220,7 +2227,7 @@
                     required
                     placeholder=""
                   />
-                  <br /><br />
+                  <br />
                   <p><label for="company">Company (optional)</label></p>
                   <input
                     type="text"
@@ -2229,7 +2236,7 @@
                     placeholder=""
                     autocomplete="work"
                   />
-                  <br /><br />
+                  <br />
                 </div>
               </div>
               <div class="reveal">
@@ -2242,7 +2249,9 @@
                   required
                   placeholder=""
                 ></textarea>
-                <br /><br />
+                <br />
+                <br />
+
                 <div class="btn-area flex-center">
                   <button id="btn" class="submit-btn" type="submit">
                     Submit contact form

@@ -193,8 +193,8 @@ if (document.body.id === "cybersecurity") {
       strengthClass: "strength",
       strengthMeterClass: "strength_meter flex-center",
       strengthButtonClass: "button_strength",
-      strengthButtonText: "Show Password",
-      strengthButtonTextToggle: "Hide Password",
+      strengthButtonText: "<u>Show Password</u> &#8250;",
+      strengthButtonTextToggle: "<u>Hide Password</u> &#8250;",
     });
   });
   (function ($, window, document, undefined) {

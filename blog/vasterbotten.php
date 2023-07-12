@@ -27,27 +27,34 @@
     <main>
       <article class="wrapper-wide">
         <h1></h1>
-        <div class="pathname-container">
-          <i
-            ><span class="pathname"><a href="/"></a> / </span>
-            <span class="pathname"><a href="/#blog"></a> / västerbotten</span>
-          </i>
+        <div class="grid-container seventy-thirty">
+          <div class="grid-item">
+            <div class="pathname-container">
+              <p>
+                <span class="pathname"><a href="/"></a> &#8250; </span>
+                <span class="pathname"
+                  ><a href="/#blog"></a> &#8250; västerbotten</span
+                >
+              </p>
+            </div>
+          </div>
+          <div class="grid-item">
+            <p>
+              <span class="pathname">
+                <svg
+                  id="date"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 448 512"
+                >
+                  <path
+                    d="M152 24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H64C28.7 64 0 92.7 0 128v16 48V448c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V192 144 128c0-35.3-28.7-64-64-64H344V24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H152V24zM48 192H400V448c0 8.8-7.2 16-16 16H64c-8.8 0-16-7.2-16-16V192z"
+                  />
+                </svg>
+                &nbsp; September 2022</span
+              >
+            </p>
+          </div>
         </div>
-        <br />
-
-        <p class="pathname">
-          <svg
-            id="date"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 448 512"
-          >
-            <!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-            <path
-              d="M152 24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H64C28.7 64 0 92.7 0 128v16 48V448c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V192 144 128c0-35.3-28.7-64-64-64H344V24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H152V24zM48 192H400V448c0 8.8-7.2 16-16 16H64c-8.8 0-16-7.2-16-16V192z"
-            />
-          </svg>
-          &nbsp; September 2022
-        </p>
         <div class="img">
           <img
             src="/img/2022-09-04-4233.jpg"
@@ -74,7 +81,9 @@
           in Swedish, is one of the 21 counties in Sweden and its administrative
           the centre is located in Umeå. The Finnish city of Vaasa, where my the
           university is located, and Umeå, are connected by a 4-hour ferry ride
-          across the narrowest part of the Bothnian Bay.<br /><br />
+          across the narrowest part of the Bothnian Bay.
+        </p>
+        <p>
           As it was my first time in Sweden, I had high expectations for the
           countryside and the way Swedes handle
           <a
@@ -92,10 +101,11 @@
               map with descriptions.
             </p>
           </div>
-          <p>
-            <i class="note"
-              >Zoom in and click on the route to see more details.</i
-            >
+          <p class="flex-center">
+            ↑
+            <span class="note"
+              >Zoom in and click on the route to see more details
+            </span>
           </p>
         </div>
 
@@ -147,8 +157,10 @@
             src="/img/2022-09-01-4214.jpg"
             alt="View from the ship to the ship docks in Umeå, there is a coast guard boat in the foreground, in the background are two wind turbines."
           />
-          <br /><br class="hide" />
-          <p><i class="note">Ship docks in Umeå</i></p>
+          <p class="flex-center">
+            ↑
+            <span class="note">Ship docks in Umeå</span>
+          </p>
         </div>
         <p>
           Later that night, we decided to sleep in the surrounding forest. The
@@ -175,7 +187,9 @@
           stone formations from ancient times.<br />
           After an hour of searching, we realized that the stones were not in
           the location we thought they were, so we headed back home with a few
-          chanterelle mushrooms we had found in our pockets.<br /><br />
+          chanterelle mushrooms we had found in our pockets.
+        </p>
+        <p>
           In addition to bush crafting, we also attended a free induction
           lecture on
           <a
@@ -194,7 +208,7 @@
           later that day. The 90-minute lecture was our first introduction to
           the
           <i>
-            Self-defence martial art and combat sport that is based on
+            self-defence martial art and combat sport that is based on
             grappling, ground fighting (ne-waza), and submission holds. BJJ
             focuses on taking an opponent to the ground, controlling them,
             gaining a dominant position, and using various techniques to force
@@ -204,13 +218,13 @@
         </p>
         <div class="img">
           <img src="/img/2022-09-02-4216.jpg" alt="" />
-          <br /><br class="hide" />
-          <p>
-            <i class="note"
+          <p class="flex-center">
+            ↑
+            <span class="note"
               >"Surrounded by berries and young pine forest, the trees were
               planted so regularly that you could see a solid distance in any
-              direction..."</i
-            >
+              direction..."
+            </span>
           </p>
         </div>
         <p>
@@ -231,7 +245,7 @@
             target="_blank"
             rel="noopener noreferrer"
             >Taekwondo</a
-          ><br /><br />
+          >
           The following morning was dedicated to fishing and searching for
           <a
             target="_blank"
@@ -253,10 +267,15 @@
           landscape during this time.
         </p>
         <div class="img">
-          <img src="/img/2022-09-03-4227.jpg" alt="Panorama photo of our
-          campsite on the shore of a more” />
-          <br /><br class="hide" />
-          <p><i class="note">Our mire-camp site</i></p>
+          <img
+            src="/img/2022-09-03-4227.jpg"
+            alt="Panorama photo of our
+          campsite on the shore of a more"
+          />
+          <p class="flex-center">
+            ↑
+            <span class="note">Our mire-camp site</span>
+          </p>
         </div>
         <p>
           When we reached the end of the dirt road, we took our gear and Emil's
@@ -271,19 +290,18 @@
           reflective west on a tall pine tree around our campsite - so the
           hunters could see our position.
         </p>
-        <br class="hide" />
         <div class="img">
           <img src="/img/poncho-setup.jpg" alt=“Illustration Illustrating
           various simple field shelters made with a rope and tarp." />
-          <br /><br class="hide" /><br class="hide" />
-          <p>
-            <i class="note"
+          <p class="flex-center">
+            ↑
+            <span class="note"
               >Various simple field shelters made with a rope and tarp by
               <a
                 href="https://www.globalsecurity.org/military/library/policy/army/fm/5-103/CH5.HTM"
-                >https://www.globalsecurity.org</a
-              ></i
-            >
+                >www.globalsecurity.org</a
+              >
+            </span>
           </p>
         </div>
         <p>
@@ -312,8 +330,10 @@
             src="/img/2022-09-04-4229.jpg"
             alt="Portrait of a Joakim sitting on a tarp in the grass, hand on his hand-crafted machete, reindeer’s fur around the shoulder. The mire is in the background."
           />
-          <br /><br class="hide" />
-          <p><i class="note">Joakim</i></p>
+          <p class="flex-center">
+            ↑
+            <span class="note">Joakim</span>
+          </p>
         </div>
         <p>
           As the sunset, I went for a walk around the heap of ground where we
@@ -351,14 +371,17 @@
           location.
         </p>
         <div class="img">
-          <img src="/img/2022-09-01-4215.jpg" alt="Photo of a collection of
+          <img
+            src="/img/2022-09-01-4215.jpg"
+            alt="Photo of a collection of
           several sizes of original Sámi knives handcrafted by Joakim, each made
-          for a specific activity.” />
-          <br /><br class="hide" />
-          <p>
-            <i class="note"
+          for a specific activity."
+          />
+          <p class="flex-center">
+            ↑
+            <span class="note"
               >Original Sámi knives handcrafted by Joakim, each of them has been
-              made for a specific activity</i
+              made for a specific activity</span
             >
           </p>
         </div>
