@@ -140,7 +140,7 @@
             <p class="flex-center reveal">
               ↑
               <span class="note">
-                This tool is safe to use. Everything is processed locally - no
+                This tool is safe to interact with. Everything is processed locally - no
                 data are sent or stored.</span
               >
             </p>

@@ -474,7 +474,7 @@ svg {
 .blog-item img,
 .blog-item iframe,
 .img-fill {
-  border-radius: var(--border-radius-2);
+  border-radius: var(--border-radius-2)
 }
 iframe,
 img,
@@ -498,7 +498,12 @@ source {
 }
 .note {
   font-size: 0.7rem;
-  background-color: rgba(var(--secondary-color), 0.5);
+}
+.blog-item span.note{
+  border: 1px solid var(--text-color);
+  border-radius: var(--border-radius-3);
+  padding: 10px;
+  max-width: 21rem;
 }
 #map img {
   border-radius: unset;
