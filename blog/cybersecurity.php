@@ -32,7 +32,6 @@
                 placeholder="of 124-bit strength"
                 id="password"
                 readonly=""
-                autocomplete="new-password"
               />
               <br />
               <div id="btn"></div>
