@@ -30,18 +30,17 @@
         </div>
         <h1>The page you’re looking<br />for can’t be found.</h1>
         <h2>
-          <a href="http://adamsochorec.com"
-            >Return to the homepage &#8250;
-          </a>
+          <a href="http://adamsochorec.com">Return to the homepage &#8250; </a>
         </h2>
       </article>
-    <!-- LOTTIE PLAYER SCRIPTS START -->
+    </main>
+    <!-- LOTTIE PLAYER SCRIPT START -->
     <script
+      defer
       type="text/javascript"
       src="https://unpkg.com/@dotlottie/player-component@1.0.0/dist/dotlottie-player.js"
-      defer
     ></script>
-    <!-- LOTTIE PLAYER SCRIPTS START -->
+    <!-- LOTTIE PLAYER SCRIPT END -->
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'global-footer.php';

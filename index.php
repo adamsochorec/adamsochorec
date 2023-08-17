@@ -26,7 +26,6 @@
     <!-- HEADER END -->
     <main>
       <!-- VISUALS START -->
-
       <article id="visuals">
         <section class="intro-section-wrapper">
           <article class="intro-section">

@@ -127,13 +127,13 @@
               method="get"
               accept-charset="utf-8"
               spellcheck="false"
+              autocomplete="off"
             >
               <input
                 id="myPassword"
                 type="password"
-                name=""
                 value=""
-                autocomplete="current-password"
+                autocomplete="off"
               />
             </form>
             <p class="flex-center reveal">
