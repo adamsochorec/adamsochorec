@@ -29,15 +29,15 @@
       <article id="visuals">
         <section class="intro-section-wrapper">
           <article class="intro-section">
-            <iframe
-              src="https://www.youtube-nocookie.com/embed/qHTNf_Nn7pE?modestbranding=1"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen
-            >
-              Short artistic film featuring drone-captured footage
-            </iframe>
+              <iframe
+                src="https://www.youtube-ncookie.com/embed/qHTNf_Nn7pE?modestbranding=1"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              >
+                Short artistic film featuring drone-captured footage
+              </iframe>
           </article>
         </section>
         <div class="grid-container">

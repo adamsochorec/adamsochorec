@@ -140,7 +140,7 @@
               depicting our route from the south to the north of Denmark.
             </p>
           </div>
-          <p class="flex-cente reveal">
+          <p class="flex-center reveal">
             ↑
             <span class="note"
               >Zoom in and click on the route to see more details</span
