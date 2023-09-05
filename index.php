@@ -29,15 +29,30 @@
       <article id="visuals">
         <section class="intro-section-wrapper">
           <article class="intro-section">
-              <iframe
-                src="https://www.youtube-ncookie.com/embed/qHTNf_Nn7pE?modestbranding=1"
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen
+            <img
+              id="video-cover"
+              src="/img/cover-samso.jpg"
+              alt="Video title"
+            />
+            <iframe
+              id="player"
+              src="https://www.youtube-nocookie.com/embed/qHTNf_Nn7pE"
+              frameborder="0"
+              allow="autoplay; encrypted-media picture-in-picture allowfullscreen"
+            >
+              Short artistic film featuring drone-captured footage
+            </iframe>
+            <button id="play" class="play-btn">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 384 512"
+                id="videoplay"
               >
-                Short artistic film featuring drone-captured footage
-              </iframe>
+                <path
+                  d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"
+                />
+              </svg>
+            </button>
           </article>
         </section>
         <div class="grid-container">

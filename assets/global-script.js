@@ -85,24 +85,24 @@ function toggleVisibilityAndZIndex(element) {
 
 // HOMEPAGE START
 if (document.body.id === "homepage") {
-  // YOUTUBE PLAYER START
-  /*
-  var player;
+  // VIDEO PLAYER START
+  // Get references to DOM elements
+  const playButton = document.getElementById("play"),
+    player = document.getElementById("player"),
+    videoCover = document.getElementById("video-cover");
 
-  function onYouTubeIframeAPIReady() {
-    player = new YT.Player("player", {
-      videoId: "Muvkn0OGDbw",
-      playerVars: {
-        autoplay: 0,
-        modestbranding: 1,
-        loop: 1,
-        controls: 0,
-        playlist: "Muvkn0OGDbw",
-      },
-    });
-  }
-  */
-  // YOUTUBE PLAYER END
+  // Add a click event listener to the play button
+  playButton.addEventListener("click", function (e) {
+    e.preventDefault();
+    // Update the video source to include "?autoplay=1"
+    player.src += "?autoplay=1";
+
+    // Show the video player and hide the video cover and play button
+    player.style.display = "block";
+    videoCover.style.display = "none";
+    playButton.style.display = "none";
+  });
+  // VIDEO PLAYER END
 
   // SKILL BARS START
   function setProgress(e, progress) {
