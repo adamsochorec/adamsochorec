@@ -38,7 +38,7 @@
               id="player"
               src="https://www.youtube-nocookie.com/embed/qHTNf_Nn7pE"
               frameborder="0"
-              allow="autoplay; encrypted-media picture-in-picture allowfullscreen"
+              allow="autoplay; encrypted-media"
             >
               Short artistic film featuring drone-captured footage
             </iframe>

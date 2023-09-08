@@ -1,24 +1,3 @@
-/*
-const element1 = document.getElementById("element1");
-const element2 = document.getElementById("element2");
-
-element1.addEventListener("click", () => {
-  toggleVisibilityAndZIndex(element1);
-});
-
-element2.addEventListener("click", () => {
-  toggleVisibilityAndZIndex(element2);
-});
-function toggleVisibilityAndZIndex(element) {
-  if (element.style.visibility === "hidden") {
-    element.style.visibility = "visible";
-    element.style.opacity = 0;
-  } else {
-    element.style.visibility = "hidden";
-    element.style.zIndex = -1;
-  }
-}
-*/
 // LOADER ANIMATION START
 (function introLoader() {
   window.addEventListener("load", () => {
