@@ -1543,6 +1543,10 @@ footer .footer-ps span:nth-child(2) {
     padding-left: var(--homepage-padding);
     padding-right: var(--homepage-padding);
   }
+  #cybersecurity .intro-section-wrapper{
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
 @media only screen and (max-width: 540px) {
   #about .languages {
@@ -1696,6 +1700,10 @@ footer .footer-ps span:nth-child(2) {
   #cybersecurity .intro-subsection {
     padding-left: var(--homepage-padding);
     padding-right: var(--homepage-padding);
+  }
+  #cybersecurity .intro-section-wrapper{
+    padding-left: 0;
+    padding-right: 0;
   }
   .video-gallery {
     padding-top: var(--nav-bar-top-position);
