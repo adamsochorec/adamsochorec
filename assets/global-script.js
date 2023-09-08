@@ -65,22 +65,29 @@
 // HOMEPAGE START
 if (document.body.id === "homepage") {
   // VIDEO PLAYER START
-  // Get references to DOM elements
-  const playButton = document.getElementById("play"),
-    player = document.getElementById("player"),
-    videoCover = document.getElementById("video-cover");
+  document.addEventListener("DOMContentLoaded", function () {
+    const playButton = document.getElementById("play");
+    const player = document.getElementById("player");
+    const videoCover = document.getElementById("video-cover");
 
-  // Add a click event listener to the play button
-  playButton.addEventListener("click", function (e) {
-    e.preventDefault();
-    // Update the video source to include "?autoplay=1"
-    player.src += "?autoplay=1";
+    // Add a click event listener to the play button
+    playButton.addEventListener("click", function (e) {
+      e.preventDefault();
 
-    // Show the video player and hide the video cover and play button
-    player.style.display = "block";
-    videoCover.style.display = "none";
-    playButton.style.display = "none";
+      // Hide the video cover and play button
+      videoCover.style.display = "none";
+      playButton.style.display = "none";
+
+      // Show the video player
+      player.style.display = "block";
+
+      // Add a delay of one second (1000 milliseconds) and play the video
+      setTimeout(function () {
+        player.src += "?autoplay=1";
+      }, 200);
+    });
   });
+
   // VIDEO PLAYER END
 
   // SKILL BARS START
@@ -134,7 +141,6 @@ if (document.body.id === "cybersecurity") {
       passwordField = document.getElementById("password"),
       introSectionWrapper = document.getElementById("passwordGeneratorArea");
     let keyupListener;
-
     function getPassword() {
       const chars =
         "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ......-----";
@@ -193,6 +199,18 @@ if (document.body.id === "cybersecurity") {
     introSectionWrapper.addEventListener("mouseleave", function () {
       document.removeEventListener("keyup", keyupListener);
     });
+    // LOTTIE INTERACTIVITY START
+    LottieInteractivity.create({
+      player: "#FALottie",
+      mode: "scroll",
+      actions: [
+        {
+          visibility: [0.1, 1.0],
+          type: "play",
+        },
+      ],
+    });
+    // LOTTIE INTERACTIVITY END
   })();
 
   // CYBERSECURITY SUPER BTN END

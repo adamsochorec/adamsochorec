@@ -139,8 +139,8 @@
             <p class="flex-center reveal">
               ↑
               <span class="note">
-                This tool is safe to interact with. Everything is processed locally - no
-                data are sent or stored.</span
+                This tool is safe to interact with. Everything is processed
+                locally - no data are sent or stored.</span
               >
             </p>
             <p class="reveal">
@@ -2891,10 +2891,14 @@ C502.2,625.2,499,621.9,499,618.3z"
       type="text/javascript"
       src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"
     ></script>
+    // LOTTIE SCRIPTS START
     <script
       type="text/javascript"
       src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"
     ></script>
+    // GENERAL SCRIPT
+    <script src="https://unpkg.com/@lottiefiles/lottie-interactivity@1.6.2/dist/lottie-interactivity.min.js"></script>
+    // INTERACTIVITY SCRIPT // LOTTIE SCRIPTS END
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'global-footer.php';
