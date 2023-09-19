@@ -58,7 +58,7 @@
         </div>
         <div class="img">
           <img
-            src="/img/2022-04-15-10184.jpg"
+            src="/img/2022-04-15-00340.jpg"
             alt="Photo of a giant World War Two bunker, covered by graffiti and being lifted from its base on the sandy beach. The North Sea and another bunker can be seen in the background."
           />
         </div>
@@ -77,7 +77,6 @@
           time, Blåvand was hosting a festival and the main road through the
           city was congested with cars with Danish and German license plates.
         </p>
-
         <div class="map-margin reveal">
           <div id="map">
             <p class="alt-alt">
@@ -102,7 +101,7 @@
         </p>
         <div class="img reveal">
           <img
-            src="/img/2022-04-15-10179.jpg"
+            src="/img/2022-04-15-00335.jpg"
             alt="Photo of dunes covered by heath, in the left top corner can be seen a family house built among the dunes that are as high as the house."
           />
         </div>
@@ -153,7 +152,7 @@
         </p>
         <div class="img reveal">
           <img
-            src="/img/2022-04-15-10168.jpg"
+            src="/img/2022-04-15-00324.jpg"
             alt="WWII bunker sinking into the sand beach with metal decorations of horsetail and neck, kids are playing around."
           />
         </div>
@@ -193,7 +192,7 @@
         </p>
         <div class="img reveal">
           <img
-            src="/img/2022-04-15-10183.jpg"
+            src="/img/2022-04-15-00339.jpg"
             alt="View upon a wide hilly heath with Blåvand lighthouse in the background."
           />
         </div>
@@ -213,7 +212,7 @@
         </p>
         <div class="img reveal">
           <img
-            src="/img/2022-04-15-10177.jpg"
+            src="/img/2022-04-15-00333.jpg"
             alt="Panorama photo of landscape view from the top of Blåvand lighthouse. Both on right and left can be seen North sea and beaches, in between are mostly dunes covered by rusty heath."
           />
         </div>

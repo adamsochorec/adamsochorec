@@ -1287,7 +1287,7 @@ footer .footer-ps span:nth-child(2) {
 }
 
 .gallery #house-hunting {
-  background-image: url(/img/2022-10-09-2277.jpg);
+  background-image: url(/img/2022-10-09-00946.jpg);
 }
 #house-hunting .pathname-current:before,
 #house-hunting h1:before,
@@ -1295,7 +1295,7 @@ footer .footer-ps span:nth-child(2) {
   content: "House Hunting";
 }
 .gallery #blavand {
-  background-image: url(/img/2022-04-15-10184.jpg);
+  background-image: url(/img/2022-04-15-00340.jpg);
 }
 #blavand .pathname-current:before,
 #blavand h1:before,
@@ -1303,7 +1303,7 @@ footer .footer-ps span:nth-child(2) {
   content: "Blåvand";
 }
 .gallery #aland {
-  background-image: url(/img/2022-10-16-3695.jpg);
+  background-image: url(/img/2022-10-16-00978.jpg);
 }
 #aland .pathname-current:before,
 #aland h1:before,
@@ -1321,7 +1321,7 @@ footer .footer-ps span:nth-child(2) {
   }
   */
 .gallery #vasterbotten {
-  background-image: url(/img/2022-09-04-4233.jpg);
+  background-image: url(/img/2022-09-04-00937.jpg);
 }
 #vasterbotten .pathname-current:before,
 #vasterbotten h1:before,
@@ -1339,7 +1339,7 @@ footer .footer-ps span:nth-child(2) {
   }
   */
 .gallery #vestkystruten {
-  background-image: url(/img/2022-07-26-4169.jpg);
+  background-image: url(/img/2022-07-26-00855.jpg);
 }
 #vestkystruten .pathname-current:before,
 #vestkystruten h1:before,
@@ -1498,7 +1498,7 @@ footer .footer-ps span:nth-child(2) {
     opacity: 1;
     transform: translateY(0);
   }
-  .grid-container.grid-container.seventy-thirty {
+  .grid-container.seventy-thirty {
     display: grid;
     grid-template-columns: 70% 30%;
   }
@@ -1533,6 +1533,9 @@ footer .footer-ps span:nth-child(2) {
     height: calc(100vh - 1 * var(--nav-bar-top-position));
     margin-bottom: 0;
   }
+  .intro-section .play-btn {
+    top: 53%;
+  }
 }
 @media only screen and (min-width: 538px) {
   header nav ul li a {
@@ -1543,7 +1546,7 @@ footer .footer-ps span:nth-child(2) {
     padding-left: var(--homepage-padding);
     padding-right: var(--homepage-padding);
   }
-  #cybersecurity .intro-section-wrapper{
+  #cybersecurity .intro-section-wrapper {
     padding-left: 0;
     padding-right: 0;
   }
@@ -1701,7 +1704,7 @@ footer .footer-ps span:nth-child(2) {
     padding-left: var(--homepage-padding);
     padding-right: var(--homepage-padding);
   }
-  #cybersecurity .intro-section-wrapper{
+  #cybersecurity .intro-section-wrapper {
     padding-left: 0;
     padding-right: 0;
   }

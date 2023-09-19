@@ -57,7 +57,7 @@
         </div>
         <div class="img">
           <img
-            src="/img/2022-09-04-4233.jpg"
+            src="/img/2022-09-04-00937.jpg"
             alt="Panorama shot of a mire, where we bushcraft. Heap and weed around the lake are mustard yellow, surrounded by a wall of forest trees."
           />
         </div>
@@ -153,7 +153,7 @@
         </p>
         <div class="img reveal">
           <img
-            src="/img/2022-09-01-4214.jpg"
+            src="/img/2022-09-01-00918.jpg"
             alt="View from the ship to the ship docks in Umeå, there is a coast guard boat in the foreground, in the background are two wind turbines."
           />
           <p class="flex-center reveal">
@@ -216,7 +216,7 @@
           >
         </p>
         <div class="img reveal">
-          <img src="/img/2022-09-02-4216.jpg" alt="" />
+          <img src="/img/2022-09-02-00920.jpg" alt="Swedish pine forest" />
           <p class="flex-center reveal">
             ↑
             <span class="note"
@@ -267,7 +267,7 @@
         </p>
         <div class="img reveal">
           <img
-            src="/img/2022-09-03-4227.jpg"
+            src="/img/2022-09-03-00931.jpg"
             alt="Panorama photo of our
           campsite on the shore of a more"
           />
@@ -325,7 +325,7 @@
         </p>
         <div class="img reveal">
           <img
-            src="/img/2022-09-04-4229.jpg"
+            src="/img/2022-09-04-00933.jpg"
             alt="Portrait of a Joakim sitting on a tarp in the grass, hand on his hand-crafted machete, reindeer’s fur around the shoulder. The mire is in the background."
           />
           <p class="flex-center reveal">
@@ -370,7 +370,7 @@
         </p>
         <div class="img reveal">
           <img
-            src="/img/2022-09-01-4215.jpg"
+            src="/img/2022-09-01-00919.jpg"
             alt="Photo of a collection of
           several sizes of original Sámi knives handcrafted by Joakim, each made
           for a specific activity."

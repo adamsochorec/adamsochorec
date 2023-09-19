@@ -4446,7 +4446,7 @@ const day1 = L.polyline(
     color: "rgb(0, 126, 227)",
   }
 ).addTo(map);
-day1.bindPopup("Day: <b>1</b><br>Distance: <b>72 / 575 km</b>");
+day1.bindPopup("Day: <b>1</b><br>Distance: <b>72 km</b>");
 // DAY 1 END
 
 // DAY 2 START
@@ -11490,7 +11490,7 @@ const day2 = L.polyline(
     color: "rgb(128, 0, 128)",
   }
 ).addTo(map);
-day2.bindPopup("Day: <b>2</b><br>Distance: <b>142 / 575 km</b>");
+day2.bindPopup("Day: <b>2</b><br>Distance: <b>70 km</b>");
 // DAY 2 END
 
 // DAY 3 START
@@ -16150,7 +16150,7 @@ const day3 = L.polyline(
     color: "rgb(0, 126, 227)",
   }
 ).addTo(map);
-day3.bindPopup("Day: <b>3</b><br>Distance: <b>200 / 575 km</b>");
+day3.bindPopup("Day: <b>3</b><br>Distance: <b>58 km</b>");
 // DAY 3 END
 
 // DAY 4 START
@@ -18256,7 +18256,7 @@ const day4 = L.polyline(
     color: "rgb(128, 0, 128)",
   }
 ).addTo(map);
-day4.bindPopup("Day: <b>4</b><br>Distance: <b>240 / 575 km</b>");
+day4.bindPopup("Day: <b>4</b><br>Distance: <b>40 km</b>");
 // DAY 4 END
 
 // DAY 5 START
@@ -23319,7 +23319,7 @@ const day5 = L.polyline(
     color: "rgb(0, 126, 227)",
   }
 ).addTo(map);
-day5.bindPopup("Day: <b>5</b><br>Distance: <b>290 / 575 km</b>");
+day5.bindPopup("Day: <b>5</b><br>Distance: <b>50 km</b>");
 // DAY 5 END
 
 // DAY 6 START
@@ -27761,7 +27761,7 @@ const day6 = L.polyline(
     color: "rgb(128, 0, 128)",
   }
 ).addTo(map);
-day6.bindPopup("Day: <b>6</b><br>Distance: <b>332 / 575 km</b>");
+day6.bindPopup("Day: <b>6</b><br>Distance: <b>42 km</b>");
 // DAY 6 END
 
 // DAY 7 START
@@ -30580,7 +30580,7 @@ const day7 = L.polyline(
     color: "rgb(0, 126, 227)",
   }
 ).addTo(map);
-day7.bindPopup("Day: <b>7</b><br>Distance: <b>400 / 575 km</b>");
+day7.bindPopup("Day: <b>7</b><br>Distance: <b>68 km</b>");
 // DAY 7 END
 
 // DAY 8 START
@@ -30943,7 +30943,7 @@ const day8 = L.polyline(
     color: "rgb(128, 0, 128)",
   }
 ).addTo(map);
-day8.bindPopup("Day: <b>8</b><br>Distance: <b>470 / 575 km</b>");
+day8.bindPopup("Day: <b>8</b><br>Distance: <b>70 km</b>");
 // DAY 8 END
 
 // DAY 9 START
@@ -35909,7 +35909,7 @@ const day9 = L.polyline(
     color: "rgb(0, 126, 227)",
   }
 ).addTo(map);
-day9.bindPopup("Day: <b>9</b><br>Distance: <b>539 / 575 km</b>");
+day9.bindPopup("Day: <b>9</b><br>Distance: <b>69 km</b>");
 // DAY 9 END
 
 // DAY 10 START
@@ -37548,7 +37548,7 @@ const day10 = L.polyline(
     color: "rgb(128, 0, 128)",
   }
 ).addTo(map);
-day10.bindPopup("Day: <b>10</b><br>Distance: <b>575 / 575 km</b>");
+day10.bindPopup("Day: <b>10</b><br>Distance: <b>36 km</b>");
 
 // Skagen camp
 const skagen = L.circle([57.74473247359381, 10.6551913065348], {
@@ -37557,5 +37557,5 @@ const skagen = L.circle([57.74473247359381, 10.6551913065348], {
   fillOpacity: 0.5,
   radius: 1000,
 }).addTo(map);
-skagen.bindPopup("<b>Grenen, Skagen</b><br>)Final destination");
+skagen.bindPopup("<b>Grenen, Skagen</b><br>Final destination");
 // DAY 10 END

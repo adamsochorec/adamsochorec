@@ -79,7 +79,7 @@
         </div>
         <div class="img">
           <img
-            src="/img/2022-10-16-3695.jpg"
+            src="/img/2022-10-16-00978.jpg"
             alt="Dusty red gravel road cutting surrounding autumn colured forest in a half"
           />
         </div>
@@ -223,7 +223,7 @@
         </p>
         <div class="img reveal">
           <img
-            src="/img/2022-10-15-3690.jpg"
+            src="/img/2022-10-15-00970.jpg"
             alt="Photo of Andreas standing on the rock in the forest with a hiking pole out of a tree branch"
           />
         </div>
@@ -253,7 +253,7 @@
         </p>
         <div class="img reveal">
           <img
-            src="/img/2022-10-15-3689.jpg"
+            src="/img/2022-10-15-00967.jpg"
             alt="Marcel and Andreas are captured walking along the road, hitchhiking with their left thumbs, trying to stop approaching the car."
           />
         </div>
@@ -272,7 +272,7 @@
         </p>
         <div class="img reveal">
           <img
-            src="/img/2022-10-16-3693.jpg"
+            src="/img/2022-10-16-00975.jpg"
             alt="Outside view at
     our Djupviksgrottan cave camp, Marcel is reading a book and Andreas is
     keeping an eye on a campfire."
@@ -293,7 +293,7 @@
         </p>
         <div class="img reveal">
           <img
-            src="/img/2022-10-16-3696.jpg"
+            src="/img/2022-10-16-00979.jpg"
             alt="Photo of pilgrims Marcel and Andreas walking over dusty red path up on a hill with Autumn forests in their background."
           />
         </div>
@@ -308,7 +308,7 @@
         </p>
         <div class="img reveal">
           <img
-            src="/img/2022-10-16-3697.jpg"
+            src="/img/2022-10-16-00981.jpg"
             alt="Photo of an old blue Ford tractor with big red wheels, standing on aside of the road. The scene is listed by the morning sun."
           />
         </div>
@@ -324,7 +324,7 @@
         </p>
         <div class="img reveal">
           <img
-            src="/img/2022-10-15-3691.jpg"
+            src="/img/2022-10-15-00971.jpg"
             alt="Photo of Andreas and Marcel hiking through the forest in the northern part of Alands."
           />
         </div>
@@ -339,7 +339,7 @@
         </p>
         <div class="img reveal">
           <img
-            src="/img/2022-10-17-3698.jpg"
+            src="/img/2022-10-17-00984.jpg"
             alt="Shot of a garden and family house built in a typical Scandinavian style - pastel green facade made out of wooden planks with white outlined corners and windows."
           />
           <p class="flex-center reveal">
@@ -363,7 +363,7 @@
         </p>
         <div class="img reveal">
           <img
-            src="/img/2022-10-17-3699.jpg"
+            src="/img/2022-10-17-00996.jpg"
             alt="Photo of an empty road through the Autumn colored forest, aside from the road stands a traffic sign informing about the name of our surroundings - Prästo."
           />
         </div>
@@ -420,7 +420,7 @@
         </p>
         <div class="img reveal">
           <img
-            src="/img/2022-10-17-3700.jpg"
+            src="/img/2022-10-17-01001.jpg"
             alt="Photo of me carrying posing Marcel upon my shoulders while standing in the cold Archipelago sea."
           />
           <p class="flex-center reveal">
@@ -439,7 +439,7 @@
         </p>
         <div class="img reveal">
           <img
-            src="/img/2022-10-14-2291.jpg"
+            src="/img/2022-10-14-00962.jpg"
             alt="Photo of resting Andreas with dark sky in the background. Andreas’s face is highlighted by the screen of the phone he is holding"
           />
         </div>
@@ -468,6 +468,22 @@
             >Stockholm</a
           >, while Andreas and I returned to Turku, Finland.
         </p>
+        <hr class="reveal" />
+        <section>
+          <h3 class="reveal">Video Content</h3>
+          <ol>
+            <li class="reveal">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://youtu.be/FOsyUZd_8sI"
+                >Video from the expedition part I.</a
+              >
+            </li>
+          
+            </li>
+          </ol>
+        </section>
         <hr class="reveal" />
         <h2 class="reveal">Further Reading</h2>
         <br />
