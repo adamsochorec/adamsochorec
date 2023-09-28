@@ -4,26 +4,17 @@ ErrorDocument 404 /404.php
 ErrorDocument 500 /404.php
 ErrorDocument 403 /404.php
 
-# mod_rewrite starts here
+# Default index
+DirectoryIndex index.php
+
+# disable directory listing and MultiViews
+Options +FollowSymLinks -MultiViews -Indexes
+
+# disable automatic addition of trailing / after a directory
+DirectorySlash Off
 
 RewriteEngine on
 
-# does not apply to existing directories, meaning that if the folder exists on the server then don't change anything and don't run the Rule!
-
-RewriteCond %{REQUEST_FILENAME} !-d
-
-# Check for file in directory with .php extension
-
-RewriteCond %{REQUEST_FILENAME}\.php -f
-
-# Here we actually show the page that has the .php extension
-
-RewriteRule ^(.*)$ $1.php [NC,L]
-#RewriteRule ^blog blog.php [NC,L]
-#RewriteRule ^web-dev web-dev.php [NC,L]
-
-# Changing deafult homepage name from index to custom one
-
-DirectoryIndex /index.php
-
-
+# add .php extension 
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.+?)/?$ $1.php [L]
