@@ -11,7 +11,7 @@
           <span></span>
         </a>
         <ul class="menu-left">
-        <!--  <li><a href="/prints">store</a></li>-->
+          <!--  <li><a href="/prints">store</a></li>-->
           <li><a href="/#blog">blog</a></li>
           <li><a href="/#web-dev">web dev</a></li>
           <li><a href="/#about">about</a></li>
@@ -20,9 +20,14 @@
       </nav>
     </div>
   </div>
+  <?php
+  $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+  include $IPATH . 'store-nav-bar.php';
+  ?>
 </header>
-<!-- LOADER START -->
+<!-- LOADER START -
 <aside class="blur loader-container">
   <div class="loader"></div>
 </aside>
+
 <!-- LOADER END -->
