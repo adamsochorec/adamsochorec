@@ -2,7 +2,7 @@
 session_start();
 
 // Define a list of supported languages to avoid arbitrary file inclusion
-$supportedBlogs = ['house_hunting', 'blavand', 'aland', 'cybersecurity', 'vasterbotten', 'vestkystruten'];
+$supportedBlogs = ['house-hunting', 'blavand', 'aland', 'cybersecurity', 'vasterbotten', 'vestkystruten'];
 
 if (isset($_GET['blog']) && in_array($_GET['blog'], $supportedBlogs)) {
     $_SESSION['blog'] = $_GET['blog'];

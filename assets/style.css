@@ -797,6 +797,27 @@ ul.menu-left.collapse {
   width: 100%;
   height: 30px;
 }
+#store-index h1 {
+  font-size: var(--fontsize-h1);
+}
+#store-index .grid-container img {
+  max-width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+.product-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 40px;
+}
+.product-grid h3 {
+  font-size: var(--fontsize-h5);
+}
+.product-grid img {
+  max-width: 100%;
+  object-fit: cover;
+  height: fit-content;
+}
 /* STORE HEADER END */
 
 /* STORE END */
@@ -852,6 +873,26 @@ ul.menu-left.collapse {
 }
 #btn.clicked {
   box-shadow: 0 1px rgb(var(--primary-color));
+}
+.cta {
+  background-color: rgba(var(--primary-color), 1);
+  padding: 10px 15px;
+  color: rgba(var(--white-color), 1);
+  border-radius: var(--border-radius-2);
+  margin-top: 1rem;
+  max-width: fit-content;
+  letter-spacing: var(--letter-spacing-1);
+}
+.cta:hover {
+  background-color: rgba(var(--primary-color), 0.8);
+}
+.cta,
+.cta:hover {
+  transition: var(--transition-2);
+}
+.cta.cta-2 {
+  padding: 5px 10px;
+  border-radius: var(--border-radius-4);
 }
 .loader {
   animation: submit-loader 1s ease infinite;
@@ -1112,7 +1153,8 @@ footer .footer-ps span:nth-child(2) {
 
 /* BLOG START */
 .blog-item h1,
-.noindex .pathname-container {
+.noindex .pathname-container,
+.store .pathname-container {
   margin-top: 7.4rem;
 }
 .blog-item .pathname-container {
@@ -1534,6 +1576,9 @@ footer .footer-ps span:nth-child(2) {
     display: flex;
     flex-direction: column;
   }
+  .grid-container.fifty-fifty .grid-item:nth-child(even) {
+    margin-top: 1rem;
+  }
   .gallery .grid-item span,
   .gallery .hh-stretch .grid-item span {
     font-size: var(--fontsize-h5);
@@ -1637,6 +1682,7 @@ footer .footer-ps span:nth-child(2) {
   #cybersecurity .btn-area input {
     height: 40px;
   }
+  /*
   .btn-area #btn,
   .btn-shadow {
     width: calc(100% - 1.5px);
@@ -1646,6 +1692,7 @@ footer .footer-ps span:nth-child(2) {
   .btn-shadow {
     font-size: 11px;
   }
+  */
   #cybersecurity .btn-area input,
   #cybersecurity .btn-area input::placeholder,
   #password-strength-form input[type="password"],
