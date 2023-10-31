@@ -21,7 +21,6 @@
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'global-nav-bar.php';
     ?>
-
     <main>
       <section class="intro-section-wrapper" id="passwordGeneratorArea">
         <article id="passwordGenerator" class="intro-section gradient">
