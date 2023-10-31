@@ -7,39 +7,67 @@
     ?>
     <meta name="description" content="" />
     <meta name="keywords" content="" />
-    <title>Store | Adam Sochorec</title>
+    <title>Product details | Adam Sochorec</title>
   </head>
 
-  <body id="store-index" class="store">
+  <body id="store-product" class="store">
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'global-nav-bar.php';
     ?>
     <main>
       <article class="wrapper-wide">
-        <div class="pathname-container"></div>
-        <div class="grid-container fifty-fifty">
+        <div class="pathname-container">
+          <p>
+            <span class="pathname"><a href="/"></a> &#8250; </span>
+            <span class="pathname"
+              ><a href="/store/store">store</a> &#8250; #00000</span
+            >
+          </p>
+        </div>
+        <h1>#00000</h1>
+        <div class="grid-container seventy-thirty">
           <div class="grid-item">
-            <h1 class="reveal">Recently published</h1>
-            <p class="reveal">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui
-              voluptatem blanditiis expedita omnis corrupti id rem perspiciatis
-              possimus, cumque cum optio ut illo incidunt laborum ad magnam est,
-              architecto dignissimos.
-            </p>
-            <a href="./product" class="cta flex-center hideCTA-max reveal"
-              >Learn more &#8250;</a
-            >
+            <img src="./prints/21041385565587.jpg" />
           </div>
-          <div class="grid-item v-stretch reveal">
-            <img src="./2021-04-13-00596.jpg" />
-            <a href="./product" class="cta flex-center hideCTA-min reveal"
-              >Learn more &#8250;</a
-            >
+          <div class="grid-item">
+            <h2>500 DKK</h2>
+            <p>incl. VAT / excl. shipping</p>
+            <select id="size" name="size">
+              <option value="" selected>Select size &#8250;</option>
+              <option value="10x10">10 x 10cm</option>
+              <option value="20x20">20 x 20cm</option>
+              <option value="30x30">30 x 30cm</option>
+              <option value="40x40">40 x 40cm</option>
+            </select>
+            <select id="material" name="material">
+              <option value="" selected>Select material &#8250;</option>
+              <option value="glossy-paper">Glossy photo paper</option>
+              <option value="canvas">Canvas</option>
+            </select>
+            <select id="frame" name="frame">
+              <option value="" selected>Select frame &#8250;</option>
+              <option value="none">None</option>
+              <option value="wood">Wood</option>
+              <option value="aluminium">Aluminium</option>
+            </select>
+            <a href="" class="cta flex-center reveal">Add to cart &#8250;</a>
           </div>
         </div>
         <hr class="reveal" />
-        <!-- PRODUCTS START -->
+        <h2>Product Information</h2>
+        <ul>
+          <li>Lorem</li>
+          <li>Lorem</li>
+          <li>Lorem</li>
+          <li>Lorem</li>
+          <li>Lorem</li>
+          <li>Lorem</li>
+        </ul>
+        <hr class="reveal" />
+
+        <h2 class="reveal">Other customers purchased</h2>
+        <br />
         <section class="product-grid">
           <!-- PRODUCT 1 START -->
           <div class="grid-item reveal">
@@ -72,7 +100,7 @@
           </div>
           <!-- PRODUCT 3 END -->
           <!-- PRODUCT 4 START -->
-          <div class="grid-item reveal">
+          <div class="grid-item hideProduct reveal">
             <img src="./prints/21042593335697.jpg" />
             <div class="text-wrapper flex-center">
               <h3>Wall print</h3>
@@ -81,33 +109,8 @@
             </div>
           </div>
           <!-- PRODUCT 4 END -->
-          <!-- PRODUCT 5 START -->
-          <div class="grid-item reveal">
-            <img src="./prints/21071948976502.jpg" />
-            <div class="text-wrapper flex-center">
-              <h3>Wall print</h3>
-              <p>Lorem ipsim dolor kokot mrdka</p>
-              <a href="./product" class="cta cta-2 flex-center">Buy &#8250;</a>
-            </div>
-          </div>
-          <!-- PRODUCT 5 END -->
-          <!-- PRODUCT 6 START -->
-          <div class="grid-item reveal">
-            <img src="./prints/21082261146778.jpg" />
-            <div class="text-wrapper flex-center">
-              <h3>Wall print</h3>
-              <p>Lorem ipsim dolor kokot mrdka</p>
-              <a href="./product" class="cta cta-2 flex-center">Buy &#8250;</a>
-            </div>
-          </div>
-          <!-- PRODUCT 6 END -->
-          <!-- PRODUCT 7 START -->
         </section>
       </article>
-      <!-- PRODUCTS END -->
-      <!-- CONTACT FORM START -->
-
-      <!-- CONTACT FORM END -->
     </main>
     <?php echo $blog['extra-footer'] ?>
     <?php
