@@ -16,6 +16,11 @@
           <li><a href="/#web-dev">web dev</a></li>
           <li><a href="/#about">about</a></li>
           <li><a href="/#contact">contact</a></li>
+          <li>
+            <a href="/store/checkout"
+              ><i class="fa-solid fa-bag-shopping fa-xl"></i
+            ></a>
+          </li>
         </ul>
       </nav>
     </div>
@@ -25,7 +30,7 @@
   include $IPATH . 'store-nav-bar.php';
   ?>
 </header>
-<!-- LOADER START -
+<!-- LOADER START -->
 <aside class="blur loader-container">
   <div class="loader"></div>
 </aside>

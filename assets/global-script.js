@@ -205,7 +205,7 @@ if (document.body.id === "cybersecurity") {
       mode: "scroll",
       actions: [
         {
-          visibility: [0.1, 1.0],
+          visibility: [0.5, 1.0],
           type: "play",
         },
       ],
@@ -610,3 +610,28 @@ function reveal() {
 window.addEventListener("scroll", reveal);
 reveal();
 // CONTENT REVEAL END
+// SWIPER START
+const swiper = new Swiper(".swiper", {
+  // Optional parameters
+  direction: "vertical",
+  loop: true,
+
+  // Navigation arrows
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
+// SWIPER END
+if (document.body.id === "store-checkout") {
+  const showCheckbox = document.getElementById("adresstype");
+  const hiddenElement = document.getElementById("hiddenElement");
+
+  showCheckbox.addEventListener("change", function () {
+    if (showCheckbox.checked) {
+      hiddenElement.style.display = "grid";
+    } else {
+      hiddenElement.style.display = "none";
+    }
+  });
+}

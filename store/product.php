@@ -28,7 +28,27 @@
         <h1>#00000</h1>
         <div class="grid-container seventy-thirty">
           <div class="grid-item">
-            <img src="./prints/21041385565587.jpg" />
+            <!-- Slider main container -->
+            <div class="swiper" id="product-overview">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                  <img src="./prints/21041385565587.jpg" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./prints/21071948976502.jpg" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./prints/21100178367026.jpg" />
+                </div>
+                ...
+              </div>
+
+              <!-- If we need navigation buttons -->
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+            </div>
           </div>
           <div class="grid-item">
             <h2>500 DKK</h2>
@@ -51,7 +71,7 @@
               <option value="wood">Wood</option>
               <option value="aluminium">Aluminium</option>
             </select>
-            <a href="" class="cta flex-center reveal">Add to cart &#8250;</a>
+            <a href="/store/checkout" class="cta flex-center">Add to cart</a>
           </div>
         </div>
         <hr class="reveal" />
@@ -67,52 +87,110 @@
         <hr class="reveal" />
 
         <h2 class="reveal">Other customers purchased</h2>
-        <br />
-        <section class="product-grid">
-          <!-- PRODUCT 1 START -->
-          <div class="grid-item reveal">
-            <img class="reveal" src="./prints/21041385565587.jpg" />
-            <div class="text-wrapper flex-center">
-              <h3>Wall print</h3>
-              <p>Lorem ipsim dolor kokot mrdka</p>
-              <a href="./product" class="cta cta-2 flex-center">Buy &#8250;</a>
+        <br /><!-- Slider main container -->
+        <div class="swiper" id="recommendation">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <section class="product-grid">
+                <!-- PRODUCT 1 START -->
+                <?php
+    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+    include $IPATH . 'product-component.php';
+    ?>
+                <!-- PRODUCT 1 END -->
+                <!-- PRODUCT 2 START -->
+                <?php
+                $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+                include $IPATH . 'product-component.php';
+                ?>
+                <!-- PRODUCT 2 END -->
+                <!-- PRODUCT 3 START -->
+                <?php
+                $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+                include $IPATH . 'product-component.php';
+                ?>
+                <!-- PRODUCT 3 END -->
+                <!-- PRODUCT 4 START -->
+                <?php
+                $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+                include $IPATH . 'product-component.php';
+                ?>
+                <!-- PRODUCT 4 END -->
+              </section>
             </div>
-          </div>
-          <!-- PRODUCT 1 END -->
-          <!-- PRODUCT 2 START -->
-          <div class="grid-item reveal">
-            <img src="./prints/21041425600.jpg" />
-            <div class="text-wrapper flex-center">
-              <h3>Wall print</h3>
-              <p>Lorem ipsim dolor kokot mrdka</p>
-              <a href="./product" class="cta cta-2 flex-center">Buy &#8250;</a>
+            <div class="swiper-slide">
+              <section class="product-grid">
+                <!-- PRODUCT 1 START -->
+                <?php
+    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+    include $IPATH . 'product-component.php';
+    ?>
+                <?php
+    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+    include $IPATH . 'product-component.php';
+    ?>
+                <!-- PRODUCT 1 END -->
+                <!-- PRODUCT 2 START -->
+                <?php
+                $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+                include $IPATH . 'product-component.php';
+                ?>
+                <!-- PRODUCT 2 END -->
+                <!-- PRODUCT 3 START -->
+                <?php
+                $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+                include $IPATH . 'product-component.php';
+                ?>
+                <!-- PRODUCT 3 END -->
+                <!-- PRODUCT 4 START -->
+                <?php
+                $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+                include $IPATH . 'product-component.php';
+                ?>
+                <!-- PRODUCT 4 END -->
+              </section>
             </div>
-          </div>
-          <!-- PRODUCT 2 END -->
-          <!-- PRODUCT 3 START -->
-          <div class="grid-item reveal">
-            <img src="./prints/21042289925635.jpg" />
-            <div class="text-wrapper flex-center">
-              <h3>Wall print</h3>
-              <p>Lorem ipsim dolor kokot mrdka</p>
-              <a href="./product" class="cta cta-2 flex-center">Buy &#8250;</a>
+            <div class="swiper-slide">
+              <section class="product-grid">
+                <!-- PRODUCT 1 START -->
+                <?php
+    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+    include $IPATH . 'product-component.php';
+    ?>
+                <!-- PRODUCT 1 END -->
+                <!-- PRODUCT 2 START -->
+                <?php
+                $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+                include $IPATH . 'product-component.php';
+                ?>
+                <!-- PRODUCT 2 END -->
+                <!-- PRODUCT 3 START -->
+                <?php
+                $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+                include $IPATH . 'product-component.php';
+                ?>
+                <!-- PRODUCT 3 END -->
+                <!-- PRODUCT 4 START -->
+                <?php
+                $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+                include $IPATH . 'product-component.php';
+                ?>
+                <!-- PRODUCT 4 END -->
+              </section>
             </div>
+            ...
           </div>
-          <!-- PRODUCT 3 END -->
-          <!-- PRODUCT 4 START -->
-          <div class="grid-item hideProduct reveal">
-            <img src="./prints/21042593335697.jpg" />
-            <div class="text-wrapper flex-center">
-              <h3>Wall print</h3>
-              <p>Lorem ipsim dolor kokot mrdka</p>
-              <a href="./product" class="cta cta-2 flex-center">Buy &#8250;</a>
-            </div>
-          </div>
-          <!-- PRODUCT 4 END -->
-        </section>
+
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
       </article>
     </main>
-    <?php echo $blog['extra-footer'] ?>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'global-footer.php';

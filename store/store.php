@@ -9,7 +9,8 @@
     <meta name="keywords" content="" />
     <title>Store | Adam Sochorec</title>
   </head>
-
+  <meta name="robots" content="noindex" />
+  <meta name="googlebot" content="noindex" />
   <body id="store-index" class="store">
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
@@ -28,85 +29,98 @@
               architecto dignissimos.
             </p>
             <a href="./product" class="cta flex-center hideCTA-max reveal"
-              >Learn more &#8250;</a
-            >
+              >Learn more
+            </a>
           </div>
           <div class="grid-item v-stretch reveal">
-            <img src="./2021-04-13-00596.jpg" />
+            <img src="/img/2021-04-13-00596.jpg" />
             <a href="./product" class="cta flex-center hideCTA-min reveal"
-              >Learn more &#8250;</a
-            >
+              >Learn more
+            </a>
           </div>
         </div>
         <hr class="reveal" />
         <!-- PRODUCTS START -->
         <section class="product-grid">
           <!-- PRODUCT 1 START -->
-          <div class="grid-item reveal">
-            <img class="reveal" src="./prints/21041385565587.jpg" />
-            <div class="text-wrapper flex-center">
-              <h3>Wall print</h3>
-              <p>Lorem ipsim dolor kokot mrdka</p>
-              <a href="./product" class="cta cta-2 flex-center">Buy &#8250;</a>
-            </div>
-          </div>
+          <?php
+    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+    include $IPATH . 'product-component.php';
+    ?>
           <!-- PRODUCT 1 END -->
           <!-- PRODUCT 2 START -->
-          <div class="grid-item reveal">
-            <img src="./prints/21041425600.jpg" />
-            <div class="text-wrapper flex-center">
-              <h3>Wall print</h3>
-              <p>Lorem ipsim dolor kokot mrdka</p>
-              <a href="./product" class="cta cta-2 flex-center">Buy &#8250;</a>
-            </div>
-          </div>
+          <?php
+          $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+          include $IPATH . 'product-component.php';
+          ?>
           <!-- PRODUCT 2 END -->
           <!-- PRODUCT 3 START -->
-          <div class="grid-item reveal">
-            <img src="./prints/21042289925635.jpg" />
-            <div class="text-wrapper flex-center">
-              <h3>Wall print</h3>
-              <p>Lorem ipsim dolor kokot mrdka</p>
-              <a href="./product" class="cta cta-2 flex-center">Buy &#8250;</a>
-            </div>
-          </div>
+          <?php
+          $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+          include $IPATH . 'product-component.php';
+          ?>
           <!-- PRODUCT 3 END -->
           <!-- PRODUCT 4 START -->
-          <div class="grid-item reveal">
-            <img src="./prints/21042593335697.jpg" />
-            <div class="text-wrapper flex-center">
-              <h3>Wall print</h3>
-              <p>Lorem ipsim dolor kokot mrdka</p>
-              <a href="./product" class="cta cta-2 flex-center">Buy &#8250;</a>
-            </div>
-          </div>
+          <?php
+          $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+          include $IPATH . 'product-component.php';
+          ?>
           <!-- PRODUCT 4 END -->
           <!-- PRODUCT 5 START -->
-          <div class="grid-item reveal">
-            <img src="./prints/21071948976502.jpg" />
-            <div class="text-wrapper flex-center">
-              <h3>Wall print</h3>
-              <p>Lorem ipsim dolor kokot mrdka</p>
-              <a href="./product" class="cta cta-2 flex-center">Buy &#8250;</a>
-            </div>
-          </div>
+          <?php
+          $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+          include $IPATH . 'product-component.php';
+          ?>
           <!-- PRODUCT 5 END -->
           <!-- PRODUCT 6 START -->
-          <div class="grid-item reveal">
-            <img src="./prints/21082261146778.jpg" />
-            <div class="text-wrapper flex-center">
-              <h3>Wall print</h3>
-              <p>Lorem ipsim dolor kokot mrdka</p>
-              <a href="./product" class="cta cta-2 flex-center">Buy &#8250;</a>
-            </div>
-          </div>
+          <?php
+          $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+          include $IPATH . 'product-component.php';
+          ?>
           <!-- PRODUCT 6 END -->
           <!-- PRODUCT 7 START -->
         </section>
       </article>
       <!-- PRODUCTS END -->
-      <!-- CONTACT FORM START -->
+      <!-- ABOUT START -->
+      <hr class="semi" />
+      <article class="wrapper-standard">
+        <hr class="reveal" />
+        <h1 class="reveal">ABOUT</h1>
 
+        <p class="reveal">
+          Greetings from Denmark! As a Czech-born multimedia design student 🇨🇿,
+          I'm bringing the Slavic spirit to my new venture,
+          <a
+            href="https://www.slavicmedia.dk"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Slavic Media</a
+          >
+          – small but mighty!
+        </p>
+        <p class="reveal">
+          I'm a Canon-wielding photography enthusiast with a side of iPhone, and
+          a website wizard, thanks to my multimedia studies on
+          <a
+            href="https://www.iba.dk/fuldtidsuddannelser"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Erhversakademi Kolding</a
+          >.
+        </p>
+        <p class="reveal">
+          Former
+          <a
+            href="https://www.flickr.com/photos/141401020@N03/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >LEGO architect</a
+          >, current purveyor of digital aesthetics and sarcasm.
+        </p>
+        <p class="reveal">PS: No cookies — just creativity!</p>
+        <hr class="reveal" />
+      </article>
       <!-- CONTACT FORM END -->
     </main>
     <?php echo $blog['extra-footer'] ?>

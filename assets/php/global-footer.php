@@ -17,6 +17,10 @@
     >
     <span>Adam Sochorec</span>
   </div>
+  <script
+    src="https://kit.fontawesome.com/0d09e23a84.js"
+    crossorigin="anonymous"
+  ></script>
   <script type="text/javascript" src="/assets/global-script.js"></script>
 </footer>
 
