@@ -1,17 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <?php
-    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-    include $IPATH . 'global-head.php';
-    ?>
+    <?php include 'assets/components/footer.php'; ?>
     <title>Success | Adam Sochorec</title>
   </head>
   <body id="success" class="noindex">
-    <?php
-    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-    include $IPATH . 'global-nav-bar.php';
-    ?>
+    <?php include 'assets/components/nav-bar.php'; ?>
     <meta name="robots" content="noindex" />
     <meta name="googlebot" content="noindex" />
     <main>
@@ -21,6 +15,7 @@
 
         <div class="lottie">
           <dotlottie-player
+          class="reveal"
             src="/assets/lottie/success.lottie"
             background="transparent"
             speed="1"
@@ -29,8 +24,8 @@
         </div>
         <br />
 
-        <h1>Form submitted<br />successfully!</h1>
-        <h2>
+        <h1 class="reveal">Form submitted<br />successfully!</h1>
+        <h2 class="reveal">
           <a href="/">Return to the homepage &#8250;</a>
         </h2>
       </article>
@@ -42,9 +37,6 @@
       src="https://unpkg.com/@dotlottie/player-component@1.0.0/dist/dotlottie-player.js"
     ></script>
     <!-- LOTTIE PLAYER SCRIPT END -->
-    <?php
-    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-    include $IPATH . 'global-footer.php';
-    ?>
+    <?php include 'assets/components/footer.php'; ?>
   </body>
 </html>

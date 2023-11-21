@@ -2,11 +2,11 @@
 <html lang="en">
   <head>
     <?php
-    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-    include $IPATH . 'global-head.php';
+    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
+    include $IPATH . 'head.php';
     ?>
     <?php
-    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
     include $IPATH . 'leaflet-head.php';
     ?>
     <meta
@@ -21,13 +21,13 @@
   </head>
   <body id="vasterbotten" class="blog-item">
     <?php
-    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-    include $IPATH . 'global-nav-bar.php';
+    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
+    include $IPATH . 'nav-bar.php';
     ?>
     <main>
       <article class="wrapper-wide">
         <h1></h1>
-        <div class="grid-container seventy-thirty">
+        <div class="grid-container seventy-thirty reveal">
           <div class="grid-item">
             <div class="pathname-container">
               <p class="reveal">
@@ -55,13 +55,13 @@
             </p>
           </div>
         </div>
-        <div class="img">
+        <div class="img reveal">
           <img
             src="/img/2022-09-04-00937.jpg"
             alt="Panorama shot of a mire, where we bushcraft. Heap and weed around the lake are mustard yellow, surrounded by a wall of forest trees."
           />
         </div>
-        <p class="dropcap">
+        <p class="dropcap reveal">
           As the autumn days began, I had the opportunity to visit the
           Västerbotten province in Sweden during my exchange program at
           <a
@@ -392,32 +392,60 @@
         <hr class="reveal" />
         <h2 class="reveal">Further Reading</h2>
         <br />
-        <div class="grid-container gallery reveal">
-          <a href="/blog/vestkystruten">
-            <div class="grid-item" id="vestkystruten">
-              <div class="blur">
-                <span><br />🇩🇰</span>
-              </div>
+        <div class="swiper recommendation-swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide gallery">
+              <a href="/blog/aland">
+                <div class="grid-item" id="aland">
+                  <div class="blur">
+                    <span><br />🇦🇽</span>
+                  </div>
+                </div>
+              </a>
             </div>
-          </a>
-          <a href="/blog/blavand">
-            <div class="grid-item" id="blavand">
-              <div class="blur">
-                <span><br />🇩🇰</span>
-              </div>
+            <div class="swiper-slide gallery">
+              <a href="/blog/blavand">
+                <div class="grid-item" id="blavand">
+                  <div class="blur">
+                    <span><br />🇩🇰</span>
+                  </div>
+                </div>
+              </a>
             </div>
-          </a>
-          <a class="gradient" href="/blog/cybersecurity">
-            <div class="grid-item" id="cybersecurity">
-              <span></span>
+            <div class="swiper-slide gallery">
+              <a class="gradient" href="/blog/cybersecurity">
+                <div class="grid-item gradient" id="cybersecurity">
+                  <span></span>
+                </div>
+              </a>
             </div>
-          </a>
+            <div class="swiper-slide gallery">
+              <a href="/blog/house-hunting">
+                <div class="grid-item" id="house-hunting">
+                  <div class="blur">
+                    <span><br />🇫🇮</span>
+                  </div>
+                </div></a
+              >
+            </div>
+            <div class="swiper-slide gallery">
+              <a href="/blog/vestkystruten">
+                <div class="grid-item" id="vestkystruten">
+                  <div class="blur">
+                    <span><br />🇩🇰</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
         </div>
       </article>
     </main>
     <?php
-    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-    include $IPATH . 'global-footer.php';
+    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
+    include $IPATH . 'footer.php';
     ?>
   </body>
 </html>

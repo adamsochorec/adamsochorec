@@ -2,8 +2,8 @@
 <html lang="en">
   <head>
     <?php
-    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-    include $IPATH . 'global-head.php';
+    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
+    include $IPATH . 'head.php';
     ?>
     <meta name="description" content="" />
     <meta name="keywords" content="" />
@@ -14,11 +14,14 @@
     <meta name="robots" content="noindex" />
     <meta name="googlebot" content="noindex" />
     <?php
-    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-    include $IPATH . 'global-nav-bar.php';
+    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
+    include $IPATH . 'nav-bar.php';
     ?>
     <main>
       <article class="wrapper-wide">
+        <div class="pathname-container"></div>
+        <h1>Checkout</h1>
+
         <div class="pathname-container">
           <p>
             <span class="pathname"><a href="/"></a> &#8250; </span>
@@ -27,7 +30,6 @@
             >
           </p>
         </div>
-        <h1>Checkout</h1>
         <hr class="reveal" />
 
         <div class="grid-container seventy-thirty">
@@ -259,15 +261,12 @@
                     </div>
                   </div>
                 </div>
-                <button class="cta" type="submit">
-                 Submit Order
-                </button>
+                <button class="cta" type="submit">Submit Order</button>
               </form>
-
               <input
                 type="hidden"
                 name="_captcha"
-                value="false"
+                value="true"
               /><!-- Spam captcha deactivation -->
               <input
                 type="hidden"
@@ -283,11 +282,9 @@
         <hr class="reveal" />
       </article>
     </main>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
     <?php
-    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-    include $IPATH . 'global-footer.php';
+    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
+    include $IPATH . 'footer.php';
     ?>
   </body>
 </html>

@@ -1,11 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <?php
-    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-    include $IPATH . 'global-head.php';
-    ?>
-
+    <?php include 'assets/components/head.php'; ?>
     <meta
       name="description"
       content="
@@ -21,10 +17,7 @@
   </head>
   <body id="homepage">
     <!-- HEADER START -->
-    <?php
-    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-    include $IPATH . 'global-nav-bar.php';
-    ?>
+    <?php include 'assets/components/nav-bar.php'; ?>
     <!-- HEADER END -->
     <main>
       <!-- VISUALS START -->
@@ -58,33 +51,33 @@
           </article>
         </section>
         <div class="grid-container">
-          <div class="h-stretch">
+          <div class="h-stretch reveal">
             <img
               src="/img/2022-05-06-00388.jpg"
               alt="Dancing girl at a rave at Råværket, Kolding"
             />
           </div>
-          <div class="h-stretch">
+          <div class="h-stretch reveal">
             <img
               src="/img/2022-05-06-00391.jpg"
               alt="Energetic dancer at a Råværket rave, Kolding"
             />
           </div>
-          <div class="hhh-stretch">
+          <div class="hhh-stretch reveal">
             <img
               src="/img/2022-02-13-00172.jpg"
               alt="Glowing Shell gas station at night in Kolding"
             />
           </div>
 
-          <div class="h-stretch">
+          <div class="h-stretch reveal">
             <img
               src="/img/2021-08-22-01602.jpg"
               alt="Man's face lit by his cigarette under the moonlight, Kolding"
             />
           </div>
 
-          <div class="h-stretch">
+          <div class="h-stretch reveal">
             <img
               src="/img/2022-02-13-00171.jpg"
               alt="Illuminated Shell gas station at night in Kolding"
@@ -360,10 +353,8 @@
           <p class="reveal">PS: No cookies — just creativity!</p>
           <hr class="reveal" />
           <h2 class="reveal">Collaborators & Clients</h2>
-          <?php
-          $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-          include $IPATH . 'clients.php';
-          ?>
+          <?php include 'assets/components/clients.php'; ?>
+
           <hr class="reveal" />
 
           <h2 class="reveal">Language Competences</h2>
@@ -645,7 +636,7 @@
                 <input
                   type="hidden"
                   name="_captcha"
-                  value="false"
+                  value="true"
                 /><!-- Spam captcha deactivation -->
                 <input
                   type="hidden"
@@ -662,10 +653,7 @@
     </main>
 
     <!-- FOOTER START -->
-    <?php
-    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-    include $IPATH . 'global-footer.php';
-    ?>
+    <?php include 'assets/components/footer.php'; ?>
     <!-- FOOTER END -->
   </body>
 </html>
