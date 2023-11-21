@@ -124,7 +124,6 @@
       </article>
       <!-- CONTACT FORM END -->
     </main>
-    <?php echo $blog['extra-footer'] ?>
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
     include $IPATH . 'footer.php';

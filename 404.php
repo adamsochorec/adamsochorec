@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <?php include 'assets/components/head.php'; ?>
+    <?php
+    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
+    include $IPATH . 'head.php';
+    ?>
     <title>Page Not Found | Adam Sochorec</title>
 
     <meta name="robots" content="noindex" />
@@ -9,7 +12,12 @@
   </head>
 
   <body id="error" class="noindex">
-    <?php include 'assets/components/nav-bar.php'; ?>
+    <!-- HEADER START -->
+    <?php
+    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
+    include $IPATH . 'nav-bar.php';
+    ?>
+    <!-- HEADER END -->
     <main>
       <article class="wrapper-narrow flex-center">
         <div class="pathname-container"></div>
@@ -36,6 +44,11 @@
       src="https://unpkg.com/@dotlottie/player-component@1.0.0/dist/dotlottie-player.js"
     ></script>
     <!-- LOTTIE PLAYER SCRIPT END -->
-    <?php include 'assets/components/footer.php'; ?>
+    <!-- FOOTER START -->
+    <?php
+  $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
+  include $IPATH . 'footer.php';
+  ?>
+    <!-- FOOTER END -->
   </body>
 </html>

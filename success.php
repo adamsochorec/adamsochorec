@@ -1,13 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <?php include 'assets/components/footer.php'; ?>
+    <?php
+    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
+    include $IPATH . 'head.php';
+    ?>
     <title>Success | Adam Sochorec</title>
   </head>
   <body id="success" class="noindex">
-    <?php include 'assets/components/nav-bar.php'; ?>
     <meta name="robots" content="noindex" />
     <meta name="googlebot" content="noindex" />
+    <!-- HEADER START -->
+    <?php
+    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
+    include $IPATH . 'nav-bar.php';
+    ?>
+    <!-- HEADER END -->
     <main>
       <article class="wrapper-narrow flex-center">
         <div class="pathname-container"></div>
@@ -15,7 +23,7 @@
 
         <div class="lottie">
           <dotlottie-player
-          class="reveal"
+            class="reveal"
             src="/assets/lottie/success.lottie"
             background="transparent"
             speed="1"
@@ -37,6 +45,11 @@
       src="https://unpkg.com/@dotlottie/player-component@1.0.0/dist/dotlottie-player.js"
     ></script>
     <!-- LOTTIE PLAYER SCRIPT END -->
-    <?php include 'assets/components/footer.php'; ?>
+    <!-- FOOTER START -->
+    <?php
+   $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
+   include $IPATH . 'footer.php';
+   ?>
+    <!-- FOOTER END -->
   </body>
 </html>

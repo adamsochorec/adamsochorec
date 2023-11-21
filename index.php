@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <?php include 'assets/components/head.php'; ?>
+    <?php
+    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
+    include $IPATH . 'head.php';
+    ?>
     <meta
       name="description"
       content="
@@ -17,7 +20,10 @@
   </head>
   <body id="homepage">
     <!-- HEADER START -->
-    <?php include 'assets/components/nav-bar.php'; ?>
+    <?php
+    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
+    include $IPATH . 'nav-bar.php';
+    ?>
     <!-- HEADER END -->
     <main>
       <!-- VISUALS START -->
@@ -353,8 +359,10 @@
           <p class="reveal">PS: No cookies — just creativity!</p>
           <hr class="reveal" />
           <h2 class="reveal">Collaborators & Clients</h2>
-          <?php include 'assets/components/clients.php'; ?>
-
+          <?php
+          $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
+          include $IPATH . 'clients.php';
+          ?>
           <hr class="reveal" />
 
           <h2 class="reveal">Language Competences</h2>
@@ -651,9 +659,11 @@
       </article>
       <!-- ABOUT END -->
     </main>
-
     <!-- FOOTER START -->
-    <?php include 'assets/components/footer.php'; ?>
+    <?php
+    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
+    include $IPATH . 'footer.php';
+    ?>
     <!-- FOOTER END -->
   </body>
 </html>
