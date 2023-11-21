@@ -485,7 +485,7 @@
         <hr class="reveal" />
         <h2 class="reveal">Further Reading</h2>
         <br />
-        <div class="swiper recommendation-swiper">
+        <div class="swiper recommendation-swiper reveal">
           <!-- Additional required wrapper -->
           <div class="swiper-wrapper">
             <!-- Slides -->

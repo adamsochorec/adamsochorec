@@ -89,7 +89,7 @@
 
         <h2 class="reveal">Other customers purchased</h2>
         <br /><!-- Slider main container -->
-        <div class="swiper recommendation-swiper">
+        <div class="swiper recommendation-swiper reveal">
           <!-- Additional required wrapper -->
           <div class="swiper-wrapper">
             <!-- Slides -->

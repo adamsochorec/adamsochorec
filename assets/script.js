@@ -631,7 +631,9 @@ const reviewsSwiper = new Swiper(".recommendation-swiper", {
   loop: true,
   speed: 600,
   spaceBetween: 10,
-
+  autoplay: {
+    delay: 3000,
+  },
   breakpoints: {
     375: {
       slidesPerView: 2,
