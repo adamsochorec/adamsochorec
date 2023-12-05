@@ -11,16 +11,16 @@
           <span></span>
         </a>
         <ul class="menu-left">
-          <!--  <li><a href="/prints">store</a></li>-->
           <li><a href="/#blog">blog</a></li>
           <li><a href="/#web-dev">web dev</a></li>
           <li><a href="/#about">about</a></li>
           <li><a href="/#contact">contact</a></li>
-          <!--  <li>
+        <!--   <li><a href="/prints">store</a></li>
+          <li>
             <a href="/store/checkout"
               ><i class="fa-solid fa-bag-shopping fa-xl"></i
             ></a>
-          </li>>-->
+          </li> -->
         </ul>
       </nav>
     </div>

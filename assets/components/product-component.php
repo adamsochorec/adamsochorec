@@ -1,6 +1,6 @@
 <div class="grid-item" id="product-component">
   <a href="/store/product">
-    <img class="" src="./img/21041385565587.jpg" />
+    <img class="" src="./img/2021-04-13-00596.jpg" />
   </a>
   <div class="text-wrapper flex-center">
     <h3>Wall print</h3>
