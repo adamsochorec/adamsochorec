@@ -6,7 +6,7 @@
          include $IPATH . 'global-social-icons.php';
          ?>
   <div class="footer-ps">
-    <p>No cookies, only ❤ from Denmark</p>
+    <p>Made with ❤ in Denmark</p>
   </div>
   <div class="footer-ps">
     <b

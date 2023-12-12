@@ -17,6 +17,10 @@
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
     include $IPATH . 'nav-bar.php';
     ?>
+    <?php
+    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
+    include $IPATH . 'shopping-cart.php';
+    ?>
     <main>
       <article class="wrapper-narrow">
         <div class="pathname-container"></div>

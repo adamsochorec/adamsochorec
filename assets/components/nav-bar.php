@@ -15,20 +15,14 @@
           <li><a href="/#web-dev">web dev</a></li>
           <li><a href="/#about">about</a></li>
           <li><a href="/#contact">contact</a></li>
-          <li><a href="/prints">store</a></li>
-          <li>
-            <a href="/store/checkout"
-              ><i class="fa-solid fa-bag-shopping fa-xl"></i
-            ></a>
+          <li class="store-nav"><a href="/store/store">store</a></li>
+          <li class="shopping-cart">
+            <a><i class="fa-solid fa-bag-shopping fa-xl"></i></a>
           </li>
         </ul>
       </nav>
     </div>
   </div>
-  <?php
-  $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-  include $IPATH . 'store-nav-bar.php';
-  ?>
 </header>
 <!-- LOADER START -->
 <aside class="blur loader-container">

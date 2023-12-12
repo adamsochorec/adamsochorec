@@ -16,25 +16,29 @@
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
     include $IPATH . 'nav-bar.php';
     ?>
+    <?php
+    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
+    include $IPATH . 'shopping-cart.php';
+    ?>
     <main>
       <article class="wrapper-wide">
         <div class="pathname-container"></div>
         <div class="grid-container fifty-fifty">
           <div class="grid-item">
-            <h1 class="reveal">Recently published</h1>
-            <p class="reveal">
+            <h1 class="">Recently published</h1>
+            <p class="">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui
               voluptatem blanditiis expedita omnis corrupti id rem perspiciatis
               possimus, cumque cum optio ut illo incidunt laborum ad magnam est,
               architecto dignissimos.
             </p>
-            <a href="./product" class="cta flex-center hideCTA-max reveal"
+            <a href="./product" class="cta flex-center hideCTA-max"
               >Learn more
             </a>
           </div>
-          <div class="grid-item v-stretch reveal">
+          <div class="grid-item v-stretch">
             <img src="/img/2021-04-13-00596.jpg" />
-            <a href="./product" class="cta flex-center hideCTA-min reveal"
+            <a href="./product" class="cta flex-center hideCTA-min"
               >Learn more
             </a>
           </div>

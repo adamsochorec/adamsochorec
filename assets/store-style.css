@@ -26,6 +26,7 @@
 }
 .product-grid img {
   max-width: 100%;
+  -o-object-fit: cover;
   object-fit: cover;
   height: auto;
   border-radius: var(--border-radius-2);
@@ -34,6 +35,7 @@
   padding: 15px 20px 0 20px;
 }
 .product-grid .grid-item {
+  -webkit-box-shadow: var(--box-shadow-1);
   box-shadow: var(--box-shadow-1);
 }
 .swiper {
@@ -76,5 +78,81 @@
 .login h1 {
   font-size: 40px;
   text-transform: none;
+}
+.store .store-nav {
+  display: none;
+}
+.shopping-cart:not(.store .shopping-cart) {
+  display: none;
+}
+.cart-navigation {
+  position: fixed;
+  top: 44px;
+  width: 100%;
+  z-index: 9;
+  background-color: rgba(var(--black-color), 0.3);
+  -webkit-backdrop-filter: var(--blur-2);
+  backdrop-filter: var(--blur-2);
+  font-family: var(--content-font);
+  padding: 20px var(--homepage-padding) var(--homepage-padding);
+  -ms-transform: translateY(-120%);
+  transform: translateY(-120%);
+  -webkit-transform: translateY(-120%);
+}
+.cart-navigation.open {
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+  -webkit-transform: translateY(0);
+}
+.cart-navigation,
+.cart-navigation::before,
+.cart-navigation::after,
+.cart-navigation.open,
+.cart-navigation.open::before,
+.cart-navigation.open::after {
+  transition: background 0.3s,
+    -webkit-transform 0.5s cubic-bezier(0.694, 0.048, 0.335, 1);
+}
+.cart-items {
+  max-height: 40vh;
+  overflow-y: auto;
+}
+.cart-navigation span {
+  color: white;
+  font-size: 0.9rem;
+}
+.cart-navigation span:not(.cart-navigation span.left) {
+  text-align: center;
+}
+.cart-navigation span.right {
+  text-align: right;
+}
+.cart-navigation span.left {
+  text-align: left;
+}
+.cart-navigation .grid-container.table {
+  grid-template-columns: repeat(4, 1fr);
+}
+.cart-navigation .cart-item img {
+  aspect-ratio: 1/1;
+  width: 90px;
+  height: auto;
+  border-radius: var(--border-radius-1);
+}
+.cart-item span {
+  font-size: 0.7rem;
+}
+.fa-trash {
+  color: red;
+}
+#store-index .grid-container.fifty-fifty img {
+  object-fit: cover;
+}
+.cart-items .grid-container {
+  align-items: center;
+}
+.ctas {
+  display: flex;
+  justify-content: space-between;
 }
 /* STORE END */

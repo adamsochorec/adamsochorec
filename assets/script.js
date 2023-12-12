@@ -12,14 +12,14 @@
   let lastScrollTop = 0;
 
   // TOGGLE HAMBURGER & COLLAPSE NAV START
-  const hamburger = document.querySelector(".hamburger");
-  const menuLeft = document.querySelector(".menu-left");
+  const hamburger = document.querySelector(".hamburger"),
+    menuLeft = document.querySelector(".menu-left");
   hamburger.addEventListener("click", () => {
     hamburger.classList.toggle("open");
     menuLeft.classList.toggle("collapse");
   });
 
-  // REMOVE X & COLLAPSE NAV ON ON CLICK
+  // REMOVE X & COLLAPSE NAV ON CLICK
   const menuLeftLinks = document.querySelectorAll(".menu-left a");
   menuLeftLinks.forEach((link) => {
     link.addEventListener("click", () => {
@@ -28,6 +28,15 @@
     });
   });
 
+  // REMOVE X & COLLAPSE SHOPPING CART ON HOVER
+  const cartNavigation = document.querySelector(".cart-navigation"),
+    shoppingCart = document.querySelector(".shopping-cart");
+
+  shoppingCart.addEventListener("click", () => {
+    cartNavigation.classList.toggle("open");
+  });
+
+  // END
   let ticking = false;
   window.addEventListener("scroll", () => {
     if (!ticking) {
@@ -41,7 +50,8 @@
 
   function hasScrolled() {
     const st = window.pageYOffset || document.documentElement.scrollTop;
-    const header = document.querySelector("header");
+    const header = document.querySelector("header"),
+      cartNavigation = document.querySelector(".cart-navigation");
     const navbarHeight = header.offsetHeight;
     const windowHeight = window.innerHeight;
     const delta = 5;
@@ -52,12 +62,12 @@
       header.classList.remove("show-nav");
       header.classList.add("hide-nav");
       hamburger.classList.remove("open");
+      cartNavigation.classList.remove("open");
       menuLeft.classList.remove("collapse");
     } else if (st + windowHeight < document.documentElement.scrollHeight) {
       header.classList.remove("hide-nav");
       header.classList.add("show-nav");
     }
-
     lastScrollTop = st;
   }
 })();
