@@ -1750,20 +1750,26 @@ ul.menu-left.collapse {
 #btn.clicked {
   box-shadow: 0 1px rgb(var(--primary-color));
 }
-.cta {
+.cta,
+input#submit-btn {
   background-color: rgba(var(--primary-color), 1);
   padding: 10px 25px;
   color: rgba(var(--white-color), 1);
   border-radius: var(--border-radius-2);
   margin-top: 1rem;
   max-width: fit-content;
+  border: none;
+  cursor: pointer;
   letter-spacing: var(--letter-spacing-1);
 }
-.cta:hover {
+.cta:hover,
+input#submit-btn:hover {
   background-color: rgba(var(--primary-color), 0.8) !important;
 }
 .cta,
-.cta:hover {
+.cta:hover,
+input#submit-btn,
+input#submit-btn:hover {
   transition: var(--transition-2);
 }
 .cta.cta-2 {
