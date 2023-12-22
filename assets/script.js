@@ -654,7 +654,7 @@ const reviewsSwiper = new Swiper(".recommendation-swiper", {
   },
 });
 // SWIPER END
-if (document.body.id === "store-checkout") {
+/* if (document.body.id === "store-checkout") {
   const showCheckbox = document.getElementById("adresstype");
   const hiddenElement = document.getElementById("hiddenElement");
 
@@ -666,3 +666,4 @@ if (document.body.id === "store-checkout") {
     }
   });
 }
+ */

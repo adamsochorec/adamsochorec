@@ -573,7 +573,6 @@
               id="contactForm"
               action="https://formsubmit.co/2007080c2cf8bd2ebb68506e7aa98c5f"
               method="POST"
-              novalidate
               enctype="multipart/form-data"
             >
               <!-- Email invisibility -->
