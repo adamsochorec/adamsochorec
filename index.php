@@ -312,7 +312,7 @@
             Greetings from Denmark! As a Czech-born multimedia design student
             🇨🇿, I'm bringing the Slavic spirit to my new venture,
             <a
-              href="https://www.slavicmedia.dk"
+              href="https://slavic.media"
               target="_blank"
               rel="noopener noreferrer"
               >Slavic Media</a
