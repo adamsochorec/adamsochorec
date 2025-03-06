@@ -11,7 +11,7 @@
     </svg>
   </a>
   <a
-    href="https://sketchfab.com/adamsochorec"
+    href="https://sketchfab.com/slavicmedia"
     target="_blank"
     rel="noopener noreferrer"
   >

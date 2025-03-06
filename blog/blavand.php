@@ -1,14 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <?php
-    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-    include $IPATH . 'global-head.php';
-    ?>
-    <?php
-    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-    include $IPATH . 'leaflet-head.php';
-    ?>
+    <?php $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/'; include $IPATH .
+    'global-head.php'; ?> <?php $IPATH = $_SERVER['DOCUMENT_ROOT'] .
+    '/assets/php/'; include $IPATH . 'leaflet-head.php'; ?>
     <meta
       name="description"
       content="Join me on my unforgettable trip to Blåvand, Denmark's westernmost city. Strolling around the charming city, grabbing a fresh shrimp salad, and marvelling at the towering Blåvand Lighthouse. I walked among the dunes, listened to the North Sea, and explored historic WWII bunkers."
@@ -20,10 +15,8 @@
     <title>Blåvand 🇩🇰 | Adam Sochorec</title>
   </head>
   <body id="blavand" class="blog-item">
-    <?php
-    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-    include $IPATH . 'global-nav-bar.php';
-    ?>
+    <?php $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/'; include $IPATH .
+    'global-nav-bar.php'; ?>
 
     <main>
       <article class="wrapper-wide">
@@ -50,7 +43,7 @@
         </p>
         <div class="img">
           <img
-            src="/img/2022-04-15-10184.jpg"
+            src="https://cdn.slavic.media/images/2022-04-15-00340/fit=contain,width=1280"
             alt="Photo of a giant World War Two bunker, covered by graffiti and being lifted from its base on the sandy beach. The North Sea and another bunker can be seen in the background."
           />
         </div>
@@ -93,7 +86,7 @@
         </p>
         <div class="img">
           <img
-            src="/img/2022-04-15-10179.jpg"
+            src="https://cdn.slavic.media/images/2022-04-15-0033/fit=contain,width=1280"
             alt="Photo of dunes covered by heath, in the left top corner can be seen a family house built among the dunes that are as high as the house."
           />
         </div>
@@ -144,7 +137,7 @@
         </p>
         <div class="img">
           <img
-            src="/img/2022-04-15-10168.jpg"
+            src="https://cdn.slavic.media/images/2022-04-15-00324/fit=contain,width=1280"
             alt="WWII bunker sinking into the sand beach with metal decorations of horsetail and neck, kids are playing around."
           />
         </div>
@@ -175,7 +168,7 @@
         </p>
         <div class="img">
           <img
-            src="/img/2022-04-15-10183.jpg"
+            src="https://cdn.slavic.media/images/2022-04-15-00339/fit=contain,width=1280"
             alt="View upon a wide hilly heath with Blåvand lighthouse in the background."
           />
         </div>
@@ -195,7 +188,7 @@
         </p>
         <div class="img">
           <img
-            src="/img/2022-04-15-10177.jpg"
+            src="https://cdn.slavic.media/images/2022-04-15-00333/fit=contain,width=1280"
             alt="Panorama photo of landscape view from the top of Blåvand lighthouse. Both on right and left can be seen North sea and beaches, in between are mostly dunes covered by rusty heath."
           />
         </div>
@@ -253,15 +246,11 @@
             </div>
           </a>
         </div>
-        <?php
-          $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-          include $IPATH . 'global-totop.php';
-          ?>
+        <?php $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/'; include
+        $IPATH . 'global-totop.php'; ?>
       </article>
     </main>
-    <?php
-    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-    include $IPATH . 'global-footer.php';
-    ?>
+    <?php $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/'; include $IPATH .
+    'global-footer.php'; ?>
   </body>
 </html>

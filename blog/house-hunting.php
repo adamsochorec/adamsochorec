@@ -1,14 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <?php
-    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-    include $IPATH . 'global-head.php';
-    ?>
-    <?php
-    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-    include $IPATH . 'leaflet-head.php';
-    ?>
+    <?php $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/'; include $IPATH .
+    'global-head.php'; ?> <?php $IPATH = $_SERVER['DOCUMENT_ROOT'] .
+    '/assets/php/'; include $IPATH . 'leaflet-head.php'; ?>
     <meta
       name="description"
       content="Embark on an exploratory journey into urbex, inspired by the House Hunting concept of artist Todd Hido. Experience the charm and melancholy of a pastel green, forsaken family house in Vaasa, Finland, through a photographer's lens."
@@ -21,10 +16,8 @@
   </head>
 
   <body id="house-hunting" class="blog-item">
-    <?php
-    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-    include $IPATH . 'global-nav-bar.php';
-    ?>
+    <?php $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/'; include $IPATH .
+    'global-nav-bar.php'; ?>
     <main>
       <article class="wrapper-wide">
         <h1></h1>
@@ -51,7 +44,7 @@
         </p>
         <div class="img">
           <img
-            src="/img/2022-10-09-2277.jpg"
+            src="https://cdn.slavic.media/images/2022-10-09-00946/fit=contain,width=1280"
             alt="Shot of abandoned property with garden and old family house built in a typical Scandinavian style - pastel green facade made out of wooden planks with white outlined corners and windows."
           />
         </div>
@@ -78,7 +71,7 @@
 
         <div class="img">
           <img
-            src="/img/2022-10-09-2278.jpg"
+            src="https://cdn.slavic.media/images/2022-10-09-00947/fit=contain,width=1280"
             alt="Shot of abandoned property with garden and old family house built in a typical Scandinavian style - pastel green facade made out of wooden planks with white outlined corners and windows."
           />
         </div>
@@ -103,7 +96,7 @@
 
         <div class="img">
           <img
-            src="/img/2022-10-09-2279.jpg"
+            src="https://cdn.slavic.media/images/2022-10-09-00948/fit=contain,width=1280"
             alt="Photo of an empty room in the abandoned building, lit by the morning sun."
           />
         </div>
@@ -119,7 +112,7 @@
         </p>
         <div class="img">
           <img
-            src="/img/2022-10-09-2282.jpg"
+            src="https://cdn.slavic.media/images/2022-10-09-00951/fit=contain,width=1280"
             alt="Photo taken from a plan view of an old wooden narrow staircase. The staircase leads from the ground floor to the first floor."
           />
         </div>
@@ -135,7 +128,7 @@
         <br />
         <div class="img">
           <img
-            src="/img/2022-10-09-2287.jpg"
+            src="https://cdn.slavic.media/images/2022-10-09-00956/fit=contain,width=1280"
             alt="Interior shot of a
       corner, with several bleached spots on the wall's plaster. Most likely
       there have been hanging framed photos and paintings."
@@ -183,15 +176,11 @@
             </div>
           </a>
         </div>
-        <?php
-        $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-        include $IPATH . 'global-totop.php';
-        ?>
+        <?php $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/'; include
+        $IPATH . 'global-totop.php'; ?>
       </article>
     </main>
-    <?php
-    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-    include $IPATH . 'global-footer.php';
-    ?>
+    <?php $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/'; include $IPATH .
+    'global-footer.php'; ?>
   </body>
 </html>

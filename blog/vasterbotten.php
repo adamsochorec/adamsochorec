@@ -1,14 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <?php
-    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-    include $IPATH . 'global-head.php';
-    ?>
-    <?php
-    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-    include $IPATH . 'leaflet-head.php';
-    ?>
+    <?php $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/'; include $IPATH .
+    'global-head.php'; ?> <?php $IPATH = $_SERVER['DOCUMENT_ROOT'] .
+    '/assets/php/'; include $IPATH . 'leaflet-head.php'; ?>
     <meta
       name="description"
       content="Embark on a remarkable journey in Västerbotten, Sweden. From an exchange program at Vaasan Ylipsto to exploring the local countryside, engage in bushcraft, forest camping, and fishing under the Swedish Everyman's Right. Immerse yourself in the rich Sámi culture of Lapland, take up Brazilian Jiu-jitsu at Umeå Kampcenter, and embrace the Scandinavian lifestyle. Experience the breathtaking aurora, learn primitive living techniques, and explore the beauty of Lapland."
@@ -20,10 +15,8 @@
     <title>Västerbotten 🇸🇪 | Adam Sochorec</title>
   </head>
   <body id="vasterbotten" class="blog-item">
-    <?php
-    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-    include $IPATH . 'global-nav-bar.php';
-    ?>
+    <?php $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/'; include $IPATH .
+    'global-nav-bar.php'; ?>
     <main>
       <article class="wrapper-wide">
         <h1></h1>
@@ -50,7 +43,7 @@
         </p>
         <div class="img">
           <img
-            src="/img/2022-09-04-4233.jpg"
+            src="https://cdn.slavic.media/images/2022-09-04-00937/fit=contain,width=1280"
             alt="Panorama shot of an mire, where we bushcrafted. Heap and weed around the lake is mustard yellow, surrounded by a wall of a forest trees."
           />
         </div>
@@ -144,7 +137,7 @@
         </p>
         <div class="img">
           <img
-            src="/img/2022-09-01-4214.jpg"
+            src="https://cdn.slavic.media/images/2022-09-01-00918/fit=contain,width=1280"
             alt="View from the ship to the ship docks in Umeå, there is a coast guard boat in foreground, in background are two wind turbines."
           />
           <br /><br class="hide" />
@@ -203,7 +196,10 @@
           >
         </p>
         <div class="img">
-          <img src="/img/2022-09-02-4216.jpg" alt="" />
+          <img
+            src="https://cdn.slavic.media/images/2022-09-02-00920/fit=contain,width=1280"
+            alt=""
+          />
           <br /><br class="hide" />
           <p>
             <i class="note"
@@ -254,7 +250,7 @@
         </p>
         <div class="img">
           <img
-            src="/img/2022-09-03-4227.jpg"
+            src="https://cdn.slavic.media/images/2022-09-03-00931/fit=contain,width=1280"
             alt="Panorama photo of our camp-site on the shore of a mire"
           />
           <br /><br class="hide" />
@@ -276,7 +272,7 @@
         <br class="hide" />
         <div class="img">
           <img
-            src="/img/poncho-setup.jpg"
+            src="https://cdn.slavic.media/images/tarp-setup/fit=contain,width=1280"
             alt="Ilustration ilustrating various simple field shelters made with a rope and tarp."
           />
           <br /><br class="hide" /><br class="hide" />
@@ -313,7 +309,7 @@
         </p>
         <div class="img">
           <img
-            src="/img/2022-09-04-4229.jpg"
+            src="https://cdn.slavic.media/images/2022-09-04-00933/fit=contain,width=1280"
             alt="Portrait of a Joakim sitting on a tarp in the grass, hand on his hand-crafted machete, raindeer's fur around the shoulder. The mire is in the background."
           />
           <br /><br class="hide" />
@@ -356,7 +352,7 @@
         </p>
         <div class="img">
           <img
-            src="/img/2022-09-01-4215.jpg"
+            src="https://cdn.slavic.media/images/2022-09-01-00919/fit=contain,width=1280"
             alt="Photo of a collection of several sizes of original Sámi knives hand crafted by Joakim, each made for a specific actitivty."
           />
           <br /><br class="hide" />
@@ -400,15 +396,11 @@
             </div>
           </a>
         </div>
-        <?php
-          $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-          include $IPATH . 'global-totop.php';
-          ?>
+        <?php $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/'; include
+        $IPATH . 'global-totop.php'; ?>
       </article>
     </main>
-    <?php
-    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-    include $IPATH . 'global-footer.php';
-    ?>
+    <?php $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/'; include $IPATH .
+    'global-footer.php'; ?>
   </body>
 </html>

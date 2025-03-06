@@ -32,60 +32,57 @@
           <div class="hhh-stretch">
             <iframe
               style="animation: none"
-              src="https://player.vimeo.com/video/818670329?h=1decec98cc"
+              src="https://player.vimeo.com/video/1010363043?h=1decec98cc"
               allow="autoplay; fullscreen; picture-in-picture"
               allowfullscreen
-              ><p class="alt-alt">
-                Short drone reel from my visit of Samsø island in the Baltic
-                Sea.
-              </p></iframe
+              ></iframe
             >
           </div>
           <div class="h-stretch">
             <img
-              src="/img/2022-05-06-1856.jpg"
+              src="https://cdn.slavic.media/images/2022-05-06-00388/fit=contain,width=1280"
               alt="Dancing girl at a rave at Råværket, Kolding"
             />
           </div>
           <div class="h-stretch">
             <img
-              src="/img/2022-05-06-1859.jpg"
+              src="https://cdn.slavic.media/images/2022-05-06-00391/fit=contain,width=1280"
               alt="Energetic dancer at a Råværket rave, Kolding"
             />
           </div>
           <div class="hhh-stretch">
             <img
-              src="/img/2022-02-13-10115.jpg"
+              src="https://cdn.slavic.media/images/2022-02-13-00172/fit=contain,width=1280"
               alt="Glowing Shell gas station at night in Kolding"
             />
           </div>
           <div class="h-stretch">
             <img
-              src="/img/2021-08-22-9235.jpg"
+              src="https://cdn.slavic.media/images/2021-08-22-01602/fit=contain,width=1280"
               alt="Man's face lit by his cigarette under the moonlight, Kolding"
             />
           </div>
           <div class="h-stretch">
             <img
-              src="/img/2022-02-13-3564.jpg"
+              src="https://cdn.slavic.media/images/2022-02-13-00171/fit=contain,width=1280"
               alt="Illuminated Shell gas station at night in Kolding"
             />
           </div>
           <div class="v-stretch reveal">
             <img
-              src="/img/2021-05-21-605.jpg"
+              src="https://cdn.slavic.media/images/2021-05-21-00854/fit=contain,width=1280"
               alt="Portrait of a man in a pink balaclava with extravagant sunglasses, Prague"
             />
           </div>
           <div class="h-stretch reveal">
             <img
-              src="/img/2021-07-19-9232.jpg"
+              src="https://cdn.slavic.media/images/2021-07-19-01355/fit=contain,width=1280"
               alt="Male rapper with glowing gas station background, Prague"
             />
           </div>
           <div class="v-stretch reveal">
             <img
-              src="/img/2021-09-05-1200.jpg"
+              src="https://cdn.slavic.media/images/2021-09-05-01651/fit=contain,width=1280"
               alt="Closeup of a girl's face blurred by a glass with water droplets, Kolding"
             />
           </div>
@@ -105,104 +102,104 @@
           </iframe>
           <div class="v-stretch reveal">
             <img
-              src="/img/2020-11-15-8154.jpg"
+              src="https://cdn.slavic.media/images/2020-11-15-01390/fit=contain,width=1280"
               alt="Woman's bare back adorned with a gold chain, studio photograph from Prague"
             />
           </div>
           <div class="h-stretch reveal">
             <img
-              src="/img/2021-05-28-9829.jpg"
+              src="https://cdn.slavic.media/images/2021-05-28-01020/fit=contain,width=1280"
               alt="Woman holding a violin, resting her head on it, photographed in Prague"
             />
           </div>
           <div class="v-stretch reveal">
             <img
-              src="/img/2021-10-17-1432.jpg"
+              src="https://cdn.slavic.media/images/2021-10-17-01935/fit=contain,width=1280"
               alt="Woman in red top with vibrant lipstick, face obscured by plexiglass"
             />
           </div>
           <div class="hh-stretch reveal">
             <img
-              src="/img/2021-04-14-9741.jpg"
+              src="https://cdn.slavic.media/images/2021-04-14-00608/fit=contain,width=1280"
               alt="David Steigerwald unclothed, seated in a cage at Divadlo Na Vinohradech, Prague"
             />
           </div>
           <div class="v-stretch reveal">
             <img
-              src="/img/2021-09-05-9996.jpg"
+              src="https://cdn.slavic.media/images/2021-09-05-01676/fit=contain,width=1280"
               alt="Semi-dressed woman shielding herself with arms, her shadow visible in the background, photograph from Kolding"
             />
           </div>
           <div class="h-stretch reveal">
             <img
-              src="/img/2021-10-01-10033.jpg"
+              src="https://cdn.slavic.media/images/2021-10-01-01825/fit=contain,width=1280"
               alt="Silhouette of two girls exchanging smoke, under blue lighting with orange accents, photographed in Kolding"
             />
           </div>
           <div class="h-stretch reveal">
             <img
-              src="/img/2021-08-24-9986.jpg"
+              src="https://cdn.slavic.media/images/2021-08-24-01615/fit=contain,width=1280"
               alt="Close-up of a girl's face with colorful makeup around her eyes, making her look like a buterfly"
             />
           </div>
           <div class="v-stretch reveal">
             <img
-              src="/img/2021-09-05-9991.jpg"
+              src="https://cdn.slavic.media/images/2021-09-05-01666/fit=contain,width=1280"
               alt="Close-up of a girl's face leaning on a mirror, creating a reflection, with pink backdrop, photographed in Kolding"
             />
           </div>
           <div class="hh-stretch reveal">
             <img
-              src="/img/2021-04-25-461.jpg"
+              src="https://cdn.slavic.media/images/2021-04-25-00693/fit=contain,width=1280"
               alt="Close-up portrait of Tereza Císařová laying on a table with fries, photographed at Divadlo Na Vinohradech"
             />
           </div>
           <div class="h-stretch reveal">
             <img
-              src="/img/2021-04-13-361.jpg"
+              src="https://cdn.slavic.media/images/2021-04-13-00596/fit=contain,width=1280"
               alt="Face of Daniel Babmas under blue lighting, with pink background, photographed at Divadlo Na Vinohradech"
             />
           </div>
           <div class="h-stretch reveal">
             <img
-              src="/img/2021-04-22-9745.jpg"
+              src="https://cdn.slavic.media/images/2021-04-22-00639/fit=contain,width=1280"
               alt="Portrait of a bare-skinned woman with closed eyes, taken in Prague"
             />
           </div>
           <div class="h-stretch reveal">
             <img
-              src="/img/MRI-1-kompr.gif"
+              src="https://cdn.slavic.media/images/MRI-1/fit=contain,width=1280"
               alt="Animated MRI scans of Adam Sochorec's head"
             />
           </div>
           <div class="h-stretch reveal">
             <img
-              src="/img/MRI-2-kompr.gif"
+              src="https://cdn.slavic.media/images/MRI-2/fit=contain,width=1280"
               alt="Animation of Adam Sochorec's head using MRI images"
             />
           </div>
           <div class="v-stretch reveal">
             <img
-              src="/img/2023-04-14-9322.jpg"
+              src="https://cdn.slavic.media/images/2023-04-14-00217/fit=contain,width=1280"
               alt="Møns Klint forest enveloped in morning fog with laser beams piercing the sky"
             />
           </div>
           <div class="h-stretch reveal">
             <img
-              src="/img/2022-03-16-4161.jpg"
+              src="https://cdn.slavic.media/images/2022-03-16-00241/fit=contain,width=1280"
               alt="Willow tree by the Kolding Slotsøen lake in morning mist, with Koldnighus in the distance"
             />
           </div>
           <div class="v-stretch reveal">
             <img
-              src="/img/2022-08-25-4205.jpg"
+              src="https://cdn.slavic.media/images/2022-08-25-00909/fit=contain,width=1280"
               alt="Aerial view of a fog-engulfed forest in Kvarken Archipelago"
             />
           </div>
           <div class="v-stretch reveal">
             <img
               class="hideImg"
-              src="/img/2022-08-25-9270.jpg"
+              src="https://cdn.slavic.media/images/2022-08-25-00904/fit=contain,width=1280"
               alt="Björkoby fishing village shrouded in morning fog"
             />
           </div>
@@ -272,7 +269,7 @@
               class="hh-stretch"
               target="_blank"
               rel="noopener noreferrer"
-              href="https://slavicmedia.dk/"
+              href="https://slavic.media"
             >
               <div class="grid-item" id="slavic-media"></div>
             </a>
@@ -306,7 +303,7 @@
           <h1 class="reveal">ABOUT</h1>
           <img
             class="reveal"
-            src="/img/2022-04-24-176-2.jpg"
+            src="https://cdn.slavic.media/images/2022-04-24-176-2/fit=contain,width=1280"
             alt="Black and white portrait of Adam Sochorec captured in a Tribe Media studios in Kolding"
           />
           <hr class="reveal" />

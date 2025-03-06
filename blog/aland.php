@@ -1,14 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <?php
-    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-    include $IPATH . 'global-head.php';
-    ?>
-    <?php
-    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-    include $IPATH . 'leaflet-head.php';
-    ?>
+    <?php $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/'; include $IPATH .
+    'global-head.php'; ?> <?php $IPATH = $_SERVER['DOCUMENT_ROOT'] .
+    '/assets/php/'; include $IPATH . 'leaflet-head.php'; ?>
     <meta
       name="description"
       content="Embark on a thrilling adventure to the
@@ -42,10 +37,8 @@
   </head>
 
   <body id="aland" class="blog-item">
-    <?php
-    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-    include $IPATH . 'global-nav-bar.php';
-    ?>
+    <?php $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/'; include $IPATH .
+    'global-nav-bar.php'; ?>
     <main>
       <article class="wrapper-wide">
         <h1></h1>
@@ -72,7 +65,7 @@
         </p>
         <div class="img">
           <img
-            src="/img/2022-10-16-3695.jpg"
+            src="https://cdn.slavic.media/images/2022-10-16-00978/fit=contain,width=1280"
             alt="Dusty red gravel road cutting surrounding autumn colured forest in a half"
           />
         </div>
@@ -178,14 +171,14 @@
         </p>
         <div class="img">
           <img
-            src="/img/IMG_3017.jpg"
+            src="https://cdn.slavic.media/images/2022-10-14-00959/fit=contain,width=1280"
             alt="Photo of skerries covered by vegetation, located in the Archipelago sea"
           />
         </div>
         <p><i class="note">Skerries in the Archipelago Sea</i></p>
         <div class="img">
           <img
-            src="/img/IMG_3020.jpg"
+            src="https://cdn.slavic.media/images/2022-10-14-00960/fit=contain,width=1280"
             alt="Photo of several boulder archipelagos with erected wind turbines, located in the Archipelago sea"
           />
           <br /><br class="hide" />
@@ -214,7 +207,7 @@
         </p>
         <div class="img">
           <img
-            src="/img/2022-10-15-3690.jpg"
+            src="https://cdn.slavic.media/images/2022-10-15-00970/fit=contain,width=1280"
             alt="Photo of Andreas standing on the rock in the forest with a hiking pole out of a tree branch"
           />
         </div>
@@ -244,7 +237,7 @@
         </p>
         <div class="img">
           <img
-            src="/img/2022-10-15-3689.jpg"
+            src="https://cdn.slavic.media/images/2022-10-15-00967/fit=contain,width=1280"
             alt="Marcel and Andreas are captured walking along the road, hitchhiking with their left thumbs, trying to stop approaching the car."
           />
         </div>
@@ -263,7 +256,7 @@
         </p>
         <div class="img">
           <img
-            src="/img/2022-10-16-3693.jpg"
+            src="https://cdn.slavic.media/images/2022-10-16-00975/fit=contain,width=1280"
             alt="Outside view at
     our Djupviksgrottan cave camp, Marcel is reading a book and Andreas is
     keeping an eye on a campfire."
@@ -282,7 +275,7 @@
         </p>
         <div class="img">
           <img
-            src="/img/2022-10-16-3696.jpg"
+            src="https://cdn.slavic.media/images/2022-10-15-00971/fit=contain,width=1280"
             alt="Photo of pilgrims Marcel and Andreas walking over dusty red path up on a hill with Autumn forests in their background."
           />
         </div>
@@ -297,7 +290,7 @@
         </p>
         <div class="img">
           <img
-            src="/img/2022-10-16-3697.jpg"
+            src="https://cdn.slavic.media/images/2022-10-16-00981/fit=contain,width=1280"
             alt="Photo of an old blue Ford tractor with big red wheels, standing on aside of the road. The scene is listed by the morning sun."
           />
         </div>
@@ -313,7 +306,7 @@
         </p>
         <div class="img">
           <img
-            src="/img/2022-10-15-3691.jpg"
+            src="https://cdn.slavic.media/images/2022-10-17-00993/fit=contain,width=1280"
             alt="Photo of Andreas and Marcel hiking through the forest in the northern part of Alands."
           />
         </div>
@@ -328,7 +321,7 @@
         </p>
         <div class="img">
           <img
-            src="/img/2022-10-17-3698.jpg"
+            src="https://cdn.slavic.media/images/2022-10-17-00984/fit=contain,width=1280"
             alt="Shot of a garden and family house built in a typical Scandinavian style - pastel green facade made out of wooden planks with white outlined corners and windows."
           />
           <br /><br class="hide" />
@@ -350,7 +343,7 @@
         </p>
         <div class="img">
           <img
-            src="/img/2022-10-17-3699.jpg"
+            src="https://cdn.slavic.media/images/2022-10-17-00996/fit=contain,width=1280"
             alt="Photo of an empty road through the Autumn colored forest, aside from the road stands a traffic sign informing about the name of our surroundings - Prästo."
           />
         </div>
@@ -379,7 +372,7 @@
         <div class="img">
           <img
             style="animation: none"
-            src="/img/graveyards.png"
+            src="https://cdn.slavic.media/images/graveyards/public"
             alt="Photo of two
       really old Jewish gravestones on the former cemetery in the middle of
       Forrest, covered by moss and containing text in Hebrew. There are tiny
@@ -407,7 +400,7 @@
         </p>
         <div class="img">
           <img
-            src="/img/2022-10-17-3700.jpg"
+            src="https://cdn.slavic.media/images/2022-10-17-01001/fit=contain,width=1280"
             alt="Photo of me carrying posing Marcel upon my shoulders while standing in the cold Archipelago sea."
           /><br /><br class="hide" />
           <p><i class="note">Fishing village nearby Norrgård</i></p>
@@ -423,7 +416,7 @@
         </p>
         <div class="img">
           <img
-            src="/img/2022-10-14-2291.jpg"
+            src="https://cdn.slavic.media/images/2022-10-14-00962/fit=contain,width=1280"
             alt="Photo of resting Andreas with dark sky in the background. Andreas’s face is highlighted by the screen of the phone he is holding"
           />
         </div>
@@ -475,16 +468,12 @@
             </div>
           </a>
         </div>
-        <?php
-          $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-          include $IPATH . 'global-totop.php';
-          ?>
+        <?php $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/'; include
+        $IPATH . 'global-totop.php'; ?>
       </article>
     </main>
-    <?php
-    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-    include $IPATH . 'global-footer.php';
-    ?>
+    <?php $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/'; include $IPATH .
+    'global-footer.php'; ?>
     <script type="text/javascript" src="/assets/aland.js"></script>
   </body>
 </html>
