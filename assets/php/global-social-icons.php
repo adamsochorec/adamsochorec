@@ -30,7 +30,7 @@
       />
     </svg> </a
   ><a
-    href="https://github.com/adamsochorec"
+    href="https://github.com/adamsochorec/adamsochorec"
     target="_blank"
     rel="noopener noreferrer"
   >
