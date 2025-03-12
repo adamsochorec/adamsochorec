@@ -1,29 +1,26 @@
-# Page not found / 404 set-up
-
-ErrorDocument 404 /404.php
-ErrorDocument 500 /404.php
-ErrorDocument 403 /404.php
-
-# mod_rewrite starts here
+ErrorDocument 404 /404
 
 RewriteEngine on
+RewriteBase /
 
-# does not apply to existing directories, meaning that if the folder exists on the server then don't change anything and don't run the Rule!
+# Redirect to 404 if query strings are used
+RewriteCond %{THE_REQUEST} \?[^\ ]+
+RewriteRule .? /404 [L,R=301]
 
-RewriteCond %{REQUEST_FILENAME} !-d
+# Remove language value from old URLs and redirect
+RewriteRule ^([a-z]{2})/(.*)$ /$2 [R=301,L]
 
 # Check for file in directory with .php extension
-
 RewriteCond %{REQUEST_FILENAME}\.php -f
-
-# Here we actually show the page that has the .php extension
-
 RewriteRule ^(.*)$ $1.php [NC,L]
-#RewriteRule ^blog blog.php [NC,L]
-#RewriteRule ^web-dev web-dev.php [NC,L]
 
-# Changing deafult homepage name from index to custom one
+# Redirect slavicmedia.dk to slavic.media
+RewriteCond %{HTTP_HOST} ^slavicmedia\.dk$ [NC]
+RewriteRule ^(.*)$ https://slavic.media/$1 [R=301,L]
 
-DirectoryIndex /index.php
+<IfModule mod_headers.c>
+    Header set Access-Control-Allow-Origin "*"
+</IfModule>
 
+DirectoryIndex index.php
 
