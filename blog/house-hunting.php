@@ -44,7 +44,7 @@
         </p>
         <div class="img">
           <img
-            src="https://cdn.slavic.media/images/2022-10-09-00946/fit=contain,width=1280"
+            src="https://cdn.slavic.media/img/2022-10-09-00946/public"
             alt="Shot of abandoned property with garden and old family house built in a typical Scandinavian style - pastel green facade made out of wooden planks with white outlined corners and windows."
           />
         </div>
@@ -71,7 +71,7 @@
 
         <div class="img">
           <img
-            src="https://cdn.slavic.media/images/2022-10-09-00947/fit=contain,width=1280"
+            src="https://cdn.slavic.media/img/2022-10-09-00947/public"
             alt="Shot of abandoned property with garden and old family house built in a typical Scandinavian style - pastel green facade made out of wooden planks with white outlined corners and windows."
           />
         </div>
@@ -96,7 +96,7 @@
 
         <div class="img">
           <img
-            src="https://cdn.slavic.media/images/2022-10-09-00948/fit=contain,width=1280"
+            src="https://cdn.slavic.media/img/2022-10-09-00948/public"
             alt="Photo of an empty room in the abandoned building, lit by the morning sun."
           />
         </div>
@@ -112,7 +112,7 @@
         </p>
         <div class="img">
           <img
-            src="https://cdn.slavic.media/images/2022-10-09-00951/fit=contain,width=1280"
+            src="https://cdn.slavic.media/img/2022-10-09-00951/public"
             alt="Photo taken from a plan view of an old wooden narrow staircase. The staircase leads from the ground floor to the first floor."
           />
         </div>
@@ -128,7 +128,7 @@
         <br />
         <div class="img">
           <img
-            src="https://cdn.slavic.media/images/2022-10-09-00956/fit=contain,width=1280"
+            src="https://cdn.slavic.media/img/2022-10-09-00956/public"
             alt="Interior shot of a
       corner, with several bleached spots on the wall's plaster. Most likely
       there have been hanging framed photos and paintings."

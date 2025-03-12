@@ -69,7 +69,7 @@ body {
   overflow-x: hidden;
 }
 body#homepage {
-  background-image: url(https://cdn.slavic.media/images/MRI-2/fit=contain,width=1280) !important;
+  background-image: url(https://cdn.slavic.media/img/MRI-2/public) !important;
   background-position: center;
 }
 
@@ -1191,7 +1191,7 @@ footer .footer-ps span:nth-child(2) {
   /* FIND-MY BLOG END */
 
 .gallery #house-hunting {
-  background-image: url(https://cdn.slavic.media/images/2022-10-09-00946/fit=contain,height=400);
+  background-image: url(https://cdn.slavic.media/img/2022-10-09-00946/fit=contain,height=400);
 }
 #house-hunting .pathname-current:before,
 #house-hunting h1:before,
@@ -1199,7 +1199,7 @@ footer .footer-ps span:nth-child(2) {
   content: "House Hunting 🇫🇮";
 }
 .gallery #blavand {
-  background-image: url(https://cdn.slavic.media/images/2022-04-15-00340/fit=contain,height=400);
+  background-image: url(https://cdn.slavic.media/img/2022-04-15-00340/fit=contain,height=400);
 }
 #blavand .pathname-current:before,
 #blavand h1:before,
@@ -1207,7 +1207,7 @@ footer .footer-ps span:nth-child(2) {
   content: "Blåvand 🇩🇰";
 }
 .gallery #aland {
-  background-image: url(https://cdn.slavic.media/images/2022-10-16-00978/fit=contain,height=400);
+  background-image: url(https://cdn.slavic.media/img/2022-10-16-00978/fit=contain,height=400);
 }
 #aland .pathname-current:before,
 #aland h1:before,
@@ -1216,7 +1216,7 @@ footer .footer-ps span:nth-child(2) {
 }
 
 .gallery #vasterbotten {
-  background-image: url(https://cdn.slavic.media/images/2022-09-04-00937/fit=contain,height=400);
+  background-image: url(https://cdn.slavic.media/img/2022-09-04-00937/fit=contain,height=400);
 }
 #vasterbotten .pathname-current:before,
 #vasterbotten h1:before,
@@ -1225,7 +1225,7 @@ footer .footer-ps span:nth-child(2) {
 }
 
 .gallery #vestkystruten {
-  background-image: url(https://cdn.slavic.media/images/IMG_1849/fit=contain,height=400);
+  background-image: url(https://cdn.slavic.media/img/IMG_1849/fit=contain,height=400);
 }
 #vestkystruten .pathname-current:before,
 #vestkystruten h1:before,

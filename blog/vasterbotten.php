@@ -43,7 +43,7 @@
         </p>
         <div class="img">
           <img
-            src="https://cdn.slavic.media/images/2022-09-04-00937/fit=contain,width=1280"
+            src="https://cdn.slavic.media/img/2022-09-04-00937/public"
             alt="Panorama shot of an mire, where we bushcrafted. Heap and weed around the lake is mustard yellow, surrounded by a wall of a forest trees."
           />
         </div>
@@ -137,7 +137,7 @@
         </p>
         <div class="img">
           <img
-            src="https://cdn.slavic.media/images/2022-09-01-00918/fit=contain,width=1280"
+            src="https://cdn.slavic.media/img/2022-09-01-00918/public"
             alt="View from the ship to the ship docks in Umeå, there is a coast guard boat in foreground, in background are two wind turbines."
           />
           <br /><br class="hide" />
@@ -197,7 +197,7 @@
         </p>
         <div class="img">
           <img
-            src="https://cdn.slavic.media/images/2022-09-02-00920/fit=contain,width=1280"
+            src="https://cdn.slavic.media/img/2022-09-02-00920/public"
             alt=""
           />
           <br /><br class="hide" />
@@ -250,7 +250,7 @@
         </p>
         <div class="img">
           <img
-            src="https://cdn.slavic.media/images/2022-09-03-00931/fit=contain,width=1280"
+            src="https://cdn.slavic.media/img/2022-09-03-00931/public"
             alt="Panorama photo of our camp-site on the shore of a mire"
           />
           <br /><br class="hide" />
@@ -272,7 +272,7 @@
         <br class="hide" />
         <div class="img">
           <img
-            src="https://cdn.slavic.media/images/tarp-setup/fit=contain,width=1280"
+            src="https://cdn.slavic.media/img/tarp-setup/public"
             alt="Ilustration ilustrating various simple field shelters made with a rope and tarp."
           />
           <br /><br class="hide" /><br class="hide" />
@@ -309,7 +309,7 @@
         </p>
         <div class="img">
           <img
-            src="https://cdn.slavic.media/images/2022-09-04-00933/fit=contain,width=1280"
+            src="https://cdn.slavic.media/img/2022-09-04-00933/public"
             alt="Portrait of a Joakim sitting on a tarp in the grass, hand on his hand-crafted machete, raindeer's fur around the shoulder. The mire is in the background."
           />
           <br /><br class="hide" />
@@ -352,7 +352,7 @@
         </p>
         <div class="img">
           <img
-            src="https://cdn.slavic.media/images/2022-09-01-00919/fit=contain,width=1280"
+            src="https://cdn.slavic.media/img/2022-09-01-00919/public"
             alt="Photo of a collection of several sizes of original Sámi knives hand crafted by Joakim, each made for a specific actitivty."
           />
           <br /><br class="hide" />
