@@ -33,6 +33,8 @@
       Prästo Island,
       Vårdö"
     />
+    <meta name="robots" content="noindex" />
+    <meta name="googlebot" content="noindex" />
     <title>Åland 🇦🇽 | Adam Sochorec</title>
   </head>
 

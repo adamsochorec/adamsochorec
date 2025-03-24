@@ -12,6 +12,8 @@
       name="keywords"
       content="Kolding, Oksbøl, Blåvand, Denmark, Blåvand Lighthouse, Summer Houses, Pine Trees, North Sea Shore, Blåvandshuk, WWII Bunkers, Atlantic Wall, 3D Modeling App, Polycam, Dunes, Star Wars, Amber, Jewelry, Danish Military, Training Grounds, Bjarke Ingels, Tirpitz Museum."
     />
+    <meta name="robots" content="noindex" />
+    <meta name="googlebot" content="noindex" />
     <title>Blåvand 🇩🇰 | Adam Sochorec</title>
   </head>
   <body id="blavand" class="blog-item">

@@ -12,6 +12,8 @@
       name="keywords"
       content="Sweden Travel, Västerbotten Province, Exchange Program, Bushcraft, Everyman's Right, Umeå, Sámi People, Lapland, Forest Camping, Brazilian Jiu-jitsu, Umeå Kampcenter, Fishing, Primitive Living, Aurora, Scandinavian Lifestyle"
     />
+    <meta name="robots" content="noindex" />
+    <meta name="googlebot" content="noindex" />
     <title>Västerbotten 🇸🇪 | Adam Sochorec</title>
   </head>
   <body id="vasterbotten" class="blog-item">

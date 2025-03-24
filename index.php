@@ -1,10 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <?php
-    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-    include $IPATH . 'global-head.php';
-    ?>
+    <?php $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/'; include $IPATH .
+    'global-head.php'; ?>
     <meta
       name="description"
       content="
@@ -18,10 +16,8 @@
   </head>
   <body id="homepage">
     <!-- HEADER START -->
-    <?php
-    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-    include $IPATH . 'global-nav-bar.php';
-    ?>
+    <?php $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/'; include $IPATH .
+    'global-nav-bar.php'; ?>
     <!-- HEADER END -->
     <main>
       <div class="blur body-blur"></div>
@@ -32,11 +28,10 @@
           <div class="hhh-stretch">
             <iframe
               style="animation: none"
-              src="https://player.vimeo.com/video/1010363043?h=1decec98cc"
+              src="https://player.vimeo.com/video/1013776851"
               allow="autoplay; fullscreen; picture-in-picture"
               allowfullscreen
-              ></iframe
-            >
+            ></iframe>
           </div>
           <div class="h-stretch">
             <img
@@ -206,8 +201,40 @@
         </div>
       </article>
       <!-- VISUALS END -->
+      <!-- WORK START -->
+      <article id="links">
+        <section class="wrapper-standard reveal">
+          <hr class="reveal" />
+          <h1 class="reveal">WORK</h1>
+          <br />
+          <div class="grid-container gallery reveal">
+            <a
+              class="hh-stretch gradient"
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://clients.slavic.media/adamsochorec"
+            >
+              <div class="grid-item">
+                <span>Video</span>
+              </div>
+            </a>
+            <a
+              class="hh-stretch gradient"
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://github.com/adamsochorec"
+            >
+              <div class="grid-item">
+                <span>GitHub</span>
+              </div>
+            </a>
+          </div>
+          <div id="web-dev"></div>
+        </section>
+      </article>
+      <!-- WORK END -->
       <!-- BLOG START -->
-      <article id="blog">
+      <!--  <article id="blog">
         <section class="wrapper-standard reveal">
           <hr class="reveal" />
           <h1 class="reveal"></h1>
@@ -256,10 +283,10 @@
           </div>
           <div id="web-dev"></div>
         </section>
-      </article>
+      </article> -->
       <!-- BLOG END -->
       <!-- WEB DEV START -->
-      <article id="web-dev">
+      <!--  <article id="web-dev">
         <section class="wrapper-standard reveal">
           <hr class="reveal" />
           <h1 class="reveal">Web-dev</h1>
@@ -273,7 +300,6 @@
             >
               <div class="grid-item" id="slavic-media"></div>
             </a>
-            <!-- 
                 <a
                   class="hh-stretch"
                   target="_blank"
@@ -291,11 +317,11 @@
               href="https://husetfundament.dk/"
             >
               <div class="grid-item" id="husetfundament"></div>
-            </a>-->
+            </a>
           </div>
           <hr class="reveal" />
         </section>
-      </article>
+      </article> -->
       <!-- WEB DEV END -->
       <!-- ABOUT START -->
       <article id="about">
@@ -2076,7 +2102,7 @@
             </div>
           </div>
           <hr class="reveal" />
-          <h2 class="reveal">@adamsochorec</h2>
+          <h2 class="reveal">&#64;adamsochorec</h2>
           <br />
           <div class="grid-container">
             <ul>
@@ -2250,20 +2276,16 @@
               </div>
             </form>
           </section>
-          <?php
-          $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-          include $IPATH . 'global-totop.php';
-          ?>
+          <?php $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/'; include
+          $IPATH . 'global-totop.php'; ?>
         </section>
       </article>
       <!-- ABOUT END -->
     </main>
 
     <!-- FOOTER START -->
-    <?php
-    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-    include $IPATH . 'global-footer.php';
-    ?>
+    <?php $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/'; include $IPATH .
+    'global-footer.php'; ?>
     <!-- FOOTER END -->
   </body>
 </html>

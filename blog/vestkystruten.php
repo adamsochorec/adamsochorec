@@ -1,14 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <?php
-    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-    include $IPATH . 'global-head.php';
-    ?>
-    <?php
-    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-    include $IPATH . 'leaflet-head.php';
-    ?>
+    <?php $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/'; include $IPATH .
+    'global-head.php'; ?> <?php $IPATH = $_SERVER['DOCUMENT_ROOT'] .
+    '/assets/php/'; include $IPATH . 'leaflet-head.php'; ?>
     <meta
       name="description"
       content="Join us on an unforgettable bike trip
@@ -25,14 +20,14 @@
     Locals, Interactive Map, Coastal Views, Small Towns, North Sea, Baltic Sea,
     Travel Vlogs, Marcel's Channel, YouTube Video."
     />
+    <meta name="robots" content="noindex" />
+    <meta name="googlebot" content="noindex" />
     <title>Vestkystruten 🇩🇰 | Adam Sochorec</title>
   </head>
 
   <body id="vestkystruten" class="blog-item">
-    <?php
-    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-    include $IPATH . 'global-nav-bar.php';
-    ?>
+    <?php $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/'; include $IPATH .
+    'global-nav-bar.php'; ?>
     <main>
       <article class="wrapper-wide">
         <h1></h1>
@@ -198,16 +193,12 @@
             </div>
           </a>
         </div>
-        <?php
-          $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-          include $IPATH . 'global-totop.php';
-          ?>
+        <?php $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/'; include
+        $IPATH . 'global-totop.php'; ?>
       </article>
     </main>
-    <?php
-    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-    include $IPATH . 'global-footer.php';
-    ?>
+    <?php $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/'; include $IPATH .
+    'global-footer.php'; ?>
     <script type="text/javascript" src="/assets/vestkystruten.js"></script>
   </body>
 </html>

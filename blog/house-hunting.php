@@ -12,6 +12,8 @@
       name="keywords"
       content="House Hunting, Todd Hido, Urbex, Scandinavian Architecture, Cheap Old Houses, Abandoned Buildings, Exterior Atmosphere, Medium Format Camera, Palosaari, Vaasa, Finland, Old-fashioned Family House, Broken Windows, Damaged Staircase, Uninhabited Building, City Planning Department, Demolition, Ostrobothnian Museum, Historical Value, Interior Photography, Sunrise, Autumn Morning, Bleached Spots, Walls, Framed Photos and Paintings, Urbex, Photographer's Perspective"
     />
+    <meta name="robots" content="noindex" />
+    <meta name="googlebot" content="noindex" />
     <title>House Hunting 🇫🇮 | Adam Sochorec</title>
   </head>
 

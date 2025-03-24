@@ -1,10 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <?php
-    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-    include $IPATH . 'global-head.php';
-    ?>
+    <?php $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/'; include $IPATH .
+    'global-head.php'; ?>
     <meta
       name="description"
       content="Discover essential steps to secure and fortify your online presence. Learn the importance of contemporary passwords, two-factor authentication (2FA), and how to tackle social engineering vulnerabilities. Let's take control of our digital footprint to ensure online security and privacy."
@@ -13,14 +11,14 @@
       name="keywords"
       content="Online Presence, Contemporary Passwords, Social Engineering, Unique Password, Password Manager, Password Strength Calculator, iCloud Keychain, Apple Users, LastPass, Keeper, Hardware Key, Two-factor Authentication, 2FA, Single-use Time-dependent Code, Email, Verification App, Recovery Codes, SIM Swapping, Authy, Service Verification Native App, Personal Information, Privacy, Online Shopping, Data Access, Random Non-organic Passwords, Password Entropy Calculator, Google's Control, Internet"
     />
+    <meta name="robots" content="noindex" />
+    <meta name="googlebot" content="noindex" />
     <title>Cybersecurity | Adam Sochorec</title>
   </head>
 
   <body id="cybersecurity" class="blog-item">
-    <?php
-    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-    include $IPATH . 'global-nav-bar.php';
-    ?>
+    <?php $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/'; include $IPATH .
+    'global-nav-bar.php'; ?>
     <main>
       <section class="intro-section-wrapper" id="passwordGeneratorArea">
         <article id="passwordGenerator" class="intro-section gradient">
@@ -2882,10 +2880,8 @@ C502.2,625.2,499,621.9,499,618.3z"
             </div>
           </a>
         </section>
-        <?php
-          $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-          include $IPATH . 'global-totop.php';
-          ?>
+        <?php $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/'; include
+        $IPATH . 'global-totop.php'; ?>
       </article>
     </main>
     <script
@@ -2893,9 +2889,7 @@ C502.2,625.2,499,621.9,499,618.3z"
       src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"
     ></script>
 
-    <?php
-    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-    include $IPATH . 'global-footer.php';
-    ?>
+    <?php $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/'; include $IPATH .
+    'global-footer.php'; ?>
   </body>
 </html>
