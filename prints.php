@@ -1,10 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <?php
-    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-    include $IPATH . 'global-head.php';
-    ?>
+    <?php $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/'; include $IPATH .
+    'global-head.php'; ?>
     <title>Prints | Adam Sochorec</title>
     <meta
       name="description"
@@ -19,10 +17,8 @@
   </head>
   <body id="prints">
     <!-- HEADER START -->
-    <?php
-     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-     include $IPATH . 'global-nav-bar.php';
-     ?>
+    <?php $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/'; include $IPATH .
+    'global-nav-bar.php'; ?>
     <!-- HEADER END -->
     <main>
       <div class="intro-section-wrapper">
@@ -30,10 +26,8 @@
         <div class="intro-section">
           <div class="intro-subsection">
             <h1>Prints</h1>
-            <?php
-          $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-          include $IPATH . 'global-scroll.php';
-          ?>
+            <?php $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/'; include
+            $IPATH . 'global-scroll.php'; ?>
           </div>
         </div>
       </div>
@@ -613,17 +607,15 @@
               <input
                 type="hidden"
                 name="_next"
-                value="https://adamsochorec.com/success"
+                value="https://adamsochorec.slavic.media/success"
               />
               <!-- Redirect to the success page -->
               <!-- Subject definiton -->
             </section>
           </form>
         </section>
-        <?php
-          $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-          include $IPATH . 'global-totop.php';
-          ?>
+        <?php $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/'; include
+        $IPATH . 'global-totop.php'; ?>
       </article>
     </main>
 
@@ -634,10 +626,8 @@
       defer
     ></script>
 
-    <?php
-        $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-        include $IPATH . 'global-footer.php';
-        ?>
+    <?php $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/'; include $IPATH .
+    'global-footer.php'; ?>
     <!-- FOOTER END -->
   </body>
 </html>

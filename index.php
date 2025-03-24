@@ -2270,7 +2270,7 @@
                 <input
                   type="hidden"
                   name="_next"
-                  value="https://adamsochorec.com/success"
+                  value="https://adamsochorec.slavic.media/success"
                 />
                 <!-- Redirect to the success page -->
               </div>

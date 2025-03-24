@@ -1,10 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <?php
-    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-    include $IPATH . 'global-head.php';
-    ?>
+    <?php $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/'; include $IPATH .
+    'global-head.php'; ?>
     <title>Page Not Found | Adam Sochorec</title>
 
     <meta name="robots" content="noindex" />
@@ -12,10 +10,8 @@
   </head>
 
   <body id="error" class="noindex">
-    <?php
-    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-    include $IPATH . 'global-nav-bar.php';
-    ?>
+    <?php $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/'; include $IPATH .
+    'global-nav-bar.php'; ?>
     <main>
       <article class="wrapper-narrow flex-center">
         <div class="pathname-container"></div>
@@ -32,7 +28,7 @@
         <h1>The page you’re looking<br />for can’t be found.</h1>
         <br />
         <h2>
-          <a href="http://adamsochorec.com"
+          <a href="http://adamsochorec.slavic.media"
             >Return to the homepage
             <svg
               id="chevron-right"
@@ -55,9 +51,7 @@
       defer
     ></script>
     <!-- LOTTIE PLAYER SCRIPTS START -->
-    <?php
-    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-    include $IPATH . 'global-footer.php';
-    ?>
+    <?php $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/'; include $IPATH .
+    'global-footer.php'; ?>
   </body>
 </html>

@@ -306,7 +306,7 @@ p a:hover {
 /* PATHNAME NAVIGATION START */
 
 .pathname:nth-child(1) a::before {
-  content: "adamsochorec.com";
+  content: "adamsochorec.slavic.media";
 }
 .pathname,
 .pathname-current {
