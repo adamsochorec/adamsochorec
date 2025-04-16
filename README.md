@@ -1,6 +1,4 @@
-Here’s the refined and structured README.md for adamsochorets.com:
-
-# adamsochorets.com  
+# adamsochorets  
 
 ## What?  
 One of the very first personal websites by [Adam Sochorec](https://linkedin.com/in/adamsochorec), initially created as a school project focused on **web accessibility** and **cybersecurity**. Over time, it evolved into a **personal portfolio** showcasing photo, video, and 3D work, as well as a basic **blog** with travel stories and project updates.  
@@ -20,5 +18,3 @@ Developed independently by Adam Sochorec during studies at [IBA](https://www.iba
 - Routing and structure are handled **manually**, without `.htaccess` or JS frameworks  
 - Served through local environments using **XAMPP/AMPPS**  
 - Used as a repository for early projects in **video, photo, and 3D**
-
-Let me know if you want a short description for GitHub or want to link this to other repositories like your blog or media archive.
