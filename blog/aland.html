@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Leaflet script start -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+      integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+      crossorigin=""
+    />
+    <!-- Make sure you put this AFTER Leaflet's CSS -->
+    <script
+      src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+      integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+      crossorigin=""
+    ></script>
+    <!-- Leaflet script end -->
+    <meta
+      name="description"
+      content="Embark on a thrilling adventure to the
+    Åland Islands, a Swedish-speaking territory under Finnish jurisdiction.
+    Starting from Turku, navigate the Archipelago Sea's skerries, exploring from
+    south to north and indulging in bushcraft camping. Experience the
+    Djupviksgrottan cave, Jomala Church, and breathtaking landscapes as you
+    hitchhike and hike across the islands."
+    />
+    <meta
+      name="keywords"
+      content="Åland Islands,
+      Finnish Jurisdiction,
+      Swedish-speaking,
+      Turku, Finland,
+      Vaasa,
+      Archipelago Sea,
+      Skerries,
+      Mariehamn,
+      Lake Långsjön,
+      Djupviksgrottan Cave,
+      Jomala Church,
+      Hiking,
+      Hitchhiking,
+      Bushcraft Camp,
+      Scandinavian Culture,
+      Prästo Island,
+      Vårdö"
+    />
+    <title>Åland 🇦🇽 | Adam Sochorec</title>
+  </head>
+
+  <body id="aland" class="blog-item">
+    <header>
+      <div class="blur">
+        <div class="container">
+          <nav id="navigation">
+            <a href="/" class="logo"
+              ><span>adam</span><br /><span>sochorec</span></a
+            >
+            <a aria-label="mobile menu" class="hamburger">
+              <span></span>
+              <span></span>
+              <span></span>
+            </a>
+            <ul class="menu-left">
+              <li><a href="/prints">prints</a></li>
+              <li><a href="/#blog">blog</a></li>
+              <li><a href="/#web-dev">web dev</a></li>
+              <li><a href="/#work">work</a></li>
+              <li><a href="/#about">about</a></li>
+              <li><a href="/#contact">contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main>
+      <article class="wrapper-wide">
+        <h1></h1>
+        <div class="pathname-container">
+          <i
+            ><span class="pathname"><a href="/"></a> / </span>
+            <span class="pathname"><a href="/#blog"></a> / åland</span>
+          </i>
+        </div>
+        <br />
+
+        <p class="pathname">
+          <svg
+            id="date"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 448 512"
+          >
+            <path
+              d="M152 24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H64C28.7 64 0 92.7 0 128v16 48V448c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V192 144 128c0-35.3-28.7-64-64-64H344V24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H152V24zM48 192H400V448c0 8.8-7.2 16-16 16H64c-8.8 0-16-7.2-16-16V192z"
+            />
+          </svg>
+          &nbsp; October 2022
+        </p>
+        <div class="img">
+          <img
+            src="https://cdn.slavic.media/img/2022-10-16-00978/public"
+            alt="Dusty red gravel road cutting surrounding autumn colured forest in a half"
+          />
+        </div>
+        <p class="dropcap">
+          The
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://en.wikipedia.org/wiki/Åland"
+            >Åland Islands</a
+          >
+          are autonomously demilitarized territories under Finnish jurisdiction.
+          They have their government,
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://en.wikipedia.org/wiki/Flag_of_%C3%85land"
+            >flag</a
+          >, and historical heritage and are exempt from
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://en.wikipedia.org/wiki/Conscription_in_Finland#Military_service"
+            >Finnish conscription</a
+          >. Although the western shore of the mainland is bilingual (Swedish
+          and Finnish), the Åland Islands are entirely Swedish-speaking.
+        </p>
+
+        <p>
+          I had been planning an expedition to the <i>land of ål</i> (
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://en.wikipedia.org/wiki/eel"
+            >eel</a
+          >) the since my arrival in Finland. In mid-October 2022, during the
+          Autumn break, my friend
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.instagram.com/andreas_perjons/"
+            >Andreas</a
+          >, from Swedish
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://en.wikipedia.org/wiki/Dalarna"
+            >Dalarna</a
+          >, and I decided to take a ferry from the Finnish coastal town of
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://en.wikipedia.org/wiki/Turku"
+            >Turku</a
+          >
+          (Åbo in Swedish). However, we had to stay overnight in Turku due to
+          train connections from our hometown of
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://en.wikipedia.org/wiki/Vaasa"
+            >Vaasa</a
+          >
+          not matching the early ferry departure time.
+        </p>
+        <div class="map-margin">
+          <div id="map">
+            <p class="alt-alt">
+              Interactive map of an Aland Islands with a trace of our journey
+              from Vaasa in Finland and Marcel’s journey from Denmark. Other
+              important locations from the article are marked on the map with
+              descriptions.
+            </p>
+          </div>
+          <p>
+            <i class="note"
+              >Zoom in and click on the route to see more details.<br />Straight
+              direct lines are the distances we hitchhiked.</i
+            >
+          </p>
+        </div>
+
+        <p>
+          For the first few hours of our cruise, we navigated through hundreds
+          of
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://en.wikipedia.org/wiki/skerry"
+            >skerries</a
+          >
+          as we sailed through the densest area of the
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://en.wikipedia.org/wiki/Archipelago_Sea"
+            >Archipelago Sea</a
+          >. This area, approximately <b>8300 square kilometers</b> in size, is
+          home to around <b>50,000 archipelagos</b> and tiny rocky islands
+          (skerries). It is considered one of the largest areas by the number of
+          archipelagos in the world and is truly an interesting sight to behold.
+          <br />
+        </p>
+        <div class="img">
+          <img
+            src="https://cdn.slavic.media/img/2022-10-14-00959/public"
+            alt="Photo of skerries covered by vegetation, located in the Archipelago sea"
+          />
+        </div>
+        <p><i class="note">Skerries in the Archipelago Sea</i></p>
+        <div class="img">
+          <img
+            src="https://cdn.slavic.media/img/2022-10-14-00960/public"
+            alt="Photo of several boulder archipelagos with erected wind turbines, located in the Archipelago sea"
+          />
+          <br /><br class="hide" />
+        </div>
+        <p>
+          After disembarking from the Baltic princess in
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://en.wikipedia.org/wiki/Mariehamn"
+            >Mariehamn</a
+          >, the capital of the Åland Islands, we met our third adventure
+          seeker,
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.instagram.com/marcelhajik/"
+            >Marcel</a
+          >
+          from Slovakia. We resupplied our groceries and liquids in Åland's
+          capital and the largest city before starting our journey of discovery
+          from south to north. We followed a rule of thumb to take a short break
+          every 45-60 minutes to stretch, eat some sugar or protein, and
+          hydrate. This helped us to maintain our performance and motivation
+          over the long haul.
+        </p>
+        <div class="img">
+          <img
+            src="https://cdn.slavic.media/img/2022-10-15-00970/public"
+            alt="Photo of Andreas standing on the rock in the forest with a hiking pole out of a tree branch"
+          />
+        </div>
+        <p>
+          The following day we woke up in our
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://en.wikipedia.org/wiki/Bushcraft"
+            >bushcraft</a
+          >
+          camp on the banks of Lake Långsjön. Right in the morning we had to
+          change our plans when we learned that the local ferry we were supposed
+          to take back from the north tip of the islands only operates during
+          the summer.<br />Our original plan to walk over 100km in five days,
+          from south to north through the eastern hemisphere of the most
+          inhabited island,
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://en.wikipedia.org/wiki/Fasta_%C3%85land"
+            >Fasta</a
+          >, and return through the western hemisphere, was changed to
+          hitchhiking and seeing as much as possible. We were able to reach the
+          Djupviksgrottan cave by the evening of the second day with the help of
+          two hitchhiking rides.
+        </p>
+        <div class="img">
+          <img
+            src="https://cdn.slavic.media/img/2022-10-15-00967/public"
+            alt="Marcel and Andreas are captured walking along the road, hitchhiking with their left thumbs, trying to stop approaching the car."
+          />
+        </div>
+        <p>
+          After saying goodbye to our last ferryman, we embarked on a journey
+          through the western part of the islands. We walked and hitchhiked
+          along the coast, taking in the beautiful scenery and meeting friendly
+          locals. One of the highlights of the trip was visiting the lighthouse
+          at the north tip of the islands. On the way back, we stopped at the
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://en.wikipedia.org/wiki/St._Olaf%27s_Church,_Jomala"
+            >church in Jomala</a
+          >, where we saw the graves of sailors who died at sea.
+        </p>
+        <div class="img">
+          <img
+            src="https://cdn.slavic.media/img/2022-10-16-00975/public"
+            alt="Outside view at
+    our Djupviksgrottan cave camp, Marcel is reading a book and Andreas is
+    keeping an eye on a campfire."
+          />
+          <br /><br class="hide" />
+          <p><i class="note">The Djupviksgrottan cave</i></p>
+        </div>
+        <p>
+          Before leaving the cave, Marcel and I scouted the surrounding
+          countryside and were surprised to discover fancy-looking and
+          well-equipped cottages just a few hundred meters above the cave,
+          seemingly in the middle of nowhere. Later that day, we were back on
+          our feet, walking on the red roads that are common on the Åland
+          Islands, passing rural settlements and farms, and seeking rides once
+          again.
+        </p>
+        <div class="img">
+          <img
+            src="https://cdn.slavic.media/img/2022-10-15-00971/public"
+            alt="Photo of pilgrims Marcel and Andreas walking over dusty red path up on a hill with Autumn forests in their background."
+          />
+        </div>
+        <p>
+          This time, our carriers were two fresh-looking wanderers we had talked
+          with earlier that day in the cave (the only males who stopped for us
+          during our entire journey!) We exchanged stories and tips with
+          strangers in their cars, squeezed into the rear seats. On our way to
+          the capital in the south, our paths split in Godby. As before, we
+          resupplied with groceries, recharged our lithium batteries, chilled in
+          the lobby, and reviewed our strategy.
+        </p>
+        <div class="img">
+          <img
+            src="https://cdn.slavic.media/img/2022-10-16-00981/public"
+            alt="Photo of an old blue Ford tractor with big red wheels, standing on aside of the road. The scene is listed by the morning sun."
+          />
+        </div>
+
+        <p>
+          It was just the second day of our expedition, and we had already
+          reached our final destination. We decided to conquer the east of the
+          archipelago territory as a plan for our remaining two days. To our
+          disappointment, as soon as we finished our planning and got ready to
+          continue, a violent storm with intense rain occurred. Despite fate's
+          unwillingness, we proceeded further into darkness, far away from the
+          city lights, still hoping for a ride.
+        </p>
+        <div class="img">
+          <img
+            src="https://cdn.slavic.media/img/2022-10-17-00993/public"
+            alt="Photo of Andreas and Marcel hiking through the forest in the northern part of Alands."
+          />
+        </div>
+        <p>
+          After an hour of struggling to attract passing drivers with smiles and
+          hand waves, when it seemed that Ålanders were cold-hearted and without
+          mercy for trespassing foreigners, a Nissan unnoticed our presence
+          pulled over a few dozen meters away. As soon as we realized what had
+          happened, we sprinted towards the car cheering. The lonely driver,
+          Karolina, offered us hot tea and a promise of warming up in her nearby
+          house.
+        </p>
+        <div class="img">
+          <img
+            src="https://cdn.slavic.media/img/2022-10-17-00984/public"
+            alt="Shot of a garden and family house built in a typical Scandinavian style - pastel green facade made out of wooden planks with white outlined corners and windows."
+          />
+          <br /><br class="hide" />
+          <p><i class="note">Karolina's house</i></p>
+        </div>
+        <p>
+          Later that evening we met most likely her entire family including
+          cats, dogs, and chickens. Karolina's tribe made all of us wanderers
+          feel as welcome as being back home and still being thousands of
+          kilometers far away. The original tea break extended into a deep
+          discussion and storytelling over dinner, with stoves heating our
+          backs, with Karolina, the head of the tribe, Thomas, and their
+          daughter Frida. When Andreas, Marcel, and I agreed that our hosts were
+          truly generous to strangers, we were offered a sleepover (and bed!)
+          and the keys to their car for the following day. We humbly accepted
+          the given offerings and went to sleep like babies. Our third day began
+          with the sound of the family's rooster and with both homemade yogurt
+          and eggs.
+        </p>
+        <div class="img">
+          <img
+            src="https://cdn.slavic.media/img/2022-10-17-00996/public"
+            alt="Photo of an empty road through the Autumn colored forest, aside from the road stands a traffic sign informing about the name of our surroundings - Prästo."
+          />
+        </div>
+        <p>
+          Karolina advised us to scout the island of Prästo, which is among the
+          locals prominent due to several
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://en.wikipedia.org/wiki/Pr%C3%A4st%C3%B6,_%C3%85land#History"
+            >historical graveyards</a
+          >
+          - Jewish, Muslim, and Christian ones. When we wandered around this
+          truly spiritual archipelago and had a remarkable land view of our
+          surroundings from a nearby tower and cuddled with a flock of curious
+          sheep, we returned to our temporary basecamp to borrow a car and
+          wander further east, over the red roads, which were from time to time
+          replaced by car ferries, to the end of the road on
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://en.wikipedia.org/wiki/V%C3%A5rd%C3%B6"
+            >Vårdö</a
+          >.
+        </p>
+        <div class="img">
+          <img
+            style="animation: none"
+            src="https://cdn.slavic.media/img/graveyards/public"
+            alt="Photo of two
+      really old Jewish gravestones on the former cemetery in the middle of
+      Forrest, covered by moss and containing text in Hebrew. There are tiny
+      stacks of small boulders on the top of each gravestone, as a symbol of
+      respect and remembrance."
+          />
+        </div>
+        <p>
+          Our afternoon was spent in the spirit of attempts to fish in the
+          crystal-clear water of an empty fishing village on the tip of Vårdö
+          and swim in the October-cold
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://en.wikipedia.org/wiki/Sea_of_%C3%85land"
+            >Åland Sea</a
+          >. Although you could count the days we spent together on the fingers
+          of one hand when it came time for goodbye to our hosts in the evening,
+          it felt like leaving a good old friend after a long time of not seeing
+          each other. Despite not having an opportunity to repay the generosity
+          of the family who took us in, I couldn't help but think that they were
+          simply repaying a debt to someone else. The idea is that if I provide
+          for others, my debt to the universe will be repaid and someone else
+          will be treated with kindness.
+        </p>
+        <div class="img">
+          <img
+            src="https://cdn.slavic.media/img/2022-10-17-01001/public"
+            alt="Photo of me carrying posing Marcel upon my shoulders while standing in the cold Archipelago sea."
+          /><br /><br class="hide" />
+          <p><i class="note">Fishing village nearby Norrgård</i></p>
+        </div>
+        <p>
+          Our final task was to make it back to Mariehamn. We had no luck with
+          hitchhiking, so after several hours of hiking through the empty red
+          roads, we reached Godby, about 17km away, in the night and set up camp
+          using a tarp on the banks of Lake Långsjön, like the first night. The
+          final day was spent with the goal of reaching Mariehamn in the evening
+          and spending the last night in the forest between the city and the
+          seashore.
+        </p>
+        <div class="img">
+          <img
+            src="https://cdn.slavic.media/img/2022-10-14-00962/public"
+            alt="Photo of resting Andreas with dark sky in the background. Andreas’s face is highlighted by the screen of the phone he is holding"
+          />
+        </div>
+        <p>
+          Despite feeling like we had overcome all obstacles, the last one was
+          the rain that lasted throughout the night. Marcel, who slept under the
+          open sky in just a sleeping bag, was especially hard hit and was
+          soaked in the morning. My
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://gobagguide.com/bivy-bag/"
+            >bivak bag</a
+          >
+          protected me from most of the rain, but some still got in. Andreas,
+          who had wisely set up a modest tent using his tarp, was the driest of
+          us in the morning. Unfortunately, the tarp tent did not cover his feet
+          and the large open entrance allowed the rain to alt="Photo of Andreas
+          standing on the rock in the forest with a hike pole out of a tree
+          branch" get in. On the final morning, we compared our level of wetness
+          and said goodbye. Marcel travelled back to Denmark via
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://en.wikipedia.org/wiki/Stockholm"
+            >Stockholm</a
+          >, while Andreas and I returned to Turku, Finland.
+        </p>
+        <hr />
+        <h2>Further reading</h2>
+        <br />
+        <div class="grid-container gallery">
+          <a href="/blog/blavand">
+            <div class="grid-item" id="blavand">
+              <div class="blur">
+                <span></span>
+              </div>
+            </div>
+          </a>
+          <a href="/blog/house-hunting">
+            <div class="grid-item" id="house-hunting">
+              <div class="blur">
+                <span></span>
+              </div>
+            </div> </a
+          ><a class="gradient" href="/blog/cybersecurity">
+            <div class="grid-item" id="cybersecurity">
+              <span></span>
+            </div>
+          </a>
+        </div>
+        <hr />
+        <div class="totop">
+          <a href="#" class="flex-center">
+            <div class="read-more flex-center">
+              <lottie-player
+                id="scrollLottie"
+                src="/assets/lottie/scroll-down.json"
+                background="transparent"
+                loop
+                speed="2"
+                autoplay
+              >
+              </lottie-player>
+            </div>
+
+            <h6>UP!</h6>
+          </a>
+        </div>
+      </article>
+    </main>
+    <!-- FOOTER START -->
+    <footer>
+      <div class="social-icons">
+        <a
+          href="https://www.instagram.com/accounts/login/?next=/adamsochorec/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+            <path
+              d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
+            />
+          </svg>
+        </a>
+        <a
+          href="https://sketchfab.com/slavicmedia"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <svg
+            data-name="Layer 1"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 2000 2000"
+          >
+            <path
+              d="M1000,69C484.48,69,66.72,486.84,66.72,1002.24s417.76,933.29,933.28,933.29,933.36-417.89,933.36-933.29S1515.52,69,1000,69h0Z"
+              id="sketchfab-2"
+            />
+            <path
+              d="M1000,0C447.68,0,0,447.72,0,1000s447.68,1000,1000,1000,1000-447.72,1000-1000S1552.4,0,1000,0Zm-86.88,1595.07l-431.12-248.86v-502l431.12,232.79v518.07Zm76.8-636.19l-510.08-270.38,510.08-294.5,510.16,294.5-510.16,270.38Zm510.48,388.29l-429.52,248v-516.17l429.52-232v500.17Z"
+              id="sketchfab-1"
+            />
+          </svg> </a
+        ><a
+          href="https://github.com/adamsochorec/adamsochorec"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+            <path
+              d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"
+            />
+          </svg>
+        </a>
+        <a
+          href="https://www.flickr.com/photos/141401020@N03/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+            <path d="M151 58a42 42 0 1 0 .1 0z" />
+            <path d="M49 58a42 42 0 1 0 .1 0z" />
+          </svg>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/adamsochorec/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            version="1.1"
+            viewBox="0 0 382 382"
+            xml:space="preserve"
+          >
+            <path
+              d="M347.445,0H34.555C15.471,0,0,15.471,0,34.555v312.889C0,366.529,15.471,382,34.555,382h312.889  C366.529,382,382,366.529,382,347.444V34.555C382,15.471,366.529,0,347.445,0z M118.207,329.844c0,5.554-4.502,10.056-10.056,10.056  H65.345c-5.554,0-10.056-4.502-10.056-10.056V150.403c0-5.554,4.502-10.056,10.056-10.056h42.806  c5.554,0,10.056,4.502,10.056,10.056V329.844z M86.748,123.432c-22.459,0-40.666-18.207-40.666-40.666S64.289,42.1,86.748,42.1  s40.666,18.207,40.666,40.666S109.208,123.432,86.748,123.432z M341.91,330.654c0,5.106-4.14,9.246-9.246,9.246H286.73  c-5.106,0-9.246-4.14-9.246-9.246v-84.168c0-12.556,3.683-55.021-32.813-55.021c-28.309,0-34.051,29.066-35.204,42.11v97.079  c0,5.106-4.139,9.246-9.246,9.246h-44.426c-5.106,0-9.246-4.14-9.246-9.246V149.593c0-5.106,4.14-9.246,9.246-9.246h44.426  c5.106,0,9.246,4.14,9.246,9.246v15.655c10.497-15.753,26.097-27.912,59.312-27.912c73.552,0,73.131,68.716,73.131,106.472  L341.91,330.654L341.91,330.654z"
+            />
+          </svg>
+        </a>
+      </div>
+
+      <br />
+      <div class="footer-ps">
+        <p>No cookies, only ❤ from Denmark</p>
+      </div>
+      <div class="footer-ps">
+        <b
+          ><span
+            >©
+            <?= date('Y') ?></span
+          ></b
+        >
+        <span>Adam Sochorec</span>
+      </div>
+
+      <script type="text/javascript" src="/assets/global-script.js"></script>
+      <script
+        type="text/javascript"
+        src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"
+      ></script>
+    </footer>
+    <!-- FOOTER END -->
+
+    <script type="text/javascript" src="/assets/aland.js"></script>
+  </body>
+</html>
