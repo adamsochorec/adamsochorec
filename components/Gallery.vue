@@ -1,5 +1,5 @@
 <template>
-  <article id="visuals">
+  <article>
     <div class="grid-container">
       <div class="h-stretch">
         <img
@@ -68,17 +68,18 @@
         />
       </div>
       <iframe
-        class="h-stretch reveal hideIframe"
+        class="h-stretch reveal"
         src="https://sketchfab.com/models/dd16bb89f8844760ab31396d495fd0ce/embed?autospin=1&ui_theme=dark&dnt=1"
-        ><p class="alt-alt">
-          3D scan of an Atlantic Wall bunker from WWII at the tip of Blavands
-          Huk.
-        </p>
+        frameborder="0"
+        allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
+      >
       </iframe>
       <iframe
-        class="h-stretch reveal hideIframe"
+        class="h-stretch reveal"
         src="https://sketchfab.com/models/14f04b6252fe44fab20845fe3856401f/embed?autospin=1&ui_theme=dark&dnt=1"
-        ><p class="alt-alt">3D scan of an outdoor concrete architecure.</p>
+        frameborder="0"
+        allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
+      >
       </iframe>
       <div class="v-stretch reveal">
         <img
@@ -178,7 +179,7 @@
       </div>
       <div class="v-stretch reveal">
         <img
-          class="hideImg"
+          class=""
           src="https://cdn.slavic.media/img/2022-08-25-00904/public"
           alt="Björkoby fishing village shrouded in morning fog"
         />
@@ -187,21 +188,55 @@
   </article>
 </template>
 <style lang="postcss" scoped>
-#visuals .grid-container {
+.grid-container {
   display: grid;
-  grid-gap: 10px;
+  grid-gap: var(--grid-gap-1);
   grid-template-columns: repeat(4, 1fr);
   margin: 0 auto;
+
+  iframe,
+  img {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+  }
+  iframe {
+    aspect-ratio: 16/9;
+  }
+  @media only screen and (min-width: 538px) {
+    padding-left: var(--homepage-padding);
+    padding-right: var(--homepage-padding);
+  }
+
+  @media only screen and (max-width: 560px) {
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: var(--nav-bar-top-position);
+  }
 }
-#visuals .grid-container iframe,
-#visuals .grid-container img {
-  height: 100%;
-  width: 100%;
-  -o-object-fit: cover;
-  object-fit: cover;
+
+@media only screen and (min-width: 560px) {
+  .hideImg {
+    display: none;
+  }
 }
-#visuals .grid-container iframe,
-.blog-item iframe {
-  aspect-ratio: 16/9;
+
+@media only screen and (max-width: 560px) {
+  .v-stretch,
+  .vv-stretch {
+    grid-row: span 1;
+  }
+  .hh-stretch,
+  .h-stretch {
+    grid-column: span 1;
+  }
+  .hhh-stretch {
+    grid-column: span 2;
+    grid-row: span 1;
+  }
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: var(--nav-bar-top-position);
+  }
 }
 </style>

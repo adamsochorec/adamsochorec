@@ -23,14 +23,23 @@
     "sass"
   ],
   "dependencies": {
+    "@fancyapps/ui": "^5.0.36",
     "@lottiefiles/dotlottie-vue": "^0.6.2",
     "@nuxt/fonts": "^0.11.4",
     "@nuxt/icon": "^1.13.0",
+    "@primeuix/styles": "^1.1.1",
+    "@primeuix/themes": "^1.0.3",
+    "@primevue/forms": "^4.3.3",
+    "@primevue/nuxt-module": "^4.3.5",
+    "primeicons": "^7.0.0",
     "nuxt": "^3.17.5",
+    "nuxt-swiper": "^2.0.0",
+    "swiper": "^11.2.6",
     "vue": "^3.5.16",
     "vue-router": "^4.5.1"
   },
   "devDependencies": {
+    "@nuxtjs/tailwindcss": "^6.14.0",
     "@types/node": "^22.15.14",
     "sass-embedded": "^1.87.0",
     "sass-loader": "^16.0.5"

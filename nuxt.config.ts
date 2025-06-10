@@ -1,6 +1,8 @@
+import Aura from "@primeuix/themes/aura";
+
 export default defineNuxtConfig({
   compatibilityDate: "2025-06-10",
-  css: ["/assets/css/main.css"],
+  css: ["/assets/css/main.css", "primeicons/primeicons.css"],
   postcss: {
     plugins: {
       "postcss-nested": {},
@@ -14,7 +16,13 @@ export default defineNuxtConfig({
     },
   },
   debug: true,
-  modules: ["@nuxt/icon", "@nuxt/fonts", "@nuxt/devtools"],
+  modules: [
+    "@nuxtjs/tailwindcss",
+    "@primevue/nuxt-module",
+    "@nuxt/icon",
+    "@nuxt/fonts",
+    "@nuxt/devtools",
+  ],
   app: {
     baseURL: "/",
     buildAssetsDir: "/_nuxt/",
@@ -32,7 +40,6 @@ export default defineNuxtConfig({
         lang: "en",
       },
     },
-    pageTransition: { name: "page", mode: "out-in" },
   },
   nitro: {
     output: {
@@ -41,5 +48,14 @@ export default defineNuxtConfig({
     prerender: {
       crawlLinks: true,
     },
+  },
+  primevue: {
+    options: {
+      ripple: false,
+      theme: {
+        preset: Aura,
+      },
+    },
+    treeshake: true,
   },
 });

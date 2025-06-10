@@ -31,7 +31,7 @@
             </svg>
           </a>
         </h2>
-        <hr />
+        <hr role="separator" />
       </article>
     </main>
   </body>

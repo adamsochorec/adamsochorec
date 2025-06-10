@@ -1,12 +1,6 @@
 <script setup lang="ts">
-import { onMounted, ref } from "vue";
+import { onMounted } from "vue";
 import { useRouter } from "vue-router";
-
-useHead({
-  titleTemplate: (titleChunk) => {
-    return titleChunk ? `${titleChunk} | Adam Sochorec` : "Adam Sochorec";
-  },
-});
 
 // CONTENT REVEAL START
 function reveal() {
@@ -67,19 +61,7 @@ onMounted(() => {
 
 <template>
   <NavBar />
-  <!-- Main Content -->
   <NuxtPage />
-  <hr class="semi bodyxfooter" role="separator" />
+  <hr class="semi" role="separator" />
   <Footer />
 </template>
-<style lang="postcss">
-.page-enter-active,
-.page-leave-active {
-  transition: var(--transition-2);
-}
-.page-enter-from,
-.page-leave-to {
-  opacity: 0;
-  filter: var(--blur-1);
-}
-</style>

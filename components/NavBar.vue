@@ -71,26 +71,28 @@ onMounted(() => {
 
 <template>
   <header>
-    <div class="blur">
-      <div class="container">
-        <nav id="navigation">
-          <a href="/" class="logo"
-            ><span>adam</span><br /><span>sochorec</span></a
-          >
-          <a aria-label="mobile menu" class="hamburger">
-            <span></span>
-            <span></span>
-            <span></span>
-          </a>
-          <ul class="menu-left">
-            <li><a href="/#blog">blog</a></li>
-            <li><a href="/#web-dev">web dev</a></li>
-            <li><a href="/#work">work</a></li>
-            <li><a href="/#about">about</a></li>
-            <li><a href="/#contact">contact</a></li>
-          </ul>
-        </nav>
-      </div>
+    <div class="container">
+      <nav id="navigation">
+        <a href="/" class="logo"
+          ><span>adam</span><br /><span>sochorec</span></a
+        >
+        <a aria-label="mobile menu" class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </a>
+        <ul class="menu-left">
+          <li>
+            <a href="/#blog"><span class="pi pi-align-left"></span> blog</a>
+          </li>
+          <li>
+            <a href="/#about"><span class="pi pi-users"></span>about</a>
+          </li>
+          <li>
+            <a href="/#contact"><span class="pi pi-envelope"></span>contact</a>
+          </li>
+        </ul>
+      </nav>
     </div>
   </header>
 </template>
@@ -194,9 +196,7 @@ header {
   transform: translateY(0);
   -webkit-transform: translateY(0);
 }
-header .blur {
-  padding: 0.5rem 0;
-}
+
 header nav ul {
   list-style: none;
   padding-left: 0;
@@ -226,6 +226,10 @@ ul.menu-left {
   transition: all 0.3s ease-out;
   z-index: 10;
   font-size: 11px;
+}
+.pi {
+  margin-right: var(--grid-gap-1);
+  font-size: 13px !important;
 }
 ul.menu-left:before {
   content: "";
@@ -315,9 +319,6 @@ ul.menu-left.collapse {
   }
   header .hamburger {
     display: none;
-  }
-  header .blur {
-    height: 46.65px;
   }
 }
 @media only screen and (min-width: 947px) {

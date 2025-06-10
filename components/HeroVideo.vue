@@ -93,6 +93,21 @@ const { iframeRef, state, muteVideo, unmuteVideo, playVideo, pauseVideo } =
     transform: translate(-50%, -50%);
   }
 }
+/* VIDEO CONTROLS START */
+.controls {
+  left: var(--grid-gap-2);
+  gap: var(--grid-gap-1);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+}
+.controls .volume {
+  border-radius: var(--border-radius-2);
+  cursor: pointer;
+}
+
+/* VIDEO CONTROLS END */
 @media only screen and (max-width: 415px) {
   .video-container,
   .showcase {
