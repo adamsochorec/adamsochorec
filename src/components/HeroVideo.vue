@@ -1,15 +1,14 @@
 <script setup lang="ts">
-import { useVideoControls } from "@/composables/useVideoControlsYouTube";
+import { useVideoControls } from '@/composables/useVideoControlsYouTube'
 
 interface HeroVideo {
-  vimeo: string;
-  youtube: string;
-  title: string;
-  start?: string;
+  vimeo: string
+  youtube: string
+  title: string
+  start?: string
 }
-const props = defineProps<HeroVideo>();
-const { iframeRef, state, muteVideo, unmuteVideo, playVideo, pauseVideo } =
-  useVideoControls();
+const props = defineProps<HeroVideo>()
+const { iframeRef, state, muteVideo, unmuteVideo, playVideo, pauseVideo } = useVideoControls()
 </script>
 
 <template>
@@ -42,11 +41,7 @@ const { iframeRef, state, muteVideo, unmuteVideo, playVideo, pauseVideo } =
       <i class="pi pi-vimeo"></i>
     </a>
     <section class="controls">
-      <button
-        v-if="state.isMuted"
-        class="pi pi-volume-off volume"
-        @click="unmuteVideo"
-      ></button>
+      <button v-if="state.isMuted" class="pi pi-volume-off volume" @click="unmuteVideo"></button>
       <button v-else class="pi pi-volume-up volume" @click="muteVideo"></button>
     </section>
   </section>
@@ -106,7 +101,13 @@ const { iframeRef, state, muteVideo, unmuteVideo, playVideo, pauseVideo } =
   border-radius: var(--border-radius-2);
   cursor: pointer;
 }
-
+button,
+button:hover {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
 /* VIDEO CONTROLS END */
 @media only screen and (max-width: 415px) {
   .video-container,
