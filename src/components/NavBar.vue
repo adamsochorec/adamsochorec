@@ -1,81 +1,79 @@
 <script setup lang="ts">
-import { onMounted, onBeforeUnmount } from "vue";
+import { onMounted, onBeforeUnmount } from 'vue'
 
 onMounted(() => {
-  let lastScrollTop = 0;
-  let ticking = false;
+  let lastScrollTop = 0
+  let ticking = false
 
-  const hamburger = document.querySelector(".hamburger") as HTMLElement;
-  const menuLeft = document.querySelector(".menu-left") as HTMLElement;
-  const header = document.querySelector("header") as HTMLElement;
-  const menuLeftLinks = document.querySelectorAll(".menu-left a");
+  const hamburger = document.querySelector('.hamburger') as HTMLElement
+  const menuLeft = document.querySelector('.menu-left') as HTMLElement
+  const header = document.querySelector('header') as HTMLElement
+  const menuLeftLinks = document.querySelectorAll('.menu-left a')
 
-  if (!hamburger || !menuLeft || !header) return;
+  if (!hamburger || !menuLeft || !header) return
 
   const handleHamburgerClick = () => {
-    hamburger.classList.toggle("open");
-    menuLeft.classList.toggle("collapse");
-  };
+    hamburger.classList.toggle('open')
+    menuLeft.classList.toggle('collapse')
+  }
 
   const handleMenuLinkClick = () => {
-    hamburger.classList.remove("open");
-    menuLeft.classList.remove("collapse");
-  };
+    hamburger.classList.remove('open')
+    menuLeft.classList.remove('collapse')
+  }
 
   const hasScrolled = () => {
-    const st = window.pageYOffset || document.documentElement.scrollTop;
-    const navbarHeight = header.offsetHeight;
-    const windowHeight = window.innerHeight;
-    const delta = 5;
+    const st = window.pageYOffset || document.documentElement.scrollTop
+    const navbarHeight = header.offsetHeight
+    const windowHeight = window.innerHeight
+    const delta = 5
 
-    if (Math.abs(lastScrollTop - st) <= delta) return;
+    if (Math.abs(lastScrollTop - st) <= delta) return
 
     if (st > lastScrollTop && st > navbarHeight) {
-      header.classList.remove("show-nav");
-      header.classList.add("hide-nav");
-      hamburger.classList.remove("open");
-      menuLeft.classList.remove("collapse");
+      header.classList.remove('show-nav')
+      header.classList.add('hide-nav')
+      hamburger.classList.remove('open')
+      menuLeft.classList.remove('collapse')
     } else if (st + windowHeight < document.documentElement.scrollHeight) {
-      header.classList.remove("hide-nav");
-      header.classList.add("show-nav");
+      header.classList.remove('hide-nav')
+      header.classList.add('show-nav')
     }
 
-    lastScrollTop = st;
-  };
+    lastScrollTop = st
+  }
 
   const handleScroll = () => {
     if (!ticking) {
       window.requestAnimationFrame(() => {
-        hasScrolled();
-        ticking = false;
-      });
-      ticking = true;
+        hasScrolled()
+        ticking = false
+      })
+      ticking = true
     }
-  };
+  }
 
-  hamburger.addEventListener("click", handleHamburgerClick);
+  hamburger.addEventListener('click', handleHamburgerClick)
   menuLeftLinks.forEach((link) => {
-    link.addEventListener("click", handleMenuLinkClick);
-  });
-  window.addEventListener("scroll", handleScroll);
+    link.addEventListener('click', handleMenuLinkClick)
+  })
+  window.addEventListener('scroll', handleScroll)
 
   onBeforeUnmount(() => {
-    hamburger.removeEventListener("click", handleHamburgerClick);
+    hamburger.removeEventListener('click', handleHamburgerClick)
     menuLeftLinks.forEach((link) => {
-      link.removeEventListener("click", handleMenuLinkClick);
-    });
-    window.removeEventListener("scroll", handleScroll);
-  });
-});
+      link.removeEventListener('click', handleMenuLinkClick)
+    })
+    window.removeEventListener('scroll', handleScroll)
+  })
+})
 </script>
 
 <template>
   <header>
     <div class="container">
       <nav id="navigation">
-        <a href="/" class="logo"
-          ><span>adam</span><br /><span>sochorec</span></a
-        >
+        <a href="/" class="logo"><span>adam</span><br /><span>sochorec</span></a>
         <a aria-label="mobile menu" class="hamburger">
           <span></span>
           <span></span>
@@ -83,13 +81,13 @@ onMounted(() => {
         </a>
         <ul class="menu-left">
           <li>
-            <a href="/#blog"><span class="pi pi-align-left"></span> blog</a>
+            <a href="#blog"><span class="pi pi-align-left"></span> blog</a>
           </li>
           <li>
-            <a href="/#about"><span class="pi pi-users"></span>about</a>
+            <a href="#about"><span class="pi pi-users"></span>about</a>
           </li>
           <li>
-            <a href="/#contact"><span class="pi pi-envelope"></span>contact</a>
+            <a href="#contact"><span class="pi pi-envelope"></span>contact</a>
           </li>
         </ul>
       </nav>
@@ -98,7 +96,7 @@ onMounted(() => {
 </template>
 <style lang="postcss" scoped>
 .container {
-  padding: 0 var(--homepage-padding) 0 var(--homepage-padding);
+  padding: var(--grid-gap-1) var(--homepage-padding) 0 var(--homepage-padding);
 }
 header a {
   text-decoration: none;
@@ -118,7 +116,7 @@ header nav .logo span:nth-child(3) {
   font-size: var(--logo-sochorec);
 }
 header nav .logo:after {
-  content: "";
+  content: '';
   display: table;
   clear: both;
 }
@@ -131,19 +129,25 @@ header nav .logo:after {
   transition: color 0.35s ease;
 }
 .menu-left a:before {
-  content: "";
+  content: '';
   display: block;
   position: absolute;
   left: 0;
   bottom: 0;
   height: 2px;
   width: 0;
-  -webkit-transition: width 0s ease, background 0.35s ease;
-  -o-transition: width 0s ease, background 0.35s ease;
-  transition: width 0s ease, background 0.35s ease;
+  -webkit-transition:
+    width 0s ease,
+    background 0.35s ease;
+  -o-transition:
+    width 0s ease,
+    background 0.35s ease;
+  transition:
+    width 0s ease,
+    background 0.35s ease;
 }
 .menu-left a:after {
-  content: "";
+  content: '';
   display: block;
   position: absolute;
   right: 0;
@@ -180,18 +184,26 @@ header {
   width: 100%;
   z-index: 9999;
   will-change: transform;
-  transition: background 0.3s,
+  transition:
+    background 0.3s,
     -webkit-transform 0.5s cubic-bezier(0.694, 0.048, 0.335, 1);
-  -webkit-transition: background 0.3s,
+  -webkit-transition:
+    background 0.3s,
     -webkit-transform 0.5s cubic-bezier(0.694, 0.048, 0.335, 1);
-  -o-transition: transform 0.5s cubic-bezier(0.694, 0.048, 0.335, 1),
+  -o-transition:
+    transform 0.5s cubic-bezier(0.694, 0.048, 0.335, 1),
     background 0.3s;
-  transition: transform 0.5s cubic-bezier(0.694, 0.048, 0.335, 1),
+  transition:
+    transform 0.5s cubic-bezier(0.694, 0.048, 0.335, 1),
     background 0.3s;
-  transition: transform 0.5s cubic-bezier(0.694, 0.048, 0.335, 1),
-    background 0.3s, -webkit-transform 0.5s cubic-bezier(0.694, 0.048, 0.335, 1);
-  transition: transform 0.5s cubic-bezier(0.694, 0.048, 0.335, 1),
-    background 0.3s, -webkit-transform 0.5s cubic-bezier(0.694, 0.048, 0.335, 1);
+  transition:
+    transform 0.5s cubic-bezier(0.694, 0.048, 0.335, 1),
+    background 0.3s,
+    -webkit-transform 0.5s cubic-bezier(0.694, 0.048, 0.335, 1);
+  transition:
+    transform 0.5s cubic-bezier(0.694, 0.048, 0.335, 1),
+    background 0.3s,
+    -webkit-transform 0.5s cubic-bezier(0.694, 0.048, 0.335, 1);
   -ms-transform: translateY(0);
   transform: translateY(0);
   -webkit-transform: translateY(0);
@@ -232,7 +244,7 @@ ul.menu-left {
   font-size: 13px !important;
 }
 ul.menu-left:before {
-  content: "";
+  content: '';
   display: table;
   clear: both;
 }
@@ -287,7 +299,7 @@ ul.menu-left.collapse {
     margin-right: auto;
   }
   header .container:after {
-    content: " ";
+    content: ' ';
     display: block;
     clear: both;
   }
@@ -326,7 +338,7 @@ ul.menu-left.collapse {
     max-width: 100%;
   }
   header .container:after {
-    content: " ";
+    content: ' ';
     display: block;
     clear: both;
   }

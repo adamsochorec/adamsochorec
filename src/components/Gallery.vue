@@ -56,16 +56,10 @@
         />
       </div>
       <div class="h-stretch reveal">
-        <img
-          src="https://cdn.slavic.media/img/2017-10-24-00087/public"
-          alt="Hunter's passion"
-        />
+        <img src="https://cdn.slavic.media/img/2017-10-24-00087/public" alt="Hunter's passion" />
       </div>
       <div class="hhh-stretch reveal">
-        <img
-          src="https://cdn.slavic.media/img/2017-08-17-00069/hd"
-          alt="The Forgotten District"
-        />
+        <img src="https://cdn.slavic.media/img/2017-08-17-00069/hd" alt="The Forgotten District" />
       </div>
       <iframe
         class="h-stretch reveal"
@@ -179,7 +173,7 @@
       </div>
       <div class="v-stretch reveal">
         <img
-          class=""
+          class="hideImg"
           src="https://cdn.slavic.media/img/2022-08-25-00904/public"
           alt="Björkoby fishing village shrouded in morning fog"
         />

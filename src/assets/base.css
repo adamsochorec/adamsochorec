@@ -2,11 +2,10 @@
   --logo-font: IBM;
   --letter-spacing-1: 0.7px;
   --letter-spacing-3: 5px;
-  --content-font: "SF Pro", sans-serif;
+  --content-font: 'SF Pro', sans-serif;
   --logo-adam: 16px;
   --logo-sochorec: 9.5px;
   --logo-shadow: 2px 2px 1px rgba(var(--secondary-color), 0.8);
-
   --primary-color: 0, 126, 227;
   --secondary-color: 128, 0, 128;
   --grey-color: 40, 40, 40;
@@ -23,8 +22,7 @@
   --border-radius-2: 50px;
   --border-1: 0.5px solid rgba(255, 255, 255, 0.4);
   --transition-1: all.1s ease-in-out;
-  --transition-2: 0.35s ease-in-out,
-    -webkit-transform 0.5s cubic-bezier(0.694, 0.048, 0.335, 1);
+  --transition-2: 0.35s ease-in-out, -webkit-transform 0.5s cubic-bezier(0.694, 0.048, 0.335, 1);
   --nav-bar-top-position: 50px;
   --box-shadow-1: 0px 0px 10px rgba(0, 0, 0, 0.25);
   --box-shadow-2: 0 0 var(--grid-gap-3) rgba(var(--secondary-color), 1);
@@ -39,13 +37,10 @@
 }
 
 @font-face {
-  font-family: "IBM";
-  src: url(https://assets.slavic.media/fonts/IBM.ttf) format("truetype");
+  font-family: 'IBM';
+  src: url(https://assets.slavic.media/fonts/IBM.ttf) format('truetype');
 }
-
-.content-font {
-  font-family: "SF Pro", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 100;
-  font-style: normal;
+@font-face {
+  font-family: 'SF Pro';
+  src: url(https://assets.slavic.media/fonts/SF-Pro-Display-Regular.ttf) format('truetype');
 }

@@ -35,37 +35,23 @@
               <label for="subject">Subject * </label>
               <input type="text" id="subject" name="_subject" required />
               <label for="company">Company (optional)</label>
-              <input
-                type="text"
-                id="company"
-                name="Company"
-                autocomplete="work"
-              />
+              <input type="text" id="company" name="Company" autocomplete="work" />
             </div>
           </div>
           <div class="reveal">
             <label for="message">Message * </label>
-            <textarea
-              minlength="10"
-              name="Message"
-              rows="7"
-              id="message"
-              required
-            ></textarea>
+            <textarea minlength="10" name="Message" rows="7" id="message" required></textarea>
 
             <!-- Redirect to the success page -->
           </div>
-          <input
-            type="hidden"
-            name="_captcha"
-            value="false"
-          /><!-- Spam captcha deactivation -->
+          <input type="hidden" name="_captcha" value="false" /><!-- Spam captcha deactivation -->
           <input
             type="hidden"
             name="_next"
             value="https://adamsochorec.github.io/adamsochorec/success"
           />
           <Button
+            variant="outlined"
             class="reveal"
             icon="pi pi-arrow-right"
             severity="contrast"
@@ -91,14 +77,16 @@ textarea {
   border-radius: var(--border-radius-1);
   padding: 0.8rem;
   width: 100%;
+  margin-top: var(--grid-gap-1);
   margin-bottom: var(--grid-gap-2);
 }
+
 input,
 select,
 textarea,
 ::placeholder {
   color: white;
-  font-family: "SF Pro", sans-serif;
+  font-family: 'SF Pro', sans-serif;
   font-optical-sizing: auto;
   font-weight: 100;
   font-style: normal;

@@ -1,5 +1,5 @@
 <script setup>
-const currentYear = new Date().getFullYear();
+const currentYear = new Date().getFullYear()
 </script>
 <template>
   <!-- FOOTER START -->
@@ -13,12 +13,23 @@ const currentYear = new Date().getFullYear();
       >
       </a>
       <a
-        class="pi pi-sun"
+        class="icon"
         href="https://sketchfab.com/slavicmedia"
         target="_blank"
         rel="noopener noreferrer"
       >
-      </a
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 2000">
+          <path
+            style="fill: transparent"
+            d="M1000,69C484.48,69,66.72,486.84,66.72,1002.24s417.76,933.29,933.28,933.29,933.36-417.89,933.36-933.29S1515.52,69,1000,69h0Z"
+            id="sketchfab-2"
+          />
+          <path
+            class="icon"
+            d="M1000,0C447.68,0,0,447.72,0,1000s447.68,1000,1000,1000,1000-447.72,1000-1000S1552.4,0,1000,0Zm-86.88,1595.07l-431.12-248.86v-502l431.12,232.79v518.07Zm76.8-636.19l-510.08-270.38,510.08-294.5,510.16,294.5-510.16,270.38Zm510.48,388.29l-429.52,248v-516.17l429.52-232v500.17Z"
+            id="sketchfab-1"
+          />
+        </svg> </a
       ><a
         class="pi pi-github"
         href="https://github.com/adamsochorec/adamsochorec"
@@ -27,11 +38,15 @@ const currentYear = new Date().getFullYear();
       >
       </a>
       <a
-        class="pi pi-sun"
+        class="icon"
         href="https://www.flickr.com/photos/141401020@N03/"
         target="_blank"
         rel="noopener noreferrer"
       >
+        <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+          <path d="M151 58a42 42 0 1 0 .1 0z" />
+          <path d="M49 58a42 42 0 1 0 .1 0z" />
+        </svg>
       </a>
       <a
         class="pi pi-linkedin"
@@ -61,7 +76,7 @@ footer {
 }
 .footer-ps {
   color: white;
-  font-family: "SF Pro", sans-serif;
+  font-family: 'SF Pro', sans-serif;
   font-optical-sizing: auto;
   font-weight: 100;
   font-style: normal;
@@ -102,5 +117,8 @@ a {
 }
 a:nth-child(5) {
   margin-right: 0;
+}
+a svg {
+  height: 17px;
 }
 </style>
