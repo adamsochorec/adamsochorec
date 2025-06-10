@@ -11,12 +11,11 @@
     "type-check": "vue-tsc --build",
     "format": "prettier --write src/"
   },
-    "repository": {
+  "repository": {
     "type": "git",
     "url": "https://github.com/adamsochorec/adamsochorec"
   },
   "keywords": [
-    "nuxt",
     "vue",
     "nodejs",
     "typescript",
@@ -27,13 +26,12 @@
   "dependencies": {
     "vue": "^3.5.13",
     "vue-router": "^4.5.0",
-      "@lottiefiles/dotlottie-vue": "^0.5.6",
+    "@lottiefiles/dotlottie-vue": "^0.5.6",
     "@lottiefiles/vue-lottie-player": "^1.1.0",
-    "@primeuix/themes": "^1.0.0", 
+    "@primeuix/themes": "^1.0.0",
     "primeicons": "^7.0.0",
     "primevue": "^4.3.1",
-        "swiper": "^11.2.6"
-
+    "swiper": "^11.2.6"
   },
   "devDependencies": {
     "@tsconfig/node22": "^22.0.1",
@@ -46,8 +44,8 @@
     "vite": "^6.2.4",
     "vite-plugin-vue-devtools": "^7.7.2",
     "vue-tsc": "^2.2.8",
-      "@primevue/auto-import-resolver": "^4.3.1",
-        "sass-embedded": "^1.87.0",
+    "@primevue/auto-import-resolver": "^4.3.1",
+    "sass-embedded": "^1.87.0",
     "sass-loader": "^16.0.5"
   }
 }
