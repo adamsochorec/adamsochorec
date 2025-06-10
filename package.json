@@ -1,0 +1,38 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adamsochorec/adamsochorec"
+  },
+  "keywords": [
+    "nuxt",
+    "vue",
+    "nodejs",
+    "typescript",
+    "javascript",
+    "vite",
+    "sass"
+  ],
+  "dependencies": {
+    "@lottiefiles/dotlottie-vue": "^0.6.2",
+    "@nuxt/fonts": "^0.11.4",
+    "@nuxt/icon": "^1.13.0",
+    "nuxt": "^3.17.5",
+    "vue": "^3.5.16",
+    "vue-router": "^4.5.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.14",
+    "sass-embedded": "^1.87.0",
+    "sass-loader": "^16.0.5"
+  }
+}

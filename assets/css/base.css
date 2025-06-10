@@ -1,0 +1,59 @@
+:root {
+  --primary-color: 0, 126, 227;
+  --secondary-color: 128, 0, 128;
+  --grey-color: 40, 40, 40;
+  --light-grey-color: 128, 128, 128;
+  --white-color: 255, 255, 255;
+  --black-color: 0, 0, 0;
+  --fontsize-xl-h1: clamp(3rem, 1rem + 10vw, 7rem);
+  --fontsize-h1: clamp(1.9rem, 1rem + 10vw, 3rem);
+  --fontsize-h2: calc(var(--fontsize-h1) * 0.6);
+  --fontsize-h3: calc(var(--fontsize-h2) * 0.95);
+  --fontsize-h4: calc(var(--fontsize-h3) * 0.8);
+  --fontsize-h5: calc(var(--fontsize-h4) * 0.8);
+  --fontsize-h6: calc(var(--fontsize-h5) * 0.8);
+  --fontsize-p: 1rem;
+  --logo-font: IBM;
+  --alt-logo-font: BigBlue;
+  --text-color: #fff;
+  --letter-spacing-1: 0.7px;
+  --letter-spacing-2: 3px;
+  --letter-spacing-3: 5px;
+  --paragraph-weight: 250;
+  --content-font: SF Pro Light;
+  --heading-font: SF Pro Regular;
+  --text-shadow-1: 5px 5px 4px rgba(0, 0, 0, 0.25);
+  --text-transform-1: perspective(25rem) rotateX(40deg);
+  --border-1: 3px solid rgb(var(--primary-color));
+  --border-radius-1: 2px;
+  --border-radius-2: 6px;
+  --border-radius-3: 15px;
+  --transition-1: all.2s ease-in-out;
+  --transition-2: all.3s ease-in-out;
+  --nav-bar-top-position: 45px;
+  --shadow-transition: translate(4px, -4px);
+  --box-shadow-1: rgba(0, 0, 0, 0.3) 0 19px 38px,
+    rgba(0, 0, 0, 0.22) 0 15px 12px;
+  --homepage-padding: 50px;
+  --logo-adam: 16px;
+  --logo-sochorec: 9.5px;
+  --logo-querries: 0.85;
+  --blur-1: blur(2px);
+  --blur-2: blur(35px);
+  --logo-shadow: 2px 2px 1px rgba(var(--secondary-color), 0.8);
+}
+@font-face {
+  font-family: "SF Pro Regular";
+  src: url(https://assets.slavic.media/fonts/SF-Pro-Display-Regular.ttf)
+    format("truetype");
+}
+@font-face {
+  font-family: "SF Pro Light";
+  src: url(https://assets.slavic.media/fonts/SF-Pro-Display-Light.ttf)
+    format("truetype");
+}
+@font-face {
+  font-family: "IBM";
+  font-weight: var(--heading-weight);
+  src: url(https://assets.slavic.media/fonts/IBM.ttf) format("truetype");
+}
