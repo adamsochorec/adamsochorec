@@ -27,8 +27,7 @@
   "dependencies": {
     "vue": "^3.5.13",
     "vue-router": "^4.5.0",
-    "@lottiefiles/dotlottie-vue": "^0.5.6",
-    "@lottiefiles/vue-lottie-player": "^1.1.0",
+    "@lottiefiles/dotlottie-vue": "^0.6.2",
     "@primeuix/themes": "^1.0.0",
     "primeicons": "^7.0.0",
     "primevue": "^4.3.1",

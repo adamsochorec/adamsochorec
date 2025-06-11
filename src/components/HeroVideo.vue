@@ -116,7 +116,7 @@ button:hover {
   }
   .controls,
   .link {
-    bottom: var(--grid-gap-2);
+    top: calc(100vh - 4 * var(--grid-gap-1));
   }
 }
 @media only screen and (min-width: 415px) {

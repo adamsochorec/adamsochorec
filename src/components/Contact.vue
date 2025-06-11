@@ -1,67 +1,56 @@
 <template>
-  <article id="contact">
-    <section class="wrapper-standard">
-      <section class="contact-form-section">
-        <hr role="separator" />
-        <h2 class="reveal">Contact</h2>
-        <form
-          action="https://formsubmit.co/2007080c2cf8bd2ebb68506e7aa98c5f"
-          method="POST"
-          enctype="multipart/form-data"
-        >
-          <!-- Email invisibility -->
-          <div class="grid-container contact-form reveal">
-            <div class="grid-item">
-              <label for="email">Email * </label>
-              <input
-                type="email"
-                id="email"
-                name="Email"
-                placeholder=""
-                required
-                autocomplete="email"
-              />
-              <label for="name">Name *</label>
-              <input
-                required
-                type="text"
-                id="name"
-                name="Name"
-                placeholder=""
-                autocomplete="name"
-              />
-            </div>
-            <div class="grid-item">
-              <label for="subject">Subject * </label>
-              <input type="text" id="subject" name="_subject" required />
-              <label for="company">Company (optional)</label>
-              <input type="text" id="company" name="Company" autocomplete="work" />
-            </div>
-          </div>
-          <div class="reveal">
-            <label for="message">Message * </label>
-            <textarea minlength="10" name="Message" rows="7" id="message" required></textarea>
-
-            <!-- Redirect to the success page -->
-          </div>
-          <input type="hidden" name="_captcha" value="false" /><!-- Spam captcha deactivation -->
+  <section class="contact-form-section" id="contact">
+    <hr role="separator" />
+    <h2 class="reveal">Contact</h2>
+    <form
+      action="https://formsubmit.co/2007080c2cf8bd2ebb68506e7aa98c5f"
+      method="POST"
+      enctype="multipart/form-data"
+    >
+      <!-- Email invisibility -->
+      <div class="grid-container contact-form reveal">
+        <div class="grid-item">
+          <label for="email">Email * </label>
           <input
-            type="hidden"
-            name="_next"
-            value="https://adamsochorec.github.io/adamsochorec/success"
+            type="email"
+            id="email"
+            name="Email"
+            placeholder=""
+            required
+            autocomplete="email"
           />
-          <Button
-            variant="outlined"
-            class="reveal"
-            icon="pi pi-arrow-right"
-            severity="contrast"
-            type="submit"
-            label="Submit"
-          />
-        </form>
-      </section>
-    </section>
-  </article>
+          <label for="name">Name *</label>
+          <input required type="text" id="name" name="Name" placeholder="" autocomplete="name" />
+        </div>
+        <div class="grid-item">
+          <label for="subject">Subject * </label>
+          <input type="text" id="subject" name="_subject" required />
+          <label for="company">Company (optional)</label>
+          <input type="text" id="company" name="Company" autocomplete="work" />
+        </div>
+      </div>
+      <div class="reveal">
+        <label for="message">Message * </label>
+        <textarea minlength="10" name="Message" rows="7" id="message" required></textarea>
+
+        <!-- Redirect to the success page -->
+      </div>
+      <input type="hidden" name="_captcha" value="false" /><!-- Spam captcha deactivation -->
+      <input
+        type="hidden"
+        name="_next"
+        value="https://adamsochorec.github.io/adamsochorec/success"
+      />
+      <Button
+        variant="outlined"
+        class="reveal"
+        icon="pi pi-arrow-right"
+        severity="contrast"
+        type="submit"
+        label="Submit"
+      />
+    </form>
+  </section>
 </template>
 <style lang="postcss" scoped>
 .grid-item:nth-child(odd) {
@@ -78,7 +67,7 @@ textarea {
   padding: 0.8rem;
   width: 100%;
   margin-top: var(--grid-gap-1);
-  margin-bottom: var(--grid-gap-2);
+  margin-bottom: var(--grid-gap-1);
 }
 
 input,
