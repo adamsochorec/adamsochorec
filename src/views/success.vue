@@ -30,13 +30,14 @@ import { DotLottieVue } from '@lottiefiles/dotlottie-vue'
       >
         Form submitted<br />successfully!
       </h1>
-      <Btn
-        tag="NuxtLink"
-        icon="home"
+      <br />
+      <Button
+        variant="outlined"
+        severity="contrast"
+        as="a"
         label="Return to the homepage"
-        variant="primary"
-        :to="'/'"
-        aria-label="Return to the homepage"
+        icon="pi pi-home"
+        href="/"
       />
     </section>
   </main>

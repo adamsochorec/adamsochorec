@@ -43,9 +43,9 @@
       />
       <Button
         variant="outlined"
+        severity="contrast"
         class="reveal"
         icon="pi pi-arrow-right"
-        severity="contrast"
         type="submit"
         label="Submit"
       />
