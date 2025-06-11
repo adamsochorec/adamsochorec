@@ -1,25 +1,37 @@
-# adamsochorec
+# Hi, I'm Adam 👋
 
-## What?
+### Frontend Developer | Vue/Nuxt Enthusiast | Based in Prague
 
-One of the very first personal websites by [Adam Sochorec](https://linkedin.com/in/adamsochorec), was initially created as a school project focused on **web accessibility** and **cybersecurity**. Over time, it evolved into a **personal portfolio** showcasing photo, video, and 3D work, as well as a basic **blog** with travel stories and project updates.
+---
 
-## Why?
+**About Me**
 
-This project marked a major milestone in the development experience. It introduced the concept of **reusable components** via PHP, enabling consistent headers and footers across the site without repeating code.
+- 🎓 Formally educated in Full Stack Development (Denmark)
+- 💼 Currently crafting frontend experiences at [NejŘemeslníci](https://www.nejremeslnici.cz/) (Ruby on Rails)
+- 🌍 Based in Prague, Czech Republic
 
-## When?
+---
 
-Development spanned from **2021 to 2023**, with continuous small updates and expansions.
+**🛠️ Top Skills & Favorite Tech**
 
-## Who?
+- **Frontend:** Vue.js · Nuxt.js · Vite · TypeScript · Vitest · SCSS
+- **Backend:** Express.js · Ruby on Rails · Python · C · C#
+- **Other:** HTML5 · CSS3 · Responsive Design · User testing
 
-Developed independently by Adam Sochorec during studies at [IBA](https://www.iba.dk).
+> I generally enjoy the Vue/Nuxt/Vite ecosystem and love building modern web applications.
 
-## How?
+---
 
-- Built-in **static HTML, CSS, and PHP**
-- No external libraries or frameworks
-- Routing and structure are handled **manually**, without `.htaccess` or JS frameworks
-- Served through local environments using **XAMPP/AMPPS**
-- Used as a repository for early projects in **video, photo, and 3D**
+**🔗 Connect With Me**
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Adam%20Sochorec-blue?logo=linkedin&style=flat)](https://linkedin.com/in/adamsochorec)
+
+---
+
+**📊 GitHub Stats**
+
+![Adam's GitHub stats](https://github-readme-stats.vercel.app/api?username=adamsochorec&show_icons=true&theme=vue-dark)
+
+---
+
+*Always happy to collaborate or chat about modern frontend!*
