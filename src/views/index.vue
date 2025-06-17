@@ -59,7 +59,7 @@ onMounted(() => {
       <h2 class="arttext reveal">About</h2>
       <img
         class="profilepic reveal"
-        src="https://cdn.slavic.media/img/2022-04-24-176-2/public"
+        src="https://cdn.slavic.media/img/2022-04-24-176-2/fullHD"
         alt="Black and white portrait of Adam Sochorec captured in a Tribe Media studios in Kolding"
       />
       <hr class="reveal" role="separator" />
