@@ -77,6 +77,7 @@ const { iframeRef, state, muteVideo, unmuteVideo, playVideo, pauseVideo } = useV
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     width: 177.77777778vh;
+    width: 177.77777778svh;
     height: 56.25vw;
     min-width: 100%;
     min-height: 100%;
@@ -113,10 +114,11 @@ button:hover {
   .video-container,
   .showcase {
     height: 100vh;
+    height: 100svh;
   }
   .controls,
   .link {
-    top: calc(100vh - 4 * var(--grid-gap-1));
+    top: calc(100svh - 4 * var(--grid-gap-1));
   }
 }
 @media only screen and (min-width: 415px) {
