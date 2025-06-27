@@ -64,11 +64,20 @@ onMounted(() => {
       />
       <hr class="reveal" role="separator" />
       <p class="reveal">
-        A creative director, photographer, and drone operator with a sense of design and
-        composition. Coming from visual arts, co-founded
-        <a href="https://slavic.media" target="_blank">Slavic Media</a> with a colleague.
-        <br /><br />Adam specialises in video production, editing, and colour grading. When not
-        crafting stories, he is a full stack developer and enjoys the outdoors.
+        Adam, a web developer and co-founder of
+        <a href="https://slavic.media" target="_blank">Slavic Media</a>, has a unique background in
+        <a
+          href="https://www.flickr.com/photos/141401020@N03/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >building LEGO</a
+        >, and photography. Currently based in Prague, he works full-time as a frontend developer.
+        <br /><br />
+        Adam’s expertise extends to various photography disciplines, including studio, stills, and
+        fine art photography. He also excels in video editing and colour grading.
+        <br /><br />
+        In his free time, Adam enjoys bushcrafting and hiking, allowing him to unplug and connect
+        with nature.
       </p>
       <hr class="reveal" role="separator" />
       <Clients />
