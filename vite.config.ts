@@ -22,4 +22,13 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url)),
     },
   },
+  build: {
+    sourcemap: true, // Enable source maps for production
+    rollupOptions: {
+      output: {
+        // Optional: Configure source map file names
+        sourcemapFileNames: 'assets/[name].[hash].js.map',
+      },
+    },
+  },
 })

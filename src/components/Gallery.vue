@@ -65,6 +65,7 @@
         />
       </div>
       <iframe
+        title="Blåvand Bunker 3D model"
         class="h-stretch reveal"
         src="https://sketchfab.com/models/dd16bb89f8844760ab31396d495fd0ce/embed?autospin=1&ui_theme=dark&dnt=1"
         frameborder="0"
@@ -73,6 +74,7 @@
       </iframe>
       <iframe
         class="h-stretch reveal"
+        title="Element 3D model"
         src="https://sketchfab.com/models/14f04b6252fe44fab20845fe3856401f/embed?autospin=1&ui_theme=dark&dnt=1"
         frameborder="0"
         allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"

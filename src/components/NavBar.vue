@@ -74,11 +74,11 @@ onMounted(() => {
     <div class="container">
       <nav id="navigation">
         <a href="/" class="logo"><span>adam</span><br /><span>sochorec</span></a>
-        <a aria-label="mobile menu" class="hamburger">
+        <button class="hamburger">
           <span></span>
           <span></span>
           <span></span>
-        </a>
+        </button>
         <ul class="menu-left">
           <li>
             <a href="#blog"><span class="pi pi-align-left"></span> blog</a>
@@ -259,7 +259,10 @@ ul.menu-left.collapse {
   height: 38px;
   width: 38px;
   cursor: pointer;
-  padding: 8px 8px;
+}
+button.hamburger {
+  outline: none;
+  border: none;
 }
 .hamburger.open span:first-child {
   -webkit-transform: rotate(45deg) translate(4.4px, 4.4px);
@@ -277,7 +280,7 @@ ul.menu-left.collapse {
 .hamburger span {
   position: relative;
   display: block;
-  height: 2px;
+  height: 2.8px;
   width: 100%;
   background-color: rgba(var(--primary-color), 1);
   -webkit-transition: all 0.25s;
