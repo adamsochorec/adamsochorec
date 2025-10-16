@@ -1,3 +1,1 @@
-- 🎓 Bachelor's degree in Full Stack Development in Denmark
-- 💼 Frontend developer at [NejŘemeslníci](https://www.nejremeslnici.cz/)
-- 🌍 Based in Prague, Czech Republic
+
